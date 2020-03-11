@@ -1,0 +1,36 @@
+CONSTRUCT {
+
+  ?s
+    a dcat:DataService ;
+    dcat:endpointURL ?e ;
+#   The inverse link is probably redundant and should be inferred instead of being explicitly added
+#    dcat:servesDataset ?ds ;
+    .
+
+  ?ds
+    a dcat:Dataset ;
+    dcat:distribution ?dist ;
+    rdfs:label ?dsl ;
+    .
+
+   ?dist
+     a dcat:Distribution ;
+     dcat:accessURL ?e ;
+     .
+
+}
+{
+  <https://raw.githubusercontent.com/firmao/wimuT/master/Endpoints_numtriples_lodcloud.csv> csv:parse (?o "excel")
+
+  BIND(json:path(?o, "$[0]") AS ?url)
+  FILTER(?url != "Total")
+
+  BIND(IRI(?url) AS ?e)
+  BIND(IRI(CONCAT(?url, "#service")) AS ?s)
+  BIND(IRI(CONCAT(?url, "#dataset")) AS ?ds)
+  BIND(IRI(CONCAT(?url, "#distribution")) AS ?dist)
+
+
+  BIND(CONCAT("Dataset as served at ", ?url) AS ?dsl)
+}
+

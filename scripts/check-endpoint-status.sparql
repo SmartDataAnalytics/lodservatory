@@ -1,0 +1,24 @@
+PREFIX eg: <http://www.example.org/>
+
+CONSTRUCT {
+  GRAPH ?g {
+    ?s
+      eg:serviceStatus ?status ;
+      eg:serviceStatusTime ?time # Note: The time refers to when the query was started
+      .
+  }
+}
+{
+  BIND(NOW() AS ?time)
+  BIND(IRI(CONCAT("http://metalod.aksw.org/service-check-", STR(?time))) AS ?g)
+
+#  { SELECT * {
+    ?s dcat:endpointURL ?e .
+#  } LIMIT 1 }
+
+  SERVICE SILENT ?e {
+    { SELECT ?t { ?x a ?t } LIMIT 1 }
+  }
+
+  BIND(IF(BOUND(?t), "online", "offline") AS ?status)
+}
