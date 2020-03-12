@@ -5,6 +5,7 @@ jobs:
     runs-on: ubuntu-latest
     name: Update SPARQL Endpoint Service Status
     steps:
+    - uses: actions/checkout@v1
     - name: Hello world action step
       id: hello
       uses: ./.github/actions/hello-world-action
