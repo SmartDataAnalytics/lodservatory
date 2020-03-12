@@ -1,0 +1,45 @@
+# Use sparql-integrate <this-file> to directly converts the sparqles json api output to RDF
+
+CONSTRUCT {
+  ?s
+    a dcat:DataService ;
+    dcat:endpointURL ?serviceUrl ;
+    .
+
+  ?ds
+    a dcat:Dataset ;
+    dcat:distribution ?dist ;
+    rdfs:label ?datasetLabel ;
+    .
+
+  ?dist
+    a dcat:Distribution ;
+    dcat:accessURL ?serviceUrl ;
+    .
+}
+{
+  <https://sparqles.ai.wu.ac.at/api/endpoint/list> url:text ?str
+  BIND(STRDT(?str, xsd:json) AS ?json)
+
+  ?json json:unnest (?service ?i)
+
+  BIND(json:path(?service, "$.uri") AS ?serviceStr)
+  BIND(json:path(?service, "$.datasets") AS ?datasets)
+
+  ?datasets json:unnest (?dataset ?j)
+  BIND(json:path(?dataset, "$.uri") AS ?rawDatasetIdStr)
+
+  # TODO Add a proper validation function; there is at least one broken URI that contains the < character
+  # Creating an IRI from it yields a syntactically incorrect RDF term and thus the output fails to parse
+  FILTER(!CONTAINS(?rawDatasetIdStr, "<"))
+
+  BIND(IF(?rawDatasetIdStr = ?serviceStr, CONCAT(?rawDatasetIdStr, "#dataset"), ?rawDatasetIdStr) AS ?datasetIdStr)
+
+  BIND(json:path(?dataset, "$.label") AS ?datasetLabel)
+
+  BIND(IRI(?serviceStr) AS ?serviceUrl)
+  BIND(IRI(CONCAT(?serviceStr, "#service")) AS ?s)
+  BIND(IRI(?datasetIdStr) AS ?ds)
+  BIND(IRI(CONCAT(?serviceStr, "#distribution")) AS ?dist)
+}
+
