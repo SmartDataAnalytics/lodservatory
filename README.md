@@ -1,7 +1,8 @@
 # lodservatory: Linked Open Data and SPARQL Endpoint Status Observatory
 
-This repository features community datasets about SPARQL endpoints and datasets using DCAT2 as the back bone.
-This means you get
+This repository features community datasets about SPARQL endpoints and datasets using the [DCAT2](https://www.w3.org/TR/vocab-dcat-2/) data model as the back bone.
+
+What the community gets from this
 
 * A list of service URLS
 * Dataset identifiers and their relations to services that host them
