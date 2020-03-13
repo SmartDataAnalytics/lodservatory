@@ -1,0 +1,3337 @@
+<http://metalod.aksw.org/service-check-2020-03-12T23:23:06.757+01:00> {
+    <http://cordis.rkbexplorer.com/sparql/#service>
+            <http://www.example.org/serviceStatus>
+                    "online" ;
+            <http://www.example.org/serviceStatusTime>
+                    "2020-03-12T23:23:06.757+01:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+    
+    <http://seek.rkbexplorer.com/sparql/#service>
+            <http://www.example.org/serviceStatus>
+                    "offline" ;
+            <http://www.example.org/serviceStatusTime>
+                    "2020-03-12T23:23:06.757+01:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+    
+    <http://pt.dbpedia.org/sparql#service>
+            <http://www.example.org/serviceStatus>
+                    "online" ;
+            <http://www.example.org/serviceStatusTime>
+                    "2020-03-12T23:23:06.757+01:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+    
+    <http://www4.wiwiss.fu-berlin.de/eccompetition/sparql#service>
+            <http://www.example.org/serviceStatus>
+                    "offline" ;
+            <http://www.example.org/serviceStatusTime>
+                    "2020-03-12T23:23:06.757+01:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+    
+    <http://services.data.gov.uk/reference/sparql#service>
+            <http://www.example.org/serviceStatus>
+                    "offline" ;
+            <http://www.example.org/serviceStatusTime>
+                    "2020-03-12T23:23:06.757+01:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+    
+    <http://affymetrix.bio2rdf.org/sparql#service>
+            <http://www.example.org/serviceStatus>
+                    "offline" ;
+            <http://www.example.org/serviceStatusTime>
+                    "2020-03-12T23:23:06.757+01:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+    
+    <http://sparql.openmobilenetwork.org#service>
+            <http://www.example.org/serviceStatus>
+                    "offline" ;
+            <http://www.example.org/serviceStatusTime>
+                    "2020-03-12T23:23:06.757+01:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+    
+    <http://sparql.linkedopendata.it/grrt#service>
+            <http://www.example.org/serviceStatus>
+                    "offline" ;
+            <http://www.example.org/serviceStatusTime>
+                    "2020-03-12T23:23:06.757+01:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+    
+    <http://purl.org/twc/hub/sparql#service>
+            <http://www.example.org/serviceStatus>
+                    "offline" ;
+            <http://www.example.org/serviceStatusTime>
+                    "2020-03-12T23:23:06.757+01:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+    
+    <http://abs.270a.info/sparql#service>
+            <http://www.example.org/serviceStatus>
+                    "offline" ;
+            <http://www.example.org/serviceStatusTime>
+                    "2020-03-12T23:23:06.757+01:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+    
+    <http://helheim.deusto.es/hedatuz/sparql#service>
+            <http://www.example.org/serviceStatus>
+                    "offline" ;
+            <http://www.example.org/serviceStatusTime>
+                    "2020-03-12T23:23:06.757+01:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+    
+    <http://diwis.imis.athena-innovation.gr:8181/sparql#service>
+            <http://www.example.org/serviceStatus>
+                    "offline" ;
+            <http://www.example.org/serviceStatusTime>
+                    "2020-03-12T23:23:06.757+01:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+    
+    <http://lod.kaist.ac.kr/sparql#service>
+            <http://www.example.org/serviceStatus>
+                    "offline" ;
+            <http://www.example.org/serviceStatusTime>
+                    "2020-03-12T23:23:06.757+01:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+    
+    <http://imf.270a.info/sparql#service>
+            <http://www.example.org/serviceStatus>
+                    "offline" ;
+            <http://www.example.org/serviceStatusTime>
+                    "2020-03-12T23:23:06.757+01:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+    
+    <http://resource.geolba.ac.at/PoolParty/sparql/tectonicunit#service>
+            <http://www.example.org/serviceStatus>
+                    "online" ;
+            <http://www.example.org/serviceStatusTime>
+                    "2020-03-12T23:23:06.757+01:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+    
+    <http://api.talis.com/stores/eutc-productions/services/sparql#service>
+            <http://www.example.org/serviceStatus>
+                    "offline" ;
+            <http://www.example.org/serviceStatusTime>
+                    "2020-03-12T23:23:06.757+01:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+    
+    <http://linkedspending.aksw.org/sparql#service>
+            <http://www.example.org/serviceStatus>
+                    "offline" ;
+            <http://www.example.org/serviceStatusTime>
+                    "2020-03-12T23:23:06.757+01:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+    
+    <http://www.eclap.eu/sparql#service>
+            <http://www.example.org/serviceStatus>
+                    "offline" ;
+            <http://www.example.org/serviceStatusTime>
+                    "2020-03-12T23:23:06.757+01:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+    
+    <http://corpora.nlp2rdf.org/sparql#service>
+            <http://www.example.org/serviceStatus>
+                    "offline" ;
+            <http://www.example.org/serviceStatusTime>
+                    "2020-03-12T23:23:06.757+01:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+    
+    <http://aemet.linkeddata.es/sparql#service>
+            <http://www.example.org/serviceStatus>
+                    "online" ;
+            <http://www.example.org/serviceStatusTime>
+                    "2020-03-12T23:23:06.757+01:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+    
+    <http://n-lex.publicdata.eu/sparql#service>
+            <http://www.example.org/serviceStatus>
+                    "offline" ;
+            <http://www.example.org/serviceStatusTime>
+                    "2020-03-12T23:23:06.757+01:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+    
+    <http://data.globalchange.gov/sparql#service>
+            <http://www.example.org/serviceStatus>
+                    "offline" ;
+            <http://www.example.org/serviceStatusTime>
+                    "2020-03-12T23:23:06.757+01:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+    
+    <https://w3id.org/scholarlydata/sparql#service>
+            <http://www.example.org/serviceStatus>
+                    "online" ;
+            <http://www.example.org/serviceStatusTime>
+                    "2020-03-12T23:23:06.757+01:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+    
+    <http://202.45.139.84:10035/catalogs/fao/repositories/agris#service>
+            <http://www.example.org/serviceStatus>
+                    "offline" ;
+            <http://www.example.org/serviceStatusTime>
+                    "2020-03-12T23:23:06.757+01:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+    
+    <http://virtuoso-eurosentiment.paradigmatecnologico.com/sparql#service>
+            <http://www.example.org/serviceStatus>
+                    "offline" ;
+            <http://www.example.org/serviceStatusTime>
+                    "2020-03-12T23:23:06.757+01:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+    
+    <http://api.talis.com/stores/theviewfrom/services/sparql#service>
+            <http://www.example.org/serviceStatus>
+                    "offline" ;
+            <http://www.example.org/serviceStatusTime>
+                    "2020-03-12T23:23:06.757+01:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+    
+    <http://budapest.rkbexplorer.com/sparql/#service>
+            <http://www.example.org/serviceStatus>
+                    "online" ;
+            <http://www.example.org/serviceStatusTime>
+                    "2020-03-12T23:23:06.757+01:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+    
+    <http://demo.spraakdata.gu.se/ltlod/test/#service>
+            <http://www.example.org/serviceStatus>
+                    "offline" ;
+            <http://www.example.org/serviceStatusTime>
+                    "2020-03-12T23:23:06.757+01:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+    
+    <http://km.aifb.kit.edu/services/xlike-lexicon/#service>
+            <http://www.example.org/serviceStatus>
+                    "offline" ;
+            <http://www.example.org/serviceStatusTime>
+                    "2020-03-12T23:23:06.757+01:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+    
+    <http://wiktionary.dbpedia.org/sparql#service>
+            <http://www.example.org/serviceStatus>
+                    "offline" ;
+            <http://www.example.org/serviceStatusTime>
+                    "2020-03-12T23:23:06.757+01:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+    
+    <http://api.talis.com/stores/elections/services/sparql#service>
+            <http://www.example.org/serviceStatus>
+                    "offline" ;
+            <http://www.example.org/serviceStatusTime>
+                    "2020-03-12T23:23:06.757+01:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+    
+    <http://api.kasabi.com/dataset/pali-english-lexicon/apis/sparql#service>
+            <http://www.example.org/serviceStatus>
+                    "offline" ;
+            <http://www.example.org/serviceStatusTime>
+                    "2020-03-12T23:23:06.757+01:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+    
+    <http://gov.tso.co.uk/transport/sparql#service>
+            <http://www.example.org/serviceStatus>
+                    "offline" ;
+            <http://www.example.org/serviceStatusTime>
+                    "2020-03-12T23:23:06.757+01:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+    
+    <http://psm.eagle-i.net/sparqler/sparql#service>
+            <http://www.example.org/serviceStatus>
+                    "online" ;
+            <http://www.example.org/serviceStatusTime>
+                    "2020-03-12T23:23:06.757+01:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+    
+    <http://vocab.getty.edu/sparql#service>
+            <http://www.example.org/serviceStatus>
+                    "online" ;
+            <http://www.example.org/serviceStatusTime>
+                    "2020-03-12T23:23:06.757+01:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+    
+    <http://meducator.open.ac.uk/resourcesrestapi/rest/meducator/sparql#service>
+            <http://www.example.org/serviceStatus>
+                    "offline" ;
+            <http://www.example.org/serviceStatusTime>
+                    "2020-03-12T23:23:06.757+01:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+    
+    <http://utep.eagle-i.net/sparqler/sparql#service>
+            <http://www.example.org/serviceStatus>
+                    "online" ;
+            <http://www.example.org/serviceStatusTime>
+                    "2020-03-12T23:23:06.757+01:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+    
+    <http://gov.tso.co.uk/coins/sparql#service>
+            <http://www.example.org/serviceStatus>
+                    "offline" ;
+            <http://www.example.org/serviceStatusTime>
+                    "2020-03-12T23:23:06.757+01:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+    
+    <http://api.talis.com/stores/airports/services/sparql#service>
+            <http://www.example.org/serviceStatus>
+                    "offline" ;
+            <http://www.example.org/serviceStatusTime>
+                    "2020-03-12T23:23:06.757+01:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+    
+    <http://data.linkededucation.org/request/lak-conference/sparql#service>
+            <http://www.example.org/serviceStatus>
+                    "offline" ;
+            <http://www.example.org/serviceStatusTime>
+                    "2020-03-12T23:23:06.757+01:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+    
+    <http://ncbigene.bio2rdf.org/sparql#service>
+            <http://www.example.org/serviceStatus>
+                    "offline" ;
+            <http://www.example.org/serviceStatusTime>
+                    "2020-03-12T23:23:06.757+01:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+    
+    <http://rijksmuseum.dydra.com/lizzyjongma/rijksmuseum-collection/sparql#service>
+            <http://www.example.org/serviceStatus>
+                    "offline" ;
+            <http://www.example.org/serviceStatusTime>
+                    "2020-03-12T23:23:06.757+01:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+    
+    <http://data.duraark.eu/sparql#service>
+            <http://www.example.org/serviceStatus>
+                    "offline" ;
+            <http://www.example.org/serviceStatusTime>
+                    "2020-03-12T23:23:06.757+01:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+    
+    <http://apps.ideaconsult.net:8080/ontology#service>
+            <http://www.example.org/serviceStatus>
+                    "offline" ;
+            <http://www.example.org/serviceStatusTime>
+                    "2020-03-12T23:23:06.757+01:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+    
+    <http://irefindex.bio2rdf.org/sparql#service>
+            <http://www.example.org/serviceStatus>
+                    "offline" ;
+            <http://www.example.org/serviceStatusTime>
+                    "2020-03-12T23:23:06.757+01:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+    
+    <http://lod.openlinksw.com/sparql#service>
+            <http://www.example.org/serviceStatus>
+                    "online" ;
+            <http://www.example.org/serviceStatusTime>
+                    "2020-03-12T23:23:06.757+01:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+    
+    <http://semanticweb.cs.vu.nl/verrijktkoninkrijk/sparql/#service>
+            <http://www.example.org/serviceStatus>
+                    "online" ;
+            <http://www.example.org/serviceStatusTime>
+                    "2020-03-12T23:23:06.757+01:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+    
+    <http://opendata.aragon.es/sparql#service>
+            <http://www.example.org/serviceStatus>
+                    "online" ;
+            <http://www.example.org/serviceStatusTime>
+                    "2020-03-12T23:23:06.757+01:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+    
+    <http://msm.eagle-i.net/sparqler/sparql#service>
+            <http://www.example.org/serviceStatus>
+                    "online" ;
+            <http://www.example.org/serviceStatusTime>
+                    "2020-03-12T23:23:06.757+01:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+    
+    <http://courseware.rkbexplorer.com/sparql/#service>
+            <http://www.example.org/serviceStatus>
+                    "online" ;
+            <http://www.example.org/serviceStatusTime>
+                    "2020-03-12T23:23:06.757+01:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+    
+    <http://prelex.publicdata.eu/sparql#service>
+            <http://www.example.org/serviceStatus>
+                    "offline" ;
+            <http://www.example.org/serviceStatusTime>
+                    "2020-03-12T23:23:06.757+01:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+    
+    <http://resource.geolba.ac.at/PoolParty/sparql/GeologicTimeScale#service>
+            <http://www.example.org/serviceStatus>
+                    "online" ;
+            <http://www.example.org/serviceStatusTime>
+                    "2020-03-12T23:23:06.757+01:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+    
+    <http://vocabulary.semantic-web.at/PoolParty/sparql/AustrianSkiTeam#service>
+            <http://www.example.org/serviceStatus>
+                    "offline" ;
+            <http://www.example.org/serviceStatusTime>
+                    "2020-03-12T23:23:06.757+01:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+    
+    <http://lod.apc.gov.tw/sparql#service>
+            <http://www.example.org/serviceStatus>
+                    "offline" ;
+            <http://www.example.org/serviceStatusTime>
+                    "2020-03-12T23:23:06.757+01:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+    
+    <http://europeana.ontotext.com/sparql#service>
+            <http://www.example.org/serviceStatus>
+                    "offline" ;
+            <http://www.example.org/serviceStatusTime>
+                    "2020-03-12T23:23:06.757+01:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+    
+    <http://omim.bio2rdf.org/sparql#service>
+            <http://www.example.org/serviceStatus>
+                    "offline" ;
+            <http://www.example.org/serviceStatusTime>
+                    "2020-03-12T23:23:06.757+01:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+    
+    <http://frb.270a.info/sparql#service>
+            <http://www.example.org/serviceStatus>
+                    "offline" ;
+            <http://www.example.org/serviceStatusTime>
+                    "2020-03-12T23:23:06.757+01:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+    
+    <http://ieee.rkbexplorer.com/sparql/#service>
+            <http://www.example.org/serviceStatus>
+                    "online" ;
+            <http://www.example.org/serviceStatusTime>
+                    "2020-03-12T23:23:06.757+01:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+    
+    <http://api.talis.com/stores/pbac/services/sparql#service>
+            <http://www.example.org/serviceStatus>
+                    "offline" ;
+            <http://www.example.org/serviceStatusTime>
+                    "2020-03-12T23:23:06.757+01:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+    
+    <http://dbsnp.bio2rdf.org/sparql#service>
+            <http://www.example.org/serviceStatus>
+                    "offline" ;
+            <http://www.example.org/serviceStatusTime>
+                    "2020-03-12T23:23:06.757+01:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+    
+    <http://adl-gazetteer.geog.ucsb.edu:3030/adl/sparql#service>
+            <http://www.example.org/serviceStatus>
+                    "offline" ;
+            <http://www.example.org/serviceStatusTime>
+                    "2020-03-12T23:23:06.757+01:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+    
+    <http://ohsu.eagle-i.net/sparqler/sparql#service>
+            <http://www.example.org/serviceStatus>
+                    "online" ;
+            <http://www.example.org/serviceStatusTime>
+                    "2020-03-12T23:23:06.757+01:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+    
+    <http://mlode.nlp2rdf.org/sparql#service>
+            <http://www.example.org/serviceStatus>
+                    "offline" ;
+            <http://www.example.org/serviceStatusTime>
+                    "2020-03-12T23:23:06.757+01:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+    
+    <http://helheim.deusto.es/bizkaisense/sparql#service>
+            <http://www.example.org/serviceStatus>
+                    "offline" ;
+            <http://www.example.org/serviceStatusTime>
+                    "2020-03-12T23:23:06.757+01:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+    
+    <http://193.145.57.56:8890/sparql#service>
+            <http://www.example.org/serviceStatus>
+                    "offline" ;
+            <http://www.example.org/serviceStatusTime>
+                    "2020-03-12T23:23:06.757+01:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+    
+    <http://digitaleconomy.rkbexplorer.com/sparql#service>
+            <http://www.example.org/serviceStatus>
+                    "online" ;
+            <http://www.example.org/serviceStatusTime>
+                    "2020-03-12T23:23:06.757+01:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+    
+    <http://services.data.gov.uk/environment/sparql#service>
+            <http://www.example.org/serviceStatus>
+                    "offline" ;
+            <http://www.example.org/serviceStatusTime>
+                    "2020-03-12T23:23:06.757+01:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+    
+    <http://purl.org/weso/sparql#service>
+            <http://www.example.org/serviceStatus>
+                    "offline" ;
+            <http://www.example.org/serviceStatusTime>
+                    "2020-03-12T23:23:06.757+01:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+    
+    <http://sparql.linkedopendata.it/los#service>
+            <http://www.example.org/serviceStatus>
+                    "offline" ;
+            <http://www.example.org/serviceStatusTime>
+                    "2020-03-12T23:23:06.757+01:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+    
+    <http://iserve.kmi.open.ac.uk/iserve/sparql#service>
+            <http://www.example.org/serviceStatus>
+                    "offline" ;
+            <http://www.example.org/serviceStatusTime>
+                    "2020-03-12T23:23:06.757+01:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+    
+    <http://api.talis.com/stores/gunnbib-digitalmanuskripter/sparql#service>
+            <http://www.example.org/serviceStatus>
+                    "offline" ;
+            <http://www.example.org/serviceStatusTime>
+                    "2020-03-12T23:23:06.757+01:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+    
+    <http://data.szepmuveszeti.hu/sparql#service>
+            <http://www.example.org/serviceStatus>
+                    "online" ;
+            <http://www.example.org/serviceStatusTime>
+                    "2020-03-12T23:23:06.757+01:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+    
+    <http://lod.sztaki.hu/sparql#service>
+            <http://www.example.org/serviceStatus>
+                    "online" ;
+            <http://www.example.org/serviceStatusTime>
+                    "2020-03-12T23:23:06.757+01:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+    
+    <http://sgd.bio2rdf.org/sparql#service>
+            <http://www.example.org/serviceStatus>
+                    "offline" ;
+            <http://www.example.org/serviceStatusTime>
+                    "2020-03-12T23:23:06.757+01:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+    
+    <http://linkeddata.uriburner.com/sparql#service>
+            <http://www.example.org/serviceStatus>
+                    "online" ;
+            <http://www.example.org/serviceStatusTime>
+                    "2020-03-12T23:23:06.757+01:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+    
+    <http://www.open-biomed.org.uk/sparql/endpoint/flyted#service>
+            <http://www.example.org/serviceStatus>
+                    "offline" ;
+            <http://www.example.org/serviceStatusTime>
+                    "2020-03-12T23:23:06.757+01:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+    
+    <http://api.kasabi.com/dataset/yahoo-geoplanet/apis/sparql#service>
+            <http://www.example.org/serviceStatus>
+                    "offline" ;
+            <http://www.example.org/serviceStatusTime>
+                    "2020-03-12T23:23:06.757+01:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+    
+    <http://lexinfo.net/corpora/alpino/query.php#service>
+            <http://www.example.org/serviceStatus>
+                    "offline" ;
+            <http://www.example.org/serviceStatusTime>
+                    "2020-03-12T23:23:06.757+01:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+    
+    <http://services.data.gov.uk/statistics/sparql#service>
+            <http://www.example.org/serviceStatus>
+                    "offline" ;
+            <http://www.example.org/serviceStatusTime>
+                    "2020-03-12T23:23:06.757+01:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+    
+    <http://ieeevis.tw.rpi.edu/nosparql#service>
+            <http://www.example.org/serviceStatus>
+                    "offline" ;
+            <http://www.example.org/serviceStatusTime>
+                    "2020-03-12T23:23:06.757+01:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+    
+    <http://identifiers.org/services/sparql#service>
+            <http://www.example.org/serviceStatus>
+                    "offline" ;
+            <http://www.example.org/serviceStatusTime>
+                    "2020-03-12T23:23:06.757+01:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+    
+    <http://era.rkbexplorer.com/sparql/#service>
+            <http://www.example.org/serviceStatus>
+                    "online" ;
+            <http://www.example.org/serviceStatusTime>
+                    "2020-03-12T23:23:06.757+01:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+    
+    <http://pisa.rkbexplorer.com/sparql/#service>
+            <http://www.example.org/serviceStatus>
+                    "online" ;
+            <http://www.example.org/serviceStatusTime>
+                    "2020-03-12T23:23:06.757+01:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+    
+    <http://bfs.270a.info/sparql#service>
+            <http://www.example.org/serviceStatus>
+                    "offline" ;
+            <http://www.example.org/serviceStatusTime>
+                    "2020-03-12T23:23:06.757+01:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+    
+    <http://data.linkedmdb.org/sparql#service>
+            <http://www.example.org/serviceStatus>
+                    "offline" ;
+            <http://www.example.org/serviceStatusTime>
+                    "2020-03-12T23:23:06.757+01:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+    
+    <http://www4.wiwiss.fu-berlin.de/stitch/sparql#service>
+            <http://www.example.org/serviceStatus>
+                    "offline" ;
+            <http://www.example.org/serviceStatusTime>
+                    "2020-03-12T23:23:06.757+01:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+    
+    <http://photos.rkbexplorer.com/sparql#service>
+            <http://www.example.org/serviceStatus>
+                    "offline" ;
+            <http://www.example.org/serviceStatusTime>
+                    "2020-03-12T23:23:06.757+01:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+    
+    <http://curriculum.rkbexplorer.com/sparql/#service>
+            <http://www.example.org/serviceStatus>
+                    "online" ;
+            <http://www.example.org/serviceStatusTime>
+                    "2020-03-12T23:23:06.757+01:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+    
+    <http://agencies.publicdata.eu/sparql#service>
+            <http://www.example.org/serviceStatus>
+                    "offline" ;
+            <http://www.example.org/serviceStatusTime>
+                    "2020-03-12T23:23:06.757+01:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+    
+    <http://kwijibo.talis.com/latc-linksets/sparql#service>
+            <http://www.example.org/serviceStatus>
+                    "offline" ;
+            <http://www.example.org/serviceStatusTime>
+                    "2020-03-12T23:23:06.757+01:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+    
+    <https://eagle-i.ea.vanderbilt.edu/sparqler/sparql#service>
+            <http://www.example.org/serviceStatus>
+                    "offline" ;
+            <http://www.example.org/serviceStatusTime>
+                    "2020-03-12T23:23:06.757+01:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+    
+    <http://libver.math.auth.gr/sparql#service>
+            <http://www.example.org/serviceStatus>
+                    "offline" ;
+            <http://www.example.org/serviceStatusTime>
+                    "2020-03-12T23:23:06.757+01:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+    
+    <http://laas.rkbexplorer.com/sparql/#service>
+            <http://www.example.org/serviceStatus>
+                    "online" ;
+            <http://www.example.org/serviceStatusTime>
+                    "2020-03-12T23:23:06.757+01:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+    
+    <http://lod.hebis.de/sparql#service>
+            <http://www.example.org/serviceStatus>
+                    "offline" ;
+            <http://www.example.org/serviceStatusTime>
+                    "2020-03-12T23:23:06.757+01:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+    
+    <http://unlocode.rkbexplorer.com/sparql/#service>
+            <http://www.example.org/serviceStatus>
+                    "online" ;
+            <http://www.example.org/serviceStatusTime>
+                    "2020-03-12T23:23:06.757+01:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+    
+    <http://api.kasabi.com/dataset/un-hazardous-material-numbers/apis/sparql#service>
+            <http://www.example.org/serviceStatus>
+                    "offline" ;
+            <http://www.example.org/serviceStatusTime>
+                    "2020-03-12T23:23:06.757+01:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+    
+    <http://id.sgcb.mcu.es/sparql#service>
+            <http://www.example.org/serviceStatus>
+                    "online" ;
+            <http://www.example.org/serviceStatusTime>
+                    "2020-03-12T23:23:06.757+01:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+    
+    <http://www.ebi.ac.uk/rdf/services/atlas/sparql#service>
+            <http://www.example.org/serviceStatus>
+                    "offline" ;
+            <http://www.example.org/serviceStatusTime>
+                    "2020-03-12T23:23:06.757+01:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+    
+    <http://zbw.eu/beta/sparql/stw/query#service>
+            <http://www.example.org/serviceStatus>
+                    "online" ;
+            <http://www.example.org/serviceStatusTime>
+                    "2020-03-12T23:23:06.757+01:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+    
+    <http://kisti.rkbexplorer.com/sparql/#service>
+            <http://www.example.org/serviceStatus>
+                    "online" ;
+            <http://www.example.org/serviceStatusTime>
+                    "2020-03-12T23:23:06.757+01:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+    
+    <http://wordnet.okfn.gr:8890/sparql/#service>
+            <http://www.example.org/serviceStatus>
+                    "offline" ;
+            <http://www.example.org/serviceStatusTime>
+                    "2020-03-12T23:23:06.757+01:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+    
+    <http://linked.opendata.cz/sparql#service>
+            <http://www.example.org/serviceStatus>
+                    "online" ;
+            <http://www.example.org/serviceStatusTime>
+                    "2020-03-12T23:23:06.757+01:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+    
+    <http://lsr.bio2rdf.org/sparql#service>
+            <http://www.example.org/serviceStatus>
+                    "offline" ;
+            <http://www.example.org/serviceStatusTime>
+                    "2020-03-12T23:23:06.757+01:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+    
+    <http://data.ngii.go.kr/SPARQL/sparql#service>
+            <http://www.example.org/serviceStatus>
+                    "offline" ;
+            <http://www.example.org/serviceStatusTime>
+                    "2020-03-12T23:23:06.757+01:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+    
+    <http://harvard.eagle-i.net/sparqler/sparql#service>
+            <http://www.example.org/serviceStatus>
+                    "online" ;
+            <http://www.example.org/serviceStatusTime>
+                    "2020-03-12T23:23:06.757+01:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+    
+    <http://geo.linkeddata.es/sparql#service>
+            <http://www.example.org/serviceStatus>
+                    "online" ;
+            <http://www.example.org/serviceStatusTime>
+                    "2020-03-12T23:23:06.757+01:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+    
+    <http://smartlink.open.ac.uk/smartlink/sparql#service>
+            <http://www.example.org/serviceStatus>
+                    "offline" ;
+            <http://www.example.org/serviceStatusTime>
+                    "2020-03-12T23:23:06.757+01:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+    
+    <http://lobid.org/sparql/#service>
+            <http://www.example.org/serviceStatus>
+                    "offline" ;
+            <http://www.example.org/serviceStatusTime>
+                    "2020-03-12T23:23:06.757+01:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+    
+    <http://socialarchive.iath.virginia.edu/sparql/snac-viaf#service>
+            <http://www.example.org/serviceStatus>
+                    "offline" ;
+            <http://www.example.org/serviceStatusTime>
+                    "2020-03-12T23:23:06.757+01:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+    
+    <http://idi.fundacionctic.org/classifications_endpoint/eurovoc#service>
+            <http://www.example.org/serviceStatus>
+                    "offline" ;
+            <http://www.example.org/serviceStatusTime>
+                    "2020-03-12T23:23:06.757+01:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+    
+    <http://api.talis.com/stores/schemapedia/services/sparql#service>
+            <http://www.example.org/serviceStatus>
+                    "offline" ;
+            <http://www.example.org/serviceStatusTime>
+                    "2020-03-12T23:23:06.757+01:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+    
+    <http://lab.environment.data.gov.au/sparql#service>
+            <http://www.example.org/serviceStatus>
+                    "offline" ;
+            <http://www.example.org/serviceStatusTime>
+                    "2020-03-12T23:23:06.757+01:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+    
+    <http://dotac.rkbexplorer.com/sparql/#service>
+            <http://www.example.org/serviceStatus>
+                    "online" ;
+            <http://www.example.org/serviceStatusTime>
+                    "2020-03-12T23:23:06.757+01:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+    
+    <http://bis.270a.info/sparql#service>
+            <http://www.example.org/serviceStatus>
+                    "offline" ;
+            <http://www.example.org/serviceStatusTime>
+                    "2020-03-12T23:23:06.757+01:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+    
+    <http://rdf.disgenet.org/sparql/#service>
+            <http://www.example.org/serviceStatus>
+                    "online" ;
+            <http://www.example.org/serviceStatusTime>
+                    "2020-03-12T23:23:06.757+01:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+    
+    <http://gendr.bio2rdf.org/sparql#service>
+            <http://www.example.org/serviceStatus>
+                    "offline" ;
+            <http://www.example.org/serviceStatusTime>
+                    "2020-03-12T23:23:06.757+01:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+    
+    <http://www4.wiwiss.fu-berlin.de/drugbank/sparql#service>
+            <http://www.example.org/serviceStatus>
+                    "offline" ;
+            <http://www.example.org/serviceStatusTime>
+                    "2020-03-12T23:23:06.757+01:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+    
+    <http://156.35.82.103/sparql#service>
+            <http://www.example.org/serviceStatus>
+                    "offline" ;
+            <http://www.example.org/serviceStatusTime>
+                    "2020-03-12T23:23:06.757+01:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+    
+    <http://mesh.bio2rdf.org/sparql#service>
+            <http://www.example.org/serviceStatus>
+                    "offline" ;
+            <http://www.example.org/serviceStatusTime>
+                    "2020-03-12T23:23:06.757+01:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+    
+    <http://webscience.rkbexplorer.com/sparql#service>
+            <http://www.example.org/serviceStatus>
+                    "online" ;
+            <http://www.example.org/serviceStatusTime>
+                    "2020-03-12T23:23:06.757+01:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+    
+    <http://services.data.gov.uk/transport/sparql#service>
+            <http://www.example.org/serviceStatus>
+                    "offline" ;
+            <http://www.example.org/serviceStatusTime>
+                    "2020-03-12T23:23:06.757+01:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+    
+    <http://webconf.rkbexplorer.com/sparql#service>
+            <http://www.example.org/serviceStatus>
+                    "online" ;
+            <http://www.example.org/serviceStatusTime>
+                    "2020-03-12T23:23:06.757+01:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+    
+    <https://www.ebi.ac.uk/rdf/services/reactome/sparql#service>
+            <http://www.example.org/serviceStatus>
+                    "offline" ;
+            <http://www.example.org/serviceStatusTime>
+                    "2020-03-12T23:23:06.757+01:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+    
+    <http://resource.geolba.ac.at/PoolParty/sparql/lithology#service>
+            <http://www.example.org/serviceStatus>
+                    "online" ;
+            <http://www.example.org/serviceStatusTime>
+                    "2020-03-12T23:23:06.757+01:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+    
+    <http://eurostat.linked-statistics.org/sparql#service>
+            <http://www.example.org/serviceStatus>
+                    "offline" ;
+            <http://www.example.org/serviceStatusTime>
+                    "2020-03-12T23:23:06.757+01:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+    
+    <http://linkedlifedata.com/sparql#service>
+            <http://www.example.org/serviceStatus>
+                    "online" ;
+            <http://www.example.org/serviceStatusTime>
+                    "2020-03-12T23:23:06.757+01:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+    
+    <http://data.organic-edunet.eu/snorql/#service>
+            <http://www.example.org/serviceStatus>
+                    "offline" ;
+            <http://www.example.org/serviceStatusTime>
+                    "2020-03-12T23:23:06.757+01:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+    
+    <http://linkeddata.es/resource/ldqm/sparql#service>
+            <http://www.example.org/serviceStatus>
+                    "online" ;
+            <http://www.example.org/serviceStatusTime>
+                    "2020-03-12T23:23:06.757+01:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+    
+    <http://irit.rkbexplorer.com/sparql/#service>
+            <http://www.example.org/serviceStatus>
+                    "online" ;
+            <http://www.example.org/serviceStatusTime>
+                    "2020-03-12T23:23:06.757+01:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+    
+    <http://data.opendiscoveryspace.eu/sparql.tpl#service>
+            <http://www.example.org/serviceStatus>
+                    "offline" ;
+            <http://www.example.org/serviceStatusTime>
+                    "2020-03-12T23:23:06.757+01:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+    
+    <http://publicspending.medialab.ntua.gr/sparql#service>
+            <http://www.example.org/serviceStatus>
+                    "offline" ;
+            <http://www.example.org/serviceStatusTime>
+                    "2020-03-12T23:23:06.757+01:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+    
+    <http://vocabulary.wolterskluwer.de/PoolParty/sparql/arbeitsrecht#service>
+            <http://www.example.org/serviceStatus>
+                    "offline" ;
+            <http://www.example.org/serviceStatusTime>
+                    "2020-03-12T23:23:06.757+01:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+    
+    <http://lod.xdams.org/sparql#service>
+            <http://www.example.org/serviceStatus>
+                    "online" ;
+            <http://www.example.org/serviceStatusTime>
+                    "2020-03-12T23:23:06.757+01:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+    
+    <http://gov.tso.co.uk/dclg/sparql#service>
+            <http://www.example.org/serviceStatus>
+                    "offline" ;
+            <http://www.example.org/serviceStatusTime>
+                    "2020-03-12T23:23:06.757+01:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+    
+    <http://140.109.28.64:2020/sparql#service>
+            <http://www.example.org/serviceStatus>
+                    "offline" ;
+            <http://www.example.org/serviceStatusTime>
+                    "2020-03-12T23:23:06.757+01:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+    
+    <http://utsa.eagle-i.net/sparqler/sparql#service>
+            <http://www.example.org/serviceStatus>
+                    "online" ;
+            <http://www.example.org/serviceStatusTime>
+                    "2020-03-12T23:23:06.757+01:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+    
+    <http://rdf.myexperiment.org/sparql/#service>
+            <http://www.example.org/serviceStatus>
+                    "offline" ;
+            <http://www.example.org/serviceStatusTime>
+                    "2020-03-12T23:23:06.757+01:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+    
+    <http://dbtune.org/magnatune/sparql/#service>
+            <http://www.example.org/serviceStatus>
+                    "online" ;
+            <http://www.example.org/serviceStatusTime>
+                    "2020-03-12T23:23:06.757+01:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+    
+    <http://nsf.rkbexplorer.com/sparql/#service>
+            <http://www.example.org/serviceStatus>
+                    "online" ;
+            <http://www.example.org/serviceStatusTime>
+                    "2020-03-12T23:23:06.757+01:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+    
+    <http://lod.gesis.org/thesoz/sparql#service>
+            <http://www.example.org/serviceStatus>
+                    "offline" ;
+            <http://www.example.org/serviceStatusTime>
+                    "2020-03-12T23:23:06.757+01:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+    
+    <http://sparql.linkedopendata.it/istat#service>
+            <http://www.example.org/serviceStatus>
+                    "offline" ;
+            <http://www.example.org/serviceStatusTime>
+                    "2020-03-12T23:23:06.757+01:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+    
+    <http://enaktingpsi.rkbexplorer.com/sparql#service>
+            <http://www.example.org/serviceStatus>
+                    "offline" ;
+            <http://www.example.org/serviceStatusTime>
+                    "2020-03-12T23:23:06.757+01:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+    
+    <http://sparql.wikipathways.org/#service>
+            <http://www.example.org/serviceStatus>
+                    "offline" ;
+            <http://www.example.org/serviceStatusTime>
+                    "2020-03-12T23:23:06.757+01:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+    
+    <http://linked-data.org/sparql#service>
+            <http://www.example.org/serviceStatus>
+                    "offline" ;
+            <http://www.example.org/serviceStatusTime>
+                    "2020-03-12T23:23:06.757+01:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+    
+    <http://aksw.org/sparql#service>
+            <http://www.example.org/serviceStatus>
+                    "online" ;
+            <http://www.example.org/serviceStatusTime>
+                    "2020-03-12T23:23:06.757+01:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+    
+    <http://api.aucklandmuseum.com#service>
+            <http://www.example.org/serviceStatus>
+                    "offline" ;
+            <http://www.example.org/serviceStatusTime>
+                    "2020-03-12T23:23:06.757+01:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+    
+    <http://biopax.biomodels.bio2rdf.org/sparql#service>
+            <http://www.example.org/serviceStatus>
+                    "offline" ;
+            <http://www.example.org/serviceStatusTime>
+                    "2020-03-12T23:23:06.757+01:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+    
+    <http://crime.rkbexplorer.com/sparql/#service>
+            <http://www.example.org/serviceStatus>
+                    "offline" ;
+            <http://www.example.org/serviceStatusTime>
+                    "2020-03-12T23:23:06.757+01:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+    
+    <http://services.data.gov/sparql#service>
+            <http://www.example.org/serviceStatus>
+                    "offline" ;
+            <http://www.example.org/serviceStatusTime>
+                    "2020-03-12T23:23:06.757+01:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+    
+    <http://gdlc.rkbexplorer.com/sparql#service>
+            <http://www.example.org/serviceStatus>
+                    "offline" ;
+            <http://www.example.org/serviceStatusTime>
+                    "2020-03-12T23:23:06.757+01:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+    
+    <http://api.talis.com/stores/eurobarometer/services/sparql#service>
+            <http://www.example.org/serviceStatus>
+                    "offline" ;
+            <http://www.example.org/serviceStatusTime>
+                    "2020-03-12T23:23:06.757+01:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+    
+    <http://crashmap.okfn.gr:8890/sparql#service>
+            <http://www.example.org/serviceStatus>
+                    "offline" ;
+            <http://www.example.org/serviceStatusTime>
+                    "2020-03-12T23:23:06.757+01:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+    
+    <http://xula.eagle-i.net/sparqler/sparql#service>
+            <http://www.example.org/serviceStatus>
+                    "online" ;
+            <http://www.example.org/serviceStatusTime>
+                    "2020-03-12T23:23:06.757+01:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+    
+    <http://river.styx.org/sparql#service>
+            <http://www.example.org/serviceStatus>
+                    "offline" ;
+            <http://www.example.org/serviceStatusTime>
+                    "2020-03-12T23:23:06.757+01:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+    
+    <http://upr.eagle-i.net/sparqler/sparql#service>
+            <http://www.example.org/serviceStatus>
+                    "online" ;
+            <http://www.example.org/serviceStatusTime>
+                    "2020-03-12T23:23:06.757+01:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+    
+    <http://soa4all.isoco.net/luf/sparql#service>
+            <http://www.example.org/serviceStatus>
+                    "offline" ;
+            <http://www.example.org/serviceStatusTime>
+                    "2020-03-12T23:23:06.757+01:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+    
+    <http://foreign.rkbexplorer.com/sparql#service>
+            <http://www.example.org/serviceStatus>
+                    "online" ;
+            <http://www.example.org/serviceStatusTime>
+                    "2020-03-12T23:23:06.757+01:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+    
+    <http://rdf.farmbio.uu.se/chembl/sparql#service>
+            <http://www.example.org/serviceStatus>
+                    "offline" ;
+            <http://www.example.org/serviceStatusTime>
+                    "2020-03-12T23:23:06.757+01:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+    
+    <https://www.ebi.ac.uk/rdf/services/chembl/sparql#service>
+            <http://www.example.org/serviceStatus>
+                    "offline" ;
+            <http://www.example.org/serviceStatusTime>
+                    "2020-03-12T23:23:06.757+01:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+    
+    <http://zaire.dimis.fim.uni-passau.de:8890/sparql#service>
+            <http://www.example.org/serviceStatus>
+                    "offline" ;
+            <http://www.example.org/serviceStatusTime>
+                    "2020-03-12T23:23:06.757+01:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+    
+    <http://www.rdfabout.com/sparql#service>
+            <http://www.example.org/serviceStatus>
+                    "offline" ;
+            <http://www.example.org/serviceStatusTime>
+                    "2020-03-12T23:23:06.757+01:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+    
+    <http://wikidata.dbpedia.org/sparql#service>
+            <http://www.example.org/serviceStatus>
+                    "offline" ;
+            <http://www.example.org/serviceStatusTime>
+                    "2020-03-12T23:23:06.757+01:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+    
+    <http://data.semanticweb.org/sparql#service>
+            <http://www.example.org/serviceStatus>
+                    "offline" ;
+            <http://www.example.org/serviceStatusTime>
+                    "2020-03-12T23:23:06.757+01:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+    
+    <http://ld.panlex.org/sparql#service>
+            <http://www.example.org/serviceStatus>
+                    "offline" ;
+            <http://www.example.org/serviceStatusTime>
+                    "2020-03-12T23:23:06.757+01:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+    
+    <http://neuroweb.med.yale.edu:8890/sparql#service>
+            <http://www.example.org/serviceStatus>
+                    "offline" ;
+            <http://www.example.org/serviceStatusTime>
+                    "2020-03-12T23:23:06.757+01:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+    
+    <http://netpath.bio2rdf.org/sparql#service>
+            <http://www.example.org/serviceStatus>
+                    "offline" ;
+            <http://www.example.org/serviceStatusTime>
+                    "2020-03-12T23:23:06.757+01:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+    
+    <http://openuplabs.tso.co.uk/sparql/gov-education#service>
+            <http://www.example.org/serviceStatus>
+                    "offline" ;
+            <http://www.example.org/serviceStatusTime>
+                    "2020-03-12T23:23:06.757+01:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+    
+    <http://data.ox.ac.uk/sparql/#service>
+            <http://www.example.org/serviceStatus>
+                    "online" ;
+            <http://www.example.org/serviceStatusTime>
+                    "2020-03-12T23:23:06.757+01:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+    
+    <http://data.open.ac.uk/query#service>
+            <http://www.example.org/serviceStatus>
+                    "online" ;
+            <http://www.example.org/serviceStatusTime>
+                    "2020-03-12T23:23:06.757+01:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+    
+    <http://data.nobelprize.org/sparql#service>
+            <http://www.example.org/serviceStatus>
+                    "online" ;
+            <http://www.example.org/serviceStatusTime>
+                    "2020-03-12T23:23:06.757+01:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+    
+    <http://resrev.ilrt.bris.ac.uk/data-server-workshop/sparql#service>
+            <http://www.example.org/serviceStatus>
+                    "offline" ;
+            <http://www.example.org/serviceStatusTime>
+                    "2020-03-12T23:23:06.757+01:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+    
+    <http://ecs.rkbexplorer.com/sparql#service>
+            <http://www.example.org/serviceStatus>
+                    "offline" ;
+            <http://www.example.org/serviceStatusTime>
+                    "2020-03-12T23:23:06.757+01:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+    
+    <http://serendipity.utpl.edu.ec/lod/sparql#service>
+            <http://www.example.org/serviceStatus>
+                    "online" ;
+            <http://www.example.org/serviceStatusTime>
+                    "2020-03-12T23:23:06.757+01:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+    
+    <http://linguistic.linkeddata.es/sparql#service>
+            <http://www.example.org/serviceStatus>
+                    "online" ;
+            <http://www.example.org/serviceStatusTime>
+                    "2020-03-12T23:23:06.757+01:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+    
+    <http://setaria.oszk.hu/sparql#service>
+            <http://www.example.org/serviceStatus>
+                    "offline" ;
+            <http://www.example.org/serviceStatusTime>
+                    "2020-03-12T23:23:06.757+01:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+    
+    <http://live.dbpedia.org/sparql#service>
+            <http://www.example.org/serviceStatus>
+                    "online" ;
+            <http://www.example.org/serviceStatusTime>
+                    "2020-03-12T23:23:06.757+01:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+    
+    <http://nextprot.bio2rdf.org/sparql#service>
+            <http://www.example.org/serviceStatus>
+                    "offline" ;
+            <http://www.example.org/serviceStatusTime>
+                    "2020-03-12T23:23:06.757+01:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+    
+    <http://linkedopencommerce.com/sparql#service>
+            <http://www.example.org/serviceStatus>
+                    "offline" ;
+            <http://www.example.org/serviceStatusTime>
+                    "2020-03-12T23:23:06.757+01:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+    
+    <http://api.talis.com/stores/climb/services/sparql#service>
+            <http://www.example.org/serviceStatus>
+                    "offline" ;
+            <http://www.example.org/serviceStatusTime>
+                    "2020-03-12T23:23:06.757+01:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+    
+    <http://edit.elte.hu/sparql#service>
+            <http://www.example.org/serviceStatus>
+                    "online" ;
+            <http://www.example.org/serviceStatusTime>
+                    "2020-03-12T23:23:06.757+01:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+    
+    <http://sparql-procomun.educalab.es/#service>
+            <http://www.example.org/serviceStatus>
+                    "offline" ;
+            <http://www.example.org/serviceStatusTime>
+                    "2020-03-12T23:23:06.757+01:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+    
+    <http://clinicaltrials.bio2rdf.org/sparql#service>
+            <http://www.example.org/serviceStatus>
+                    "offline" ;
+            <http://www.example.org/serviceStatusTime>
+                    "2020-03-12T23:23:06.757+01:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+    
+    <http://greek-lod.math.auth.gr/intervalue/sparql#service>
+            <http://www.example.org/serviceStatus>
+                    "offline" ;
+            <http://www.example.org/serviceStatusTime>
+                    "2020-03-12T23:23:06.757+01:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+    
+    <http://onto.beef.org.pl/sparql#service>
+            <http://www.example.org/serviceStatus>
+                    "online" ;
+            <http://www.example.org/serviceStatusTime>
+                    "2020-03-12T23:23:06.757+01:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+    
+    <http://ldf.fi/ww1lod/sparql#service>
+            <http://www.example.org/serviceStatus>
+                    "online" ;
+            <http://www.example.org/serviceStatusTime>
+                    "2020-03-12T23:23:06.757+01:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+    
+    <http://orphanet.bio2rdf.org/sparql#service>
+            <http://www.example.org/serviceStatus>
+                    "offline" ;
+            <http://www.example.org/serviceStatusTime>
+                    "2020-03-12T23:23:06.757+01:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+    
+    <http://uis.270a.info/sparql#service>
+            <http://www.example.org/serviceStatus>
+                    "offline" ;
+            <http://www.example.org/serviceStatusTime>
+                    "2020-03-12T23:23:06.757+01:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+    
+    <http://api.talis.com/stores/metoffice/services/sparql#service>
+            <http://www.example.org/serviceStatus>
+                    "offline" ;
+            <http://www.example.org/serviceStatusTime>
+                    "2020-03-12T23:23:06.757+01:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+    
+    <https://www.ebi.ac.uk/rdf/services/biomodels/sparql#service>
+            <http://www.example.org/serviceStatus>
+                    "offline" ;
+            <http://www.example.org/serviceStatusTime>
+                    "2020-03-12T23:23:06.757+01:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+    
+    <http://miuras.inf.um.es/sparql#service>
+            <http://www.example.org/serviceStatus>
+                    "offline" ;
+            <http://www.example.org/serviceStatusTime>
+                    "2020-03-12T23:23:06.757+01:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+    
+    <http://lod.my-eventos.com/en/services/sparql/#service>
+            <http://www.example.org/serviceStatus>
+                    "offline" ;
+            <http://www.example.org/serviceStatusTime>
+                    "2020-03-12T23:23:06.757+01:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+    
+    <http://enipedia.tudelft.nl/sparql#service>
+            <http://www.example.org/serviceStatus>
+                    "offline" ;
+            <http://www.example.org/serviceStatusTime>
+                    "2020-03-12T23:23:06.757+01:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+    
+    <http://data.linkedu.eu/slidewiki/query#service>
+            <http://www.example.org/serviceStatus>
+                    "offline" ;
+            <http://www.example.org/serviceStatusTime>
+                    "2020-03-12T23:23:06.757+01:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+    
+    <http://rdf.muninn-project.org/sparql#service>
+            <http://www.example.org/serviceStatus>
+                    "online" ;
+            <http://www.example.org/serviceStatusTime>
+                    "2020-03-12T23:23:06.757+01:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+    
+    <http://roni.rkbexplorer.com/sparql#service>
+            <http://www.example.org/serviceStatus>
+                    "online" ;
+            <http://www.example.org/serviceStatusTime>
+                    "2020-03-12T23:23:06.757+01:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+    
+    <http://data.ege.edu.tr/ep/sparql#service>
+            <http://www.example.org/serviceStatus>
+                    "offline" ;
+            <http://www.example.org/serviceStatusTime>
+                    "2020-03-12T23:23:06.757+01:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+    
+    <http://linkeddata.finki.ukim.mk/sparql#service>
+            <http://www.example.org/serviceStatus>
+                    "online" ;
+            <http://www.example.org/serviceStatusTime>
+                    "2020-03-12T23:23:06.757+01:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+    
+    <http://rae2001.rkbexplorer.com/sparql/#service>
+            <http://www.example.org/serviceStatus>
+                    "online" ;
+            <http://www.example.org/serviceStatusTime>
+                    "2020-03-12T23:23:06.757+01:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+    
+    <http://data.linkedu.eu/kis/query#service>
+            <http://www.example.org/serviceStatus>
+                    "offline" ;
+            <http://www.example.org/serviceStatusTime>
+                    "2020-03-12T23:23:06.757+01:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+    
+    <http://tsu.eagle-i.net/sparqler/sparql#service>
+            <http://www.example.org/serviceStatus>
+                    "online" ;
+            <http://www.example.org/serviceStatusTime>
+                    "2020-03-12T23:23:06.757+01:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+    
+    <http://api.talis.com/stores/productdb/services/sparql#service>
+            <http://www.example.org/serviceStatus>
+                    "offline" ;
+            <http://www.example.org/serviceStatusTime>
+                    "2020-03-12T23:23:06.757+01:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+    
+    <http://sparql.kupkb.org/sparql#service>
+            <http://www.example.org/serviceStatus>
+                    "offline" ;
+            <http://www.example.org/serviceStatusTime>
+                    "2020-03-12T23:23:06.757+01:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+    
+    <http://linkedarc.net/sparql#service>
+            <http://www.example.org/serviceStatus>
+                    "offline" ;
+            <http://www.example.org/serviceStatusTime>
+                    "2020-03-12T23:23:06.757+01:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+    
+    <http://kasabi.com/api/sparql-endpoint-foodista#service>
+            <http://www.example.org/serviceStatus>
+                    "offline" ;
+            <http://www.example.org/serviceStatusTime>
+                    "2020-03-12T23:23:06.757+01:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+    
+    <http://http://crashmap.okfn.gr:8890/sparql#service>
+            <http://www.example.org/serviceStatus>
+                    "offline" ;
+            <http://www.example.org/serviceStatusTime>
+                    "2020-03-12T23:23:06.757+01:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+    
+    <http://data.copac.ac.uk/sparql#service>
+            <http://www.example.org/serviceStatus>
+                    "offline" ;
+            <http://www.example.org/serviceStatusTime>
+                    "2020-03-12T23:23:06.757+01:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+    
+    <http://data.linkedu.eu/ocw/query#service>
+            <http://www.example.org/serviceStatus>
+                    "offline" ;
+            <http://www.example.org/serviceStatusTime>
+                    "2020-03-12T23:23:06.757+01:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+    
+    <http://nl.dbpedia.org/sparql#service>
+            <http://www.example.org/serviceStatus>
+                    "online" ;
+            <http://www.example.org/serviceStatusTime>
+                    "2020-03-12T23:23:06.757+01:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+    
+    <http://sw.unime.it:8890/sparql#service>
+            <http://www.example.org/serviceStatus>
+                    "offline" ;
+            <http://www.example.org/serviceStatusTime>
+                    "2020-03-12T23:23:06.757+01:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+    
+    <http://dati.isprambiente.it/sparql#service>
+            <http://www.example.org/serviceStatus>
+                    "online" ;
+            <http://www.example.org/serviceStatusTime>
+                    "2020-03-12T23:23:06.757+01:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+    
+    <http://healthdata.tw.rpi.edu/sparql#service>
+            <http://www.example.org/serviceStatus>
+                    "offline" ;
+            <http://www.example.org/serviceStatusTime>
+                    "2020-03-12T23:23:06.757+01:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+    
+    <http://datos.artium.org/sparql#service>
+            <http://www.example.org/serviceStatus>
+                    "offline" ;
+            <http://www.example.org/serviceStatusTime>
+                    "2020-03-12T23:23:06.757+01:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+    
+    <http://data.lenka.no/sparql#service>
+            <http://www.example.org/serviceStatus>
+                    "offline" ;
+            <http://www.example.org/serviceStatusTime>
+                    "2020-03-12T23:23:06.757+01:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+    
+    <http://www4.wiwiss.fu-berlin.de/eures/sparql#service>
+            <http://www.example.org/serviceStatus>
+                    "offline" ;
+            <http://www.example.org/serviceStatusTime>
+                    "2020-03-12T23:23:06.757+01:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+    
+    <http://opendata-bundestag.de/sparql#service>
+            <http://www.example.org/serviceStatus>
+                    "offline" ;
+            <http://www.example.org/serviceStatusTime>
+                    "2020-03-12T23:23:06.757+01:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+    
+    <http://www.open-biomed.org.uk/sparql/endpoint/flyatlas#service>
+            <http://www.example.org/serviceStatus>
+                    "offline" ;
+            <http://www.example.org/serviceStatusTime>
+                    "2020-03-12T23:23:06.757+01:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+    
+    <http://pomelo.iis.sinica.edu.tw:2020/sparql#service>
+            <http://www.example.org/serviceStatus>
+                    "offline" ;
+            <http://www.example.org/serviceStatusTime>
+                    "2020-03-12T23:23:06.757+01:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+    
+    <http://sparql.linkedopendata.it/cap#service>
+            <http://www.example.org/serviceStatus>
+                    "offline" ;
+            <http://www.example.org/serviceStatusTime>
+                    "2020-03-12T23:23:06.757+01:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+    
+    <http://api.talis.com/stores/whoiswho/services/sparql#service>
+            <http://www.example.org/serviceStatus>
+                    "offline" ;
+            <http://www.example.org/serviceStatusTime>
+                    "2020-03-12T23:23:06.757+01:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+    
+    <http://en.openei.org/sparql#service>
+            <http://www.example.org/serviceStatus>
+                    "online" ;
+            <http://www.example.org/serviceStatusTime>
+                    "2020-03-12T23:23:06.757+01:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+    
+    <http://dbpedia.org/sparql#service>
+            <http://www.example.org/serviceStatus>
+                    "online" ;
+            <http://www.example.org/serviceStatusTime>
+                    "2020-03-12T23:23:06.757+01:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+    
+    <http://ulm.rkbexplorer.com/sparql/#service>
+            <http://www.example.org/serviceStatus>
+                    "online" ;
+            <http://www.example.org/serviceStatusTime>
+                    "2020-03-12T23:23:06.757+01:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+    
+    <http://datos.bne.es/sparql#service>
+            <http://www.example.org/serviceStatus>
+                    "online" ;
+            <http://www.example.org/serviceStatusTime>
+                    "2020-03-12T23:23:06.757+01:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+    
+    <http://wiki.rkbexplorer.com/sparql/#service>
+            <http://www.example.org/serviceStatus>
+                    "online" ;
+            <http://www.example.org/serviceStatusTime>
+                    "2020-03-12T23:23:06.757+01:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+    
+    <http://sparql.neurocommons.org:8890/nsparql/#service>
+            <http://www.example.org/serviceStatus>
+                    "offline" ;
+            <http://www.example.org/serviceStatusTime>
+                    "2020-03-12T23:23:06.757+01:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+    
+    <http://apps.morelab.deusto.es/teseo/sparql#service>
+            <http://www.example.org/serviceStatus>
+                    "offline" ;
+            <http://www.example.org/serviceStatusTime>
+                    "2020-03-12T23:23:06.757+01:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+    
+    <http://oecd.270a.info/sparql#service>
+            <http://www.example.org/serviceStatus>
+                    "offline" ;
+            <http://www.example.org/serviceStatusTime>
+                    "2020-03-12T23:23:06.757+01:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+    
+    <http://ecowlim.tfri.gov.tw/sparql/query#service>
+            <http://www.example.org/serviceStatus>
+                    "offline" ;
+            <http://www.example.org/serviceStatusTime>
+                    "2020-03-12T23:23:06.757+01:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+    
+    <http://data.utpl.edu.ec/utpl/lod/sparql#service>
+            <http://www.example.org/serviceStatus>
+                    "offline" ;
+            <http://www.example.org/serviceStatusTime>
+                    "2020-03-12T23:23:06.757+01:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+    
+    <http://sparql.linkedopendata.it/musei#service>
+            <http://www.example.org/serviceStatus>
+                    "offline" ;
+            <http://www.example.org/serviceStatusTime>
+                    "2020-03-12T23:23:06.757+01:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+    
+    <http://ccny-cuny.eagle-i.net/sparqler/sparql#service>
+            <http://www.example.org/serviceStatus>
+                    "online" ;
+            <http://www.example.org/serviceStatusTime>
+                    "2020-03-12T23:23:06.757+01:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+    
+    <http://api.talis.com/stores/nvd/services/sparql#service>
+            <http://www.example.org/serviceStatus>
+                    "offline" ;
+            <http://www.example.org/serviceStatusTime>
+                    "2020-03-12T23:23:06.757+01:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+    
+    <http://rdf.ng-london.org.uk/raphael#service>
+            <http://www.example.org/serviceStatus>
+                    "offline" ;
+            <http://www.example.org/serviceStatusTime>
+                    "2020-03-12T23:23:06.757+01:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+    
+    <http://212.81.220.68:2020/elviajero#service>
+            <http://www.example.org/serviceStatus>
+                    "offline" ;
+            <http://www.example.org/serviceStatusTime>
+                    "2020-03-12T23:23:06.757+01:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+    
+    <http://tour-pedia.org/sparql#service>
+            <http://www.example.org/serviceStatus>
+                    "offline" ;
+            <http://www.example.org/serviceStatusTime>
+                    "2020-03-12T23:23:06.757+01:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+    
+    <http://sonicbanana.cs.wright.edu:8890/sparql#service>
+            <http://www.example.org/serviceStatus>
+                    "offline" ;
+            <http://www.example.org/serviceStatusTime>
+                    "2020-03-12T23:23:06.757+01:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+    
+    <http://api.talis.com/stores/pokedex/services/sparql#service>
+            <http://www.example.org/serviceStatus>
+                    "offline" ;
+            <http://www.example.org/serviceStatusTime>
+                    "2020-03-12T23:23:06.757+01:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+    
+    <http://api.talis.com/stores/bbc-wildlife/services/sparql#service>
+            <http://www.example.org/serviceStatus>
+                    "offline" ;
+            <http://www.example.org/serviceStatusTime>
+                    "2020-03-12T23:23:06.757+01:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+    
+    <http://api.talis.com/stores/openlibrary/services/sparql#service>
+            <http://www.example.org/serviceStatus>
+                    "offline" ;
+            <http://www.example.org/serviceStatusTime>
+                    "2020-03-12T23:23:06.757+01:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+    
+    <http://opendata.ccd.uniroma2.it/LMF/sparql/select#service>
+            <http://www.example.org/serviceStatus>
+                    "offline" ;
+            <http://www.example.org/serviceStatusTime>
+                    "2020-03-12T23:23:06.757+01:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+    
+    <http://fao.270a.info/sparql#service>
+            <http://www.example.org/serviceStatus>
+                    "offline" ;
+            <http://www.example.org/serviceStatusTime>
+                    "2020-03-12T23:23:06.757+01:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+    
+    <http://core.kmi.open.ac.uk/squery#service>
+            <http://www.example.org/serviceStatus>
+                    "offline" ;
+            <http://www.example.org/serviceStatusTime>
+                    "2020-03-12T23:23:06.757+01:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+    
+    <http://resex.rkbexplorer.com/sparql/#service>
+            <http://www.example.org/serviceStatus>
+                    "online" ;
+            <http://www.example.org/serviceStatusTime>
+                    "2020-03-12T23:23:06.757+01:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+    
+    <http://data.lider-project.eu/usage/sparql#service>
+            <http://www.example.org/serviceStatus>
+                    "online" ;
+            <http://www.example.org/serviceStatusTime>
+                    "2020-03-12T23:23:06.757+01:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+    
+    <http://sparql.linkedopendata.it/loc#service>
+            <http://www.example.org/serviceStatus>
+                    "offline" ;
+            <http://www.example.org/serviceStatusTime>
+                    "2020-03-12T23:23:06.757+01:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+    
+    <http://collection.britishmuseum.org/Sparql#service>
+            <http://www.example.org/serviceStatus>
+                    "offline" ;
+            <http://www.example.org/serviceStatusTime>
+                    "2020-03-12T23:23:06.757+01:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+    
+    <http://cr3.eionet.europa.eu/sparql#service>
+            <http://www.example.org/serviceStatus>
+                    "offline" ;
+            <http://www.example.org/serviceStatusTime>
+                    "2020-03-12T23:23:06.757+01:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+    
+    <http://cultura.linkeddata.es/sparql#service>
+            <http://www.example.org/serviceStatus>
+                    "online" ;
+            <http://www.example.org/serviceStatusTime>
+                    "2020-03-12T23:23:06.757+01:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+    
+    <http://api.talis.com/stores/datagovuk/services/sparql#service>
+            <http://www.example.org/serviceStatus>
+                    "offline" ;
+            <http://www.example.org/serviceStatusTime>
+                    "2020-03-12T23:23:06.757+01:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+    
+    <http://data.utpl.edu.ec/ecuadorresearch/lod/sparql#service>
+            <http://www.example.org/serviceStatus>
+                    "offline" ;
+            <http://www.example.org/serviceStatusTime>
+                    "2020-03-12T23:23:06.757+01:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+    
+    <http://vocabulary.semantic-web.at/PoolParty/sparql/semweb#service>
+            <http://www.example.org/serviceStatus>
+                    "online" ;
+            <http://www.example.org/serviceStatusTime>
+                    "2020-03-12T23:23:06.757+01:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+    
+    <http://dacura.cs.tcd.ie/sparql#service>
+            <http://www.example.org/serviceStatus>
+                    "offline" ;
+            <http://www.example.org/serviceStatusTime>
+                    "2020-03-12T23:23:06.757+01:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+    
+    <http://socialarchive.iath.virginia.edu/sparql/eac#service>
+            <http://www.example.org/serviceStatus>
+                    "offline" ;
+            <http://www.example.org/serviceStatusTime>
+                    "2020-03-12T23:23:06.757+01:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+    
+    <http://ja.dbpedia.org/sparql#service>
+            <http://www.example.org/serviceStatus>
+                    "online" ;
+            <http://www.example.org/serviceStatusTime>
+                    "2020-03-12T23:23:06.757+01:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+    
+    <http://telegraphis.net/data/countries/sparql#service>
+            <http://www.example.org/serviceStatus>
+                    "offline" ;
+            <http://www.example.org/serviceStatusTime>
+                    "2020-03-12T23:23:06.757+01:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+    
+    <http://ft.rkbexplorer.com/sparql/#service>
+            <http://www.example.org/serviceStatus>
+                    "online" ;
+            <http://www.example.org/serviceStatusTime>
+                    "2020-03-12T23:23:06.757+01:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+    
+    <http://lisbon.rkbexplorer.com/sparql#service>
+            <http://www.example.org/serviceStatus>
+                    "online" ;
+            <http://www.example.org/serviceStatusTime>
+                    "2020-03-12T23:23:06.757+01:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+    
+    <http://www4.wiwiss.fu-berlin.de/medicare/sparql#service>
+            <http://www.example.org/serviceStatus>
+                    "offline" ;
+            <http://www.example.org/serviceStatusTime>
+                    "2020-03-12T23:23:06.757+01:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+    
+    <http://transparency.270a.info/sparql#service>
+            <http://www.example.org/serviceStatus>
+                    "offline" ;
+            <http://www.example.org/serviceStatusTime>
+                    "2020-03-12T23:23:06.757+01:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+    
+    <http://www4.wiwiss.fu-berlin.de/diseasome/sparql#service>
+            <http://www.example.org/serviceStatus>
+                    "offline" ;
+            <http://www.example.org/serviceStatusTime>
+                    "2020-03-12T23:23:06.757+01:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+    
+    <http://www.open-biomed.org.uk/sparql/endpoint/flybase#service>
+            <http://www.example.org/serviceStatus>
+                    "offline" ;
+            <http://www.example.org/serviceStatusTime>
+                    "2020-03-12T23:23:06.757+01:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+    
+    <http://kegg.bio2rdf.org/sparql#service>
+            <http://www.example.org/serviceStatus>
+                    "offline" ;
+            <http://www.example.org/serviceStatusTime>
+                    "2020-03-12T23:23:06.757+01:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+    
+    <http://data.bibsys.no/data/query_authority.html#service>
+            <http://www.example.org/serviceStatus>
+                    "offline" ;
+            <http://www.example.org/serviceStatusTime>
+                    "2020-03-12T23:23:06.757+01:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+    
+    <http://fun.rkbexplorer.com/sparql#service>
+            <http://www.example.org/serviceStatus>
+                    "offline" ;
+            <http://www.example.org/serviceStatusTime>
+                    "2020-03-12T23:23:06.757+01:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+    
+    <http://kaunas.rkbexplorer.com/sparql#service>
+            <http://www.example.org/serviceStatus>
+                    "online" ;
+            <http://www.example.org/serviceStatusTime>
+                    "2020-03-12T23:23:06.757+01:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+    
+    <http://www.archivesdefrance.culture.gouv.fr/thesaurus/sparql#service>
+            <http://www.example.org/serviceStatus>
+                    "offline" ;
+            <http://www.example.org/serviceStatusTime>
+                    "2020-03-12T23:23:06.757+01:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+    
+    <http://aseg.cs.concordia.ca/secold/sparqlendpoint#service>
+            <http://www.example.org/serviceStatus>
+                    "offline" ;
+            <http://www.example.org/serviceStatusTime>
+                    "2020-03-12T23:23:06.757+01:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+    
+    <http://www.open-biomed.org.uk/sparql/endpoint/bdgp_20081030#service>
+            <http://www.example.org/serviceStatus>
+                    "offline" ;
+            <http://www.example.org/serviceStatusTime>
+                    "2020-03-12T23:23:06.757+01:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+    
+    <http://alaska.eagle-i.net/sparqler/sparql#service>
+            <http://www.example.org/serviceStatus>
+                    "online" ;
+            <http://www.example.org/serviceStatusTime>
+                    "2020-03-12T23:23:06.757+01:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+    
+    <http://agalpha.mathbiol.org/repositories/tcga#service>
+            <http://www.example.org/serviceStatus>
+                    "offline" ;
+            <http://www.example.org/serviceStatusTime>
+                    "2020-03-12T23:23:06.757+01:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+    
+    <http://api.talis.com/stores/trafficscotland/services/sparql#service>
+            <http://www.example.org/serviceStatus>
+                    "offline" ;
+            <http://www.example.org/serviceStatusTime>
+                    "2020-03-12T23:23:06.757+01:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+    
+    <http://eris.okfn.org/sparql#service>
+            <http://www.example.org/serviceStatus>
+                    "offline" ;
+            <http://www.example.org/serviceStatusTime>
+                    "2020-03-12T23:23:06.757+01:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+    
+    <http://vocabulary.wolterskluwer.de/PoolParty/sparql/court#service>
+            <http://www.example.org/serviceStatus>
+                    "offline" ;
+            <http://www.example.org/serviceStatusTime>
+                    "2020-03-12T23:23:06.757+01:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+    
+    <http://api.kasabi.com/dataset/musicnet/apis/sparql#service>
+            <http://www.example.org/serviceStatus>
+                    "offline" ;
+            <http://www.example.org/serviceStatusTime>
+                    "2020-03-12T23:23:06.757+01:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+    
+    <http://de.dbpedia.org/sparql#service>
+            <http://www.example.org/serviceStatus>
+                    "online" ;
+            <http://www.example.org/serviceStatusTime>
+                    "2020-03-12T23:23:06.757+01:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+    
+    <http://bioportal.bio2rdf.org/sparql#service>
+            <http://www.example.org/serviceStatus>
+                    "offline" ;
+            <http://www.example.org/serviceStatusTime>
+                    "2020-03-12T23:23:06.757+01:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+    
+    <http://semanticweb.cs.vu.nl/dss/sparql/#service>
+            <http://www.example.org/serviceStatus>
+                    "online" ;
+            <http://www.example.org/serviceStatusTime>
+                    "2020-03-12T23:23:06.757+01:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+    
+    <http://greek-lod.math.auth.gr/kalikratis/sparql#service>
+            <http://www.example.org/serviceStatus>
+                    "offline" ;
+            <http://www.example.org/serviceStatusTime>
+                    "2020-03-12T23:23:06.757+01:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+    
+    <http://asev.l3s.uni-hannover.de:8085/openrdf-sesame/repositories/TERENCE_STORY#service>
+            <http://www.example.org/serviceStatus>
+                    "offline" ;
+            <http://www.example.org/serviceStatusTime>
+                    "2020-03-12T23:23:06.757+01:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+    
+    <http://pharmgkb.bio2rdf.org/sparql#service>
+            <http://www.example.org/serviceStatus>
+                    "offline" ;
+            <http://www.example.org/serviceStatusTime>
+                    "2020-03-12T23:23:06.757+01:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+    
+    <http://data.hnm.hu/sparql#service>
+            <http://www.example.org/serviceStatus>
+                    "offline" ;
+            <http://www.example.org/serviceStatusTime>
+                    "2020-03-12T23:23:06.757+01:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+    
+    <http://pubmed.bio2rdf.org/sparql#service>
+            <http://www.example.org/serviceStatus>
+                    "offline" ;
+            <http://www.example.org/serviceStatusTime>
+                    "2020-03-12T23:23:06.757+01:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+    
+    <http://ndc.bio2rdf.org/sparql#service>
+            <http://www.example.org/serviceStatus>
+                    "offline" ;
+            <http://www.example.org/serviceStatusTime>
+                    "2020-03-12T23:23:06.757+01:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+    
+    <http://api.talis.com/stores/eumida/services/sparql#service>
+            <http://www.example.org/serviceStatus>
+                    "offline" ;
+            <http://www.example.org/serviceStatusTime>
+                    "2020-03-12T23:23:06.757+01:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+    
+    <http://spike.bio2rdf.org/sparql#service>
+            <http://www.example.org/serviceStatus>
+                    "offline" ;
+            <http://www.example.org/serviceStatusTime>
+                    "2020-03-12T23:23:06.757+01:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+    
+    <http://eprints.rkbexplorer.com/sparql/#service>
+            <http://www.example.org/serviceStatus>
+                    "online" ;
+            <http://www.example.org/serviceStatusTime>
+                    "2020-03-12T23:23:06.757+01:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+    
+    <http://extbi.lab.aau.dk/sparql/#service>
+            <http://www.example.org/serviceStatus>
+                    "online" ;
+            <http://www.example.org/serviceStatusTime>
+                    "2020-03-12T23:23:06.757+01:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+    
+    <http://lod.kipo.kr/data/sparql#service>
+            <http://www.example.org/serviceStatus>
+                    "offline" ;
+            <http://www.example.org/serviceStatusTime>
+                    "2020-03-12T23:23:06.757+01:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+    
+    <http://goa.bio2rdf.org/sparql#service>
+            <http://www.example.org/serviceStatus>
+                    "offline" ;
+            <http://www.example.org/serviceStatusTime>
+                    "2020-03-12T23:23:06.757+01:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+    
+    <http://govwild.org/sparql#service>
+            <http://www.example.org/serviceStatus>
+                    "offline" ;
+            <http://www.example.org/serviceStatusTime>
+                    "2020-03-12T23:23:06.757+01:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+    
+    <http://crystaleye.ch.cam.ac.uk/sparql/#service>
+            <http://www.example.org/serviceStatus>
+                    "offline" ;
+            <http://www.example.org/serviceStatusTime>
+                    "2020-03-12T23:23:06.757+01:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+    
+    <http://www.icane.es/opendata/sparql#service>
+            <http://www.example.org/serviceStatus>
+                    "online" ;
+            <http://www.example.org/serviceStatusTime>
+                    "2020-03-12T23:23:06.757+01:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+    
+    <http://chembl.bio2rdf.org/sparql#service>
+            <http://www.example.org/serviceStatus>
+                    "offline" ;
+            <http://www.example.org/serviceStatusTime>
+                    "2020-03-12T23:23:06.757+01:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+    
+    <http://data.allie.dbcls.jp/sparql#service>
+            <http://www.example.org/serviceStatus>
+                    "online" ;
+            <http://www.example.org/serviceStatusTime>
+                    "2020-03-12T23:23:06.757+01:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+    
+    <http://api.talis.com/stores/eupmedia/services/sparql#service>
+            <http://www.example.org/serviceStatus>
+                    "offline" ;
+            <http://www.example.org/serviceStatusTime>
+                    "2020-03-12T23:23:06.757+01:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+    
+    <http://cau.eagle-i.net/sparqler/sparql#service>
+            <http://www.example.org/serviceStatus>
+                    "online" ;
+            <http://www.example.org/serviceStatusTime>
+                    "2020-03-12T23:23:06.757+01:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+    
+    <http://unodc.publicdata.eu/sparql#service>
+            <http://www.example.org/serviceStatus>
+                    "offline" ;
+            <http://www.example.org/serviceStatusTime>
+                    "2020-03-12T23:23:06.757+01:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+    
+    <https://dbmi-icode-01.dbmi.pitt.edu/dikb/sparql#service>
+            <http://www.example.org/serviceStatus>
+                    "offline" ;
+            <http://www.example.org/serviceStatusTime>
+                    "2020-03-12T23:23:06.757+01:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+    
+    <https://stirdf.jglobal.jst.go.jp/sparql#service>
+            <http://www.example.org/serviceStatus>
+                    "offline" ;
+            <http://www.example.org/serviceStatusTime>
+                    "2020-03-12T23:23:06.757+01:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+    
+    <http://provenanceweb.org/sparql#service>
+            <http://www.example.org/serviceStatus>
+                    "offline" ;
+            <http://www.example.org/serviceStatusTime>
+                    "2020-03-12T23:23:06.757+01:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+    
+    <http://data.colinda.org/endpoint.php#service>
+            <http://www.example.org/serviceStatus>
+                    "online" ;
+            <http://www.example.org/serviceStatusTime>
+                    "2020-03-12T23:23:06.757+01:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+    
+    <http://es.dbpedia.org/sparql#service>
+            <http://www.example.org/serviceStatus>
+                    "online" ;
+            <http://www.example.org/serviceStatusTime>
+                    "2020-03-12T23:23:06.757+01:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+    
+    <http://premon.fbk.eu/sparql#service>
+            <http://www.example.org/serviceStatus>
+                    "online" ;
+            <http://www.example.org/serviceStatusTime>
+                    "2020-03-12T23:23:06.757+01:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+    
+    <http://linkedu.eu/catalogue/sparql/#service>
+            <http://www.example.org/serviceStatus>
+                    "offline" ;
+            <http://www.example.org/serviceStatusTime>
+                    "2020-03-12T23:23:06.757+01:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+    
+    <http://api.kasabi.com/dataset/foodista/apis/sparql#service>
+            <http://www.example.org/serviceStatus>
+                    "offline" ;
+            <http://www.example.org/serviceStatusTime>
+                    "2020-03-12T23:23:06.757+01:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+    
+    <http://risks.rkbexplorer.com/sparql/#service>
+            <http://www.example.org/serviceStatus>
+                    "online" ;
+            <http://www.example.org/serviceStatusTime>
+                    "2020-03-12T23:23:06.757+01:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+    
+    <http://data.nature.com/query#service>
+            <http://www.example.org/serviceStatus>
+                    "offline" ;
+            <http://www.example.org/serviceStatusTime>
+                    "2020-03-12T23:23:06.757+01:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+    
+    <http://platform.uberblic.org/api/v1/sparql#service>
+            <http://www.example.org/serviceStatus>
+                    "offline" ;
+            <http://www.example.org/serviceStatusTime>
+                    "2020-03-12T23:23:06.757+01:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+    
+    <https://data.ox.ac.uk/sparql/#service>
+            <http://www.example.org/serviceStatus>
+                    "online" ;
+            <http://www.example.org/serviceStatusTime>
+                    "2020-03-12T23:23:06.757+01:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+    
+    <http://dblp.rkbexplorer.com/sparql/#service>
+            <http://www.example.org/serviceStatus>
+                    "online" ;
+            <http://www.example.org/serviceStatusTime>
+                    "2020-03-12T23:23:06.757+01:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+    
+    <http://cb.semsol.org/sparql#service>
+            <http://www.example.org/serviceStatus>
+                    "offline" ;
+            <http://www.example.org/serviceStatusTime>
+                    "2020-03-12T23:23:06.757+01:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+    
+    <http://spending.lichfielddc.gov.uk/sparql#service>
+            <http://www.example.org/serviceStatus>
+                    "offline" ;
+            <http://www.example.org/serviceStatusTime>
+                    "2020-03-12T23:23:06.757+01:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+    
+    <http://foodpedia.tk/sparql#service>
+            <http://www.example.org/serviceStatus>
+                    "offline" ;
+            <http://www.example.org/serviceStatusTime>
+                    "2020-03-12T23:23:06.757+01:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+    
+    <http://pid.bio2rdf.org/sparql#service>
+            <http://www.example.org/serviceStatus>
+                    "offline" ;
+            <http://www.example.org/serviceStatusTime>
+                    "2020-03-12T23:23:06.757+01:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+    
+    <http://datos.bcn.cl/sparql#service>
+            <http://www.example.org/serviceStatus>
+                    "online" ;
+            <http://www.example.org/serviceStatusTime>
+                    "2020-03-12T23:23:06.757+01:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+    
+    <http://howard.eagle-i.net/sparqler/sparql#service>
+            <http://www.example.org/serviceStatus>
+                    "online" ;
+            <http://www.example.org/serviceStatusTime>
+                    "2020-03-12T23:23:06.757+01:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+    
+    <http://data.ariadne-eu.org/sparql.tpl#service>
+            <http://www.example.org/serviceStatus>
+                    "offline" ;
+            <http://www.example.org/serviceStatusTime>
+                    "2020-03-12T23:23:06.757+01:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+    
+    <http://hcls.deri.org/sparql#service>
+            <http://www.example.org/serviceStatus>
+                    "offline" ;
+            <http://www.example.org/serviceStatusTime>
+                    "2020-03-12T23:23:06.757+01:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+    
+    <http://www.imagesnippets.com/sparql/images#service>
+            <http://www.example.org/serviceStatus>
+                    "online" ;
+            <http://www.example.org/serviceStatusTime>
+                    "2020-03-12T23:23:06.757+01:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+    
+    <http://sparql.uniprot.org#service>
+            <http://www.example.org/serviceStatus>
+                    "online" ;
+            <http://www.example.org/serviceStatusTime>
+                    "2020-03-12T23:23:06.757+01:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+    
+    <http://www4.wiwiss.fu-berlin.de/factbook/sparql#service>
+            <http://www.example.org/serviceStatus>
+                    "offline" ;
+            <http://www.example.org/serviceStatusTime>
+                    "2020-03-12T23:23:06.757+01:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+    
+    <http://apps.morelab.deusto.es/labman/sparql#service>
+            <http://www.example.org/serviceStatus>
+                    "online" ;
+            <http://www.example.org/serviceStatusTime>
+                    "2020-03-12T23:23:06.757+01:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+    
+    <http://bnb.data.bl.uk/sparql#service>
+            <http://www.example.org/serviceStatus>
+                    "online" ;
+            <http://www.example.org/serviceStatusTime>
+                    "2020-03-12T23:23:06.757+01:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+    
+    <http://data.organic-edunet.eu/sparql#service>
+            <http://www.example.org/serviceStatus>
+                    "offline" ;
+            <http://www.example.org/serviceStatusTime>
+                    "2020-03-12T23:23:06.757+01:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+    
+    <http://genage.bio2rdf.org/sparql#service>
+            <http://www.example.org/serviceStatus>
+                    "offline" ;
+            <http://www.example.org/serviceStatusTime>
+                    "2020-03-12T23:23:06.757+01:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+    
+    <http://ring.ciard.net/sparql1#service>
+            <http://www.example.org/serviceStatus>
+                    "online" ;
+            <http://www.example.org/serviceStatusTime>
+                    "2020-03-12T23:23:06.757+01:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+    
+    <http://www.auth.gr/sparql#service>
+            <http://www.example.org/serviceStatus>
+                    "offline" ;
+            <http://www.example.org/serviceStatusTime>
+                    "2020-03-12T23:23:06.757+01:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+    
+    <http://www.ida.liu.se/projects/semtech/openrdf-sesame/repositories/energy#service>
+            <http://www.example.org/serviceStatus>
+                    "offline" ;
+            <http://www.example.org/serviceStatusTime>
+                    "2020-03-12T23:23:06.757+01:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+    
+    <http://pathwaycommons.bio2rdf.org/sparql#service>
+            <http://www.example.org/serviceStatus>
+                    "offline" ;
+            <http://www.example.org/serviceStatusTime>
+                    "2020-03-12T23:23:06.757+01:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+    
+    <http://www4.wiwiss.fu-berlin.de/sider/sparql#service>
+            <http://www.example.org/serviceStatus>
+                    "offline" ;
+            <http://www.example.org/serviceStatusTime>
+                    "2020-03-12T23:23:06.757+01:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+    
+    <http://dbtune.org/bbc/peel/sparql/#service>
+            <http://www.example.org/serviceStatus>
+                    "online" ;
+            <http://www.example.org/serviceStatusTime>
+                    "2020-03-12T23:23:06.757+01:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+    
+    <http://minsky.gsi.dit.upm.es/semanticwiki/index.php/Special:SPARQLEndpoint#service>
+            <http://www.example.org/serviceStatus>
+                    "offline" ;
+            <http://www.example.org/serviceStatusTime>
+                    "2020-03-12T23:23:06.757+01:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+    
+    <http://kaiko.getalp.org/sparql#service>
+            <http://www.example.org/serviceStatus>
+                    "online" ;
+            <http://www.example.org/serviceStatusTime>
+                    "2020-03-12T23:23:06.757+01:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+    
+    <http://www.inertia-linkeddata.iti.gr:9090/inertia-endpoint/#service>
+            <http://www.example.org/serviceStatus>
+                    "offline" ;
+            <http://www.example.org/serviceStatusTime>
+                    "2020-03-12T23:23:06.757+01:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+    
+    <http://http://opendata.intellidomo.es:8080/sparql/#service>
+            <http://www.example.org/serviceStatus>
+                    "offline" ;
+            <http://www.example.org/serviceStatusTime>
+                    "2020-03-12T23:23:06.757+01:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+    
+    <http://chebi.bio2rdf.org/sparql#service>
+            <http://www.example.org/serviceStatus>
+                    "offline" ;
+            <http://www.example.org/serviceStatusTime>
+                    "2020-03-12T23:23:06.757+01:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+    
+    <http://sparql.odw.tw#service>
+            <http://www.example.org/serviceStatus>
+                    "online" ;
+            <http://www.example.org/serviceStatusTime>
+                    "2020-03-12T23:23:06.757+01:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+    
+    <http://oai.rkbexplorer.com/sparql/#service>
+            <http://www.example.org/serviceStatus>
+                    "online" ;
+            <http://www.example.org/serviceStatusTime>
+                    "2020-03-12T23:23:06.757+01:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+    
+    <http://ruian.linked.opendata.cz/sparql#service>
+            <http://www.example.org/serviceStatus>
+                    "online" ;
+            <http://www.example.org/serviceStatusTime>
+                    "2020-03-12T23:23:06.757+01:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+    
+    <http://lofd.tw.rpi.edu/sparql#service>
+            <http://www.example.org/serviceStatus>
+                    "offline" ;
+            <http://www.example.org/serviceStatusTime>
+                    "2020-03-12T23:23:06.757+01:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+    
+    <http://revyu.com/sparql#service>
+            <http://www.example.org/serviceStatus>
+                    "offline" ;
+            <http://www.example.org/serviceStatusTime>
+                    "2020-03-12T23:23:06.757+01:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+    
+    <http://imash.leeds.ac.uk:8080/openrdf-workbench/repositories/AMOnSPARQL/#service>
+            <http://www.example.org/serviceStatus>
+                    "offline" ;
+            <http://www.example.org/serviceStatusTime>
+                    "2020-03-12T23:23:06.757+01:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+    
+    <http://hcls.deri.org:8080/openrdf-sesame/repositories/tcga#service>
+            <http://www.example.org/serviceStatus>
+                    "offline" ;
+            <http://www.example.org/serviceStatusTime>
+                    "2020-03-12T23:23:06.757+01:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+    
+    <http://lod.b3kat.de/sparql#service>
+            <http://www.example.org/serviceStatus>
+                    "online" ;
+            <http://www.example.org/serviceStatusTime>
+                    "2020-03-12T23:23:06.757+01:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+    
+    <http://linkeddata4.dia.fi.upm.es:8907/sparql#service>
+            <http://www.example.org/serviceStatus>
+                    "offline" ;
+            <http://www.example.org/serviceStatusTime>
+                    "2020-03-12T23:23:06.757+01:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+    
+    <http://sparql.reegle.info/#service>
+            <http://www.example.org/serviceStatus>
+                    "offline" ;
+            <http://www.example.org/serviceStatusTime>
+                    "2020-03-12T23:23:06.757+01:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+    
+    <http://fintrans.publicdata.eu/sparql#service>
+            <http://www.example.org/serviceStatus>
+                    "offline" ;
+            <http://www.example.org/serviceStatusTime>
+                    "2020-03-12T23:23:06.757+01:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+    
+    <http://202.73.13.50:55824/catalogs/performance/repositories/jita#service>
+            <http://www.example.org/serviceStatus>
+                    "offline" ;
+            <http://www.example.org/serviceStatusTime>
+                    "2020-03-12T23:23:06.757+01:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+    
+    <http://interpro.bio2rdf.org/sparql#service>
+            <http://www.example.org/serviceStatus>
+                    "offline" ;
+            <http://www.example.org/serviceStatusTime>
+                    "2020-03-12T23:23:06.757+01:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+    
+    <http://ibm.rkbexplorer.com/sparql/#service>
+            <http://www.example.org/serviceStatus>
+                    "online" ;
+            <http://www.example.org/serviceStatusTime>
+                    "2020-03-12T23:23:06.757+01:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+    
+    <http://greek-lod.auth.gr/fire-brigade/sparql#service>
+            <http://www.example.org/serviceStatus>
+                    "offline" ;
+            <http://www.example.org/serviceStatusTime>
+                    "2020-03-12T23:23:06.757+01:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+    
+    <http://agrinepaldata.com/sparql#service>
+            <http://www.example.org/serviceStatus>
+                    "offline" ;
+            <http://www.example.org/serviceStatusTime>
+                    "2020-03-12T23:23:06.757+01:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+    
+    <http://webenemasuno.linkeddata.es/sparql#service>
+            <http://www.example.org/serviceStatus>
+                    "online" ;
+            <http://www.example.org/serviceStatusTime>
+                    "2020-03-12T23:23:06.757+01:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+    
+    <http://data.linkedu.eu/forge/query#service>
+            <http://www.example.org/serviceStatus>
+                    "offline" ;
+            <http://www.example.org/serviceStatusTime>
+                    "2020-03-12T23:23:06.757+01:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+    
+    <http://helheim.deusto.es/linkedstats/sparql#service>
+            <http://www.example.org/serviceStatus>
+                    "offline" ;
+            <http://www.example.org/serviceStatusTime>
+                    "2020-03-12T23:23:06.757+01:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+    
+    <http://sabiork.bio2rdf.org/sparql#service>
+            <http://www.example.org/serviceStatus>
+                    "offline" ;
+            <http://www.example.org/serviceStatusTime>
+                    "2020-03-12T23:23:06.757+01:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+    
+    <http://labs.mondeca.com/endpoint/ends#service>
+            <http://www.example.org/serviceStatus>
+                    "offline" ;
+            <http://www.example.org/serviceStatusTime>
+                    "2020-03-12T23:23:06.757+01:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+    
+    <http://os.rkbexplorer.com/sparql/#service>
+            <http://www.example.org/serviceStatus>
+                    "online" ;
+            <http://www.example.org/serviceStatusTime>
+                    "2020-03-12T23:23:06.757+01:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+    
+    <http://www.opmw.org/sparql#service>
+            <http://www.example.org/serviceStatus>
+                    "offline" ;
+            <http://www.example.org/serviceStatusTime>
+                    "2020-03-12T23:23:06.757+01:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+    
+    <http://semantic.ckan.net/sparql/#service>
+            <http://www.example.org/serviceStatus>
+                    "offline" ;
+            <http://www.example.org/serviceStatusTime>
+                    "2020-03-12T23:23:06.757+01:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+    
+    <http://sider.bio2rdf.org/sparql#service>
+            <http://www.example.org/serviceStatus>
+                    "offline" ;
+            <http://www.example.org/serviceStatusTime>
+                    "2020-03-12T23:23:06.757+01:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+    
+    <http://el-devtc01.tugraz.at/~ldv/interlinking/endpoint_handler.php#service>
+            <http://www.example.org/serviceStatus>
+                    "offline" ;
+            <http://www.example.org/serviceStatusTime>
+                    "2020-03-12T23:23:06.757+01:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+    
+    <http://tkm.kiom.re.kr/ontology/sparql#service>
+            <http://www.example.org/serviceStatus>
+                    "offline" ;
+            <http://www.example.org/serviceStatusTime>
+                    "2020-03-12T23:23:06.757+01:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+    
+    <http://newcastle.rkbexplorer.com/sparql/#service>
+            <http://www.example.org/serviceStatus>
+                    "online" ;
+            <http://www.example.org/serviceStatusTime>
+                    "2020-03-12T23:23:06.757+01:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+    
+    <http://colinda.org/endpoint.php#service>
+            <http://www.example.org/serviceStatus>
+                    "online" ;
+            <http://www.example.org/serviceStatusTime>
+                    "2020-03-12T23:23:06.757+01:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+    
+    <http://biopax.pharmgkb.bio2rdf.org/sparql#service>
+            <http://www.example.org/serviceStatus>
+                    "offline" ;
+            <http://www.example.org/serviceStatusTime>
+                    "2020-03-12T23:23:06.757+01:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+    
+    <http://farolas.linkeddata.es/sparql#service>
+            <http://www.example.org/serviceStatus>
+                    "online" ;
+            <http://www.example.org/serviceStatusTime>
+                    "2020-03-12T23:23:06.757+01:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+    
+    <http://www4.wiwiss.fu-berlin.de/dblp/sparql#service>
+            <http://www.example.org/serviceStatus>
+                    "offline" ;
+            <http://www.example.org/serviceStatusTime>
+                    "2020-03-12T23:23:06.757+01:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+    
+    <http://data.linkedu.eu/hud/query#service>
+            <http://www.example.org/serviceStatus>
+                    "offline" ;
+            <http://www.example.org/serviceStatusTime>
+                    "2020-03-12T23:23:06.757+01:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+    
+    <http://api.talis.com/stores/massobservation/services/sparql#service>
+            <http://www.example.org/serviceStatus>
+                    "offline" ;
+            <http://www.example.org/serviceStatusTime>
+                    "2020-03-12T23:23:06.757+01:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+    
+    <http://www.linklion.org:8890/sparql#service>
+            <http://www.example.org/serviceStatus>
+                    "online" ;
+            <http://www.example.org/serviceStatusTime>
+                    "2020-03-12T23:23:06.757+01:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+    
+    <http://www4.wiwiss.fu-berlin.de/dailymed/sparql#service>
+            <http://www.example.org/serviceStatus>
+                    "offline" ;
+            <http://www.example.org/serviceStatusTime>
+                    "2020-03-12T23:23:06.757+01:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+    
+    <http://services.data.gov.uk/business/sparql#service>
+            <http://www.example.org/serviceStatus>
+                    "offline" ;
+            <http://www.example.org/serviceStatusTime>
+                    "2020-03-12T23:23:06.757+01:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+    
+    <http://data.lod2.eu/sparql#service>
+            <http://www.example.org/serviceStatus>
+                    "offline" ;
+            <http://www.example.org/serviceStatusTime>
+                    "2020-03-12T23:23:06.757+01:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+    
+    <http://geografia.ideca.gov.co/fuseki/dataset.html?tab=query&ds=/inf#service>
+            <http://www.example.org/serviceStatus>
+                    "offline" ;
+            <http://www.example.org/serviceStatusTime>
+                    "2020-03-12T23:23:06.757+01:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+    
+    <http://api.kasabi.com/dataset/federal-reserve-economic-data/apis/sparql#service>
+            <http://www.example.org/serviceStatus>
+                    "offline" ;
+            <http://www.example.org/serviceStatusTime>
+                    "2020-03-12T23:23:06.757+01:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+    
+    <http://www4.wiwiss.fu-berlin.de/cordis/sparql#service>
+            <http://www.example.org/serviceStatus>
+                    "offline" ;
+            <http://www.example.org/serviceStatusTime>
+                    "2020-03-12T23:23:06.757+01:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+    
+    <https://www.ebi.ac.uk/rdf/services/biosamples/sparql#service>
+            <http://www.example.org/serviceStatus>
+                    "offline" ;
+            <http://www.example.org/serviceStatusTime>
+                    "2020-03-12T23:23:06.757+01:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+    
+    <http://eculture2.cs.vu.nl:8890/sparql#service>
+            <http://www.example.org/serviceStatus>
+                    "offline" ;
+            <http://www.example.org/serviceStatusTime>
+                    "2020-03-12T23:23:06.757+01:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+    
+    <http://opendatacommunities.org/sparql#service>
+            <http://www.example.org/serviceStatus>
+                    "online" ;
+            <http://www.example.org/serviceStatusTime>
+                    "2020-03-12T23:23:06.757+01:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+    
+    <http://worldbank.270a.info/sparql#service>
+            <http://www.example.org/serviceStatus>
+                    "offline" ;
+            <http://www.example.org/serviceStatusTime>
+                    "2020-03-12T23:23:06.757+01:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+    
+    <http://api.talis.com/stores/ordnance-survey/services/sparql#service>
+            <http://www.example.org/serviceStatus>
+                    "offline" ;
+            <http://www.example.org/serviceStatusTime>
+                    "2020-03-12T23:23:06.757+01:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+    
+    <http://api.talis.com/stores/rsinger-dev4/services/sparql#service>
+            <http://www.example.org/serviceStatus>
+                    "offline" ;
+            <http://www.example.org/serviceStatusTime>
+                    "2020-03-12T23:23:06.757+01:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+    
+    <http://fr.dbpedia.org/sparql#service>
+            <http://www.example.org/serviceStatus>
+                    "online" ;
+            <http://www.example.org/serviceStatusTime>
+                    "2020-03-12T23:23:06.757+01:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+    
+    <http://sparql.msc2010.org#service>
+            <http://www.example.org/serviceStatus>
+                    "offline" ;
+            <http://www.example.org/serviceStatusTime>
+                    "2020-03-12T23:23:06.757+01:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+    
+    <http://api.kasabi.com/dataset/openflights-routes/apis/sparql#service>
+            <http://www.example.org/serviceStatus>
+                    "offline" ;
+            <http://www.example.org/serviceStatusTime>
+                    "2020-03-12T23:23:06.757+01:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+    
+    <http://darmstadt.rkbexplorer.com/sparql/#service>
+            <http://www.example.org/serviceStatus>
+                    "online" ;
+            <http://www.example.org/serviceStatusTime>
+                    "2020-03-12T23:23:06.757+01:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+    
+    <http://babelnet.org/sparql/#service>
+            <http://www.example.org/serviceStatus>
+                    "offline" ;
+            <http://www.example.org/serviceStatusTime>
+                    "2020-03-12T23:23:06.757+01:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+    
+    <http://digitale.bncf.firenze.sbn.it/openrdf-workbench/repositories/NS/query#service>
+            <http://www.example.org/serviceStatus>
+                    "offline" ;
+            <http://www.example.org/serviceStatusTime>
+                    "2020-03-12T23:23:06.757+01:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+    
+    <http://heritagedata.org/live/sparql#service>
+            <http://www.example.org/serviceStatus>
+                    "offline" ;
+            <http://www.example.org/serviceStatusTime>
+                    "2020-03-12T23:23:06.757+01:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+    
+    <http://sparql.sindice.com/sparql#service>
+            <http://www.example.org/serviceStatus>
+                    "offline" ;
+            <http://www.example.org/serviceStatusTime>
+                    "2020-03-12T23:23:06.757+01:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+    
+    <http://www.sparql.org/sparql.html#service>
+            <http://www.example.org/serviceStatus>
+                    "offline" ;
+            <http://www.example.org/serviceStatusTime>
+                    "2020-03-12T23:23:06.757+01:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+    
+    <http://www.crystallography.net:2020/snorql/#service>
+            <http://www.example.org/serviceStatus>
+                    "offline" ;
+            <http://www.example.org/serviceStatusTime>
+                    "2020-03-12T23:23:06.757+01:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+    
+    <http://api.talis.com/stores/jgoodwin-genealogy/services/sparql#service>
+            <http://www.example.org/serviceStatus>
+                    "offline" ;
+            <http://www.example.org/serviceStatusTime>
+                    "2020-03-12T23:23:06.757+01:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+    
+    <http://linguistic.linkeddata.es/terminesp/sparql-editor#service>
+            <http://www.example.org/serviceStatus>
+                    "online" ;
+            <http://www.example.org/serviceStatusTime>
+                    "2020-03-12T23:23:06.757+01:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+    
+    <http://api.talis.com/stores/smcjournals/services/sparql#service>
+            <http://www.example.org/serviceStatus>
+                    "offline" ;
+            <http://www.example.org/serviceStatusTime>
+                    "2020-03-12T23:23:06.757+01:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+    
+    <http://sparql.data.southampton.ac.uk/#service>
+            <http://www.example.org/serviceStatus>
+                    "online" ;
+            <http://www.example.org/serviceStatusTime>
+                    "2020-03-12T23:23:06.757+01:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+    
+    <http://zhishi.me/sparql#service>
+            <http://www.example.org/serviceStatus>
+                    "offline" ;
+            <http://www.example.org/serviceStatusTime>
+                    "2020-03-12T23:23:06.757+01:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+    
+    <http://data.uni-muenster.de/sparql#service>
+            <http://www.example.org/serviceStatus>
+                    "offline" ;
+            <http://www.example.org/serviceStatusTime>
+                    "2020-03-12T23:23:06.757+01:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+    
+    <http://semantic.eea.europa.eu/sparql#service>
+            <http://www.example.org/serviceStatus>
+                    "online" ;
+            <http://www.example.org/serviceStatusTime>
+                    "2020-03-12T23:23:06.757+01:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+    
+    <http://hunter-cuny.eagle-i.net/sparqler/sparql#service>
+            <http://www.example.org/serviceStatus>
+                    "online" ;
+            <http://www.example.org/serviceStatusTime>
+                    "2020-03-12T23:23:06.757+01:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+    
+    <http://data.rism.info/sparql#service>
+            <http://www.example.org/serviceStatus>
+                    "offline" ;
+            <http://www.example.org/serviceStatusTime>
+                    "2020-03-12T23:23:06.757+01:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+    
+    <http://southampton.rkbexplorer.com/sparql/#service>
+            <http://www.example.org/serviceStatus>
+                    "online" ;
+            <http://www.example.org/serviceStatusTime>
+                    "2020-03-12T23:23:06.757+01:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+    
+    <http://ecb.publicdata.eu/sparql#service>
+            <http://www.example.org/serviceStatus>
+                    "offline" ;
+            <http://www.example.org/serviceStatusTime>
+                    "2020-03-12T23:23:06.757+01:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+    
+    <http://vocab.nerc.ac.uk/sparql/#service>
+            <http://www.example.org/serviceStatus>
+                    "offline" ;
+            <http://www.example.org/serviceStatusTime>
+                    "2020-03-12T23:23:06.757+01:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+    
+    <http://sparql.linkedopendata.it/grrp#service>
+            <http://www.example.org/serviceStatus>
+                    "offline" ;
+            <http://www.example.org/serviceStatusTime>
+                    "2020-03-12T23:23:06.757+01:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+    
+    <http://data.linkededucation.org/request/ted/sparql#service>
+            <http://www.example.org/serviceStatus>
+                    "offline" ;
+            <http://www.example.org/serviceStatusTime>
+                    "2020-03-12T23:23:06.757+01:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+    
+    <http://hgnc.bio2rdf.org/sparql#service>
+            <http://www.example.org/serviceStatus>
+                    "offline" ;
+            <http://www.example.org/serviceStatusTime>
+                    "2020-03-12T23:23:06.757+01:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+    
+    <http://linkedspl.bio2rdf.org/sparql#service>
+            <http://www.example.org/serviceStatus>
+                    "offline" ;
+            <http://www.example.org/serviceStatusTime>
+                    "2020-03-12T23:23:06.757+01:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+    
+    <http://logd.tw.rpi.edu/sparql#service>
+            <http://www.example.org/serviceStatus>
+                    "offline" ;
+            <http://www.example.org/serviceStatusTime>
+                    "2020-03-12T23:23:06.757+01:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+    
+    <http://id.ndl.go.jp/auth/ndlsh/#service>
+            <http://www.example.org/serviceStatus>
+                    "online" ;
+            <http://www.example.org/serviceStatusTime>
+                    "2020-03-12T23:23:06.757+01:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+    
+    <http://data.linkedu.eu/kis1112/query#service>
+            <http://www.example.org/serviceStatus>
+                    "offline" ;
+            <http://www.example.org/serviceStatusTime>
+                    "2020-03-12T23:23:06.757+01:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+    
+    <http://www.influencetracker.com:8890/sparql#service>
+            <http://www.example.org/serviceStatus>
+                    "online" ;
+            <http://www.example.org/serviceStatusTime>
+                    "2020-03-12T23:23:06.757+01:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+    
+    <http://symbolicdata.org:8890/sparql#service>
+            <http://www.example.org/serviceStatus>
+                    "online" ;
+            <http://www.example.org/serviceStatusTime>
+                    "2020-03-12T23:23:06.757+01:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+    
+    <http://data.logainm.ie/sparql#service>
+            <http://www.example.org/serviceStatus>
+                    "online" ;
+            <http://www.example.org/serviceStatusTime>
+                    "2020-03-12T23:23:06.757+01:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+    
+    <http://vocabulary.semantic-web.at/PoolParty/sparql/OpenData#service>
+            <http://www.example.org/serviceStatus>
+                    "online" ;
+            <http://www.example.org/serviceStatusTime>
+                    "2020-03-12T23:23:06.757+01:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+    
+    <http://eurecom.rkbexplorer.com/sparql/#service>
+            <http://www.example.org/serviceStatus>
+                    "online" ;
+            <http://www.example.org/serviceStatusTime>
+                    "2020-03-12T23:23:06.757+01:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+    
+    <http://www.lotico.com:3030/lotico/sparql#service>
+            <http://www.example.org/serviceStatus>
+                    "online" ;
+            <http://www.example.org/serviceStatusTime>
+                    "2020-03-12T23:23:06.757+01:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+    
+    <http://data.bibbase.org:2020/sparql#service>
+            <http://www.example.org/serviceStatus>
+                    "offline" ;
+            <http://www.example.org/serviceStatusTime>
+                    "2020-03-12T23:23:06.757+01:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+    
+    <http://rhea.bio2rdf.org/sparql#service>
+            <http://www.example.org/serviceStatus>
+                    "offline" ;
+            <http://www.example.org/serviceStatusTime>
+                    "2020-03-12T23:23:06.757+01:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+    
+    <http://citeseer.rkbexplorer.com/sparql/#service>
+            <http://www.example.org/serviceStatus>
+                    "online" ;
+            <http://www.example.org/serviceStatusTime>
+                    "2020-03-12T23:23:06.757+01:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+    
+    <http://www4.wiwiss.fu-berlin.de/gutendata/sparql#service>
+            <http://www.example.org/serviceStatus>
+                    "offline" ;
+            <http://www.example.org/serviceStatusTime>
+                    "2020-03-12T23:23:06.757+01:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+    
+    <http://eur-lex.publicdata.eu/sparql#service>
+            <http://www.example.org/serviceStatus>
+                    "offline" ;
+            <http://www.example.org/serviceStatusTime>
+                    "2020-03-12T23:23:06.757+01:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+    
+    <http://resource.geolba.ac.at/PoolParty/sparql/GeologicUnit#service>
+            <http://www.example.org/serviceStatus>
+                    "online" ;
+            <http://www.example.org/serviceStatusTime>
+                    "2020-03-12T23:23:06.757+01:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+    
+    <http://os.services.tso.co.uk/geo/sparql#service>
+            <http://www.example.org/serviceStatus>
+                    "offline" ;
+            <http://www.example.org/serviceStatusTime>
+                    "2020-03-12T23:23:06.757+01:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+    
+    <http://skos.um.es/sparql/#service>
+            <http://www.example.org/serviceStatus>
+                    "online" ;
+            <http://www.example.org/serviceStatusTime>
+                    "2020-03-12T23:23:06.757+01:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+    
+    <http://api.kasabi.com/dataset/renewable-energy-generators/apis/sparql#service>
+            <http://www.example.org/serviceStatus>
+                    "offline" ;
+            <http://www.example.org/serviceStatusTime>
+                    "2020-03-12T23:23:06.757+01:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+    
+    <http://data.oceandrilling.org/sparql#service>
+            <http://www.example.org/serviceStatus>
+                    "offline" ;
+            <http://www.example.org/serviceStatusTime>
+                    "2020-03-12T23:23:06.757+01:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+    
+    <http://inoh.bio2rdf.org/sparql#service>
+            <http://www.example.org/serviceStatus>
+                    "offline" ;
+            <http://www.example.org/serviceStatusTime>
+                    "2020-03-12T23:23:06.757+01:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+    
+    <http://biolit.rkbexplorer.com/sparql#service>
+            <http://www.example.org/serviceStatus>
+                    "online" ;
+            <http://www.example.org/serviceStatusTime>
+                    "2020-03-12T23:23:06.757+01:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+    
+    <http://api.kasabi.com/dataset/prelinger-archives/apis/sparql#service>
+            <http://www.example.org/serviceStatus>
+                    "offline" ;
+            <http://www.example.org/serviceStatusTime>
+                    "2020-03-12T23:23:06.757+01:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+    
+    <http://biopax.kegg.bio2rdf.org/sparql#service>
+            <http://www.example.org/serviceStatus>
+                    "offline" ;
+            <http://www.example.org/serviceStatusTime>
+                    "2020-03-12T23:23:06.757+01:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+    
+    <http://dati.camera.it/sparql#service>
+            <http://www.example.org/serviceStatus>
+                    "online" ;
+            <http://www.example.org/serviceStatusTime>
+                    "2020-03-12T23:23:06.757+01:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+    
+    <http://el.dbpedia.org/sparql#service>
+            <http://www.example.org/serviceStatus>
+                    "online" ;
+            <http://www.example.org/serviceStatusTime>
+                    "2020-03-12T23:23:06.757+01:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+    
+    <http://api.talis.com/stores/moseley/services/sparql#service>
+            <http://www.example.org/serviceStatus>
+                    "offline" ;
+            <http://www.example.org/serviceStatusTime>
+                    "2020-03-12T23:23:06.757+01:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+    
+    <http://data.cnr.it/sparql-proxy/#service>
+            <http://www.example.org/serviceStatus>
+                    "online" ;
+            <http://www.example.org/serviceStatusTime>
+                    "2020-03-12T23:23:06.757+01:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+    
+    <http://cr.eionet.europa.eu/sparql#service>
+            <http://www.example.org/serviceStatus>
+                    "online" ;
+            <http://www.example.org/serviceStatusTime>
+                    "2020-03-12T23:23:06.757+01:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+    
+    <http://eu.dbpedia.org/sparql#service>
+            <http://www.example.org/serviceStatus>
+                    "online" ;
+            <http://www.example.org/serviceStatusTime>
+                    "2020-03-12T23:23:06.757+01:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+    
+    <http://wordnet.rkbexplorer.com/sparql/#service>
+            <http://www.example.org/serviceStatus>
+                    "online" ;
+            <http://www.example.org/serviceStatusTime>
+                    "2020-03-12T23:23:06.757+01:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+    
+    <http://dbtune.org/myspace/sparql/#service>
+            <http://www.example.org/serviceStatus>
+                    "offline" ;
+            <http://www.example.org/serviceStatusTime>
+                    "2020-03-12T23:23:06.757+01:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+    
+    <http://twarql.org:8890/sparql#service>
+            <http://www.example.org/serviceStatus>
+                    "offline" ;
+            <http://www.example.org/serviceStatusTime>
+                    "2020-03-12T23:23:06.757+01:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+    
+    <http://91.239.64.176:8890/sparql#service>
+            <http://www.example.org/serviceStatus>
+                    "offline" ;
+            <http://www.example.org/serviceStatusTime>
+                    "2020-03-12T23:23:06.757+01:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+    
+    <http://api.talis.com/stores/bbc-backstage/services/sparql#service>
+            <http://www.example.org/serviceStatus>
+                    "offline" ;
+            <http://www.example.org/serviceStatusTime>
+                    "2020-03-12T23:23:06.757+01:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+    
+    <http://data.linkedct.org/sparql#service>
+            <http://www.example.org/serviceStatus>
+                    "offline" ;
+            <http://www.example.org/serviceStatusTime>
+                    "2020-03-12T23:23:06.757+01:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+    
+    <http://doc.metalex.eu:8000/sparql/#service>
+            <http://www.example.org/serviceStatus>
+                    "offline" ;
+            <http://www.example.org/serviceStatusTime>
+                    "2020-03-12T23:23:06.757+01:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+    
+    <http://semanticweb.cs.vu.nl/europeana/sparql/#service>
+            <http://www.example.org/serviceStatus>
+                    "offline" ;
+            <http://www.example.org/serviceStatusTime>
+                    "2020-03-12T23:23:06.757+01:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+    
+    <http://taxonomy.bio2rdf.org/sparql#service>
+            <http://www.example.org/serviceStatus>
+                    "offline" ;
+            <http://www.example.org/serviceStatusTime>
+                    "2020-03-12T23:23:06.757+01:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+    
+    <http://factforge.net/sparql#service>
+            <http://www.example.org/serviceStatus>
+                    "offline" ;
+            <http://www.example.org/serviceStatusTime>
+                    "2020-03-12T23:23:06.757+01:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+    
+    <http://homologene.bio2rdf.org/sparql#service>
+            <http://www.example.org/serviceStatus>
+                    "offline" ;
+            <http://www.example.org/serviceStatusTime>
+                    "2020-03-12T23:23:06.757+01:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+    
+    <http://dutchshipsandsailors.nl/data/sparql/#service>
+            <http://www.example.org/serviceStatus>
+                    "online" ;
+            <http://www.example.org/serviceStatusTime>
+                    "2020-03-12T23:23:06.757+01:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+    
+    <http://www4.wiwiss.fu-berlin.de/eurostat/sparql#service>
+            <http://www.example.org/serviceStatus>
+                    "offline" ;
+            <http://www.example.org/serviceStatusTime>
+                    "2020-03-12T23:23:06.757+01:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+    
+    <http://deepblue.rkbexplorer.com/sparql/#service>
+            <http://www.example.org/serviceStatus>
+                    "online" ;
+            <http://www.example.org/serviceStatusTime>
+                    "2020-03-12T23:23:06.757+01:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+    
+    <http://data-gov.ie/sparql#service>
+            <http://www.example.org/serviceStatus>
+                    "offline" ;
+            <http://www.example.org/serviceStatusTime>
+                    "2020-03-12T23:23:06.757+01:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+    
+    <http://environment.data.gov.uk/sparql/bwq/query#service>
+            <http://www.example.org/serviceStatus>
+                    "online" ;
+            <http://www.example.org/serviceStatusTime>
+                    "2020-03-12T23:23:06.757+01:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+    
+    <http://famu.eagle-i.net/sparqler/sparql#service>
+            <http://www.example.org/serviceStatus>
+                    "online" ;
+            <http://www.example.org/serviceStatusTime>
+                    "2020-03-12T23:23:06.757+01:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+    
+    <http://www4.wiwiss.fu-berlin.de/euraxess/sparql#service>
+            <http://www.example.org/serviceStatus>
+                    "offline" ;
+            <http://www.example.org/serviceStatusTime>
+                    "2020-03-12T23:23:06.757+01:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+    
+    <http://id.ndl.go.jp/auth/ndla/#service>
+            <http://www.example.org/serviceStatus>
+                    "online" ;
+            <http://www.example.org/serviceStatusTime>
+                    "2020-03-12T23:23:06.757+01:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+    
+    <http://academia6.poolparty.biz/PoolParty/sparql/Tesauro-Materias-BUPM#service>
+            <http://www.example.org/serviceStatus>
+                    "offline" ;
+            <http://www.example.org/serviceStatusTime>
+                    "2020-03-12T23:23:06.757+01:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+    
+    <http://sparql.linkedopendata.it/scuole#service>
+            <http://www.example.org/serviceStatus>
+                    "offline" ;
+            <http://www.example.org/serviceStatusTime>
+                    "2020-03-12T23:23:06.757+01:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+    
+    <http://afcsid.bio2rdf.org/sparql#service>
+            <http://www.example.org/serviceStatus>
+                    "offline" ;
+            <http://www.example.org/serviceStatusTime>
+                    "2020-03-12T23:23:06.757+01:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+    
+    <http://ecb.270a.info/sparql#service>
+            <http://www.example.org/serviceStatus>
+                    "offline" ;
+            <http://www.example.org/serviceStatusTime>
+                    "2020-03-12T23:23:06.757+01:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+    
+    <http://foreign.rkbexplorer.com/sparql/#service>
+            <http://www.example.org/serviceStatus>
+                    "online" ;
+            <http://www.example.org/serviceStatusTime>
+                    "2020-03-12T23:23:06.757+01:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+    
+    <http://eculture2.cs.vu.nl:5020/sparql/#service>
+            <http://www.example.org/serviceStatus>
+                    "offline" ;
+            <http://www.example.org/serviceStatusTime>
+                    "2020-03-12T23:23:06.757+01:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+    
+    <http://services.data.gov.uk/research/sparql#service>
+            <http://www.example.org/serviceStatus>
+                    "offline" ;
+            <http://www.example.org/serviceStatusTime>
+                    "2020-03-12T23:23:06.757+01:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+    
+    <http://acm.rkbexplorer.com/sparql/#service>
+            <http://www.example.org/serviceStatus>
+                    "online" ;
+            <http://www.example.org/serviceStatusTime>
+                    "2020-03-12T23:23:06.757+01:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+    
+    <http://montana.eagle-i.net/sparqler/sparql#service>
+            <http://www.example.org/serviceStatus>
+                    "online" ;
+            <http://www.example.org/serviceStatusTime>
+                    "2020-03-12T23:23:06.757+01:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+    
+    <http://api.kasabi.com/dataset/bricklink/apis/sparql#service>
+            <http://www.example.org/serviceStatus>
+                    "offline" ;
+            <http://www.example.org/serviceStatusTime>
+                    "2020-03-12T23:23:06.757+01:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+    
+    <http://sparql.yovisto.com/#service>
+            <http://www.example.org/serviceStatus>
+                    "offline" ;
+            <http://www.example.org/serviceStatusTime>
+                    "2020-03-12T23:23:06.757+01:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+    
+    <http://data.semanticuniverse.com/sparql#service>
+            <http://www.example.org/serviceStatus>
+                    "offline" ;
+            <http://www.example.org/serviceStatusTime>
+                    "2020-03-12T23:23:06.757+01:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+    
+    <http://deploy.rkbexplorer.com/sparql/#service>
+            <http://www.example.org/serviceStatus>
+                    "online" ;
+            <http://www.example.org/serviceStatusTime>
+                    "2020-03-12T23:23:06.757+01:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+    
+    <http://nomisma.org/sparql#service>
+            <http://www.example.org/serviceStatus>
+                    "offline" ;
+            <http://www.example.org/serviceStatusTime>
+                    "2020-03-12T23:23:06.757+01:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+    
+    <http://visualdataweb.infor.uva.es/sparql#service>
+            <http://www.example.org/serviceStatus>
+                    "offline" ;
+            <http://www.example.org/serviceStatusTime>
+                    "2020-03-12T23:23:06.757+01:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+    
+    <http://api.kasabi.com/dataset/ecco-tcp-eighteenth-century-collections-online-texts/apis/sparql#service>
+            <http://www.example.org/serviceStatus>
+                    "offline" ;
+            <http://www.example.org/serviceStatusTime>
+                    "2020-03-12T23:23:06.757+01:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+    
+    <http://dbtune.org/classical/sparql/#service>
+            <http://www.example.org/serviceStatus>
+                    "online" ;
+            <http://www.example.org/serviceStatusTime>
+                    "2020-03-12T23:23:06.757+01:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+    
+    <http://catalogus-professorum.org/sparql#service>
+            <http://www.example.org/serviceStatus>
+                    "offline" ;
+            <http://www.example.org/serviceStatusTime>
+                    "2020-03-12T23:23:06.757+01:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+    
+    <http://data.fundacionctic.org/sparql#service>
+            <http://www.example.org/serviceStatus>
+                    "offline" ;
+            <http://www.example.org/serviceStatusTime>
+                    "2020-03-12T23:23:06.757+01:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+    
+    <http://www.open-biomed.org.uk/sparql/endpoint/tcm#service>
+            <http://www.example.org/serviceStatus>
+                    "offline" ;
+            <http://www.example.org/serviceStatusTime>
+                    "2020-03-12T23:23:06.757+01:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+    
+    <http://wikipathways.bio2rdf.org/sparql#service>
+            <http://www.example.org/serviceStatus>
+                    "offline" ;
+            <http://www.example.org/serviceStatusTime>
+                    "2020-03-12T23:23:06.757+01:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+    
+    <http://www.rechercheisidore.fr/sparql#service>
+            <http://www.example.org/serviceStatus>
+                    "online" ;
+            <http://www.example.org/serviceStatusTime>
+                    "2020-03-12T23:23:06.757+01:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+    
+    <http://semantic-web-journal.com:3030/sparql.tpl#service>
+            <http://www.example.org/serviceStatus>
+                    "offline" ;
+            <http://www.example.org/serviceStatusTime>
+                    "2020-03-12T23:23:06.757+01:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+    
+    <http://link.informatics.stonybrook.edu/sparql/#service>
+            <http://www.example.org/serviceStatus>
+                    "offline" ;
+            <http://www.example.org/serviceStatusTime>
+                    "2020-03-12T23:23:06.757+01:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+    
+    <http://eventmedia.eurecom.fr/sparql#service>
+            <http://www.example.org/serviceStatus>
+                    "online" ;
+            <http://www.example.org/serviceStatusTime>
+                    "2020-03-12T23:23:06.757+01:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+    
+    <http://notube.rkbexplorer.com/sparql#service>
+            <http://www.example.org/serviceStatus>
+                    "offline" ;
+            <http://www.example.org/serviceStatusTime>
+                    "2020-03-12T23:23:06.757+01:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+    
+    <http://api.kasabi.com/dataset/english-heritage/apis/sparql#service>
+            <http://www.example.org/serviceStatus>
+                    "offline" ;
+            <http://www.example.org/serviceStatusTime>
+                    "2020-03-12T23:23:06.757+01:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+    
+    <http://greek-lod.auth.gr/police/sparql#service>
+            <http://www.example.org/serviceStatus>
+                    "offline" ;
+            <http://www.example.org/serviceStatusTime>
+                    "2020-03-12T23:23:06.757+01:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+    
+    <http://gov.tso.co.uk/legislation/sparql#service>
+            <http://www.example.org/serviceStatus>
+                    "offline" ;
+            <http://www.example.org/serviceStatusTime>
+                    "2020-03-12T23:23:06.757+01:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+    
+    <http://156.35.31.156/sparql#service>
+            <http://www.example.org/serviceStatus>
+                    "offline" ;
+            <http://www.example.org/serviceStatusTime>
+                    "2020-03-12T23:23:06.757+01:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+    
+    <http://sparql.contextdatacloud.org#service>
+            <http://www.example.org/serviceStatus>
+                    "offline" ;
+            <http://www.example.org/serviceStatusTime>
+                    "2020-03-12T23:23:06.757+01:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+    
+    <http://api.talis.com/stores/musicbrainz/services/sparql#service>
+            <http://www.example.org/serviceStatus>
+                    "offline" ;
+            <http://www.example.org/serviceStatusTime>
+                    "2020-03-12T23:23:06.757+01:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+    
+    <http://crtm.linkeddata.es/sparql#service>
+            <http://www.example.org/serviceStatus>
+                    "online" ;
+            <http://www.example.org/serviceStatusTime>
+                    "2020-03-12T23:23:06.757+01:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+    
+    <http://data.noticias.universia.net/d2r-server/snorql/#service>
+            <http://www.example.org/serviceStatus>
+                    "offline" ;
+            <http://www.example.org/serviceStatusTime>
+                    "2020-03-12T23:23:06.757+01:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+    
+    <http://cdrewu.eagle-i.net/sparqler/sparql#service>
+            <http://www.example.org/serviceStatus>
+                    "online" ;
+            <http://www.example.org/serviceStatusTime>
+                    "2020-03-12T23:23:06.757+01:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+    
+    <http://jisc.rkbexplorer.com/sparql/#service>
+            <http://www.example.org/serviceStatus>
+                    "online" ;
+            <http://www.example.org/serviceStatusTime>
+                    "2020-03-12T23:23:06.757+01:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+    
+    <http://reactome.bio2rdf.org/sparql#service>
+            <http://www.example.org/serviceStatus>
+                    "offline" ;
+            <http://www.example.org/serviceStatusTime>
+                    "2020-03-12T23:23:06.757+01:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+    
+    <http://lov.okfn.org/endpoint/lov#service>
+            <http://www.example.org/serviceStatus>
+                    "offline" ;
+            <http://www.example.org/serviceStatusTime>
+                    "2020-03-12T23:23:06.757+01:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+    
+    <http://api.kasabi.com/dataset/sanskrit-english-lexicon/apis/sparql#service>
+            <http://www.example.org/serviceStatus>
+                    "offline" ;
+            <http://www.example.org/serviceStatusTime>
+                    "2020-03-12T23:23:06.757+01:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+    
+    <http://spatial.ucd.ie/lod/sparql#service>
+            <http://www.example.org/serviceStatus>
+                    "offline" ;
+            <http://www.example.org/serviceStatusTime>
+                    "2020-03-12T23:23:06.757+01:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+    
+    <http://italy.rkbexplorer.com/sparql#service>
+            <http://www.example.org/serviceStatus>
+                    "online" ;
+            <http://www.example.org/serviceStatusTime>
+                    "2020-03-12T23:23:06.757+01:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+    
+    <http://lsd.taxonconcept.org/sparql#service>
+            <http://www.example.org/serviceStatus>
+                    "offline" ;
+            <http://www.example.org/serviceStatusTime>
+                    "2020-03-12T23:23:06.757+01:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+    
+    <http://wormbase.bio2rdf.org/sparql#service>
+            <http://www.example.org/serviceStatus>
+                    "offline" ;
+            <http://www.example.org/serviceStatusTime>
+                    "2020-03-12T23:23:06.757+01:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+    
+    <http://mgi.bio2rdf.org/sparql#service>
+            <http://www.example.org/serviceStatus>
+                    "offline" ;
+            <http://www.example.org/serviceStatusTime>
+                    "2020-03-12T23:23:06.757+01:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+    
+    <http://linkeddata.ge.imati.cnr.it:8890/sparql#service>
+            <http://www.example.org/serviceStatus>
+                    "online" ;
+            <http://www.example.org/serviceStatusTime>
+                    "2020-03-12T23:23:06.757+01:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+    
+    <http://hawaii.eagle-i.net/sparqler/sparql#service>
+            <http://www.example.org/serviceStatus>
+                    "online" ;
+            <http://www.example.org/serviceStatusTime>
+                    "2020-03-12T23:23:06.757+01:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+    
+    <http://linkedgeodata.org/sparql/#service>
+            <http://www.example.org/serviceStatus>
+                    "online" ;
+            <http://www.example.org/serviceStatusTime>
+                    "2020-03-12T23:23:06.757+01:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+    
+    <http://services.insemtives.eu/forest/sparql#service>
+            <http://www.example.org/serviceStatus>
+                    "offline" ;
+            <http://www.example.org/serviceStatusTime>
+                    "2020-03-12T23:23:06.757+01:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+    
+    <http://tcga.deri.ie#service>
+            <http://www.example.org/serviceStatus>
+                    "offline" ;
+            <http://www.example.org/serviceStatusTime>
+                    "2020-03-12T23:23:06.757+01:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+    
+    <http://iproclass.bio2rdf.org/sparql#service>
+            <http://www.example.org/serviceStatus>
+                    "offline" ;
+            <http://www.example.org/serviceStatusTime>
+                    "2020-03-12T23:23:06.757+01:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+    
+    <http://ndb.publink.lod2.eu/sparql#service>
+            <http://www.example.org/serviceStatus>
+                    "offline" ;
+            <http://www.example.org/serviceStatusTime>
+                    "2020-03-12T23:23:06.757+01:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+    
+    <http://services.data.gov.uk/education/sparql#service>
+            <http://www.example.org/serviceStatus>
+                    "offline" ;
+            <http://www.example.org/serviceStatusTime>
+                    "2020-03-12T23:23:06.757+01:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+    
+    <http://dartmouth.eagle-i.net/sparqler/sparql#service>
+            <http://www.example.org/serviceStatus>
+                    "offline" ;
+            <http://www.example.org/serviceStatusTime>
+                    "2020-03-12T23:23:06.757+01:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+    
+    <http://data.aalto.fi/sparql#service>
+            <http://www.example.org/serviceStatus>
+                    "offline" ;
+            <http://www.example.org/serviceStatusTime>
+                    "2020-03-12T23:23:06.757+01:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+    
+    <http://data.archiveshub.ac.uk/sparql#service>
+            <http://www.example.org/serviceStatus>
+                    "online" ;
+            <http://www.example.org/serviceStatusTime>
+                    "2020-03-12T23:23:06.757+01:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+    
+    <http://data.linkedu.eu/don/query#service>
+            <http://www.example.org/serviceStatus>
+                    "offline" ;
+            <http://www.example.org/serviceStatusTime>
+                    "2020-03-12T23:23:06.757+01:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+    
+    <http://genbank.bio2rdf.org/sparql#service>
+            <http://www.example.org/serviceStatus>
+                    "offline" ;
+            <http://www.example.org/serviceStatusTime>
+                    "2020-03-12T23:23:06.757+01:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+    
+    <http://lod.ac/bdls/sparql#service>
+            <http://www.example.org/serviceStatus>
+                    "offline" ;
+            <http://www.example.org/serviceStatusTime>
+                    "2020-03-12T23:23:06.757+01:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+    
+    <http://onto.mondis.cz/openrdf-sesame/repositories/mondis-record-owlim#service>
+            <http://www.example.org/serviceStatus>
+                    "online" ;
+            <http://www.example.org/serviceStatusTime>
+                    "2020-03-12T23:23:06.757+01:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+    
+    <https://dbmi-icode-01.dbmi.pitt.edu/sparql#service>
+            <http://www.example.org/serviceStatus>
+                    "online" ;
+            <http://www.example.org/serviceStatusTime>
+                    "2020-03-12T23:23:06.757+01:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+    
+    <http://purl.org/twc/arrayexpress/virtuoso/sparql#service>
+            <http://www.example.org/serviceStatus>
+                    "offline" ;
+            <http://www.example.org/serviceStatusTime>
+                    "2020-03-12T23:23:06.757+01:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+    
+    <http://meharry.eagle-i.net/sparqler/sparql#service>
+            <http://www.example.org/serviceStatus>
+                    "online" ;
+            <http://www.example.org/serviceStatusTime>
+                    "2020-03-12T23:23:06.757+01:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+    
+    <http://biomodels.bio2rdf.org/sparql#service>
+            <http://www.example.org/serviceStatus>
+                    "offline" ;
+            <http://www.example.org/serviceStatusTime>
+                    "2020-03-12T23:23:06.757+01:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+    
+    <http://data.bib.uni-mannheim.de/sparql#service>
+            <http://www.example.org/serviceStatus>
+                    "offline" ;
+            <http://www.example.org/serviceStatusTime>
+                    "2020-03-12T23:23:06.757+01:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+    
+    <http://roma.rkbexplorer.com/sparql/#service>
+            <http://www.example.org/serviceStatus>
+                    "online" ;
+            <http://www.example.org/serviceStatusTime>
+                    "2020-03-12T23:23:06.757+01:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+    
+    <http://aliada.scanbit.net:8891/sparql#service>
+            <http://www.example.org/serviceStatus>
+                    "offline" ;
+            <http://www.example.org/serviceStatusTime>
+                    "2020-03-12T23:23:06.757+01:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+    
+    <http://futurewavehosting.com:3030/my-family-lineage/sparql#service>
+            <http://www.example.org/serviceStatus>
+                    "offline" ;
+            <http://www.example.org/serviceStatusTime>
+                    "2020-03-12T23:23:06.757+01:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+    
+    <http://uccaribe.eagle-i.net/sparqler/sparql#service>
+            <http://www.example.org/serviceStatus>
+                    "online" ;
+            <http://www.example.org/serviceStatusTime>
+                    "2020-03-12T23:23:06.757+01:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+    
+    <http://sparql.jesandco.org:8890/sparql#service>
+            <http://www.example.org/serviceStatus>
+                    "offline" ;
+            <http://www.example.org/serviceStatusTime>
+                    "2020-03-12T23:23:06.757+01:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+    
+    <http://commons.dbpedia.org/sparql#service>
+            <http://www.example.org/serviceStatus>
+                    "offline" ;
+            <http://www.example.org/serviceStatusTime>
+                    "2020-03-12T23:23:06.757+01:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+    
+    <http://ckan.eurohelp.es:8890/sparql#service>
+            <http://www.example.org/serviceStatus>
+                    "offline" ;
+            <http://www.example.org/serviceStatusTime>
+                    "2020-03-12T23:23:06.757+01:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+    
+    <http://epo.publicdata.eu/sparql#service>
+            <http://www.example.org/serviceStatus>
+                    "offline" ;
+            <http://www.example.org/serviceStatusTime>
+                    "2020-03-12T23:23:06.757+01:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+    
+    <http://opendap.tw.rpi.edu/sparql#service>
+            <http://www.example.org/serviceStatus>
+                    "offline" ;
+            <http://www.example.org/serviceStatusTime>
+                    "2020-03-12T23:23:06.757+01:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+    
+    <http://lodstats.aksw.org/sparql#service>
+            <http://www.example.org/serviceStatus>
+                    "offline" ;
+            <http://www.example.org/serviceStatusTime>
+                    "2020-03-12T23:23:06.757+01:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+    
+    <http://rdfabout.com/sparql#service>
+            <http://www.example.org/serviceStatus>
+                    "offline" ;
+            <http://www.example.org/serviceStatusTime>
+                    "2020-03-12T23:23:06.757+01:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+    
+    <http://lab3.libris.kb.se/sparql#service>
+            <http://www.example.org/serviceStatus>
+                    "offline" ;
+            <http://www.example.org/serviceStatusTime>
+                    "2020-03-12T23:23:06.757+01:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+    
+    <http://lod.euscreen.eu/sparql#service>
+            <http://www.example.org/serviceStatus>
+                    "online" ;
+            <http://www.example.org/serviceStatusTime>
+                    "2020-03-12T23:23:06.757+01:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+    
+    <http://dbtune.org/musicbrainz/sparql#service>
+            <http://www.example.org/serviceStatus>
+                    "online" ;
+            <http://www.example.org/serviceStatusTime>
+                    "2020-03-12T23:23:06.757+01:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+    
+    <http://dewey.info/sparql.php#service>
+            <http://www.example.org/serviceStatus>
+                    "offline" ;
+            <http://www.example.org/serviceStatusTime>
+                    "2020-03-12T23:23:06.757+01:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+    
+    <http://tuskegee.eagle-i.net/sparqler/sparql#service>
+            <http://www.example.org/serviceStatus>
+                    "online" ;
+            <http://www.example.org/serviceStatusTime>
+                    "2020-03-12T23:23:06.757+01:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+    
+    <http://kent.zpr.fer.hr:8080/educationalProgram/sparql#service>
+            <http://www.example.org/serviceStatus>
+                    "offline" ;
+            <http://www.example.org/serviceStatusTime>
+                    "2020-03-12T23:23:06.757+01:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+    
+    <http://vocabularies.unesco.org/sparql-form/#service>
+            <http://www.example.org/serviceStatus>
+                    "offline" ;
+            <http://www.example.org/serviceStatusTime>
+                    "2020-03-12T23:23:06.757+01:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+    
+    <http://purl.org/openbibliosets/iucrsparql#service>
+            <http://www.example.org/serviceStatus>
+                    "offline" ;
+            <http://www.example.org/serviceStatusTime>
+                    "2020-03-12T23:23:06.757+01:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+    
+    <http://epsrc.rkbexplorer.com/sparql#service>
+            <http://www.example.org/serviceStatus>
+                    "online" ;
+            <http://www.example.org/serviceStatusTime>
+                    "2020-03-12T23:23:06.757+01:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+    
+    <http://drugbank.bio2rdf.org/sparql#service>
+            <http://www.example.org/serviceStatus>
+                    "offline" ;
+            <http://www.example.org/serviceStatusTime>
+                    "2020-03-12T23:23:06.757+01:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+    
+    <http://biordf.net/sparql#service>
+            <http://www.example.org/serviceStatus>
+                    "online" ;
+            <http://www.example.org/serviceStatusTime>
+                    "2020-03-12T23:23:06.757+01:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+    
+    <http://jsu.eagle-i.net/sparqler/sparql#service>
+            <http://www.example.org/serviceStatus>
+                    "online" ;
+            <http://www.example.org/serviceStatusTime>
+                    "2020-03-12T23:23:06.757+01:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+    
+    <http://sparql.sstu.ru:3030/speciality-vocabulary/query#service>
+            <http://www.example.org/serviceStatus>
+                    "offline" ;
+            <http://www.example.org/serviceStatusTime>
+                    "2020-03-12T23:23:06.757+01:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+    
+    <http://ichoose.tw.rpi.edu/sparql#service>
+            <http://www.example.org/serviceStatus>
+                    "offline" ;
+            <http://www.example.org/serviceStatusTime>
+                    "2020-03-12T23:23:06.757+01:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+    
+    <http://202.45.139.84:10035/catalogs/fao/repositories/agrovoc#service>
+            <http://www.example.org/serviceStatus>
+                    "offline" ;
+            <http://www.example.org/serviceStatusTime>
+                    "2020-03-12T23:23:06.757+01:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+    
+    <http://crm.rkbexplorer.com/sparql#service>
+            <http://www.example.org/serviceStatus>
+                    "online" ;
+            <http://www.example.org/serviceStatusTime>
+                    "2020-03-12T23:23:06.757+01:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+    
+    <http://services.data.gov.uk/patents/sparql#service>
+            <http://www.example.org/serviceStatus>
+                    "offline" ;
+            <http://www.example.org/serviceStatusTime>
+                    "2020-03-12T23:23:06.757+01:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+    
+    <http://dbtune.org/jamendo/sparql/#service>
+            <http://www.example.org/serviceStatus>
+                    "online" ;
+            <http://www.example.org/serviceStatusTime>
+                    "2020-03-12T23:23:06.757+01:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+    
+    <http://modip.aueb.gr/d2rq/sparql#service>
+            <http://www.example.org/serviceStatus>
+                    "offline" ;
+            <http://www.example.org/serviceStatusTime>
+                    "2020-03-12T23:23:06.757+01:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+    
+    <http://dblp.l3s.de/d2r/sparql#service>
+            <http://www.example.org/serviceStatus>
+                    "offline" ;
+            <http://www.example.org/serviceStatusTime>
+                    "2020-03-12T23:23:06.757+01:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+    
+    <http://api.kasabi.com/dataset/nasa/apis/sparql#service>
+            <http://www.example.org/serviceStatus>
+                    "offline" ;
+            <http://www.example.org/serviceStatusTime>
+                    "2020-03-12T23:23:06.757+01:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+    
+    <http://ctd.bio2rdf.org/sparql#service>
+            <http://www.example.org/serviceStatus>
+                    "offline" ;
+            <http://www.example.org/serviceStatusTime>
+                    "2020-03-12T23:23:06.757+01:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+    
+    <http://pubchem.bio2rdf.org/sparql#service>
+            <http://www.example.org/serviceStatus>
+                    "offline" ;
+            <http://www.example.org/serviceStatusTime>
+                    "2020-03-12T23:23:06.757+01:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+    
+    <http://data.linkedu.eu/prod/query#service>
+            <http://www.example.org/serviceStatus>
+                    "offline" ;
+            <http://www.example.org/serviceStatusTime>
+                    "2020-03-12T23:23:06.757+01:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+}
