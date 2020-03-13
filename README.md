@@ -1,4 +1,4 @@
-# lodservatory: Linked Open Data and SPARQL Endpoints Observatory
+# Linked Open Data and SPARQL Endpoints Observatory
 
 This repository features community datasets about SPARQL endpoints and datasets using the [DCAT2](https://www.w3.org/TR/vocab-dcat-2/) data model as the back bone.
 
