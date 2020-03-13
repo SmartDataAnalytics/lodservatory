@@ -7,9 +7,9 @@ jobs:
     steps:
     - uses: actions/checkout@v1
     - name: Download SPARQL Integrate
-    - run: wget -O si.jar https://github.com/SmartDataAnalytics/SparqlIntegrate/releases/download/sparql-integrate-bundle-1.0.2-SNAPSHOT/sparql-integrate-bundle-1.0.2-SNAPSHOT-jar-with-dependencies.jar
+      run: wget -O si.jar https://github.com/SmartDataAnalytics/SparqlIntegrate/releases/download/sparql-integrate-bundle-1.0.2-SNAPSHOT/sparql-integrate-bundle-1.0.2-SNAPSHOT-jar-with-dependencies.jar
     - name: Run service check
-    - run: java -cp si.jar sparqlintegrate sparql-endpoints-from-andre.ttl sparql-endpoints-from-andre-status.trig scripts/check-test.sparql
+      run: java -cp si.jar sparqlintegrate sparql-endpoints-from-andre.ttl sparql-endpoints-from-andre-status.trig scripts/check-test.sparql
 #    - name: Hello world action step
 #      id: hello
 #      uses: ./.github/actions/hello-world-action
