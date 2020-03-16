@@ -1,0 +1,738 @@
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix cat:   <http://www.w3.org/ns/dcat#> .
+
+<http://de.dbpedia.org/sparql#service>
+        a                cat:DataService ;
+        cat:endpointURL  <http://de.dbpedia.org/sparql> .
+
+<http://id.sgcb.mcu.es/sparql#service>
+        a                cat:DataService ;
+        cat:endpointURL  <http://id.sgcb.mcu.es/sparql> .
+
+<http://cultura.linkeddata.es/sparql#service>
+        a                cat:DataService ;
+        cat:endpointURL  <http://cultura.linkeddata.es/sparql> .
+
+<http://eprints.rkbexplorer.com/sparql/#service>
+        a                cat:DataService ;
+        cat:endpointURL  <http://eprints.rkbexplorer.com/sparql/> .
+
+<http://deploy.rkbexplorer.com/sparql/#service>
+        a                cat:DataService ;
+        cat:endpointURL  <http://deploy.rkbexplorer.com/sparql/> .
+
+<http://courseware.rkbexplorer.com/sparql/#service>
+        a                cat:DataService ;
+        cat:endpointURL  <http://courseware.rkbexplorer.com/sparql/> .
+
+<http://wordnet.rkbexplorer.com/sparql/#service>
+        a                cat:DataService ;
+        cat:endpointURL  <http://wordnet.rkbexplorer.com/sparql/> .
+
+<http://serendipity.utpl.edu.ec/lod/sparql#service>
+        a                cat:DataService ;
+        cat:endpointURL  <http://serendipity.utpl.edu.ec/lod/sparql> .
+
+<https://query.wikidata.org/sparql#service>
+        a                cat:DataService ;
+        cat:endpointURL  <https://query.wikidata.org/sparql> .
+
+<http://pt.dbpedia.org/sparql#service>
+        a                cat:DataService ;
+        cat:endpointURL  <http://pt.dbpedia.org/sparql> .
+
+<http://premon.fbk.eu/sparql#service>
+        a                cat:DataService ;
+        cat:endpointURL  <http://premon.fbk.eu/sparql> .
+
+<http://data.persee.fr/sparql#service>
+        a                cat:DataService ;
+        cat:endpointURL  <http://data.persee.fr/sparql> .
+
+<http://vocabulary.semantic-web.at/PoolParty/sparql/semweb#service>
+        a                cat:DataService ;
+        cat:endpointURL  <http://vocabulary.semantic-web.at/PoolParty/sparql/semweb> .
+
+<http://dbkwik.webdatacommons.org/sparql#service>
+        a                cat:DataService ;
+        cat:endpointURL  <http://dbkwik.webdatacommons.org/sparql> .
+
+<http://citeseer.rkbexplorer.com/sparql/#service>
+        a                cat:DataService ;
+        cat:endpointURL  <http://citeseer.rkbexplorer.com/sparql/> .
+
+<http://es.dbpedia.org/sparql#service>
+        a                cat:DataService ;
+        cat:endpointURL  <http://es.dbpedia.org/sparql> .
+
+<http://live.dbpedia.org/sparql#service>
+        a                cat:DataService ;
+        cat:endpointURL  <http://live.dbpedia.org/sparql> .
+
+<https://data.pdok.nl/sparql#service>
+        a                cat:DataService ;
+        cat:endpointURL  <https://data.pdok.nl/sparql> .
+
+<http://montana.eagle-i.net/sparqler/sparql#service>
+        a                cat:DataService ;
+        cat:endpointURL  <http://montana.eagle-i.net/sparqler/sparql> .
+
+<http://resex.rkbexplorer.com/sparql/#service>
+        a                cat:DataService ;
+        cat:endpointURL  <http://resex.rkbexplorer.com/sparql/> .
+
+<http://ring.ciard.net/sparql1#service>
+        a                cat:DataService ;
+        cat:endpointURL  <http://ring.ciard.net/sparql1> .
+
+<http://os.rkbexplorer.com/sparql/#service>
+        a                cat:DataService ;
+        cat:endpointURL  <http://os.rkbexplorer.com/sparql/> .
+
+<http://data.lider-project.eu/usage/sparql#service>
+        a                cat:DataService ;
+        cat:endpointURL  <http://data.lider-project.eu/usage/sparql> .
+
+<http://webisa.webdatacommons.org/sparql#service>
+        a                cat:DataService ;
+        cat:endpointURL  <http://webisa.webdatacommons.org/sparql> .
+
+<http://ldf.fi/warsa/sparql#service>
+        a                cat:DataService ;
+        cat:endpointURL  <http://ldf.fi/warsa/sparql> .
+
+<http://nsf.rkbexplorer.com/sparql/#service>
+        a                cat:DataService ;
+        cat:endpointURL  <http://nsf.rkbexplorer.com/sparql/> .
+
+<http://lod.euscreen.eu/sparql#service>
+        a                cat:DataService ;
+        cat:endpointURL  <http://lod.euscreen.eu/sparql> .
+
+<http://psm.eagle-i.net/sparqler/sparql#service>
+        a                cat:DataService ;
+        cat:endpointURL  <http://psm.eagle-i.net/sparqler/sparql> .
+
+<http://ohsu.eagle-i.net/sparqler/sparql#service>
+        a                cat:DataService ;
+        cat:endpointURL  <http://ohsu.eagle-i.net/sparqler/sparql> .
+
+<http://www.imagesnippets.com/sparql/images#service>
+        a                cat:DataService ;
+        cat:endpointURL  <http://www.imagesnippets.com/sparql/images> .
+
+<http://foreign.rkbexplorer.com/sparql#service>
+        a                cat:DataService ;
+        cat:endpointURL  <http://foreign.rkbexplorer.com/sparql> .
+
+<http://semantic.eea.europa.eu/sparql#service>
+        a                cat:DataService ;
+        cat:endpointURL  <http://semantic.eea.europa.eu/sparql> .
+
+<http://aksw.org/sparql#service>
+        a                cat:DataService ;
+        cat:endpointURL  <http://aksw.org/sparql> .
+
+<http://rdf.disgenet.org/sparql/#service>
+        a                cat:DataService ;
+        cat:endpointURL  <http://rdf.disgenet.org/sparql/> .
+
+<http://hunter-cuny.eagle-i.net/sparqler/sparql#service>
+        a                cat:DataService ;
+        cat:endpointURL  <http://hunter-cuny.eagle-i.net/sparqler/sparql> .
+
+<http://data.nobelprize.org/sparql#service>
+        a                cat:DataService ;
+        cat:endpointURL  <http://data.nobelprize.org/sparql> .
+
+<http://lod.openlinksw.com/sparql#service>
+        a                cat:DataService ;
+        cat:endpointURL  <http://lod.openlinksw.com/sparql> .
+
+<http://dbpedia.org/sparql#service>
+        a                cat:DataService ;
+        cat:endpointURL  <http://dbpedia.org/sparql> .
+
+<http://era.rkbexplorer.com/sparql/#service>
+        a                cat:DataService ;
+        cat:endpointURL  <http://era.rkbexplorer.com/sparql/> .
+
+<http://roni.rkbexplorer.com/sparql#service>
+        a                cat:DataService ;
+        cat:endpointURL  <http://roni.rkbexplorer.com/sparql> .
+
+<http://www.lotico.com:3030/lotico/sparql#service>
+        a                cat:DataService ;
+        cat:endpointURL  <http://www.lotico.com:3030/lotico/sparql> .
+
+<http://linguistic.linkeddata.es/terminesp/sparql-editor#service>
+        a                cat:DataService ;
+        cat:endpointURL  <http://linguistic.linkeddata.es/terminesp/sparql-editor> .
+
+<http://resource.geolba.ac.at/PoolParty/sparql/lithology#service>
+        a                cat:DataService ;
+        cat:endpointURL  <http://resource.geolba.ac.at/PoolParty/sparql/lithology> .
+
+<http://biordf.net/sparql#service>
+        a                cat:DataService ;
+        cat:endpointURL  <http://biordf.net/sparql> .
+
+<http://tuskegee.eagle-i.net/sparqler/sparql#service>
+        a                cat:DataService ;
+        cat:endpointURL  <http://tuskegee.eagle-i.net/sparqler/sparql> .
+
+<http://vocab.getty.edu/sparql#service>
+        a                cat:DataService ;
+        cat:endpointURL  <http://vocab.getty.edu/sparql> .
+
+<https://ruian.linked.opendata.cz/sparql#service>
+        a                cat:DataService ;
+        cat:endpointURL  <https://ruian.linked.opendata.cz/sparql> .
+
+<http://data.logainm.ie/sparql#service>
+        a                cat:DataService ;
+        cat:endpointURL  <http://data.logainm.ie/sparql> .
+
+<http://data.open.ac.uk/query#service>
+        a                cat:DataService ;
+        cat:endpointURL  <http://data.open.ac.uk/query> .
+
+<http://data.allie.dbcls.jp/sparql#service>
+        a                cat:DataService ;
+        cat:endpointURL  <http://data.allie.dbcls.jp/sparql> .
+
+<http://crm.rkbexplorer.com/sparql#service>
+        a                cat:DataService ;
+        cat:endpointURL  <http://crm.rkbexplorer.com/sparql> .
+
+<http://hawaii.eagle-i.net/sparqler/sparql#service>
+        a                cat:DataService ;
+        cat:endpointURL  <http://hawaii.eagle-i.net/sparqler/sparql> .
+
+<http://dutchshipsandsailors.nl/data/sparql/#service>
+        a                cat:DataService ;
+        cat:endpointURL  <http://dutchshipsandsailors.nl/data/sparql/> .
+
+<http://linkedlifedata.com/sparql#service>
+        a                cat:DataService ;
+        cat:endpointURL  <http://linkedlifedata.com/sparql> .
+
+<http://webenemasuno.linkeddata.es/sparql#service>
+        a                cat:DataService ;
+        cat:endpointURL  <http://webenemasuno.linkeddata.es/sparql> .
+
+<http://taxref.mnhn.fr/sparql#service>
+        a                cat:DataService ;
+        cat:endpointURL  <http://taxref.mnhn.fr/sparql> .
+
+<http://linkeddata.ge.imati.cnr.it:8890/sparql#service>
+        a                cat:DataService ;
+        cat:endpointURL  <http://linkeddata.ge.imati.cnr.it:8890/sparql> .
+
+<http://data.colinda.org/endpoint.php#service>
+        a                cat:DataService ;
+        cat:endpointURL  <http://data.colinda.org/endpoint.php> .
+
+<http://geo.linkeddata.es/sparql#service>
+        a                cat:DataService ;
+        cat:endpointURL  <http://geo.linkeddata.es/sparql> .
+
+<http://fr.dbpedia.org/sparql#service>
+        a                cat:DataService ;
+        cat:endpointURL  <http://fr.dbpedia.org/sparql> .
+
+<http://msm.eagle-i.net/sparqler/sparql#service>
+        a                cat:DataService ;
+        cat:endpointURL  <http://msm.eagle-i.net/sparqler/sparql> .
+
+<http://budapest.rkbexplorer.com/sparql/#service>
+        a                cat:DataService ;
+        cat:endpointURL  <http://budapest.rkbexplorer.com/sparql/> .
+
+<http://aemet.linkeddata.es/sparql#service>
+        a                cat:DataService ;
+        cat:endpointURL  <http://aemet.linkeddata.es/sparql> .
+
+<http://eu.dbpedia.org/sparql#service>
+        a                cat:DataService ;
+        cat:endpointURL  <http://eu.dbpedia.org/sparql> .
+
+<http://dbtune.org/musicbrainz/sparql#service>
+        a                cat:DataService ;
+        cat:endpointURL  <http://dbtune.org/musicbrainz/sparql> .
+
+<http://datos.bne.es/sparql#service>
+        a                cat:DataService ;
+        cat:endpointURL  <http://datos.bne.es/sparql> .
+
+<http://kisti.rkbexplorer.com/sparql/#service>
+        a                cat:DataService ;
+        cat:endpointURL  <http://kisti.rkbexplorer.com/sparql/> .
+
+<http://skos.um.es/sparql/#service>
+        a                cat:DataService ;
+        cat:endpointURL  <http://skos.um.es/sparql/> .
+
+<http://ldf.fi/ww1lod/sparql#service>
+        a                cat:DataService ;
+        cat:endpointURL  <http://ldf.fi/ww1lod/sparql> .
+
+<http://harvard.eagle-i.net/sparqler/sparql#service>
+        a                cat:DataService ;
+        cat:endpointURL  <http://harvard.eagle-i.net/sparqler/sparql> .
+
+<http://data.ox.ac.uk/sparql/#service>
+        a                cat:DataService ;
+        cat:endpointURL  <http://data.ox.ac.uk/sparql/> .
+
+<http://irit.rkbexplorer.com/sparql/#service>
+        a                cat:DataService ;
+        cat:endpointURL  <http://irit.rkbexplorer.com/sparql/> .
+
+<http://lod.xdams.org/sparql#service>
+        a                cat:DataService ;
+        cat:endpointURL  <http://lod.xdams.org/sparql> .
+
+<http://sparql.odw.tw#service>
+        a                cat:DataService ;
+        cat:endpointURL  <http://sparql.odw.tw> .
+
+<http://kaiko.getalp.org/sparql#service>
+        a                cat:DataService ;
+        cat:endpointURL  <http://kaiko.getalp.org/sparql> .
+
+<http://linkedgeodata.org/sparql/#service>
+        a                cat:DataService ;
+        cat:endpointURL  <http://linkedgeodata.org/sparql/> .
+
+<http://usgs-stko.geog.ucsb.edu:8080/sparql/select#service>
+        a                cat:DataService ;
+        cat:endpointURL  <http://usgs-stko.geog.ucsb.edu:8080/sparql/select> .
+
+<http://epsrc.rkbexplorer.com/sparql#service>
+        a                cat:DataService ;
+        cat:endpointURL  <http://epsrc.rkbexplorer.com/sparql> .
+
+<http://dblp.rkbexplorer.com/sparql/#service>
+        a                cat:DataService ;
+        cat:endpointURL  <http://dblp.rkbexplorer.com/sparql/> .
+
+<http://oai.rkbexplorer.com/sparql/#service>
+        a                cat:DataService ;
+        cat:endpointURL  <http://oai.rkbexplorer.com/sparql/> .
+
+<http://ft.rkbexplorer.com/sparql/#service>
+        a                cat:DataService ;
+        cat:endpointURL  <http://ft.rkbexplorer.com/sparql/> .
+
+<http://nl.dbpedia.org/sparql#service>
+        a                cat:DataService ;
+        cat:endpointURL  <http://nl.dbpedia.org/sparql> .
+
+<http://tsu.eagle-i.net/sparqler/sparql#service>
+        a                cat:DataService ;
+        cat:endpointURL  <http://tsu.eagle-i.net/sparqler/sparql> .
+
+<http://id.ndl.go.jp/auth/ndlsh/#service>
+        a                cat:DataService ;
+        cat:endpointURL  <http://id.ndl.go.jp/auth/ndlsh/> .
+
+<http://deepblue.rkbexplorer.com/sparql/#service>
+        a                cat:DataService ;
+        cat:endpointURL  <http://deepblue.rkbexplorer.com/sparql/> .
+
+<http://vocabulary.semantic-web.at/PoolParty/sparql/OpenData#service>
+        a                cat:DataService ;
+        cat:endpointURL  <http://vocabulary.semantic-web.at/PoolParty/sparql/OpenData> .
+
+<http://www.influencetracker.com:8890/sparql#service>
+        a                cat:DataService ;
+        cat:endpointURL  <http://www.influencetracker.com:8890/sparql> .
+
+<http://cau.eagle-i.net/sparqler/sparql#service>
+        a                cat:DataService ;
+        cat:endpointURL  <http://cau.eagle-i.net/sparqler/sparql> .
+
+<http://dati.camera.it/sparql#service>
+        a                cat:DataService ;
+        cat:endpointURL  <http://dati.camera.it/sparql> .
+
+<http://datos.bcn.cl/sparql#service>
+        a                cat:DataService ;
+        cat:endpointURL  <http://datos.bcn.cl/sparql> .
+
+<http://environment.data.gov.uk/sparql/bwq/query#service>
+        a                cat:DataService ;
+        cat:endpointURL  <http://environment.data.gov.uk/sparql/bwq/query> .
+
+<http://colinda.org/endpoint.php#service>
+        a                cat:DataService ;
+        cat:endpointURL  <http://colinda.org/endpoint.php> .
+
+<http://jisc.rkbexplorer.com/sparql/#service>
+        a                cat:DataService ;
+        cat:endpointURL  <http://jisc.rkbexplorer.com/sparql/> .
+
+<http://lod.b3kat.de/sparql#service>
+        a                cat:DataService ;
+        cat:endpointURL  <http://lod.b3kat.de/sparql> .
+
+<http://dbtune.org/classical/sparql/#service>
+        a                cat:DataService ;
+        cat:endpointURL  <http://dbtune.org/classical/sparql/> .
+
+<http://www.rechercheisidore.fr/sparql#service>
+        a                cat:DataService ;
+        cat:endpointURL  <http://www.rechercheisidore.fr/sparql> .
+
+<http://sparql.uniprot.org#service>
+        a                cat:DataService ;
+        cat:endpointURL  <http://sparql.uniprot.org> .
+
+<https://data.ox.ac.uk/sparql/#service>
+        a                cat:DataService ;
+        cat:endpointURL  <https://data.ox.ac.uk/sparql/> .
+
+<http://onto.fel.cvut.cz/rdf4j-server/repositories/ufo-current#service>
+        a                cat:DataService ;
+        cat:endpointURL  <http://onto.fel.cvut.cz/rdf4j-server/repositories/ufo-current> .
+
+<http://linkeddata.uriburner.com/sparql#service>
+        a                cat:DataService ;
+        cat:endpointURL  <http://linkeddata.uriburner.com/sparql> .
+
+<https://linked.opendata.cz/sparql#service>
+        a                cat:DataService ;
+        cat:endpointURL  <https://linked.opendata.cz/sparql> .
+
+<http://uccaribe.eagle-i.net/sparqler/sparql#service>
+        a                cat:DataService ;
+        cat:endpointURL  <http://uccaribe.eagle-i.net/sparqler/sparql> .
+
+<http://crtm.linkeddata.es/sparql#service>
+        a                cat:DataService ;
+        cat:endpointURL  <http://crtm.linkeddata.es/sparql> .
+
+<http://cdrewu.eagle-i.net/sparqler/sparql#service>
+        a                cat:DataService ;
+        cat:endpointURL  <http://cdrewu.eagle-i.net/sparqler/sparql> .
+
+<http://unlocode.rkbexplorer.com/sparql/#service>
+        a                cat:DataService ;
+        cat:endpointURL  <http://unlocode.rkbexplorer.com/sparql/> .
+
+<http://foreign.rkbexplorer.com/sparql/#service>
+        a                cat:DataService ;
+        cat:endpointURL  <http://foreign.rkbexplorer.com/sparql/> .
+
+<http://meharry.eagle-i.net/sparqler/sparql#service>
+        a                cat:DataService ;
+        cat:endpointURL  <http://meharry.eagle-i.net/sparqler/sparql> .
+
+<http://kaunas.rkbexplorer.com/sparql#service>
+        a                cat:DataService ;
+        cat:endpointURL  <http://kaunas.rkbexplorer.com/sparql> .
+
+<http://id.ndl.go.jp/auth/ndla/#service>
+        a                cat:DataService ;
+        cat:endpointURL  <http://id.ndl.go.jp/auth/ndla/> .
+
+<http://sparql.odw.tw/#service>
+        a                cat:DataService ;
+        cat:endpointURL  <http://sparql.odw.tw/> .
+
+<http://semanticweb.cs.vu.nl/dss/sparql/#service>
+        a                cat:DataService ;
+        cat:endpointURL  <http://semanticweb.cs.vu.nl/dss/sparql/> .
+
+<http://eventmedia.eurecom.fr/sparql#service>
+        a                cat:DataService ;
+        cat:endpointURL  <http://eventmedia.eurecom.fr/sparql> .
+
+<http://onto.beef.org.pl/sparql#service>
+        a                cat:DataService ;
+        cat:endpointURL  <http://onto.beef.org.pl/sparql> .
+
+<http://linked.opendata.cz/sparql#service>
+        a                cat:DataService ;
+        cat:endpointURL  <http://linked.opendata.cz/sparql> .
+
+<http://howard.eagle-i.net/sparqler/sparql#service>
+        a                cat:DataService ;
+        cat:endpointURL  <http://howard.eagle-i.net/sparqler/sparql> .
+
+<http://rdf.muninn-project.org/sparql#service>
+        a                cat:DataService ;
+        cat:endpointURL  <http://rdf.muninn-project.org/sparql> .
+
+<http://risks.rkbexplorer.com/sparql/#service>
+        a                cat:DataService ;
+        cat:endpointURL  <http://risks.rkbexplorer.com/sparql/> .
+
+<http://dotac.rkbexplorer.com/sparql/#service>
+        a                cat:DataService ;
+        cat:endpointURL  <http://dotac.rkbexplorer.com/sparql/> .
+
+<http://utep.eagle-i.net/sparqler/sparql#service>
+        a                cat:DataService ;
+        cat:endpointURL  <http://utep.eagle-i.net/sparqler/sparql> .
+
+<http://dbtune.org/magnatune/sparql/#service>
+        a                cat:DataService ;
+        cat:endpointURL  <http://dbtune.org/magnatune/sparql/> .
+
+<http://zbw.eu/beta/sparql/stw/query#service>
+        a                cat:DataService ;
+        cat:endpointURL  <http://zbw.eu/beta/sparql/stw/query> .
+
+<http://farolas.linkeddata.es/sparql#service>
+        a                cat:DataService ;
+        cat:endpointURL  <http://farolas.linkeddata.es/sparql> .
+
+<http://resource.geolba.ac.at/PoolParty/sparql/GeologicUnit#service>
+        a                cat:DataService ;
+        cat:endpointURL  <http://resource.geolba.ac.at/PoolParty/sparql/GeologicUnit> .
+
+<http://lod.sztaki.hu/sparql#service>
+        a                cat:DataService ;
+        cat:endpointURL  <http://lod.sztaki.hu/sparql> .
+
+<http://www.linklion.org:8890/sparql#service>
+        a                cat:DataService ;
+        cat:endpointURL  <http://www.linklion.org:8890/sparql> .
+
+<http://ja.dbpedia.org/sparql#service>
+        a                cat:DataService ;
+        cat:endpointURL  <http://ja.dbpedia.org/sparql> .
+
+<http://roma.rkbexplorer.com/sparql/#service>
+        a                cat:DataService ;
+        cat:endpointURL  <http://roma.rkbexplorer.com/sparql/> .
+
+<http://extbi.lab.aau.dk/sparql/#service>
+        a                cat:DataService ;
+        cat:endpointURL  <http://extbi.lab.aau.dk/sparql/> .
+
+<http://linkeddata.es/resource/ldqm/sparql#service>
+        a                cat:DataService ;
+        cat:endpointURL  <http://linkeddata.es/resource/ldqm/sparql> .
+
+<http://southampton.rkbexplorer.com/sparql/#service>
+        a                cat:DataService ;
+        cat:endpointURL  <http://southampton.rkbexplorer.com/sparql/> .
+
+<http://lisbon.rkbexplorer.com/sparql#service>
+        a                cat:DataService ;
+        cat:endpointURL  <http://lisbon.rkbexplorer.com/sparql> .
+
+<http://data.bnf.fr/sparql#service>
+        a                cat:DataService ;
+        cat:endpointURL  <http://data.bnf.fr/sparql> .
+
+<http://linkeddata.finki.ukim.mk/sparql#service>
+        a                cat:DataService ;
+        cat:endpointURL  <http://linkeddata.finki.ukim.mk/sparql> .
+
+<http://data.archiveshub.ac.uk/sparql#service>
+        a                cat:DataService ;
+        cat:endpointURL  <http://data.archiveshub.ac.uk/sparql> .
+
+<http://italy.rkbexplorer.com/sparql#service>
+        a                cat:DataService ;
+        cat:endpointURL  <http://italy.rkbexplorer.com/sparql> .
+
+<http://darmstadt.rkbexplorer.com/sparql/#service>
+        a                cat:DataService ;
+        cat:endpointURL  <http://darmstadt.rkbexplorer.com/sparql/> .
+
+<http://sparql.data.southampton.ac.uk/#service>
+        a                cat:DataService ;
+        cat:endpointURL  <http://sparql.data.southampton.ac.uk/> .
+
+<http://ibm.rkbexplorer.com/sparql/#service>
+        a                cat:DataService ;
+        cat:endpointURL  <http://ibm.rkbexplorer.com/sparql/> .
+
+<http://rae2001.rkbexplorer.com/sparql/#service>
+        a                cat:DataService ;
+        cat:endpointURL  <http://rae2001.rkbexplorer.com/sparql/> .
+
+<http://laas.rkbexplorer.com/sparql/#service>
+        a                cat:DataService ;
+        cat:endpointURL  <http://laas.rkbexplorer.com/sparql/> .
+
+<https://dbmi-icode-01.dbmi.pitt.edu/sparql#service>
+        a                cat:DataService ;
+        cat:endpointURL  <https://dbmi-icode-01.dbmi.pitt.edu/sparql> .
+
+<http://curriculum.rkbexplorer.com/sparql/#service>
+        a                cat:DataService ;
+        cat:endpointURL  <http://curriculum.rkbexplorer.com/sparql/> .
+
+<http://ulm.rkbexplorer.com/sparql/#service>
+        a                cat:DataService ;
+        cat:endpointURL  <http://ulm.rkbexplorer.com/sparql/> .
+
+<http://dati.isprambiente.it/sparql#service>
+        a                cat:DataService ;
+        cat:endpointURL  <http://dati.isprambiente.it/sparql> .
+
+<http://ieee.rkbexplorer.com/sparql/#service>
+        a                cat:DataService ;
+        cat:endpointURL  <http://ieee.rkbexplorer.com/sparql/> .
+
+<http://data.cnr.it/sparql-proxy/#service>
+        a                cat:DataService ;
+        cat:endpointURL  <http://data.cnr.it/sparql-proxy/> .
+
+<https://w3id.org/scholarlydata/sparql#service>
+        a                cat:DataService ;
+        cat:endpointURL  <https://w3id.org/scholarlydata/sparql> .
+
+<http://newcastle.rkbexplorer.com/sparql/#service>
+        a                cat:DataService ;
+        cat:endpointURL  <http://newcastle.rkbexplorer.com/sparql/> .
+
+<http://symbolicdata.org:8890/sparql#service>
+        a                cat:DataService ;
+        cat:endpointURL  <http://symbolicdata.org:8890/sparql> .
+
+<http://resource.geolba.ac.at/PoolParty/sparql/tectonicunit#service>
+        a                cat:DataService ;
+        cat:endpointURL  <http://resource.geolba.ac.at/PoolParty/sparql/tectonicunit> .
+
+<http://opendatacommunities.org/sparql#service>
+        a                cat:DataService ;
+        cat:endpointURL  <http://opendatacommunities.org/sparql> .
+
+<https://data.gov.cz/sparql#service>
+        a                cat:DataService ;
+        cat:endpointURL  <https://data.gov.cz/sparql> .
+
+<http://www.icane.es/opendata/sparql#service>
+        a                cat:DataService ;
+        cat:endpointURL  <http://www.icane.es/opendata/sparql> .
+
+<http://opendata.aragon.es/sparql#service>
+        a                cat:DataService ;
+        cat:endpointURL  <http://opendata.aragon.es/sparql> .
+
+<http://eurecom.rkbexplorer.com/sparql/#service>
+        a                cat:DataService ;
+        cat:endpointURL  <http://eurecom.rkbexplorer.com/sparql/> .
+
+<http://apps.morelab.deusto.es/labman/sparql#service>
+        a                cat:DataService ;
+        cat:endpointURL  <http://apps.morelab.deusto.es/labman/sparql> .
+
+<http://resource.geolba.ac.at/PoolParty/sparql/GeologicTimeScale#service>
+        a                cat:DataService ;
+        cat:endpointURL  <http://resource.geolba.ac.at/PoolParty/sparql/GeologicTimeScale> .
+
+<http://alaska.eagle-i.net/sparqler/sparql#service>
+        a                cat:DataService ;
+        cat:endpointURL  <http://alaska.eagle-i.net/sparqler/sparql> .
+
+<http://cordis.rkbexplorer.com/sparql/#service>
+        a                cat:DataService ;
+        cat:endpointURL  <http://cordis.rkbexplorer.com/sparql/> .
+
+<http://digitaleconomy.rkbexplorer.com/sparql#service>
+        a                cat:DataService ;
+        cat:endpointURL  <http://digitaleconomy.rkbexplorer.com/sparql> .
+
+<http://data.szepmuveszeti.hu/sparql#service>
+        a                cat:DataService ;
+        cat:endpointURL  <http://data.szepmuveszeti.hu/sparql> .
+
+<http://ccny-cuny.eagle-i.net/sparqler/sparql#service>
+        a                cat:DataService ;
+        cat:endpointURL  <http://ccny-cuny.eagle-i.net/sparqler/sparql> .
+
+<http://ruian.linked.opendata.cz/sparql#service>
+        a                cat:DataService ;
+        cat:endpointURL  <http://ruian.linked.opendata.cz/sparql> .
+
+<http://webscience.rkbexplorer.com/sparql#service>
+        a                cat:DataService ;
+        cat:endpointURL  <http://webscience.rkbexplorer.com/sparql> .
+
+<http://linguistic.linkeddata.es/sparql#service>
+        a                cat:DataService ;
+        cat:endpointURL  <http://linguistic.linkeddata.es/sparql> .
+
+<http://pisa.rkbexplorer.com/sparql/#service>
+        a                cat:DataService ;
+        cat:endpointURL  <http://pisa.rkbexplorer.com/sparql/> .
+
+<http://xula.eagle-i.net/sparqler/sparql#service>
+        a                cat:DataService ;
+        cat:endpointURL  <http://xula.eagle-i.net/sparqler/sparql> .
+
+<http://acm.rkbexplorer.com/sparql/#service>
+        a                cat:DataService ;
+        cat:endpointURL  <http://acm.rkbexplorer.com/sparql/> .
+
+<http://cr.eionet.europa.eu/sparql#service>
+        a                cat:DataService ;
+        cat:endpointURL  <http://cr.eionet.europa.eu/sparql> .
+
+<http://jsu.eagle-i.net/sparqler/sparql#service>
+        a                cat:DataService ;
+        cat:endpointURL  <http://jsu.eagle-i.net/sparqler/sparql> .
+
+<http://semanticweb.cs.vu.nl/verrijktkoninkrijk/sparql/#service>
+        a                cat:DataService ;
+        cat:endpointURL  <http://semanticweb.cs.vu.nl/verrijktkoninkrijk/sparql/> .
+
+<http://edit.elte.hu/sparql#service>
+        a                cat:DataService ;
+        cat:endpointURL  <http://edit.elte.hu/sparql> .
+
+<http://dbtune.org/bbc/peel/sparql/#service>
+        a                cat:DataService ;
+        cat:endpointURL  <http://dbtune.org/bbc/peel/sparql/> .
+
+<http://en.openei.org/sparql#service>
+        a                cat:DataService ;
+        cat:endpointURL  <http://en.openei.org/sparql> .
+
+<http://onto.mondis.cz/openrdf-sesame/repositories/mondis-record-owlim#service>
+        a                cat:DataService ;
+        cat:endpointURL  <http://onto.mondis.cz/openrdf-sesame/repositories/mondis-record-owlim> .
+
+<http://biolit.rkbexplorer.com/sparql#service>
+        a                cat:DataService ;
+        cat:endpointURL  <http://biolit.rkbexplorer.com/sparql> .
+
+<http://upr.eagle-i.net/sparqler/sparql#service>
+        a                cat:DataService ;
+        cat:endpointURL  <http://upr.eagle-i.net/sparqler/sparql> .
+
+<http://bnb.data.bl.uk/sparql#service>
+        a                cat:DataService ;
+        cat:endpointURL  <http://bnb.data.bl.uk/sparql> .
+
+<http://famu.eagle-i.net/sparqler/sparql#service>
+        a                cat:DataService ;
+        cat:endpointURL  <http://famu.eagle-i.net/sparqler/sparql> .
+
+<http://webconf.rkbexplorer.com/sparql#service>
+        a                cat:DataService ;
+        cat:endpointURL  <http://webconf.rkbexplorer.com/sparql> .
+
+<http://el.dbpedia.org/sparql#service>
+        a                cat:DataService ;
+        cat:endpointURL  <http://el.dbpedia.org/sparql> .
+
+<http://wiki.rkbexplorer.com/sparql/#service>
+        a                cat:DataService ;
+        cat:endpointURL  <http://wiki.rkbexplorer.com/sparql/> .
+
+<http://dbtune.org/jamendo/sparql/#service>
+        a                cat:DataService ;
+        cat:endpointURL  <http://dbtune.org/jamendo/sparql/> .
+
+<http://utsa.eagle-i.net/sparqler/sparql#service>
+        a                cat:DataService ;
+        cat:endpointURL  <http://utsa.eagle-i.net/sparqler/sparql> .

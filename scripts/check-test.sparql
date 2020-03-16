@@ -1,5 +1,4 @@
 PREFIX eg: <http://www.example.org/>
-# LOAD <../sparql-endpoints-from-andre-status.trig>
 
 # CONSTRUCT WHERE { GRAPH ?g { ?s ?p ?o } }
 
@@ -14,13 +13,10 @@ CONSTRUCT {
 }
 {
   BIND(NOW() AS ?time)
-  BIND(IRI(CONCAT("http://metalod.aksw.org/service-check-", STR(?time))) AS ?g)
+  BIND(IRI(CONCAT("https://smartdataanalytics.github.io/lodservatory/service-check-", STR(?time))) AS ?g)
 
   { SELECT * {
     ?s dcat:endpointURL ?e .
-    GRAPH ?ggg {
-      ?s eg:serviceStatus "online"
-    }
   } ORDER BY ?e LIMIT 5 }
 
   SERVICE SILENT ?e {

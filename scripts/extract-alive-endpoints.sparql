@@ -1,0 +1,6 @@
+CONSTRUCT {
+  ?s ?p ?o
+} {
+  GRAPH ?g { ?s eg:serviceStatus "online" }
+  ?s ?p ?o
+}
