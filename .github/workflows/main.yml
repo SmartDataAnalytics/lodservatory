@@ -15,7 +15,7 @@ jobs:
       run: java -cp si.jar sparqlintegrate alive-endpoints-latest.ttl playground/endpoint-to-graph.sparql | java -cp si.jar ngs map -t '5000,5000' --sparql playground/check-test.sparql | java -cp si.jar sparqlintegrate --w=trig/pretty --u - 'CONSTRUCT WHERE { ?s ?p ?o }' > latest-status.ttl
     - name: Commit files
       run: |
-        git add latest-status.trig
+        git add latest-status.ttl
         git config --local user.email "cstadler@informatik.uni-leipzig.de"
         git config --local user.name "Claus Stadler"
         git commit -m "Adding latest status" -a
