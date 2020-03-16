@@ -12,7 +12,7 @@ jobs:
     - name: Download SPARQL Integrate
       run: wget -O si.jar https://github.com/SmartDataAnalytics/SparqlIntegrate/releases/download/sparql-integrate-bundle-1.0.2-SNAPSHOT/sparql-integrate-bundle-1.0.2-SNAPSHOT-jar-with-dependencies.jar
     - name: Run service check
-      run: java -cp si.jar sparqlintegrate --w=trig/pretty alive-endpoints-latest.ttl scripts/check-test.sparql > latest-status.trig
+      run: java -cp si.jar sparqlintegrate alive-endpoints-latest.ttl playground/endpoint-to-graph.sparql | java -cp si.jar ngs map -t '5000,5000' --sparql playground/check-test.sparql | java -cp si.jar sparqlintegrate --w=trig/pretty --u - 'CONSTRUCT WHERE { ?s ?p ?o }' > latest-status.ttl
     - name: Commit files
       run: |
         git add latest-status.trig

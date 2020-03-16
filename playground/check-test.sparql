@@ -1,0 +1,24 @@
+PREFIX eg: <http://www.example.org/>
+
+# CONSTRUCT WHERE { GRAPH ?g { ?s ?p ?o } }
+
+
+CONSTRUCT {
+  GRAPH ?g {
+    ?s
+      eg:serviceStatus ?status ;
+      eg:serviceStatusTime ?time # Note: The time refers to when the query was started
+      .
+  }
+}
+{
+  BIND(NOW() AS ?time)
+
+  GRAPH ?g { ?s dcat:endpointURL ?e }
+
+  SERVICE SILENT ?e {
+    { SELECT ?t { ?x a ?t } LIMIT 1 }
+  }
+
+  BIND(IF(BOUND(?t), "online", "offline") AS ?status)
+}

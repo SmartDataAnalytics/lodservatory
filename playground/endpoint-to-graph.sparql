@@ -1,0 +1,7 @@
+# Map each endpoint to its own graph so we can process them in parallel with the ngs tool
+CONSTRUCT {
+  GRAPH ?e { ?s cat:endpointURL ?e }
+} {
+  ?s cat:endpointURL ?e
+}
+
