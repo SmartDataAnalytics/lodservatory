@@ -34,6 +34,11 @@ java -cp si.jar sparqlintegrate --w=trig/pretty \
   --u - 'CONSTRUCT WHERE { ?s ?p ?o }' > latest-status.ttl
 ```
 
+## Is doing remote requests with GitActions permitted
+
+According to [this answer](https://github.community/t5/GitHub-Actions/Is-it-permitted-to-do-Remote-Requests-for-Service-Monitoring/m-p/50071#M7696): yes.
+
+
 ## Register your own endpoint 
 (This is work in progress; it not yet implemented)
 
