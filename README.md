@@ -1,5 +1,7 @@
 # Linked Open Data and SPARQL Endpoints Observatory
 
+**Work in progress**
+
 This repository features community datasets about SPARQL endpoints and datasets using the [DCAT2](https://www.w3.org/TR/vocab-dcat-2/) data model as the back bone.
 
 What the community gets from this
@@ -11,6 +13,25 @@ What the community gets from this
 
 Although https://sparqles.ai.wu.ac.at/ has a nice user interface and features a non-RDF API, this repo demonstrates, that combining a dataset of sparql endpoints with a sparql query that retrieves the online status with a git action is sufficient to automatically publish time-slice datasets with service status information.
 
+
+## How does it work
+This repo demonstrates our mighty [sparql-integrate](https://github.com/SmartDataAnalytics/SparqlIntegrate) toolkit. It is simply a Java command line tool that combines RDF dataset and RDF stream processing using the commands `sparqlintegrate` and `ngs`. The latter stands for "named graph stream".
+
+The whole workflow is just this:
+```bash
+# Load the endpoint dataset and map it to a set of named graphs
+java -cp si.jar sparqlintegrate \
+  alive-endpoints-latest.ttl \
+  playground/endpoint-to-graph.sparql | \
+# Map the set of named graphs in PARALLEL! through the status check sparql query
+# whereas -t specifies the connection timeout, query timeout
+java -cp si.jar ngs \
+  map -t '5000,5000' --sparql playground/check-test.sparql |\
+# Combine the triples of resulting named graphs into a single dataset
+# --u is union named graph mode, so ?s ?p ?o runs over all named graphs
+java -cp si.jar sparqlintegrate --w=trig/pretty \
+  --u - 'CONSTRUCT WHERE { ?s ?p ?o }' > latest-status.ttl
+```
 
 ## Register your own endpoint 
 (This is work in progress; it not yet implemented)
