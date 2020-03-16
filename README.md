@@ -2,7 +2,7 @@
 
 **Work in progress**
 
-This repository features community datasets about SPARQL endpoints and datasets using the [DCAT2](https://www.w3.org/TR/vocab-dcat-2/) data model as the back bone.
+This repository features community datasets about SPARQL endpoints and datasets using the [DCAT2](https://www.w3.org/TR/vocab-dcat-2/) and [Service Description](https://www.w3.org/TR/sparql11-service-description/) data models as the backbone.
 
 What the community gets from this
 
@@ -15,7 +15,8 @@ Although https://sparqles.ai.wu.ac.at/ has a nice user interface and features a 
 
 
 ## How does it work
-This repo demonstrates our mighty [sparql-integrate](https://github.com/SmartDataAnalytics/SparqlIntegrate) toolkit. It is simply a Java command line tool that combines RDF dataset and RDF stream processing using the commands `sparqlintegrate` and `ngs`. The latter stands for "named graph stream".
+This repo demonstrates our mighty [sparql-integrate](https://github.com/SmartDataAnalytics/SparqlIntegrate) toolkit. It is simply a Java command line tool that combines RDF dataset and RDF stream processing using the commands `sparqlintegrate` and `ngs`. The latter stands for "named graph stream". You can either build sparql-integrate yourself, or download the jar bundle from the [releases section](https://github.com/SmartDataAnalytics/SparqlIntegrate/releases).
+
 
 The whole workflow is just this:
 ```bash
@@ -36,6 +37,10 @@ java -cp si.jar sparqlintegrate --w=trig/pretty \
 ## Register your own endpoint 
 (This is work in progress; it not yet implemented)
 
+
+### Register a query that fetches data from your API
+
+Create a query just like [this one](https://github.com/SmartDataAnalytics/lodservatory/blob/master/scripts/rdfize-endpoints-from-sparqles-api.sparql) that extracts the JSON from the sparqles API as RDF.
 
 ### Register the actual data
 
