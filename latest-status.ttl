@@ -1,1482 +1,2130 @@
 @prefix sd:    <http://www.w3.org/ns/sparql-service-description#> .
 @prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 
-<http://de.dbpedia.org/sparql#service>
-        a            sd:Service ;
-        sd:endpoint  <http://de.dbpedia.org/sparql> ;
-        <https://schema.org/dateModified>
-                "2020-03-17T22:02:09.883+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
-        <https://schema.org/serverStatus>
-                <https://schema.org/Online> .
-
-<http://id.sgcb.mcu.es/sparql#service>
-        a            sd:Service ;
-        sd:endpoint  <http://id.sgcb.mcu.es/sparql> ;
-        <https://schema.org/dateModified>
-                "2020-03-17T22:02:05.454+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
-        <https://schema.org/serverStatus>
-                <https://schema.org/Online> .
-
-<http://cultura.linkeddata.es/sparql#service>
-        a            sd:Service ;
-        sd:endpoint  <http://cultura.linkeddata.es/sparql> ;
-        <https://schema.org/dateModified>
-                "2020-03-17T22:01:59.786+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
-        <https://schema.org/serverStatus>
-                <https://schema.org/Online> .
-
-<http://eprints.rkbexplorer.com/sparql/#service>
-        a            sd:Service ;
-        sd:endpoint  <http://eprints.rkbexplorer.com/sparql/> ;
-        <https://schema.org/dateModified>
-                "2020-03-17T22:02:08.374+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
-        <https://schema.org/serverStatus>
-                <https://schema.org/Online> .
-
-<http://deploy.rkbexplorer.com/sparql/#service>
-        a            sd:Service ;
-        sd:endpoint  <http://deploy.rkbexplorer.com/sparql/> ;
-        <https://schema.org/dateModified>
-                "2020-03-17T22:02:02.519+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
-        <https://schema.org/serverStatus>
-                <https://schema.org/Online> .
-
-<http://courseware.rkbexplorer.com/sparql/#service>
-        a            sd:Service ;
-        sd:endpoint  <http://courseware.rkbexplorer.com/sparql/> ;
-        <https://schema.org/dateModified>
-                "2020-03-17T22:01:40.363+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
-        <https://schema.org/serverStatus>
-                <https://schema.org/Online> .
-
-<http://wordnet.rkbexplorer.com/sparql/#service>
-        a            sd:Service ;
-        sd:endpoint  <http://wordnet.rkbexplorer.com/sparql/> ;
-        <https://schema.org/dateModified>
-                "2020-03-17T22:01:55.797+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
-        <https://schema.org/serverStatus>
-                <https://schema.org/Online> .
-
-<http://serendipity.utpl.edu.ec/lod/sparql#service>
-        a            sd:Service ;
-        sd:endpoint  <http://serendipity.utpl.edu.ec/lod/sparql> ;
-        <https://schema.org/dateModified>
-                "2020-03-17T22:02:16.782+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
-        <https://schema.org/serverStatus>
-                <https://schema.org/Online> .
-
-<http://premon.fbk.eu/sparql#service>
-        a            sd:Service ;
-        sd:endpoint  <http://premon.fbk.eu/sparql> ;
-        <https://schema.org/dateModified>
-                "2020-03-17T22:01:50.443+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
-        <https://schema.org/serverStatus>
-                <https://schema.org/Online> .
-
-<http://pt.dbpedia.org/sparql#service>
-        a            sd:Service ;
-        sd:endpoint  <http://pt.dbpedia.org/sparql> ;
-        <https://schema.org/dateModified>
-                "2020-03-17T22:01:32.987+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
-        <https://schema.org/serverStatus>
-                <https://schema.org/Online> .
-
-<https://query.wikidata.org/sparql#service>
-        a            sd:Service ;
-        sd:endpoint  <https://query.wikidata.org/sparql> ;
-        <https://schema.org/dateModified>
-                "2020-03-17T22:01:45.650+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
-        <https://schema.org/serverStatus>
-                <https://schema.org/Online> .
-
-<http://data.persee.fr/sparql#service>
-        a            sd:Service ;
-        sd:endpoint  <http://data.persee.fr/sparql> ;
-        <https://schema.org/dateModified>
-                "2020-03-17T22:02:07.493+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
-        <https://schema.org/serverStatus>
-                <https://schema.org/Online> .
-
-<http://vocabulary.semantic-web.at/PoolParty/sparql/semweb#service>
-        a            sd:Service ;
-        sd:endpoint  <http://vocabulary.semantic-web.at/PoolParty/sparql/semweb> ;
-        <https://schema.org/dateModified>
-                "2020-03-17T22:02:20.449+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
-        <https://schema.org/serverStatus>
-                <https://schema.org/Online> .
-
-<http://dbkwik.webdatacommons.org/sparql#service>
-        a            sd:Service ;
-        sd:endpoint  <http://dbkwik.webdatacommons.org/sparql> ;
-        <https://schema.org/dateModified>
-                "2020-03-17T22:02:16.328+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
-        <https://schema.org/serverStatus>
-                <https://schema.org/Online> .
-
-<http://citeseer.rkbexplorer.com/sparql/#service>
-        a            sd:Service ;
-        sd:endpoint  <http://citeseer.rkbexplorer.com/sparql/> ;
-        <https://schema.org/dateModified>
-                "2020-03-17T22:01:47.547+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
-        <https://schema.org/serverStatus>
-                <https://schema.org/Online> .
-
-<http://es.dbpedia.org/sparql#service>
-        a            sd:Service ;
-        sd:endpoint  <http://es.dbpedia.org/sparql> ;
-        <https://schema.org/dateModified>
-                "2020-03-17T22:02:19.658+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
-        <https://schema.org/serverStatus>
-                <https://schema.org/Online> .
-
-<http://live.dbpedia.org/sparql#service>
-        a            sd:Service ;
-        sd:endpoint  <http://live.dbpedia.org/sparql> ;
-        <https://schema.org/dateModified>
-                "2020-03-17T22:02:17.917+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
-        <https://schema.org/serverStatus>
-                <https://schema.org/Online> .
-
-<https://data.pdok.nl/sparql#service>
-        a            sd:Service ;
-        sd:endpoint  <https://data.pdok.nl/sparql> ;
-        <https://schema.org/dateModified>
-                "2020-03-17T22:01:47.021+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
-        <https://schema.org/serverStatus>
-                <https://schema.org/Online> .
-
-<http://montana.eagle-i.net/sparqler/sparql#service>
-        a            sd:Service ;
-        sd:endpoint  <http://montana.eagle-i.net/sparqler/sparql> ;
-        <https://schema.org/dateModified>
-                "2020-03-17T22:01:50.787+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
-        <https://schema.org/serverStatus>
-                <https://schema.org/Online> .
-
-<http://resex.rkbexplorer.com/sparql/#service>
-        a            sd:Service ;
-        sd:endpoint  <http://resex.rkbexplorer.com/sparql/> ;
-        <https://schema.org/dateModified>
-                "2020-03-17T22:01:56.529+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
-        <https://schema.org/serverStatus>
-                <https://schema.org/Online> .
-
-<http://ring.ciard.net/sparql1#service>
-        a            sd:Service ;
-        sd:endpoint  <http://ring.ciard.net/sparql1> ;
-        <https://schema.org/dateModified>
-                "2020-03-17T22:01:35.853+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
-        <https://schema.org/serverStatus>
-                <https://schema.org/Online> .
-
-<http://os.rkbexplorer.com/sparql/#service>
-        a            sd:Service ;
-        sd:endpoint  <http://os.rkbexplorer.com/sparql/> ;
-        <https://schema.org/dateModified>
-                "2020-03-17T22:02:14.158+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
-        <https://schema.org/serverStatus>
-                <https://schema.org/Online> .
-
-<http://data.lider-project.eu/usage/sparql#service>
-        a            sd:Service ;
-        sd:endpoint  <http://data.lider-project.eu/usage/sparql> ;
-        <https://schema.org/dateModified>
-                "2020-03-17T22:01:50.531+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
-        <https://schema.org/serverStatus>
-                <https://schema.org/Online> .
-
-<http://webisa.webdatacommons.org/sparql#service>
-        a            sd:Service ;
-        sd:endpoint  <http://webisa.webdatacommons.org/sparql> ;
-        <https://schema.org/dateModified>
-                "2020-03-17T22:01:55.105+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
-        <https://schema.org/serverStatus>
-                <https://schema.org/Online> .
-
-<http://ldf.fi/warsa/sparql#service>
-        a            sd:Service ;
-        sd:endpoint  <http://ldf.fi/warsa/sparql> ;
-        <https://schema.org/dateModified>
-                "2020-03-17T22:02:16.026+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
-        <https://schema.org/serverStatus>
-                <https://schema.org/Online> .
-
-<http://nsf.rkbexplorer.com/sparql/#service>
-        a            sd:Service ;
-        sd:endpoint  <http://nsf.rkbexplorer.com/sparql/> ;
-        <https://schema.org/dateModified>
-                "2020-03-17T22:01:38.599+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
-        <https://schema.org/serverStatus>
-                <https://schema.org/Online> .
-
-<http://lod.euscreen.eu/sparql#service>
-        a            sd:Service ;
-        sd:endpoint  <http://lod.euscreen.eu/sparql> ;
-        <https://schema.org/dateModified>
-                "2020-03-17T22:02:00.241+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
-        <https://schema.org/serverStatus>
-                <https://schema.org/Online> .
-
-<http://ohsu.eagle-i.net/sparqler/sparql#service>
-        a            sd:Service ;
-        sd:endpoint  <http://ohsu.eagle-i.net/sparqler/sparql> ;
-        <https://schema.org/dateModified>
-                "2020-03-17T22:02:16.624+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
-        <https://schema.org/serverStatus>
-                <https://schema.org/Online> .
-
-<http://psm.eagle-i.net/sparqler/sparql#service>
-        a            sd:Service ;
-        sd:endpoint  <http://psm.eagle-i.net/sparqler/sparql> ;
-        <https://schema.org/dateModified>
-                "2020-03-17T22:01:48.002+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
-        <https://schema.org/serverStatus>
-                <https://schema.org/Online> .
-
-<http://www.imagesnippets.com/sparql/images#service>
-        a            sd:Service ;
-        sd:endpoint  <http://www.imagesnippets.com/sparql/images> ;
-        <https://schema.org/dateModified>
-                "2020-03-17T22:02:14.016+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
-        <https://schema.org/serverStatus>
-                <https://schema.org/Online> .
-
-<http://semantic.eea.europa.eu/sparql#service>
-        a            sd:Service ;
-        sd:endpoint  <http://semantic.eea.europa.eu/sparql> ;
-        <https://schema.org/dateModified>
-                "2020-03-17T22:01:37.226+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
-        <https://schema.org/serverStatus>
-                <https://schema.org/Online> .
-
-<http://foreign.rkbexplorer.com/sparql#service>
-        a            sd:Service ;
-        sd:endpoint  <http://foreign.rkbexplorer.com/sparql> ;
-        <https://schema.org/dateModified>
-                "2020-03-17T22:02:11.761+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
-        <https://schema.org/serverStatus>
-                <https://schema.org/Online> .
-
-<http://aksw.org/sparql#service>
-        a            sd:Service ;
-        sd:endpoint  <http://aksw.org/sparql> ;
-        <https://schema.org/dateModified>
-                "2020-03-17T22:01:42.418+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
-        <https://schema.org/serverStatus>
-                <https://schema.org/Online> .
-
-<http://rdf.disgenet.org/sparql/#service>
-        a            sd:Service ;
-        sd:endpoint  <http://rdf.disgenet.org/sparql/> ;
-        <https://schema.org/dateModified>
-                "2020-03-17T22:02:03.427+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
-        <https://schema.org/serverStatus>
-                <https://schema.org/Online> .
-
-<http://hunter-cuny.eagle-i.net/sparqler/sparql#service>
-        a            sd:Service ;
-        sd:endpoint  <http://hunter-cuny.eagle-i.net/sparqler/sparql> ;
-        <https://schema.org/dateModified>
-                "2020-03-17T22:02:06.856+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
-        <https://schema.org/serverStatus>
-                <https://schema.org/Online> .
-
-<http://data.nobelprize.org/sparql#service>
-        a            sd:Service ;
-        sd:endpoint  <http://data.nobelprize.org/sparql> ;
-        <https://schema.org/dateModified>
-                "2020-03-17T22:02:08.952+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
-        <https://schema.org/serverStatus>
-                <https://schema.org/Online> .
-
-<http://lod.openlinksw.com/sparql#service>
-        a            sd:Service ;
-        sd:endpoint  <http://lod.openlinksw.com/sparql> ;
-        <https://schema.org/dateModified>
-                "2020-03-17T22:02:06.999+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
-        <https://schema.org/serverStatus>
-                <https://schema.org/Online> .
-
-<http://dbpedia.org/sparql#service>
-        a            sd:Service ;
-        sd:endpoint  <http://dbpedia.org/sparql> ;
-        <https://schema.org/dateModified>
-                "2020-03-17T22:02:08.962+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
-        <https://schema.org/serverStatus>
-                <https://schema.org/Online> .
-
-<http://era.rkbexplorer.com/sparql/#service>
-        a            sd:Service ;
-        sd:endpoint  <http://era.rkbexplorer.com/sparql/> ;
-        <https://schema.org/dateModified>
-                "2020-03-17T22:01:57.796+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
-        <https://schema.org/serverStatus>
-                <https://schema.org/Online> .
-
-<http://roni.rkbexplorer.com/sparql#service>
-        a            sd:Service ;
-        sd:endpoint  <http://roni.rkbexplorer.com/sparql> ;
-        <https://schema.org/dateModified>
-                "2020-03-17T22:02:15.389+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
-        <https://schema.org/serverStatus>
-                <https://schema.org/Online> .
-
-<http://www.lotico.com:3030/lotico/sparql#service>
-        a            sd:Service ;
-        sd:endpoint  <http://www.lotico.com:3030/lotico/sparql> ;
-        <https://schema.org/dateModified>
-                "2020-03-17T22:01:57.612+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
-        <https://schema.org/serverStatus>
-                <https://schema.org/Online> .
-
-<http://linguistic.linkeddata.es/terminesp/sparql-editor#service>
-        a            sd:Service ;
-        sd:endpoint  <http://linguistic.linkeddata.es/terminesp/sparql-editor> ;
-        <https://schema.org/dateModified>
-                "2020-03-17T22:02:12.902+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
-        <https://schema.org/serverStatus>
-                <https://schema.org/Online> .
-
-<http://resource.geolba.ac.at/PoolParty/sparql/lithology#service>
-        a            sd:Service ;
-        sd:endpoint  <http://resource.geolba.ac.at/PoolParty/sparql/lithology> ;
-        <https://schema.org/dateModified>
-                "2020-03-17T22:01:56.813+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
-        <https://schema.org/serverStatus>
-                <https://schema.org/Online> .
-
-<http://biordf.net/sparql#service>
-        a            sd:Service ;
-        sd:endpoint  <http://biordf.net/sparql> ;
-        <https://schema.org/dateModified>
-                "2020-03-17T22:01:53.443+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
-        <https://schema.org/serverStatus>
-                <https://schema.org/Online> .
-
-<http://tuskegee.eagle-i.net/sparqler/sparql#service>
-        a            sd:Service ;
-        sd:endpoint  <http://tuskegee.eagle-i.net/sparqler/sparql> ;
-        <https://schema.org/dateModified>
-                "2020-03-17T22:01:40.333+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
-        <https://schema.org/serverStatus>
-                <https://schema.org/Online> .
-
-<http://vocab.getty.edu/sparql#service>
-        a            sd:Service ;
-        sd:endpoint  <http://vocab.getty.edu/sparql> ;
-        <https://schema.org/dateModified>
-                "2020-03-17T22:01:45.668+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
-        <https://schema.org/serverStatus>
-                <https://schema.org/Online> .
-
-<https://ruian.linked.opendata.cz/sparql#service>
-        a            sd:Service ;
-        sd:endpoint  <https://ruian.linked.opendata.cz/sparql> ;
-        <https://schema.org/dateModified>
-                "2020-03-17T22:01:49.104+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
-        <https://schema.org/serverStatus>
-                <https://schema.org/OfflineTemporarily> .
-
-<http://data.logainm.ie/sparql#service>
-        a            sd:Service ;
-        sd:endpoint  <http://data.logainm.ie/sparql> ;
-        <https://schema.org/dateModified>
-                "2020-03-17T22:01:48.790+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
-        <https://schema.org/serverStatus>
-                <https://schema.org/Online> .
-
-<http://data.open.ac.uk/query#service>
-        a            sd:Service ;
-        sd:endpoint  <http://data.open.ac.uk/query> ;
-        <https://schema.org/dateModified>
-                "2020-03-17T22:01:39.018+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
-        <https://schema.org/serverStatus>
-                <https://schema.org/Online> .
-
-<http://data.allie.dbcls.jp/sparql#service>
-        a            sd:Service ;
-        sd:endpoint  <http://data.allie.dbcls.jp/sparql> ;
-        <https://schema.org/dateModified>
-                "2020-03-17T22:02:20.701+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
-        <https://schema.org/serverStatus>
-                <https://schema.org/Online> .
-
-<http://crm.rkbexplorer.com/sparql#service>
-        a            sd:Service ;
-        sd:endpoint  <http://crm.rkbexplorer.com/sparql> ;
-        <https://schema.org/dateModified>
-                "2020-03-17T22:01:45.288+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
-        <https://schema.org/serverStatus>
-                <https://schema.org/Online> .
-
-<http://hawaii.eagle-i.net/sparqler/sparql#service>
-        a            sd:Service ;
-        sd:endpoint  <http://hawaii.eagle-i.net/sparqler/sparql> ;
-        <https://schema.org/dateModified>
-                "2020-03-17T22:01:49.343+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
-        <https://schema.org/serverStatus>
-                <https://schema.org/Online> .
-
-<http://dutchshipsandsailors.nl/data/sparql/#service>
-        a            sd:Service ;
-        sd:endpoint  <http://dutchshipsandsailors.nl/data/sparql/> ;
-        <https://schema.org/dateModified>
-                "2020-03-17T22:01:48.119+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
-        <https://schema.org/serverStatus>
-                <https://schema.org/Online> .
-
-<http://linkedlifedata.com/sparql#service>
-        a            sd:Service ;
-        sd:endpoint  <http://linkedlifedata.com/sparql> ;
-        <https://schema.org/dateModified>
-                "2020-03-17T22:02:12.398+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
-        <https://schema.org/serverStatus>
-                <https://schema.org/Online> .
-
-<http://webenemasuno.linkeddata.es/sparql#service>
-        a            sd:Service ;
-        sd:endpoint  <http://webenemasuno.linkeddata.es/sparql> ;
-        <https://schema.org/dateModified>
-                "2020-03-17T22:01:51.438+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
-        <https://schema.org/serverStatus>
-                <https://schema.org/Online> .
-
-<http://taxref.mnhn.fr/sparql#service>
-        a            sd:Service ;
-        sd:endpoint  <http://taxref.mnhn.fr/sparql> ;
-        <https://schema.org/dateModified>
-                "2020-03-17T22:01:42.617+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
-        <https://schema.org/serverStatus>
-                <https://schema.org/Online> .
-
-<http://linkeddata.ge.imati.cnr.it:8890/sparql#service>
-        a            sd:Service ;
-        sd:endpoint  <http://linkeddata.ge.imati.cnr.it:8890/sparql> ;
-        <https://schema.org/dateModified>
-                "2020-03-17T22:01:58.241+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
-        <https://schema.org/serverStatus>
-                <https://schema.org/Online> .
-
-<http://data.colinda.org/endpoint.php#service>
-        a            sd:Service ;
-        sd:endpoint  <http://data.colinda.org/endpoint.php> ;
-        <https://schema.org/dateModified>
-                "2020-03-17T22:01:55.405+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
-        <https://schema.org/serverStatus>
-                <https://schema.org/Online> .
-
-<http://geo.linkeddata.es/sparql#service>
-        a            sd:Service ;
-        sd:endpoint  <http://geo.linkeddata.es/sparql> ;
-        <https://schema.org/dateModified>
-                "2020-03-17T22:01:47.829+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
-        <https://schema.org/serverStatus>
-                <https://schema.org/Online> .
-
-<http://fr.dbpedia.org/sparql#service>
-        a            sd:Service ;
-        sd:endpoint  <http://fr.dbpedia.org/sparql> ;
-        <https://schema.org/dateModified>
-                "2020-03-17T22:02:09.580+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
-        <https://schema.org/serverStatus>
-                <https://schema.org/Online> .
-
-<http://msm.eagle-i.net/sparqler/sparql#service>
-        a            sd:Service ;
-        sd:endpoint  <http://msm.eagle-i.net/sparqler/sparql> ;
-        <https://schema.org/dateModified>
-                "2020-03-17T22:01:50.409+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
-        <https://schema.org/serverStatus>
-                <https://schema.org/Online> .
-
-<http://budapest.rkbexplorer.com/sparql/#service>
-        a            sd:Service ;
-        sd:endpoint  <http://budapest.rkbexplorer.com/sparql/> ;
-        <https://schema.org/dateModified>
-                "2020-03-17T22:01:57.520+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
-        <https://schema.org/serverStatus>
-                <https://schema.org/Online> .
-
-<http://eu.dbpedia.org/sparql#service>
-        a            sd:Service ;
-        sd:endpoint  <http://eu.dbpedia.org/sparql> ;
-        <https://schema.org/dateModified>
-                "2020-03-17T22:02:18.563+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
-        <https://schema.org/serverStatus>
-                <https://schema.org/Online> .
-
-<http://aemet.linkeddata.es/sparql#service>
-        a            sd:Service ;
-        sd:endpoint  <http://aemet.linkeddata.es/sparql> ;
-        <https://schema.org/dateModified>
-                "2020-03-17T22:01:43.460+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
-        <https://schema.org/serverStatus>
-                <https://schema.org/Online> .
-
-<http://dbtune.org/musicbrainz/sparql#service>
-        a            sd:Service ;
-        sd:endpoint  <http://dbtune.org/musicbrainz/sparql> ;
-        <https://schema.org/dateModified>
-                "2020-03-17T22:01:41.931+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
-        <https://schema.org/serverStatus>
-                <https://schema.org/Online> .
-
-<http://datos.bne.es/sparql#service>
-        a            sd:Service ;
-        sd:endpoint  <http://datos.bne.es/sparql> ;
-        <https://schema.org/dateModified>
-                "2020-03-17T22:01:45.844+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
-        <https://schema.org/serverStatus>
-                <https://schema.org/Online> .
-
-<http://kisti.rkbexplorer.com/sparql/#service>
-        a            sd:Service ;
-        sd:endpoint  <http://kisti.rkbexplorer.com/sparql/> ;
-        <https://schema.org/dateModified>
-                "2020-03-17T22:01:46.648+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
-        <https://schema.org/serverStatus>
-                <https://schema.org/Online> .
-
-<http://skos.um.es/sparql/#service>
-        a            sd:Service ;
-        sd:endpoint  <http://skos.um.es/sparql/> ;
-        <https://schema.org/dateModified>
-                "2020-03-17T22:02:10.598+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
-        <https://schema.org/serverStatus>
-                <https://schema.org/Online> .
-
-<http://ldf.fi/ww1lod/sparql#service>
-        a            sd:Service ;
-        sd:endpoint  <http://ldf.fi/ww1lod/sparql> ;
-        <https://schema.org/dateModified>
-                "2020-03-17T22:01:52.095+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
-        <https://schema.org/serverStatus>
-                <https://schema.org/Online> .
-
-<http://harvard.eagle-i.net/sparqler/sparql#service>
-        a            sd:Service ;
-        sd:endpoint  <http://harvard.eagle-i.net/sparqler/sparql> ;
-        <https://schema.org/dateModified>
-                "2020-03-17T22:01:38.099+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
-        <https://schema.org/serverStatus>
-                <https://schema.org/Online> .
-
-<http://data.ox.ac.uk/sparql/#service>
-        a            sd:Service ;
-        sd:endpoint  <http://data.ox.ac.uk/sparql/> ;
-        <https://schema.org/dateModified>
-                "2020-03-17T22:02:06.334+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
-        <https://schema.org/serverStatus>
-                <https://schema.org/Online> .
-
-<http://irit.rkbexplorer.com/sparql/#service>
-        a            sd:Service ;
-        sd:endpoint  <http://irit.rkbexplorer.com/sparql/> ;
-        <https://schema.org/dateModified>
-                "2020-03-17T22:01:57.956+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
-        <https://schema.org/serverStatus>
-                <https://schema.org/Online> .
-
-<http://lod.xdams.org/sparql#service>
-        a            sd:Service ;
-        sd:endpoint  <http://lod.xdams.org/sparql> ;
-        <https://schema.org/dateModified>
-                "2020-03-17T22:01:57.301+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
-        <https://schema.org/serverStatus>
-                <https://schema.org/Online> .
-
-<http://sparql.odw.tw#service>
-        a            sd:Service ;
-        sd:endpoint  <http://sparql.odw.tw> ;
-        <https://schema.org/dateModified>
-                "2020-03-17T22:01:43.988+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
-        <https://schema.org/serverStatus>
-                <https://schema.org/Online> .
-
-<http://kaiko.getalp.org/sparql#service>
-        a            sd:Service ;
-        sd:endpoint  <http://kaiko.getalp.org/sparql> ;
-        <https://schema.org/dateModified>
-                "2020-03-17T22:01:42.854+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
-        <https://schema.org/serverStatus>
-                <https://schema.org/Online> .
-
-<http://linkedgeodata.org/sparql/#service>
-        a            sd:Service ;
-        sd:endpoint  <http://linkedgeodata.org/sparql/> ;
-        <https://schema.org/dateModified>
-                "2020-03-17T22:01:34.139+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
-        <https://schema.org/serverStatus>
-                <https://schema.org/Online> .
-
-<http://usgs-stko.geog.ucsb.edu:8080/sparql/select#service>
-        a            sd:Service ;
-        sd:endpoint  <http://usgs-stko.geog.ucsb.edu:8080/sparql/select> ;
-        <https://schema.org/dateModified>
-                "2020-03-17T22:01:36.372+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
-        <https://schema.org/serverStatus>
-                <https://schema.org/Online> .
-
-<http://epsrc.rkbexplorer.com/sparql#service>
-        a            sd:Service ;
-        sd:endpoint  <http://epsrc.rkbexplorer.com/sparql> ;
-        <https://schema.org/dateModified>
-                "2020-03-17T22:02:11.575+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
-        <https://schema.org/serverStatus>
-                <https://schema.org/Online> .
-
-<http://dblp.rkbexplorer.com/sparql/#service>
-        a            sd:Service ;
-        sd:endpoint  <http://dblp.rkbexplorer.com/sparql/> ;
-        <https://schema.org/dateModified>
-                "2020-03-17T22:01:47.719+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
-        <https://schema.org/serverStatus>
-                <https://schema.org/Online> .
-
-<http://oai.rkbexplorer.com/sparql/#service>
-        a            sd:Service ;
-        sd:endpoint  <http://oai.rkbexplorer.com/sparql/> ;
-        <https://schema.org/dateModified>
-                "2020-03-17T22:01:50.940+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
-        <https://schema.org/serverStatus>
-                <https://schema.org/Online> .
-
-<http://ft.rkbexplorer.com/sparql/#service>
-        a            sd:Service ;
-        sd:endpoint  <http://ft.rkbexplorer.com/sparql/> ;
-        <https://schema.org/dateModified>
-                "2020-03-17T22:01:34.447+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
-        <https://schema.org/serverStatus>
-                <https://schema.org/Online> .
-
-<http://nl.dbpedia.org/sparql#service>
-        a            sd:Service ;
-        sd:endpoint  <http://nl.dbpedia.org/sparql> ;
-        <https://schema.org/dateModified>
-                "2020-03-17T22:02:05.131+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
-        <https://schema.org/serverStatus>
-                <https://schema.org/Online> .
-
-<http://tsu.eagle-i.net/sparqler/sparql#service>
-        a            sd:Service ;
-        sd:endpoint  <http://tsu.eagle-i.net/sparqler/sparql> ;
-        <https://schema.org/dateModified>
-                "2020-03-17T22:01:32.993+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
-        <https://schema.org/serverStatus>
-                <https://schema.org/Online> .
-
-<http://id.ndl.go.jp/auth/ndlsh/#service>
-        a            sd:Service ;
-        sd:endpoint  <http://id.ndl.go.jp/auth/ndlsh/> ;
-        <https://schema.org/dateModified>
-                "2020-03-17T22:01:41.083+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
-        <https://schema.org/serverStatus>
-                <https://schema.org/Online> .
-
-<http://deepblue.rkbexplorer.com/sparql/#service>
-        a            sd:Service ;
-        sd:endpoint  <http://deepblue.rkbexplorer.com/sparql/> ;
-        <https://schema.org/dateModified>
-                "2020-03-17T22:02:01.678+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
-        <https://schema.org/serverStatus>
-                <https://schema.org/Online> .
-
-<http://vocabulary.semantic-web.at/PoolParty/sparql/OpenData#service>
-        a            sd:Service ;
-        sd:endpoint  <http://vocabulary.semantic-web.at/PoolParty/sparql/OpenData> ;
-        <https://schema.org/dateModified>
-                "2020-03-17T22:01:37.110+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
-        <https://schema.org/serverStatus>
-                <https://schema.org/Online> .
-
-<http://www.influencetracker.com:8890/sparql#service>
-        a            sd:Service ;
-        sd:endpoint  <http://www.influencetracker.com:8890/sparql> ;
-        <https://schema.org/dateModified>
-                "2020-03-17T22:01:34.045+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
-        <https://schema.org/serverStatus>
-                <https://schema.org/Online> .
-
-<http://cau.eagle-i.net/sparqler/sparql#service>
-        a            sd:Service ;
-        sd:endpoint  <http://cau.eagle-i.net/sparqler/sparql> ;
-        <https://schema.org/dateModified>
-                "2020-03-17T22:01:58.839+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
-        <https://schema.org/serverStatus>
-                <https://schema.org/Online> .
-
-<http://dati.camera.it/sparql#service>
-        a            sd:Service ;
-        sd:endpoint  <http://dati.camera.it/sparql> ;
-        <https://schema.org/dateModified>
-                "2020-03-17T22:01:54.206+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
-        <https://schema.org/serverStatus>
-                <https://schema.org/Online> .
-
-<http://datos.bcn.cl/sparql#service>
-        a            sd:Service ;
-        sd:endpoint  <http://datos.bcn.cl/sparql> ;
-        <https://schema.org/dateModified>
-                "2020-03-17T22:02:22.558+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
-        <https://schema.org/serverStatus>
-                <https://schema.org/Online> .
-
-<http://environment.data.gov.uk/sparql/bwq/query#service>
-        a            sd:Service ;
-        sd:endpoint  <http://environment.data.gov.uk/sparql/bwq/query> ;
-        <https://schema.org/dateModified>
-                "2020-03-17T22:02:08.421+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
-        <https://schema.org/serverStatus>
-                <https://schema.org/Online> .
-
-<http://colinda.org/endpoint.php#service>
-        a            sd:Service ;
-        sd:endpoint  <http://colinda.org/endpoint.php> ;
-        <https://schema.org/dateModified>
-                "2020-03-17T22:01:41.202+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
-        <https://schema.org/serverStatus>
-                <https://schema.org/Online> .
-
-<http://jisc.rkbexplorer.com/sparql/#service>
-        a            sd:Service ;
-        sd:endpoint  <http://jisc.rkbexplorer.com/sparql/> ;
-        <https://schema.org/dateModified>
-                "2020-03-17T22:01:38.359+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
-        <https://schema.org/serverStatus>
-                <https://schema.org/Online> .
-
-<http://lod.b3kat.de/sparql#service>
-        a            sd:Service ;
-        sd:endpoint  <http://lod.b3kat.de/sparql> ;
-        <https://schema.org/dateModified>
-                "2020-03-17T22:01:41.538+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
-        <https://schema.org/serverStatus>
-                <https://schema.org/Online> .
-
-<http://dbtune.org/classical/sparql/#service>
-        a            sd:Service ;
-        sd:endpoint  <http://dbtune.org/classical/sparql/> ;
-        <https://schema.org/dateModified>
-                "2020-03-17T22:02:08.248+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
-        <https://schema.org/serverStatus>
-                <https://schema.org/Online> .
-
-<http://www.rechercheisidore.fr/sparql#service>
-        a            sd:Service ;
-        sd:endpoint  <http://www.rechercheisidore.fr/sparql> ;
-        <https://schema.org/dateModified>
-                "2020-03-17T22:01:53.735+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
-        <https://schema.org/serverStatus>
-                <https://schema.org/Online> .
-
-<http://sparql.uniprot.org#service>
-        a            sd:Service ;
-        sd:endpoint  <http://sparql.uniprot.org> ;
-        <https://schema.org/dateModified>
-                "2020-03-17T22:02:21.197+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
-        <https://schema.org/serverStatus>
-                <https://schema.org/Online> .
-
-<https://data.ox.ac.uk/sparql/#service>
-        a            sd:Service ;
-        sd:endpoint  <https://data.ox.ac.uk/sparql/> ;
-        <https://schema.org/dateModified>
-                "2020-03-17T22:01:45.928+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
-        <https://schema.org/serverStatus>
-                <https://schema.org/Online> .
-
-<http://onto.fel.cvut.cz/rdf4j-server/repositories/ufo-current#service>
-        a            sd:Service ;
-        sd:endpoint  <http://onto.fel.cvut.cz/rdf4j-server/repositories/ufo-current> ;
-        <https://schema.org/dateModified>
-                "2020-03-17T22:01:46.425+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
-        <https://schema.org/serverStatus>
-                <https://schema.org/Online> .
-
-<http://linkeddata.uriburner.com/sparql#service>
-        a            sd:Service ;
-        sd:endpoint  <http://linkeddata.uriburner.com/sparql> ;
-        <https://schema.org/dateModified>
-                "2020-03-17T22:01:53.235+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
-        <https://schema.org/serverStatus>
-                <https://schema.org/Online> .
-
-<https://linked.opendata.cz/sparql#service>
-        a            sd:Service ;
-        sd:endpoint  <https://linked.opendata.cz/sparql> ;
-        <https://schema.org/dateModified>
-                "2020-03-17T22:02:03.764+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
-        <https://schema.org/serverStatus>
-                <https://schema.org/Online> .
-
-<http://uccaribe.eagle-i.net/sparqler/sparql#service>
-        a            sd:Service ;
-        sd:endpoint  <http://uccaribe.eagle-i.net/sparqler/sparql> ;
-        <https://schema.org/dateModified>
-                "2020-03-17T22:02:10.450+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
-        <https://schema.org/serverStatus>
-                <https://schema.org/Online> .
-
-<http://cdrewu.eagle-i.net/sparqler/sparql#service>
-        a            sd:Service ;
-        sd:endpoint  <http://cdrewu.eagle-i.net/sparqler/sparql> ;
-        <https://schema.org/dateModified>
-                "2020-03-17T22:02:17.772+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
-        <https://schema.org/serverStatus>
-                <https://schema.org/Online> .
-
-<http://crtm.linkeddata.es/sparql#service>
-        a            sd:Service ;
-        sd:endpoint  <http://crtm.linkeddata.es/sparql> ;
-        <https://schema.org/dateModified>
-                "2020-03-17T22:01:40.758+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
-        <https://schema.org/serverStatus>
-                <https://schema.org/Online> .
-
-<http://unlocode.rkbexplorer.com/sparql/#service>
-        a            sd:Service ;
-        sd:endpoint  <http://unlocode.rkbexplorer.com/sparql/> ;
-        <https://schema.org/dateModified>
-                "2020-03-17T22:02:08.101+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
-        <https://schema.org/serverStatus>
-                <https://schema.org/Online> .
-
-<https://jpsearch.go.jp/rdf/sparql#service>
-        a            sd:Service ;
-        sd:endpoint  <https://jpsearch.go.jp/rdf/sparql> ;
-        <https://schema.org/dateModified>
-                "2020-03-17T22:02:12.037+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
-        <https://schema.org/serverStatus>
-                <https://schema.org/Online> .
-
-<http://foreign.rkbexplorer.com/sparql/#service>
-        a            sd:Service ;
-        sd:endpoint  <http://foreign.rkbexplorer.com/sparql/> ;
-        <https://schema.org/dateModified>
-                "2020-03-17T22:01:42.139+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
-        <https://schema.org/serverStatus>
-                <https://schema.org/Online> .
-
-<http://meharry.eagle-i.net/sparqler/sparql#service>
-        a            sd:Service ;
-        sd:endpoint  <http://meharry.eagle-i.net/sparqler/sparql> ;
-        <https://schema.org/dateModified>
-                "2020-03-17T22:02:13.867+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
-        <https://schema.org/serverStatus>
-                <https://schema.org/Online> .
-
-<http://kaunas.rkbexplorer.com/sparql#service>
-        a            sd:Service ;
-        sd:endpoint  <http://kaunas.rkbexplorer.com/sparql> ;
-        <https://schema.org/dateModified>
-                "2020-03-17T22:01:52.135+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
-        <https://schema.org/serverStatus>
-                <https://schema.org/Online> .
-
-<http://id.ndl.go.jp/auth/ndla/#service>
-        a            sd:Service ;
-        sd:endpoint  <http://id.ndl.go.jp/auth/ndla/> ;
-        <https://schema.org/dateModified>
-                "2020-03-17T22:01:36.548+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
-        <https://schema.org/serverStatus>
-                <https://schema.org/Online> .
-
-<http://sparql.odw.tw/#service>
-        a            sd:Service ;
-        sd:endpoint  <http://sparql.odw.tw/> ;
-        <https://schema.org/dateModified>
-                "2020-03-17T22:01:50.008+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
-        <https://schema.org/serverStatus>
-                <https://schema.org/Online> .
-
-<http://semanticweb.cs.vu.nl/dss/sparql/#service>
-        a            sd:Service ;
-        sd:endpoint  <http://semanticweb.cs.vu.nl/dss/sparql/> ;
-        <https://schema.org/dateModified>
-                "2020-03-17T22:01:56.077+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
-        <https://schema.org/serverStatus>
-                <https://schema.org/Online> .
-
-<http://eventmedia.eurecom.fr/sparql#service>
-        a            sd:Service ;
-        sd:endpoint  <http://eventmedia.eurecom.fr/sparql> ;
-        <https://schema.org/dateModified>
-                "2020-03-17T22:02:10.790+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
-        <https://schema.org/serverStatus>
-                <https://schema.org/Online> .
-
-<http://onto.beef.org.pl/sparql#service>
-        a            sd:Service ;
-        sd:endpoint  <http://onto.beef.org.pl/sparql> ;
-        <https://schema.org/dateModified>
-                "2020-03-17T22:01:43.927+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
-        <https://schema.org/serverStatus>
-                <https://schema.org/Online> .
-
-<http://linked.opendata.cz/sparql#service>
-        a            sd:Service ;
-        sd:endpoint  <http://linked.opendata.cz/sparql> ;
-        <https://schema.org/dateModified>
-                "2020-03-17T22:01:52.523+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
-        <https://schema.org/serverStatus>
-                <https://schema.org/Online> .
-
-<http://howard.eagle-i.net/sparqler/sparql#service>
-        a            sd:Service ;
-        sd:endpoint  <http://howard.eagle-i.net/sparqler/sparql> ;
-        <https://schema.org/dateModified>
-                "2020-03-17T22:02:04.991+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
-        <https://schema.org/serverStatus>
-                <https://schema.org/Online> .
-
-<http://rdf.muninn-project.org/sparql#service>
-        a            sd:Service ;
-        sd:endpoint  <http://rdf.muninn-project.org/sparql> ;
-        <https://schema.org/dateModified>
-                "2020-03-17T22:02:09.313+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
-        <https://schema.org/serverStatus>
-                <https://schema.org/Online> .
-
-<http://risks.rkbexplorer.com/sparql/#service>
-        a            sd:Service ;
-        sd:endpoint  <http://risks.rkbexplorer.com/sparql/> ;
-        <https://schema.org/dateModified>
-                "2020-03-17T22:01:40.478+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
-        <https://schema.org/serverStatus>
-                <https://schema.org/Online> .
-
-<http://dotac.rkbexplorer.com/sparql/#service>
-        a            sd:Service ;
-        sd:endpoint  <http://dotac.rkbexplorer.com/sparql/> ;
-        <https://schema.org/dateModified>
-                "2020-03-17T22:01:45.390+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
-        <https://schema.org/serverStatus>
-                <https://schema.org/Online> .
-
-<http://utep.eagle-i.net/sparqler/sparql#service>
-        a            sd:Service ;
-        sd:endpoint  <http://utep.eagle-i.net/sparqler/sparql> ;
-        <https://schema.org/dateModified>
-                "2020-03-17T22:01:41.951+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
-        <https://schema.org/serverStatus>
-                <https://schema.org/Online> .
-
-<http://dbtune.org/magnatune/sparql/#service>
-        a            sd:Service ;
-        sd:endpoint  <http://dbtune.org/magnatune/sparql/> ;
-        <https://schema.org/dateModified>
-                "2020-03-17T22:01:39.805+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
-        <https://schema.org/serverStatus>
-                <https://schema.org/Online> .
-
-<http://zbw.eu/beta/sparql/stw/query#service>
-        a            sd:Service ;
-        sd:endpoint  <http://zbw.eu/beta/sparql/stw/query> ;
-        <https://schema.org/dateModified>
-                "2020-03-17T22:02:22.922+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
-        <https://schema.org/serverStatus>
-                <https://schema.org/Online> .
-
-<http://farolas.linkeddata.es/sparql#service>
-        a            sd:Service ;
-        sd:endpoint  <http://farolas.linkeddata.es/sparql> ;
-        <https://schema.org/dateModified>
-                "2020-03-17T22:01:50.991+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
-        <https://schema.org/serverStatus>
-                <https://schema.org/Online> .
-
-<http://resource.geolba.ac.at/PoolParty/sparql/GeologicUnit#service>
-        a            sd:Service ;
-        sd:endpoint  <http://resource.geolba.ac.at/PoolParty/sparql/GeologicUnit> ;
-        <https://schema.org/dateModified>
-                "2020-03-17T22:01:41.430+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
-        <https://schema.org/serverStatus>
-                <https://schema.org/Online> .
-
-<http://lod.sztaki.hu/sparql#service>
-        a            sd:Service ;
-        sd:endpoint  <http://lod.sztaki.hu/sparql> ;
-        <https://schema.org/dateModified>
-                "2020-03-17T22:02:13.246+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
-        <https://schema.org/serverStatus>
-                <https://schema.org/Online> .
-
-<http://www.linklion.org:8890/sparql#service>
-        a            sd:Service ;
-        sd:endpoint  <http://www.linklion.org:8890/sparql> ;
-        <https://schema.org/dateModified>
-                "2020-03-17T22:01:46.929+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
-        <https://schema.org/serverStatus>
-                <https://schema.org/Online> .
-
-<http://ja.dbpedia.org/sparql#service>
-        a            sd:Service ;
-        sd:endpoint  <http://ja.dbpedia.org/sparql> ;
-        <https://schema.org/dateModified>
-                "2020-03-17T22:02:02.107+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
-        <https://schema.org/serverStatus>
-                <https://schema.org/Online> .
-
-<http://roma.rkbexplorer.com/sparql/#service>
-        a            sd:Service ;
-        sd:endpoint  <http://roma.rkbexplorer.com/sparql/> ;
-        <https://schema.org/dateModified>
-                "2020-03-17T22:01:38.149+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
-        <https://schema.org/serverStatus>
-                <https://schema.org/Online> .
-
-<http://extbi.lab.aau.dk/sparql/#service>
+<http://data.openlinksw.com/oplweb/sparql-endpoint79#this>
         a            sd:Service ;
         sd:endpoint  <http://extbi.lab.aau.dk/sparql/> ;
         <https://schema.org/dateModified>
-                "2020-03-17T22:02:11.941+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+                "2020-03-17T23:03:26.800+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
         <https://schema.org/serverStatus>
                 <https://schema.org/Online> .
 
-<http://linkeddata.es/resource/ldqm/sparql#service>
+<http://data.openlinksw.com/oplweb/sparql-endpoint224#this>
         a            sd:Service ;
-        sd:endpoint  <http://linkeddata.es/resource/ldqm/sparql> ;
+        sd:endpoint  <https://immunology.harvard.eagle-i.net/sparqler/sparql> ;
         <https://schema.org/dateModified>
-                "2020-03-17T22:01:34.897+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
-        <https://schema.org/serverStatus>
-                <https://schema.org/Online> .
-
-<http://southampton.rkbexplorer.com/sparql/#service>
-        a            sd:Service ;
-        sd:endpoint  <http://southampton.rkbexplorer.com/sparql/> ;
-        <https://schema.org/dateModified>
-                "2020-03-17T22:01:47.437+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
-        <https://schema.org/serverStatus>
-                <https://schema.org/Online> .
-
-<http://lisbon.rkbexplorer.com/sparql#service>
-        a            sd:Service ;
-        sd:endpoint  <http://lisbon.rkbexplorer.com/sparql> ;
-        <https://schema.org/dateModified>
-                "2020-03-17T22:02:11.213+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
-        <https://schema.org/serverStatus>
-                <https://schema.org/Online> .
-
-<http://data.bnf.fr/sparql#service>
-        a            sd:Service ;
-        sd:endpoint  <http://data.bnf.fr/sparql> ;
-        <https://schema.org/dateModified>
-                "2020-03-17T22:01:58.982+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
-        <https://schema.org/serverStatus>
-                <https://schema.org/Online> .
-
-<http://linkeddata.finki.ukim.mk/sparql#service>
-        a            sd:Service ;
-        sd:endpoint  <http://linkeddata.finki.ukim.mk/sparql> ;
-        <https://schema.org/dateModified>
-                "2020-03-17T22:02:02.798+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
-        <https://schema.org/serverStatus>
-                <https://schema.org/Online> .
-
-<http://data.archiveshub.ac.uk/sparql#service>
-        a            sd:Service ;
-        sd:endpoint  <http://data.archiveshub.ac.uk/sparql> ;
-        <https://schema.org/dateModified>
-                "2020-03-17T22:01:42.315+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
-        <https://schema.org/serverStatus>
-                <https://schema.org/Online> .
-
-<http://italy.rkbexplorer.com/sparql#service>
-        a            sd:Service ;
-        sd:endpoint  <http://italy.rkbexplorer.com/sparql> ;
-        <https://schema.org/dateModified>
-                "2020-03-17T22:02:18.200+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
-        <https://schema.org/serverStatus>
-                <https://schema.org/Online> .
-
-<http://darmstadt.rkbexplorer.com/sparql/#service>
-        a            sd:Service ;
-        sd:endpoint  <http://darmstadt.rkbexplorer.com/sparql/> ;
-        <https://schema.org/dateModified>
-                "2020-03-17T22:01:40.088+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
-        <https://schema.org/serverStatus>
-                <https://schema.org/Online> .
-
-<http://rae2001.rkbexplorer.com/sparql/#service>
-        a            sd:Service ;
-        sd:endpoint  <http://rae2001.rkbexplorer.com/sparql/> ;
-        <https://schema.org/dateModified>
-                "2020-03-17T22:01:37.587+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
-        <https://schema.org/serverStatus>
-                <https://schema.org/Online> .
-
-<http://sparql.data.southampton.ac.uk/#service>
-        a            sd:Service ;
-        sd:endpoint  <http://sparql.data.southampton.ac.uk/> ;
-        <https://schema.org/dateModified>
-                "2020-03-17T22:01:51.226+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
-        <https://schema.org/serverStatus>
-                <https://schema.org/Online> .
-
-<http://ibm.rkbexplorer.com/sparql/#service>
-        a            sd:Service ;
-        sd:endpoint  <http://ibm.rkbexplorer.com/sparql/> ;
-        <https://schema.org/dateModified>
-                "2020-03-17T22:02:12.844+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
-        <https://schema.org/serverStatus>
-                <https://schema.org/Online> .
-
-<http://laas.rkbexplorer.com/sparql/#service>
-        a            sd:Service ;
-        sd:endpoint  <http://laas.rkbexplorer.com/sparql/> ;
-        <https://schema.org/dateModified>
-                "2020-03-17T22:01:49.055+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
-        <https://schema.org/serverStatus>
-                <https://schema.org/Online> .
-
-<https://dbmi-icode-01.dbmi.pitt.edu/sparql#service>
-        a            sd:Service ;
-        sd:endpoint  <https://dbmi-icode-01.dbmi.pitt.edu/sparql> ;
-        <https://schema.org/dateModified>
-                "2020-03-17T22:01:35.350+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
-        <https://schema.org/serverStatus>
-                <https://schema.org/Online> .
-
-<http://curriculum.rkbexplorer.com/sparql/#service>
-        a            sd:Service ;
-        sd:endpoint  <http://curriculum.rkbexplorer.com/sparql/> ;
-        <https://schema.org/dateModified>
-                "2020-03-17T22:02:15.112+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
-        <https://schema.org/serverStatus>
-                <https://schema.org/Online> .
-
-<http://ulm.rkbexplorer.com/sparql/#service>
-        a            sd:Service ;
-        sd:endpoint  <http://ulm.rkbexplorer.com/sparql/> ;
-        <https://schema.org/dateModified>
-                "2020-03-17T22:01:57.020+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
-        <https://schema.org/serverStatus>
-                <https://schema.org/Online> .
-
-<http://dati.isprambiente.it/sparql#service>
-        a            sd:Service ;
-        sd:endpoint  <http://dati.isprambiente.it/sparql> ;
-        <https://schema.org/dateModified>
-                "2020-03-17T22:01:39.461+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
-        <https://schema.org/serverStatus>
-                <https://schema.org/Online> .
-
-<http://ieee.rkbexplorer.com/sparql/#service>
-        a            sd:Service ;
-        sd:endpoint  <http://ieee.rkbexplorer.com/sparql/> ;
-        <https://schema.org/dateModified>
-                "2020-03-17T22:02:10.174+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
-        <https://schema.org/serverStatus>
-                <https://schema.org/Online> .
-
-<http://data.cnr.it/sparql-proxy/#service>
-        a            sd:Service ;
-        sd:endpoint  <http://data.cnr.it/sparql-proxy/> ;
-        <https://schema.org/dateModified>
-                "2020-03-17T22:01:36.851+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
-        <https://schema.org/serverStatus>
-                <https://schema.org/Online> .
-
-<https://w3id.org/scholarlydata/sparql#service>
-        a            sd:Service ;
-        sd:endpoint  <https://w3id.org/scholarlydata/sparql> ;
-        <https://schema.org/dateModified>
-                "2020-03-17T22:01:58.077+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+                "2020-03-17T23:02:05.140+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
         <https://schema.org/serverStatus>
                 <https://schema.org/OfflineTemporarily> .
 
-<http://newcastle.rkbexplorer.com/sparql/#service>
+<http://data.openlinksw.com/oplweb/sparql-endpoint205#this>
         a            sd:Service ;
-        sd:endpoint  <http://newcastle.rkbexplorer.com/sparql/> ;
+        sd:endpoint  <https://data.gesis.org/claimskg/sparql> ;
         <https://schema.org/dateModified>
-                "2020-03-17T22:02:15.751+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+                "2020-03-17T23:01:34.367+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
         <https://schema.org/serverStatus>
                 <https://schema.org/Online> .
 
-<http://symbolicdata.org:8890/sparql#service>
-        a            sd:Service ;
-        sd:endpoint  <http://symbolicdata.org:8890/sparql> ;
-        <https://schema.org/dateModified>
-                "2020-03-17T22:02:20.126+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
-        <https://schema.org/serverStatus>
-                <https://schema.org/Online> .
-
-<http://resource.geolba.ac.at/PoolParty/sparql/tectonicunit#service>
-        a            sd:Service ;
-        sd:endpoint  <http://resource.geolba.ac.at/PoolParty/sparql/tectonicunit> ;
-        <https://schema.org/dateModified>
-                "2020-03-17T22:01:57.409+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
-        <https://schema.org/serverStatus>
-                <https://schema.org/Online> .
-
-<http://opendatacommunities.org/sparql#service>
-        a            sd:Service ;
-        sd:endpoint  <http://opendatacommunities.org/sparql> ;
-        <https://schema.org/dateModified>
-                "2020-03-17T22:01:42.103+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
-        <https://schema.org/serverStatus>
-                <https://schema.org/Online> .
-
-<https://data.gov.cz/sparql#service>
-        a            sd:Service ;
-        sd:endpoint  <https://data.gov.cz/sparql> ;
-        <https://schema.org/dateModified>
-                "2020-03-17T22:02:10.141+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
-        <https://schema.org/serverStatus>
-                <https://schema.org/Online> .
-
-<http://www.icane.es/opendata/sparql#service>
-        a            sd:Service ;
-        sd:endpoint  <http://www.icane.es/opendata/sparql> ;
-        <https://schema.org/dateModified>
-                "2020-03-17T22:02:09.237+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
-        <https://schema.org/serverStatus>
-                <https://schema.org/Online> .
-
-<http://opendata.aragon.es/sparql#service>
-        a            sd:Service ;
-        sd:endpoint  <http://opendata.aragon.es/sparql> ;
-        <https://schema.org/dateModified>
-                "2020-03-17T22:02:00.748+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
-        <https://schema.org/serverStatus>
-                <https://schema.org/Online> .
-
-<http://eurecom.rkbexplorer.com/sparql/#service>
-        a            sd:Service ;
-        sd:endpoint  <http://eurecom.rkbexplorer.com/sparql/> ;
-        <https://schema.org/dateModified>
-                "2020-03-17T22:02:04.064+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
-        <https://schema.org/serverStatus>
-                <https://schema.org/Online> .
-
-<http://apps.morelab.deusto.es/labman/sparql#service>
-        a            sd:Service ;
-        sd:endpoint  <http://apps.morelab.deusto.es/labman/sparql> ;
-        <https://schema.org/dateModified>
-                "2020-03-17T22:01:34.514+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
-        <https://schema.org/serverStatus>
-                <https://schema.org/Online> .
-
-<http://resource.geolba.ac.at/PoolParty/sparql/GeologicTimeScale#service>
-        a            sd:Service ;
-        sd:endpoint  <http://resource.geolba.ac.at/PoolParty/sparql/GeologicTimeScale> ;
-        <https://schema.org/dateModified>
-                "2020-03-17T22:01:39.930+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
-        <https://schema.org/serverStatus>
-                <https://schema.org/Online> .
-
-<http://alaska.eagle-i.net/sparqler/sparql#service>
-        a            sd:Service ;
-        sd:endpoint  <http://alaska.eagle-i.net/sparqler/sparql> ;
-        <https://schema.org/dateModified>
-                "2020-03-17T22:02:00.627+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
-        <https://schema.org/serverStatus>
-                <https://schema.org/Online> .
-
-<http://cordis.rkbexplorer.com/sparql/#service>
-        a            sd:Service ;
-        sd:endpoint  <http://cordis.rkbexplorer.com/sparql/> ;
-        <https://schema.org/dateModified>
-                "2020-03-17T22:01:40.645+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
-        <https://schema.org/serverStatus>
-                <https://schema.org/Online> .
-
-<http://digitaleconomy.rkbexplorer.com/sparql#service>
-        a            sd:Service ;
-        sd:endpoint  <http://digitaleconomy.rkbexplorer.com/sparql> ;
-        <https://schema.org/dateModified>
-                "2020-03-17T22:01:52.863+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
-        <https://schema.org/serverStatus>
-                <https://schema.org/Online> .
-
-<http://data.szepmuveszeti.hu/sparql#service>
-        a            sd:Service ;
-        sd:endpoint  <http://data.szepmuveszeti.hu/sparql> ;
-        <https://schema.org/dateModified>
-                "2020-03-17T22:01:54.698+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
-        <https://schema.org/serverStatus>
-                <https://schema.org/Online> .
-
-<http://ccny-cuny.eagle-i.net/sparqler/sparql#service>
-        a            sd:Service ;
-        sd:endpoint  <http://ccny-cuny.eagle-i.net/sparqler/sparql> ;
-        <https://schema.org/dateModified>
-                "2020-03-17T22:01:36.682+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
-        <https://schema.org/serverStatus>
-                <https://schema.org/Online> .
-
-<http://ruian.linked.opendata.cz/sparql#service>
-        a            sd:Service ;
-        sd:endpoint  <http://ruian.linked.opendata.cz/sparql> ;
-        <https://schema.org/dateModified>
-                "2020-03-17T22:01:38.796+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
-        <https://schema.org/serverStatus>
-                <https://schema.org/OfflineTemporarily> .
-
-<http://webscience.rkbexplorer.com/sparql#service>
-        a            sd:Service ;
-        sd:endpoint  <http://webscience.rkbexplorer.com/sparql> ;
-        <https://schema.org/dateModified>
-                "2020-03-17T22:01:51.770+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
-        <https://schema.org/serverStatus>
-                <https://schema.org/Online> .
-
-<http://linguistic.linkeddata.es/sparql#service>
-        a            sd:Service ;
-        sd:endpoint  <http://linguistic.linkeddata.es/sparql> ;
-        <https://schema.org/dateModified>
-                "2020-03-17T22:01:48.351+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
-        <https://schema.org/serverStatus>
-                <https://schema.org/Online> .
-
-<http://pisa.rkbexplorer.com/sparql/#service>
-        a            sd:Service ;
-        sd:endpoint  <http://pisa.rkbexplorer.com/sparql/> ;
-        <https://schema.org/dateModified>
-                "2020-03-17T22:01:48.775+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
-        <https://schema.org/serverStatus>
-                <https://schema.org/Online> .
-
-<http://xula.eagle-i.net/sparqler/sparql#service>
-        a            sd:Service ;
-        sd:endpoint  <http://xula.eagle-i.net/sparqler/sparql> ;
-        <https://schema.org/dateModified>
-                "2020-03-17T22:02:00.120+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
-        <https://schema.org/serverStatus>
-                <https://schema.org/Online> .
-
-<http://acm.rkbexplorer.com/sparql/#service>
-        a            sd:Service ;
-        sd:endpoint  <http://acm.rkbexplorer.com/sparql/> ;
-        <https://schema.org/dateModified>
-                "2020-03-17T22:02:19.382+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
-        <https://schema.org/serverStatus>
-                <https://schema.org/Online> .
-
-<http://cr.eionet.europa.eu/sparql#service>
-        a            sd:Service ;
-        sd:endpoint  <http://cr.eionet.europa.eu/sparql> ;
-        <https://schema.org/dateModified>
-                "2020-03-17T22:01:35.385+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
-        <https://schema.org/serverStatus>
-                <https://schema.org/Online> .
-
-<http://jsu.eagle-i.net/sparqler/sparql#service>
-        a            sd:Service ;
-        sd:endpoint  <http://jsu.eagle-i.net/sparqler/sparql> ;
-        <https://schema.org/dateModified>
-                "2020-03-17T22:02:08.094+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
-        <https://schema.org/serverStatus>
-                <https://schema.org/Online> .
-
-<http://semanticweb.cs.vu.nl/verrijktkoninkrijk/sparql/#service>
-        a            sd:Service ;
-        sd:endpoint  <http://semanticweb.cs.vu.nl/verrijktkoninkrijk/sparql/> ;
-        <https://schema.org/dateModified>
-                "2020-03-17T22:01:49.609+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
-        <https://schema.org/serverStatus>
-                <https://schema.org/Online> .
-
-<http://edit.elte.hu/sparql#service>
-        a            sd:Service ;
-        sd:endpoint  <http://edit.elte.hu/sparql> ;
-        <https://schema.org/dateModified>
-                "2020-03-17T22:01:49.399+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
-        <https://schema.org/serverStatus>
-                <https://schema.org/Online> .
-
-<http://dbtune.org/bbc/peel/sparql/#service>
-        a            sd:Service ;
-        sd:endpoint  <http://dbtune.org/bbc/peel/sparql/> ;
-        <https://schema.org/dateModified>
-                "2020-03-17T22:02:08.650+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
-        <https://schema.org/serverStatus>
-                <https://schema.org/Online> .
-
-<http://en.openei.org/sparql#service>
-        a            sd:Service ;
-        sd:endpoint  <http://en.openei.org/sparql> ;
-        <https://schema.org/dateModified>
-                "2020-03-17T22:02:08.741+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
-        <https://schema.org/serverStatus>
-                <https://schema.org/Online> .
-
-<http://onto.mondis.cz/openrdf-sesame/repositories/mondis-record-owlim#service>
-        a            sd:Service ;
-        sd:endpoint  <http://onto.mondis.cz/openrdf-sesame/repositories/mondis-record-owlim> ;
-        <https://schema.org/dateModified>
-                "2020-03-17T22:01:57.013+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
-        <https://schema.org/serverStatus>
-                <https://schema.org/Online> .
-
-<http://biolit.rkbexplorer.com/sparql#service>
-        a            sd:Service ;
-        sd:endpoint  <http://biolit.rkbexplorer.com/sparql> ;
-        <https://schema.org/dateModified>
-                "2020-03-17T22:01:43.259+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
-        <https://schema.org/serverStatus>
-                <https://schema.org/Online> .
-
-<http://upr.eagle-i.net/sparqler/sparql#service>
-        a            sd:Service ;
-        sd:endpoint  <http://upr.eagle-i.net/sparqler/sparql> ;
-        <https://schema.org/dateModified>
-                "2020-03-17T22:02:01.963+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
-        <https://schema.org/serverStatus>
-                <https://schema.org/Online> .
-
-<http://bnb.data.bl.uk/sparql#service>
-        a            sd:Service ;
-        sd:endpoint  <http://bnb.data.bl.uk/sparql> ;
-        <https://schema.org/dateModified>
-                "2020-03-17T22:02:04.345+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
-        <https://schema.org/serverStatus>
-                <https://schema.org/Online> .
-
-<http://famu.eagle-i.net/sparqler/sparql#service>
-        a            sd:Service ;
-        sd:endpoint  <http://famu.eagle-i.net/sparqler/sparql> ;
-        <https://schema.org/dateModified>
-                "2020-03-17T22:01:38.891+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
-        <https://schema.org/serverStatus>
-                <https://schema.org/Online> .
-
-<http://webconf.rkbexplorer.com/sparql#service>
-        a            sd:Service ;
-        sd:endpoint  <http://webconf.rkbexplorer.com/sparql> ;
-        <https://schema.org/dateModified>
-                "2020-03-17T22:01:52.500+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
-        <https://schema.org/serverStatus>
-                <https://schema.org/Online> .
-
-<http://el.dbpedia.org/sparql#service>
-        a            sd:Service ;
-        sd:endpoint  <http://el.dbpedia.org/sparql> ;
-        <https://schema.org/dateModified>
-                "2020-03-17T22:02:14.437+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
-        <https://schema.org/serverStatus>
-                <https://schema.org/Online> .
-
-<http://wiki.rkbexplorer.com/sparql/#service>
-        a            sd:Service ;
-        sd:endpoint  <http://wiki.rkbexplorer.com/sparql/> ;
-        <https://schema.org/dateModified>
-                "2020-03-17T22:01:53.911+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
-        <https://schema.org/serverStatus>
-                <https://schema.org/Online> .
-
-<http://dbtune.org/jamendo/sparql/#service>
+<http://data.openlinksw.com/oplweb/sparql-endpoint57#this>
         a            sd:Service ;
         sd:endpoint  <http://dbtune.org/jamendo/sparql/> ;
         <https://schema.org/dateModified>
-                "2020-03-17T22:01:43.895+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+                "2020-03-17T23:03:33.516+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
         <https://schema.org/serverStatus>
                 <https://schema.org/Online> .
 
-<http://utsa.eagle-i.net/sparqler/sparql#service>
+<http://data.openlinksw.com/oplweb/sparql-endpoint202#this>
         a            sd:Service ;
-        sd:endpoint  <http://utsa.eagle-i.net/sparqler/sparql> ;
+        sd:endpoint  <https://ccny-cuny.eagle-i.net/sparqler/sparql> ;
         <https://schema.org/dateModified>
-                "2020-03-17T22:02:19.979+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+                "2020-03-17T23:01:50.121+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+        <https://schema.org/serverStatus>
+                <https://schema.org/Online> .
+
+<http://data.openlinksw.com/oplweb/sparql-endpoint38#this>
+        a            sd:Service ;
+        sd:endpoint  <http://data.doremus.org/sparql> ;
+        <https://schema.org/dateModified>
+                "2020-03-17T23:03:17.821+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+        <https://schema.org/serverStatus>
+                <https://schema.org/Online> .
+
+<http://data.openlinksw.com/oplweb/sparql-endpoint35#this>
+        a            sd:Service ;
+        sd:endpoint  <http://data.archiveshub.ac.uk/sparql/> ;
+        <https://schema.org/dateModified>
+                "2020-03-17T23:03:18.447+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+        <https://schema.org/serverStatus>
+                <https://schema.org/OfflineTemporarily> .
+
+<http://data.openlinksw.com/oplweb/sparql-endpoint16#this>
+        a            sd:Service ;
+        sd:endpoint  <http://caligraph.org/sparql> ;
+        <https://schema.org/dateModified>
+                "2020-03-17T23:03:51.739+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+        <https://schema.org/serverStatus>
+                <https://schema.org/Online> .
+
+<http://data.openlinksw.com/oplweb/sparql-endpoint13#this>
+        a            sd:Service ;
+        sd:endpoint  <http://bmrbpub.protein.osaka-u.ac.jp/search/rdf> ;
+        <https://schema.org/dateModified>
+                "2020-03-17T23:03:13.345+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+        <https://schema.org/serverStatus>
+                <https://schema.org/OfflineTemporarily> .
+
+<http://data.openlinksw.com/oplweb/sparql-endpoint228#this>
+        a            sd:Service ;
+        sd:endpoint  <https://jpsearch.go.jp/rdf/sparql> ;
+        <https://schema.org/dateModified>
+                "2020-03-17T23:04:02.392+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+        <https://schema.org/serverStatus>
+                <https://schema.org/Online> .
+
+<http://data.openlinksw.com/oplweb/sparql-endpoint209#this>
+        a            sd:Service ;
+        sd:endpoint  <https://dba-rdf.biosciencedbc.jp/sparql> ;
+        <https://schema.org/dateModified>
+                "2020-03-17T23:03:02.170+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+        <https://schema.org/serverStatus>
+                <https://schema.org/Online> .
+
+<http://data.openlinksw.com/oplweb/sparql-endpoint206#this>
+        a            sd:Service ;
+        sd:endpoint  <https://data.gov.cz/sparql> ;
+        <https://schema.org/dateModified>
+                "2020-03-17T23:01:50.355+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+        <https://schema.org/serverStatus>
+                <https://schema.org/Online> .
+
+<http://data.openlinksw.com/oplweb/sparql-endpoint39#this>
+        a            sd:Service ;
+        sd:endpoint  <http://data.legilux.public.lu/sparql> ;
+        <https://schema.org/dateModified>
+                "2020-03-17T23:02:48.320+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+        <https://schema.org/serverStatus>
+                <https://schema.org/Online> .
+
+<http://data.openlinksw.com/oplweb/sparql-endpoint180#this>
+        a            sd:Service ;
+        sd:endpoint  <http://srvgal78.deri.ie:8004/sparql/> ;
+        <https://schema.org/dateModified>
+                "2020-03-17T23:02:35.113+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+        <https://schema.org/serverStatus>
+                <https://schema.org/Online> .
+
+<http://data.openlinksw.com/oplweb/sparql-endpoint17#this>
+        a            sd:Service ;
+        sd:endpoint  <http://canlink.library.ualberta.ca/sparql> ;
+        <https://schema.org/dateModified>
+                "2020-03-17T23:02:51.072+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+        <https://schema.org/serverStatus>
+                <https://schema.org/Online> .
+
+<http://data.openlinksw.com/oplweb/sparql-endpoint184#this>
+        a            sd:Service ;
+        sd:endpoint  <http://vulcan.cs.uga.edu/sparql> ;
+        <https://schema.org/dateModified>
+                "2020-03-17T23:03:17.309+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+        <https://schema.org/serverStatus>
+                <https://schema.org/Online> .
+
+<http://data.openlinksw.com/oplweb/sparql-endpoint181#this>
+        a            sd:Service ;
+        sd:endpoint  <http://statistics.gov.scot/sparql> ;
+        <https://schema.org/dateModified>
+                "2020-03-17T23:03:06.104+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+        <https://schema.org/serverStatus>
+                <https://schema.org/Online> .
+
+<http://data.openlinksw.com/oplweb/sparql-endpoint162#this>
+        a            sd:Service ;
+        sd:endpoint  <http://rdf.pathwaycommons.org/sparql/> ;
+        <https://schema.org/dateModified>
+                "2020-03-17T23:02:26.512+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+        <https://schema.org/serverStatus>
+                <https://schema.org/Online> .
+
+<http://data.openlinksw.com/oplweb/sparql-endpoint140#this>
+        a            sd:Service ;
+        sd:endpoint  <http://newcastle.rkbexplorer.com/sparql/> ;
+        <https://schema.org/dateModified>
+                "2020-03-17T23:01:49.218+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+        <https://schema.org/serverStatus>
+                <https://schema.org/Online> .
+
+<http://data.openlinksw.com/oplweb/sparql-endpoint188#this>
+        a            sd:Service ;
+        sd:endpoint  <http://www.genome.jp/sparql/linkdb> ;
+        <https://schema.org/dateModified>
+                "2020-03-17T23:02:33.930+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+        <https://schema.org/serverStatus>
+                <https://schema.org/Online> .
+
+<http://data.openlinksw.com/oplweb/sparql-endpoint185#this>
+        a            sd:Service ;
+        sd:endpoint  <http://wifo5-04.informatik.uni-mannheim.de/drugbank/sparql> ;
+        <https://schema.org/dateModified>
+                "2020-03-17T23:03:54.145+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+        <https://schema.org/serverStatus>
+                <https://schema.org/Online> .
+
+<http://data.openlinksw.com/oplweb/sparql-endpoint166#this>
+        a            sd:Service ;
+        sd:endpoint  <http://sparql.archives-ouvertes.fr/sparql> ;
+        <https://schema.org/dateModified>
+                "2020-03-17T23:01:48.831+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+        <https://schema.org/serverStatus>
+                <https://schema.org/Online> .
+
+<http://data.openlinksw.com/oplweb/sparql-endpoint163#this>
+        a            sd:Service ;
+        sd:endpoint  <http://rdf.pathwaycommons.org/sparql/> ;
+        <https://schema.org/dateModified>
+                "2020-03-17T23:03:23.652+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+        <https://schema.org/serverStatus>
+                <https://schema.org/Online> .
+
+<http://data.openlinksw.com/oplweb/sparql-endpoint141#this>
+        a            sd:Service ;
+        sd:endpoint  <http://notube.rkbexplorer.com/sparql/> ;
+        <https://schema.org/dateModified>
+                "2020-03-17T23:03:51.868+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+        <https://schema.org/serverStatus>
+                <https://schema.org/OfflineTemporarily> .
+
+<http://data.openlinksw.com/oplweb/sparql-endpoint81#this>
+        a            sd:Service ;
+        sd:endpoint  <http://foodpedia.tk/sparql/> ;
+        <https://schema.org/dateModified>
+                "2020-03-17T23:04:00.796+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+        <https://schema.org/serverStatus>
+                <https://schema.org/OfflineTemporarily> .
+
+<http://data.openlinksw.com/oplweb/sparql-endpoint189#this>
+        a            sd:Service ;
+        sd:endpoint  <http://www.imagesnippets.com/sparql/images> ;
+        <https://schema.org/dateModified>
+                "2020-03-17T23:04:10.834+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+        <https://schema.org/serverStatus>
+                <https://schema.org/Online> .
+
+<http://data.openlinksw.com/oplweb/sparql-endpoint167#this>
+        a            sd:Service ;
+        sd:endpoint  <http://sparql.datao.net/sparql> ;
+        <https://schema.org/dateModified>
+                "2020-03-17T23:02:39.154+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+        <https://schema.org/serverStatus>
+                <https://schema.org/Online> .
+
+<http://data.openlinksw.com/oplweb/sparql-endpoint145#this>
+        a            sd:Service ;
+        sd:endpoint  <http://opencitations.net/index/sparql> ;
+        <https://schema.org/dateModified>
+                "2020-03-17T23:03:01.861+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+        <https://schema.org/serverStatus>
+                <https://schema.org/Online> .
+
+<http://data.openlinksw.com/oplweb/sparql-endpoint252#this>
+        a            sd:Service ;
+        sd:endpoint  <https://sparql.omabrowser.org/sparql> ;
+        <https://schema.org/dateModified>
+                "2020-03-17T23:02:52.833+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+        <https://schema.org/serverStatus>
+                <https://schema.org/Online> .
+
+<http://data.openlinksw.com/oplweb/sparql-endpoint142#this>
+        a            sd:Service ;
+        sd:endpoint  <http://nsf.rkbexplorer.com/sparql/> ;
+        <https://schema.org/dateModified>
+                "2020-03-17T23:01:35.688+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+        <https://schema.org/serverStatus>
+                <https://schema.org/Online> .
+
+<http://data.openlinksw.com/oplweb/sparql-endpoint123#this>
+        a            sd:Service ;
+        sd:endpoint  <http://live.dbpedia.org/sparql/> ;
+        <https://schema.org/dateModified>
+                "2020-03-17T23:01:34.609+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+        <https://schema.org/serverStatus>
+                <https://schema.org/Online> .
+
+<http://data.openlinksw.com/oplweb/sparql-endpoint85#this>
+        a            sd:Service ;
+        sd:endpoint  <http://gendr.bio2rdf.org/sparql/> ;
+        <https://schema.org/dateModified>
+                "2020-03-17T23:03:32.864+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+        <https://schema.org/serverStatus>
+                <https://schema.org/OfflineTemporarily> .
+
+<http://data.openlinksw.com/oplweb/sparql-endpoint230#this>
+        a            sd:Service ;
+        sd:endpoint  <https://landportal.org/sparql> ;
+        <https://schema.org/dateModified>
+                "2020-03-17T23:03:39.010+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+        <https://schema.org/serverStatus>
+                <https://schema.org/Online> .
+
+<http://data.openlinksw.com/oplweb/sparql-endpoint82#this>
+        a            sd:Service ;
+        sd:endpoint  <http://foreign.rkbexplorer.com/sparql/> ;
+        <https://schema.org/dateModified>
+                "2020-03-17T23:02:21.924+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+        <https://schema.org/serverStatus>
+                <https://schema.org/Online> .
+
+<http://data.openlinksw.com/oplweb/sparql-endpoint120#this>
+        a            sd:Service ;
+        sd:endpoint  <http://linkedlifedata.com/sparql/> ;
+        <https://schema.org/dateModified>
+                "2020-03-17T23:03:19.014+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+        <https://schema.org/serverStatus>
+                <https://schema.org/Online> .
+
+<http://data.openlinksw.com/oplweb/sparql-endpoint101#this>
+        a            sd:Service ;
+        sd:endpoint  <http://irit.rkbexplorer.com/sparql/> ;
+        <https://schema.org/dateModified>
+                "2020-03-17T23:03:30.794+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+        <https://schema.org/serverStatus>
+                <https://schema.org/Online> .
+
+<http://data.openlinksw.com/oplweb/sparql-endpoint60#this>
+        a            sd:Service ;
+        sd:endpoint  <http://dbtune.org/myspace/sparql/> ;
+        <https://schema.org/dateModified>
+                "2020-03-17T23:02:43.675+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+        <https://schema.org/serverStatus>
+                <https://schema.org/OfflineTemporarily> .
+
+<http://data.openlinksw.com/oplweb/sparql-endpoint256#this>
+        a            sd:Service ;
+        sd:endpoint  <https://sparql.uniprot.org/sparql> ;
+        <https://schema.org/dateModified>
+                "2020-03-17T23:03:58.367+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+        <https://schema.org/serverStatus>
+                <https://schema.org/Online> .
+
+<http://data.openlinksw.com/oplweb/sparql-endpoint146#this>
+        a            sd:Service ;
+        sd:endpoint  <http://opendatacommunities.org/sparql/> ;
+        <https://schema.org/dateModified>
+                "2020-03-17T23:02:54.388+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+        <https://schema.org/serverStatus>
+                <https://schema.org/Online> .
+
+<http://data.openlinksw.com/oplweb/sparql-endpoint253#this>
+        a            sd:Service ;
+        sd:endpoint  <https://sparql.omabrowser.org/sparql> ;
+        <https://schema.org/dateModified>
+                "2020-03-17T23:03:19.790+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+        <https://schema.org/serverStatus>
+                <https://schema.org/Online> .
+
+<http://data.openlinksw.com/oplweb/sparql-endpoint127#this>
+        a            sd:Service ;
+        sd:endpoint  <http://lod.openlinksw.com/sparql> ;
+        <https://schema.org/dateModified>
+                "2020-03-17T23:02:39.481+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+        <https://schema.org/serverStatus>
+                <https://schema.org/Online> .
+
+<http://data.openlinksw.com/oplweb/sparql-endpoint124#this>
+        a            sd:Service ;
+        sd:endpoint  <http://lod.kaist.ac.kr/sparql> ;
+        <https://schema.org/dateModified>
+                "2020-03-17T23:04:05.462+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+        <https://schema.org/serverStatus>
+                <https://schema.org/OfflineTemporarily> .
+
+<http://data.openlinksw.com/oplweb/sparql-endpoint86#this>
+        a            sd:Service ;
+        sd:endpoint  <http://genome.microbedb.jp/sparql> ;
+        <https://schema.org/dateModified>
+                "2020-03-17T23:03:28.256+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+        <https://schema.org/serverStatus>
+                <https://schema.org/OfflineTemporarily> .
+
+<http://data.openlinksw.com/oplweb/sparql-endpoint231#this>
+        a            sd:Service ;
+        sd:endpoint  <https://landportal.org/sparql> ;
+        <https://schema.org/dateModified>
+                "2020-03-17T23:01:44.600+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+        <https://schema.org/serverStatus>
+                <https://schema.org/Online> .
+
+<http://data.openlinksw.com/oplweb/sparql-endpoint105#this>
+        a            sd:Service ;
+        sd:endpoint  <http://kaiko.getalp.org/sparql/> ;
+        <https://schema.org/dateModified>
+                "2020-03-17T23:03:50.509+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+        <https://schema.org/serverStatus>
+                <https://schema.org/Online> .
+
+<http://data.openlinksw.com/oplweb/sparql-endpoint64#this>
+        a            sd:Service ;
+        sd:endpoint  <http://deploy.rkbexplorer.com/sparql/> ;
+        <https://schema.org/dateModified>
+                "2020-03-17T23:04:01.409+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+        <https://schema.org/serverStatus>
+                <https://schema.org/Online> .
+
+<http://data.openlinksw.com/oplweb/sparql-endpoint102#this>
+        a            sd:Service ;
+        sd:endpoint  <http://italy.rkbexplorer.com/sparql/> ;
+        <https://schema.org/dateModified>
+                "2020-03-17T23:01:35.035+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+        <https://schema.org/serverStatus>
+                <https://schema.org/Online> .
+
+<http://data.openlinksw.com/oplweb/sparql-endpoint61#this>
+        a            sd:Service ;
+        sd:endpoint  <http://de.dbpedia.org/sparql> ;
+        <https://schema.org/dateModified>
+                "2020-03-17T23:02:26.609+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+        <https://schema.org/serverStatus>
+                <https://schema.org/Online> .
+
+<http://data.openlinksw.com/oplweb/sparql-endpoint42#this>
+        a            sd:Service ;
+        sd:endpoint  <http://data.ox.ac.uk/sparql/> ;
+        <https://schema.org/dateModified>
+                "2020-03-17T23:02:49.556+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+        <https://schema.org/serverStatus>
+                <https://schema.org/Online> .
+
+<http://data.openlinksw.com/oplweb/sparql-endpoint257#this>
+        a            sd:Service ;
+        sd:endpoint  <https://tsu.eagle-i.net/sparqler/sparql> ;
+        <https://schema.org/dateModified>
+                "2020-03-17T23:03:21.695+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+        <https://schema.org/serverStatus>
+                <https://schema.org/Online> .
+
+<http://data.openlinksw.com/oplweb/sparql-endpoint20#this>
+        a            sd:Service ;
+        sd:endpoint  <http://colil.dbcls.jp/sparql> ;
+        <https://schema.org/dateModified>
+                "2020-03-17T23:03:50.837+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+        <https://schema.org/serverStatus>
+                <https://schema.org/Online> .
+
+<http://data.openlinksw.com/oplweb/sparql-endpoint128#this>
+        a            sd:Service ;
+        sd:endpoint  <http://lod.sztaki.hu/sparql/> ;
+        <https://schema.org/dateModified>
+                "2020-03-17T23:01:53.002+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+        <https://schema.org/serverStatus>
+                <https://schema.org/Online> .
+
+<http://data.openlinksw.com/oplweb/sparql-endpoint235#this>
+        a            sd:Service ;
+        sd:endpoint  <https://meharry.eagle-i.net/sparqler/sparql> ;
+        <https://schema.org/dateModified>
+                "2020-03-17T23:03:59.817+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+        <https://schema.org/serverStatus>
+                <https://schema.org/Online> .
+
+<http://data.openlinksw.com/oplweb/sparql-endpoint109#this>
+        a            sd:Service ;
+        sd:endpoint  <http://kisti.rkbexplorer.com/sparql/> ;
+        <https://schema.org/dateModified>
+                "2020-03-17T23:01:33.153+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+        <https://schema.org/serverStatus>
+                <https://schema.org/Online> .
+
+<http://data.openlinksw.com/oplweb/sparql-endpoint106#this>
+        a            sd:Service ;
+        sd:endpoint  <http://kaunas.rkbexplorer.com/sparql/> ;
+        <https://schema.org/dateModified>
+                "2020-03-17T23:03:44.699+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+        <https://schema.org/serverStatus>
+                <https://schema.org/Online> .
+
+<http://data.openlinksw.com/oplweb/sparql-endpoint68#this>
+        a            sd:Service ;
+        sd:endpoint  <http://drugbank.bio2rdf.org/sparql/> ;
+        <https://schema.org/dateModified>
+                "2020-03-17T23:01:49.500+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+        <https://schema.org/serverStatus>
+                <https://schema.org/OfflineTemporarily> .
+
+<http://data.openlinksw.com/oplweb/sparql-endpoint213#this>
+        a            sd:Service ;
+        sd:endpoint  <https://eagle-i.itmat.upenn.edu/sparqler/sparql> ;
+        <https://schema.org/dateModified>
+                "2020-03-17T23:02:43.366+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+        <https://schema.org/serverStatus>
+                <https://schema.org/Online> .
+
+<http://data.openlinksw.com/oplweb/sparql-endpoint65#this>
+        a            sd:Service ;
+        sd:endpoint  <http://digital-agenda-data.eu/sparql> ;
+        <https://schema.org/dateModified>
+                "2020-03-17T23:03:50.222+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+        <https://schema.org/serverStatus>
+                <https://schema.org/Online> .
+
+<http://data.openlinksw.com/oplweb/sparql-endpoint46#this>
+        a            sd:Service ;
+        sd:endpoint  <http://dati.camera.it/sparql> ;
+        <https://schema.org/dateModified>
+                "2020-03-17T23:03:31.769+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+        <https://schema.org/serverStatus>
+                <https://schema.org/Online> .
+
+<http://data.openlinksw.com/oplweb/sparql-endpoint43#this>
+        a            sd:Service ;
+        sd:endpoint  <http://data.persee.fr/explorer/sparql-endpoint/> ;
+        <https://schema.org/dateModified>
+                "2020-03-17T23:01:53.777+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+        <https://schema.org/serverStatus>
+                <https://schema.org/OfflineTemporarily> .
+
+<http://data.openlinksw.com/oplweb/sparql-endpoint24#this>
+        a            sd:Service ;
+        sd:endpoint  <http://crime.rkbexplorer.com/sparql/> ;
+        <https://schema.org/dateModified>
+                "2020-03-17T23:01:58.320+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+        <https://schema.org/serverStatus>
+                <https://schema.org/OfflineTemporarily> .
+
+<http://data.openlinksw.com/oplweb/sparql-endpoint239#this>
+        a            sd:Service ;
+        sd:endpoint  <https://opendata.aragon.es/sparql> ;
+        <https://schema.org/dateModified>
+                "2020-03-17T23:02:03.499+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+        <https://schema.org/serverStatus>
+                <https://schema.org/Online> .
+
+<http://data.openlinksw.com/oplweb/sparql-endpoint21#this>
+        a            sd:Service ;
+        sd:endpoint  <http://collection.britishart.yale.edu/sparql/> ;
+        <https://schema.org/dateModified>
+                "2020-03-17T23:02:05.219+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+        <https://schema.org/serverStatus>
+                <https://schema.org/OfflineTemporarily> .
+
+<http://data.openlinksw.com/oplweb/sparql-endpoint236#this>
+        a            sd:Service ;
+        sd:endpoint  <https://montana.eagle-i.net/sparqler/sparql> ;
+        <https://schema.org/dateModified>
+                "2020-03-17T23:02:52.031+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+        <https://schema.org/serverStatus>
+                <https://schema.org/Online> .
+
+<http://data.openlinksw.com/oplweb/sparql-endpoint217#this>
+        a            sd:Service ;
+        sd:endpoint  <https://hawaii.eagle-i.net/sparqler/sparql> ;
+        <https://schema.org/dateModified>
+                "2020-03-17T23:04:02.102+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+        <https://schema.org/serverStatus>
+                <https://schema.org/Online> .
+
+<http://data.openlinksw.com/oplweb/sparql-endpoint69#this>
+        a            sd:Service ;
+        sd:endpoint  <http://edan.si.edu/saam/sparql> ;
+        <https://schema.org/dateModified>
+                "2020-03-17T23:03:33.689+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+        <https://schema.org/serverStatus>
+                <https://schema.org/OfflineTemporarily> .
+
+<http://data.openlinksw.com/oplweb/sparql-endpoint214#this>
+        a            sd:Service ;
+        sd:endpoint  <https://famu.eagle-i.net/sparqler/sparql> ;
+        <https://schema.org/dateModified>
+                "2020-03-17T23:03:15.114+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+        <https://schema.org/serverStatus>
+                <https://schema.org/Online> .
+
+<http://data.openlinksw.com/oplweb/sparql-endpoint47#this>
+        a            sd:Service ;
+        sd:endpoint  <http://dati.senato.it/sparql> ;
+        <https://schema.org/dateModified>
+                "2020-03-17T23:02:38.302+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+        <https://schema.org/serverStatus>
+                <https://schema.org/Online> .
+
+<http://data.openlinksw.com/oplweb/sparql-endpoint28#this>
+        a            sd:Service ;
+        sd:endpoint  <http://cultura.linkeddata.es/sparql/> ;
+        <https://schema.org/dateModified>
+                "2020-03-17T23:01:52.559+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+        <https://schema.org/serverStatus>
+                <https://schema.org/Online> .
+
+<http://data.openlinksw.com/oplweb/sparql-endpoint25#this>
+        a            sd:Service ;
+        sd:endpoint  <http://crm.rkbexplorer.com/sparql/> ;
+        <https://schema.org/dateModified>
+                "2020-03-17T23:03:53.870+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+        <https://schema.org/serverStatus>
+                <https://schema.org/Online> .
+
+<http://data.openlinksw.com/oplweb/sparql-endpoint218#this>
+        a            sd:Service ;
+        sd:endpoint  <https://howard.eagle-i.net/sparqler/sparql> ;
+        <https://schema.org/dateModified>
+                "2020-03-17T23:03:40.267+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+        <https://schema.org/serverStatus>
+                <https://schema.org/Online> .
+
+<http://data.openlinksw.com/oplweb/sparql-endpoint192#this>
+        a            sd:Service ;
+        sd:endpoint  <http://www.scholarlydata.org/sparql> ;
+        <https://schema.org/dateModified>
+                "2020-03-17T23:03:30.246+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+        <https://schema.org/serverStatus>
+                <https://schema.org/Online> .
+
+<http://data.openlinksw.com/oplweb/sparql-endpoint29#this>
+        a            sd:Service ;
+        sd:endpoint  <http://curriculum.rkbexplorer.com/sparql/> ;
+        <https://schema.org/dateModified>
+                "2020-03-17T23:03:18.737+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+        <https://schema.org/serverStatus>
+                <https://schema.org/Online> .
+
+<http://data.openlinksw.com/oplweb/sparql-endpoint170#this>
+        a            sd:Service ;
+        sd:endpoint  <http://sparql.kupkb.org/sparql> ;
+        <https://schema.org/dateModified>
+                "2020-03-17T23:03:10.546+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+        <https://schema.org/serverStatus>
+                <https://schema.org/OfflineTemporarily> .
+
+<http://data.openlinksw.com/oplweb/sparql-endpoint196#this>
+        a            sd:Service ;
+        sd:endpoint  <https://api.aucklandmuseum.com/sparql> ;
+        <https://schema.org/dateModified>
+                "2020-03-17T23:01:55.252+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+        <https://schema.org/serverStatus>
+                <https://schema.org/Online> .
+
+<http://data.openlinksw.com/oplweb/sparql-endpoint193#this>
+        a            sd:Service ;
+        sd:endpoint  <http://zhishi.me/sparql> ;
+        <https://schema.org/dateModified>
+                "2020-03-17T23:03:52.748+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+        <https://schema.org/serverStatus>
+                <https://schema.org/OfflineTemporarily> .
+
+<http://data.openlinksw.com/oplweb/sparql-endpoint174#this>
+        a            sd:Service ;
+        sd:endpoint  <http://sparql.proconsortium.org/virtuoso/sparql> ;
+        <https://schema.org/dateModified>
+                "2020-03-17T23:03:15.583+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+        <https://schema.org/serverStatus>
+                <https://schema.org/OfflineTemporarily> .
+
+<http://data.openlinksw.com/oplweb/sparql-endpoint171#this>
+        a            sd:Service ;
+        sd:endpoint  <http://sparql.lynx-project.eu/> ;
+        <https://schema.org/dateModified>
+                "2020-03-17T23:02:41.411+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+        <https://schema.org/serverStatus>
+                <https://schema.org/Online> .
+
+<http://data.openlinksw.com/oplweb/sparql-endpoint152#this>
+        a            sd:Service ;
+        sd:endpoint  <http://photos.rkbexplorer.com/sparql/> ;
+        <https://schema.org/dateModified>
+                "2020-03-17T23:01:43.780+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+        <https://schema.org/serverStatus>
+                <https://schema.org/OfflineTemporarily> .
+
+<http://data.openlinksw.com/oplweb/sparql-endpoint197#this>
+        a            sd:Service ;
+        sd:endpoint  <https://api.nextprot.org/sparql> ;
+        <https://schema.org/dateModified>
+                "2020-03-17T23:03:34.154+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+        <https://schema.org/serverStatus>
+                <https://schema.org/Online> .
+
+<http://data.openlinksw.com/oplweb/sparql-endpoint178#this>
+        a            sd:Service ;
+        sd:endpoint  <http://sparql.wikipathways.org/> ;
+        <https://schema.org/dateModified>
+                "2020-03-17T23:01:34.833+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+        <https://schema.org/serverStatus>
+                <https://schema.org/OfflineTemporarily> .
+
+<http://data.openlinksw.com/oplweb/sparql-endpoint175#this>
+        a            sd:Service ;
+        sd:endpoint  <http://sparql.southgreen.fr/> ;
+        <https://schema.org/dateModified>
+                "2020-03-17T23:01:44.051+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+        <https://schema.org/serverStatus>
+                <https://schema.org/Online> .
+
+<http://data.openlinksw.com/oplweb/sparql-endpoint153#this>
+        a            sd:Service ;
+        sd:endpoint  <http://pisa.rkbexplorer.com/sparql/> ;
+        <https://schema.org/dateModified>
+                "2020-03-17T23:03:39.519+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+        <https://schema.org/serverStatus>
+                <https://schema.org/Online> .
+
+<http://data.openlinksw.com/oplweb/sparql-endpoint260#this>
+        a            sd:Service ;
+        sd:endpoint  <https://upr.eagle-i.net/sparqler/sparql> ;
+        <https://schema.org/dateModified>
+                "2020-03-17T23:01:31.635+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+        <https://schema.org/serverStatus>
+                <https://schema.org/Online> .
+
+<http://data.openlinksw.com/oplweb/sparql-endpoint93#this>
+        a            sd:Service ;
+        sd:endpoint  <http://host.geolink.org/sparql> ;
+        <https://schema.org/dateModified>
+                "2020-03-17T23:04:01.939+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+        <https://schema.org/serverStatus>
+                <https://schema.org/Online> .
+
+<http://data.openlinksw.com/oplweb/sparql-endpoint131#this>
+        a            sd:Service ;
+        sd:endpoint  <http://lsr.bio2rdf.org/sparql/> ;
+        <https://schema.org/dateModified>
+                "2020-03-17T23:01:48.235+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+        <https://schema.org/serverStatus>
+                <https://schema.org/OfflineTemporarily> .
+
+<http://data.openlinksw.com/oplweb/sparql-endpoint90#this>
+        a            sd:Service ;
+        sd:endpoint  <http://heritagedata.org/live/sparql/> ;
+        <https://schema.org/dateModified>
+                "2020-03-17T23:04:00.742+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+        <https://schema.org/serverStatus>
+                <https://schema.org/OfflineTemporarily> .
+
+<http://data.openlinksw.com/oplweb/sparql-endpoint71#this>
+        a            sd:Service ;
+        sd:endpoint  <http://environment.data.gov.uk/sparql/bwq/query/> ;
+        <https://schema.org/dateModified>
+                "2020-03-17T23:03:18.815+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+        <https://schema.org/serverStatus>
+                <https://schema.org/OfflineTemporarily> .
+
+<http://data.openlinksw.com/oplweb/sparql-endpoint2#this>
+        a            sd:Service ;
+        sd:endpoint  <http://affymetrix.bio2rdf.org/sparql/> ;
+        <https://schema.org/dateModified>
+                "2020-03-17T23:01:33.590+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+        <https://schema.org/serverStatus>
+                <https://schema.org/OfflineTemporarily> .
+
+<http://data.openlinksw.com/oplweb/sparql-endpoint179#this>
+        a            sd:Service ;
+        sd:endpoint  <http://sparql.wikipathways.org/> ;
+        <https://schema.org/dateModified>
+                "2020-03-17T23:02:54.205+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+        <https://schema.org/serverStatus>
+                <https://schema.org/OfflineTemporarily> .
+
+<http://data.openlinksw.com/oplweb/sparql-endpoint157#this>
+        a            sd:Service ;
+        sd:endpoint  <http://query.wikidata.org/> ;
+        <https://schema.org/dateModified>
+                "2020-03-17T23:03:55.637+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+        <https://schema.org/serverStatus>
+                <https://schema.org/OfflineTemporarily> .
+
+<http://data.openlinksw.com/oplweb/sparql-endpoint264#this>
+        a            sd:Service ;
+        sd:endpoint  <https://www.europeandataportal.eu/sparql> ;
+        <https://schema.org/dateModified>
+                "2020-03-17T23:04:14.044+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+        <https://schema.org/serverStatus>
+                <https://schema.org/Online> .
+
+<http://data.openlinksw.com/oplweb/sparql-endpoint135#this>
+        a            sd:Service ;
+        sd:endpoint  <http://mgi.bio2rdf.org/sparql/> ;
+        <https://schema.org/dateModified>
+                "2020-03-17T23:03:05.098+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+        <https://schema.org/serverStatus>
+                <https://schema.org/OfflineTemporarily> .
+
+<http://data.openlinksw.com/oplweb/sparql-endpoint261#this>
+        a            sd:Service ;
+        sd:endpoint  <https://utep.eagle-i.net/sparqler/sparql> ;
+        <https://schema.org/dateModified>
+                "2020-03-17T23:01:44.347+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+        <https://schema.org/serverStatus>
+                <https://schema.org/Online> .
+
+<http://data.openlinksw.com/oplweb/sparql-endpoint97#this>
+        a            sd:Service ;
+        sd:endpoint  <http://ieee.rkbexplorer.com/sparql/> ;
+        <https://schema.org/dateModified>
+                "2020-03-17T23:01:58.045+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+        <https://schema.org/serverStatus>
+                <https://schema.org/Online> .
+
+<http://data.openlinksw.com/oplweb/sparql-endpoint242#this>
+        a            sd:Service ;
+        sd:endpoint  <https://psm.eagle-i.net/sparqler/sparql> ;
+        <https://schema.org/dateModified>
+                "2020-03-17T23:04:04.177+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+        <https://schema.org/serverStatus>
+                <https://schema.org/Online> .
+
+<http://data.openlinksw.com/oplweb/sparql-endpoint132#this>
+        a            sd:Service ;
+        sd:endpoint  <http://ma-graph.org/sparql> ;
+        <https://schema.org/dateModified>
+                "2020-03-17T23:04:11.675+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+        <https://schema.org/serverStatus>
+                <https://schema.org/Online> .
+
+<http://data.openlinksw.com/oplweb/sparql-endpoint94#this>
+        a            sd:Service ;
+        sd:endpoint  <http://ibm.rkbexplorer.com/sparql/> ;
+        <https://schema.org/dateModified>
+                "2020-03-17T23:01:50.884+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+        <https://schema.org/serverStatus>
+                <https://schema.org/Online> .
+
+<http://data.openlinksw.com/oplweb/sparql-endpoint113#this>
+        a            sd:Service ;
+        sd:endpoint  <http://linguistic.linkeddata.es/sparql/> ;
+        <https://schema.org/dateModified>
+                "2020-03-17T23:03:15.371+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+        <https://schema.org/serverStatus>
+                <https://schema.org/Online> .
+
+<http://data.openlinksw.com/oplweb/sparql-endpoint6#this>
+        a            sd:Service ;
+        sd:endpoint  <http://babelnet.org/sparql/> ;
+        <https://schema.org/dateModified>
+                "2020-03-17T23:01:33.324+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+        <https://schema.org/serverStatus>
+                <https://schema.org/OfflineTemporarily> .
+
+<http://data.openlinksw.com/oplweb/sparql-endpoint3#this>
+        a            sd:Service ;
+        sd:endpoint  <http://agrovoc.uniroma2.it:3030/agrovoc/sparql> ;
+        <https://schema.org/dateModified>
+                "2020-03-17T23:02:26.900+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+        <https://schema.org/serverStatus>
+                <https://schema.org/OfflineTemporarily> .
+
+<http://data.openlinksw.com/oplweb/sparql-endpoint110#this>
+        a            sd:Service ;
+        sd:endpoint  <http://laas.rkbexplorer.com/sparql/> ;
+        <https://schema.org/dateModified>
+                "2020-03-17T23:02:22.710+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+        <https://schema.org/serverStatus>
+                <https://schema.org/Online> .
+
+<http://data.openlinksw.com/oplweb/sparql-endpoint72#this>
+        a            sd:Service ;
+        sd:endpoint  <http://eprints.rkbexplorer.com/sparql/> ;
+        <https://schema.org/dateModified>
+                "2020-03-17T23:03:05.546+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+        <https://schema.org/serverStatus>
+                <https://schema.org/Online> .
+
+<http://data.openlinksw.com/oplweb/sparql-endpoint50#this>
+        a            sd:Service ;
+        sd:endpoint  <http://dbkwik.webdatacommons.org/sparql> ;
+        <https://schema.org/dateModified>
+                "2020-03-17T23:04:04.703+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+        <https://schema.org/serverStatus>
+                <https://schema.org/Online> .
+
+<http://data.openlinksw.com/oplweb/sparql-endpoint268#this>
+        a            sd:Service ;
+        sd:endpoint  <https://xula.eagle-i.net/sparqler/sparql> ;
+        <https://schema.org/dateModified>
+                "2020-03-17T23:03:54.626+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+        <https://schema.org/serverStatus>
+                <https://schema.org/Online> .
+
+<http://data.openlinksw.com/oplweb/sparql-endpoint158#this>
+        a            sd:Service ;
+        sd:endpoint  <http://rae2001.rkbexplorer.com/sparql/> ;
+        <https://schema.org/dateModified>
+                "2020-03-17T23:04:12.976+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+        <https://schema.org/serverStatus>
+                <https://schema.org/Online> .
+
+<http://data.openlinksw.com/oplweb/sparql-endpoint265#this>
+        a            sd:Service ;
+        sd:endpoint  <https://www.foodie-cloud.org/sparql> ;
+        <https://schema.org/dateModified>
+                "2020-03-17T23:03:31.071+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+        <https://schema.org/serverStatus>
+                <https://schema.org/Online> .
+
+<http://data.openlinksw.com/oplweb/sparql-endpoint139#this>
+        a            sd:Service ;
+        sd:endpoint  <http://ndc.bio2rdf.org/sparql/> ;
+        <https://schema.org/dateModified>
+                "2020-03-17T23:02:24.301+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+        <https://schema.org/serverStatus>
+                <https://schema.org/OfflineTemporarily> .
+
+<http://data.openlinksw.com/oplweb/sparql-endpoint246#this>
+        a            sd:Service ;
+        sd:endpoint  <https://rdf.metanetx.org/sparql> ;
+        <https://schema.org/dateModified>
+                "2020-03-17T23:02:04.194+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+        <https://schema.org/serverStatus>
+                <https://schema.org/Online> .
+
+<http://data.openlinksw.com/oplweb/sparql-endpoint136#this>
+        a            sd:Service ;
+        sd:endpoint  <http://miuras.inf.um.es/sparql/> ;
+        <https://schema.org/dateModified>
+                "2020-03-17T23:02:54.577+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+        <https://schema.org/serverStatus>
+                <https://schema.org/OfflineTemporarily> .
+
+<http://data.openlinksw.com/oplweb/sparql-endpoint98#this>
+        a            sd:Service ;
+        sd:endpoint  <http://integbio.jp/rdf/sparql> ;
+        <https://schema.org/dateModified>
+                "2020-03-17T23:03:55.111+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+        <https://schema.org/serverStatus>
+                <https://schema.org/Online> .
+
+<http://data.openlinksw.com/oplweb/sparql-endpoint243#this>
+        a            sd:Service ;
+        sd:endpoint  <https://publications.europa.eu/en/advanced-sparql-query-editor> ;
+        <https://schema.org/dateModified>
+                "2020-03-17T23:01:47.071+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+        <https://schema.org/serverStatus>
+                <https://schema.org/OfflineTemporarily> .
+
+<http://data.openlinksw.com/oplweb/sparql-endpoint117#this>
+        a            sd:Service ;
+        sd:endpoint  <http://linkeddata.uriburner.com/sparql/> ;
+        <https://schema.org/dateModified>
+                "2020-03-17T23:02:53.626+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+        <https://schema.org/serverStatus>
+                <https://schema.org/Online> .
+
+<http://data.openlinksw.com/oplweb/sparql-endpoint76#this>
+        a            sd:Service ;
+        sd:endpoint  <http://eu.dbpedia.org/sparql/> ;
+        <https://schema.org/dateModified>
+                "2020-03-17T23:02:39.942+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+        <https://schema.org/serverStatus>
+                <https://schema.org/Online> .
+
+<http://data.openlinksw.com/oplweb/sparql-endpoint7#this>
+        a            sd:Service ;
+        sd:endpoint  <http://bio2rdf.org/sparql> ;
+        <https://schema.org/dateModified>
+                "2020-03-17T23:03:07.122+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+        <https://schema.org/serverStatus>
+                <https://schema.org/Online> .
+
+<http://data.openlinksw.com/oplweb/sparql-endpoint114#this>
+        a            sd:Service ;
+        sd:endpoint  <http://linked-data.org/sparql/> ;
+        <https://schema.org/dateModified>
+                "2020-03-17T23:03:15.697+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+        <https://schema.org/serverStatus>
+                <https://schema.org/OfflineTemporarily> .
+
+<http://data.openlinksw.com/oplweb/sparql-endpoint221#this>
+        a            sd:Service ;
+        sd:endpoint  <https://id.nlm.nih.gov/mesh/sparql> ;
+        <https://schema.org/dateModified>
+                "2020-03-17T23:02:21.884+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+        <https://schema.org/serverStatus>
+                <https://schema.org/Online> .
+
+<http://data.openlinksw.com/oplweb/sparql-endpoint73#this>
+        a            sd:Service ;
+        sd:endpoint  <http://epsrc.rkbexplorer.com/sparql/> ;
+        <https://schema.org/dateModified>
+                "2020-03-17T23:02:36.535+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+        <https://schema.org/serverStatus>
+                <https://schema.org/Online> .
+
+<http://data.openlinksw.com/oplweb/sparql-endpoint54#this>
+        a            sd:Service ;
+        sd:endpoint  <http://dbsnp.bio2rdf.org/sparql/> ;
+        <https://schema.org/dateModified>
+                "2020-03-17T23:02:37.088+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+        <https://schema.org/serverStatus>
+                <https://schema.org/OfflineTemporarily> .
+
+<http://data.openlinksw.com/oplweb/sparql-endpoint51#this>
+        a            sd:Service ;
+        sd:endpoint  <http://dblp.rkbexplorer.com/sparql/> ;
+        <https://schema.org/dateModified>
+                "2020-03-17T23:01:48.555+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+        <https://schema.org/serverStatus>
+                <https://schema.org/Online> .
+
+<http://data.openlinksw.com/oplweb/sparql-endpoint32#this>
+        a            sd:Service ;
+        sd:endpoint  <http://data.allie.dbcls.jp/sparql> ;
+        <https://schema.org/dateModified>
+                "2020-03-17T23:03:52.144+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+        <https://schema.org/serverStatus>
+                <https://schema.org/Online> .
+
+<http://data.openlinksw.com/oplweb/sparql-endpoint247#this>
+        a            sd:Service ;
+        sd:endpoint  <https://semantic.eea.europa.eu/sparql> ;
+        <https://schema.org/dateModified>
+                "2020-03-17T23:04:11.952+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+        <https://schema.org/serverStatus>
+                <https://schema.org/Online> .
+
+<http://data.openlinksw.com/oplweb/sparql-endpoint10#this>
+        a            sd:Service ;
+        sd:endpoint  <http://bioportal.bio2rdf.org/sparql/> ;
+        <https://schema.org/dateModified>
+                "2020-03-17T23:03:19.852+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+        <https://schema.org/serverStatus>
+                <https://schema.org/OfflineTemporarily> .
+
+<http://data.openlinksw.com/oplweb/sparql-endpoint118#this>
+        a            sd:Service ;
+        sd:endpoint  <http://linkedgeodata.org/sparql> ;
+        <https://schema.org/dateModified>
+                "2020-03-17T23:03:33.097+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+        <https://schema.org/serverStatus>
+                <https://schema.org/Online> .
+
+<http://data.openlinksw.com/oplweb/sparql-endpoint225#this>
+        a            sd:Service ;
+        sd:endpoint  <https://io.datascience-paris-saclay.fr/sparql> ;
+        <https://schema.org/dateModified>
+                "2020-03-17T23:01:45.528+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+        <https://schema.org/serverStatus>
+                <https://schema.org/Online> .
+
+<http://data.openlinksw.com/oplweb/sparql-endpoint77#this>
+        a            sd:Service ;
+        sd:endpoint  <http://eurecom.rkbexplorer.com/sparql/> ;
+        <https://schema.org/dateModified>
+                "2020-03-17T23:01:41.623+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+        <https://schema.org/serverStatus>
+                <https://schema.org/Online> .
+
+<http://data.openlinksw.com/oplweb/sparql-endpoint222#this>
+        a            sd:Service ;
+        sd:endpoint  <https://ideal-rdf.dbcls.jp/sparql> ;
+        <https://schema.org/dateModified>
+                "2020-03-17T23:03:23.717+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+        <https://schema.org/serverStatus>
+                <https://schema.org/Online> .
+
+<http://data.openlinksw.com/oplweb/sparql-endpoint58#this>
+        a            sd:Service ;
+        sd:endpoint  <http://dbtune.org/magnatune/sparql/> ;
+        <https://schema.org/dateModified>
+                "2020-03-17T23:03:34.630+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+        <https://schema.org/serverStatus>
+                <https://schema.org/Online> .
+
+<http://data.openlinksw.com/oplweb/sparql-endpoint203#this>
+        a            sd:Service ;
+        sd:endpoint  <https://cdrewu.eagle-i.net/sparqler/sparql> ;
+        <https://schema.org/dateModified>
+                "2020-03-17T23:01:49.884+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+        <https://schema.org/serverStatus>
+                <https://schema.org/Online> .
+
+<http://data.openlinksw.com/oplweb/sparql-endpoint55#this>
+        a            sd:Service ;
+        sd:endpoint  <http://dbtune.org/bbc/peel/sparql/> ;
+        <https://schema.org/dateModified>
+                "2020-03-17T23:03:50.048+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+        <https://schema.org/serverStatus>
+                <https://schema.org/Online> .
+
+<http://data.openlinksw.com/oplweb/sparql-endpoint200#this>
+        a            sd:Service ;
+        sd:endpoint  <https://bmrbpub.pdbj.org/search/rdf> ;
+        <https://schema.org/dateModified>
+                "2020-03-17T23:01:31.649+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+        <https://schema.org/serverStatus>
+                <https://schema.org/Online> .
+
+<http://data.openlinksw.com/oplweb/sparql-endpoint36#this>
+        a            sd:Service ;
+        sd:endpoint  <http://data.bibliotheken.nl/sparql> ;
+        <https://schema.org/dateModified>
+                "2020-03-17T23:04:01.641+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+        <https://schema.org/serverStatus>
+                <https://schema.org/Online> .
+
+<http://data.openlinksw.com/oplweb/sparql-endpoint33#this>
+        a            sd:Service ;
+        sd:endpoint  <http://data.allie.dbcls.jp/sparql/> ;
+        <https://schema.org/dateModified>
+                "2020-03-17T23:02:32.348+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+        <https://schema.org/serverStatus>
+                <https://schema.org/Online> .
+
+<http://data.openlinksw.com/oplweb/sparql-endpoint14#this>
+        a            sd:Service ;
+        sd:endpoint  <http://bnb.data.bl.uk/sparql/> ;
+        <https://schema.org/dateModified>
+                "2020-03-17T23:03:32.235+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+        <https://schema.org/serverStatus>
+                <https://schema.org/Online> .
+
+<http://data.openlinksw.com/oplweb/sparql-endpoint248#this>
+        a            sd:Service ;
+        sd:endpoint  <https://shared.eagle-i.net/sparqler/sparql> ;
+        <https://schema.org/dateModified>
+                "2020-03-17T23:01:57.388+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+        <https://schema.org/serverStatus>
+                <https://schema.org/Online> .
+
+<http://data.openlinksw.com/oplweb/sparql-endpoint229#this>
+        a            sd:Service ;
+        sd:endpoint  <https://jsu.eagle-i.net/sparqler/sparql> ;
+        <https://schema.org/dateModified>
+                "2020-03-17T23:01:46.831+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+        <https://schema.org/serverStatus>
+                <https://schema.org/Online> .
+
+<http://data.openlinksw.com/oplweb/sparql-endpoint11#this>
+        a            sd:Service ;
+        sd:endpoint  <http://biordf.net/sparql/> ;
+        <https://schema.org/dateModified>
+                "2020-03-17T23:03:20.078+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+        <https://schema.org/serverStatus>
+                <https://schema.org/Online> .
+
+<http://data.openlinksw.com/oplweb/sparql-endpoint226#this>
+        a            sd:Service ;
+        sd:endpoint  <https://isidore.science/sparql> ;
+        <https://schema.org/dateModified>
+                "2020-03-17T23:02:24.534+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+        <https://schema.org/serverStatus>
+                <https://schema.org/Online> .
+
+<http://data.openlinksw.com/oplweb/sparql-endpoint207#this>
+        a            sd:Service ;
+        sd:endpoint  <https://data.idref.fr/endpoint.html> ;
+        <https://schema.org/dateModified>
+                "2020-03-17T23:03:34.849+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+        <https://schema.org/serverStatus>
+                <https://schema.org/OfflineTemporarily> .
+
+<http://data.openlinksw.com/oplweb/sparql-endpoint59#this>
+        a            sd:Service ;
+        sd:endpoint  <http://dbtune.org/musicbrainz/sparql/> ;
+        <https://schema.org/dateModified>
+                "2020-03-17T23:02:54.003+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+        <https://schema.org/serverStatus>
+                <https://schema.org/OfflineTemporarily> .
+
+<http://data.openlinksw.com/oplweb/sparql-endpoint204#this>
+        a            sd:Service ;
+        sd:endpoint  <https://data.bnf.fr/current/sparql.html> ;
+        <https://schema.org/dateModified>
+                "2020-03-17T23:01:35.993+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+        <https://schema.org/serverStatus>
+                <https://schema.org/OfflineTemporarily> .
+
+<http://data.openlinksw.com/oplweb/sparql-endpoint37#this>
+        a            sd:Service ;
+        sd:endpoint  <http://data.cnr.it/sparql-proxy/> ;
+        <https://schema.org/dateModified>
+                "2020-03-17T23:01:42.599+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+        <https://schema.org/serverStatus>
+                <https://schema.org/Online> .
+
+<http://data.openlinksw.com/oplweb/sparql-endpoint18#this>
+        a            sd:Service ;
+        sd:endpoint  <http://citeseer.rkbexplorer.com/sparql/> ;
+        <https://schema.org/dateModified>
+                "2020-03-17T23:02:38.112+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+        <https://schema.org/serverStatus>
+                <https://schema.org/Online> .
+
+<http://data.openlinksw.com/oplweb/sparql-endpoint15#this>
+        a            sd:Service ;
+        sd:endpoint  <http://budapest.rkbexplorer.com/sparql/> ;
+        <https://schema.org/dateModified>
+                "2020-03-17T23:02:25.208+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+        <https://schema.org/serverStatus>
+                <https://schema.org/Online> .
+
+<http://data.openlinksw.com/oplweb/sparql-endpoint208#this>
+        a            sd:Service ;
+        sd:endpoint  <https://datos.gob.es/en/sparql> ;
+        <https://schema.org/dateModified>
+                "2020-03-17T23:03:58.995+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+        <https://schema.org/serverStatus>
+                <https://schema.org/OfflineTemporarily> .
+
+<http://data.openlinksw.com/oplweb/sparql-endpoint182#this>
+        a            sd:Service ;
+        sd:endpoint  <http://uriburner.com/sparql> ;
+        <https://schema.org/dateModified>
+                "2020-03-17T23:01:43.466+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+        <https://schema.org/serverStatus>
+                <https://schema.org/Online> .
+
+<http://data.openlinksw.com/oplweb/sparql-endpoint19#this>
+        a            sd:Service ;
+        sd:endpoint  <http://citeseer.rkbexplorer.com/sparql/> ;
+        <https://schema.org/dateModified>
+                "2020-03-17T23:01:34.893+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+        <https://schema.org/serverStatus>
+                <https://schema.org/Online> .
+
+<http://data.openlinksw.com/oplweb/sparql-endpoint160#this>
+        a            sd:Service ;
+        sd:endpoint  <http://rdf.disgenet.org/sparql/> ;
+        <https://schema.org/dateModified>
+                "2020-03-17T23:03:13.002+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+        <https://schema.org/serverStatus>
+                <https://schema.org/Online> .
+
+<http://data.openlinksw.com/oplweb/sparql-endpoint186#this>
+        a            sd:Service ;
+        sd:endpoint  <http://wikidata.demo.openlinksw.com/sparql> ;
+        <https://schema.org/dateModified>
+                "2020-03-17T23:02:33.040+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+        <https://schema.org/serverStatus>
+                <https://schema.org/Online> .
+
+<http://data.openlinksw.com/oplweb/sparql-endpoint183#this>
+        a            sd:Service ;
+        sd:endpoint  <http://vt.mo-ld.org/sparql> ;
+        <https://schema.org/dateModified>
+                "2020-03-17T23:03:52.458+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+        <https://schema.org/serverStatus>
+                <https://schema.org/OfflineTemporarily> .
+
+<http://data.openlinksw.com/oplweb/sparql-endpoint164#this>
+        a            sd:Service ;
+        sd:endpoint  <http://rdf.pubannotation.org/sparql> ;
+        <https://schema.org/dateModified>
+                "2020-03-17T23:04:14.847+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+        <https://schema.org/serverStatus>
+                <https://schema.org/OfflineTemporarily> .
+
+<http://data.openlinksw.com/oplweb/sparql-endpoint161#this>
+        a            sd:Service ;
+        sd:endpoint  <http://rdf.muninn-project.org/sparql/> ;
+        <https://schema.org/dateModified>
+                "2020-03-17T23:01:51.168+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+        <https://schema.org/serverStatus>
+                <https://schema.org/Online> .
+
+<http://data.openlinksw.com/oplweb/sparql-endpoint187#this>
+        a            sd:Service ;
+        sd:endpoint  <http://www.ebi.ac.uk/rdf/services/sparql> ;
+        <https://schema.org/dateModified>
+                "2020-03-17T23:03:20.349+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+        <https://schema.org/serverStatus>
+                <https://schema.org/OfflineTemporarily> .
+
+<http://data.openlinksw.com/oplweb/sparql-endpoint168#this>
+        a            sd:Service ;
+        sd:endpoint  <http://sparql.europeana.eu> ;
+        <https://schema.org/dateModified>
+                "2020-03-17T23:03:02.877+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+        <https://schema.org/serverStatus>
+                <https://schema.org/Online> .
+
+<http://data.openlinksw.com/oplweb/sparql-endpoint165#this>
+        a            sd:Service ;
+        sd:endpoint  <http://resex.rkbexplorer.com/sparql/> ;
+        <https://schema.org/dateModified>
+                "2020-03-17T23:04:04.428+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+        <https://schema.org/serverStatus>
+                <https://schema.org/Online> .
+
+<http://data.openlinksw.com/oplweb/sparql-endpoint143#this>
+        a            sd:Service ;
+        sd:endpoint  <http://oai.rkbexplorer.com/sparql/> ;
+        <https://schema.org/dateModified>
+                "2020-03-17T23:04:03.334+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+        <https://schema.org/serverStatus>
+                <https://schema.org/Online> .
+
+<http://data.openlinksw.com/oplweb/sparql-endpoint250#this>
+        a            sd:Service ;
+        sd:endpoint  <https://sparql.lri.fr/sparql> ;
+        <https://schema.org/dateModified>
+                "2020-03-17T23:03:06.563+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+        <https://schema.org/serverStatus>
+                <https://schema.org/Online> .
+
+<http://data.openlinksw.com/oplweb/sparql-endpoint121#this>
+        a            sd:Service ;
+        sd:endpoint  <http://linkedspending.aksw.org/sparql/> ;
+        <https://schema.org/dateModified>
+                "2020-03-17T23:03:53.167+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+        <https://schema.org/serverStatus>
+                <https://schema.org/OfflineTemporarily> .
+
+<http://data.openlinksw.com/oplweb/sparql-endpoint83#this>
+        a            sd:Service ;
+        sd:endpoint  <http://ft.rkbexplorer.com/sparql/> ;
+        <https://schema.org/dateModified>
+                "2020-03-17T23:04:01.976+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+        <https://schema.org/serverStatus>
+                <https://schema.org/Online> .
+
+<http://data.openlinksw.com/oplweb/sparql-endpoint80#this>
+        a            sd:Service ;
+        sd:endpoint  <http://factforge.net/sparql/> ;
+        <https://schema.org/dateModified>
+                "2020-03-17T23:03:54.863+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+        <https://schema.org/serverStatus>
+                <https://schema.org/OfflineTemporarily> .
+
+<http://data.openlinksw.com/oplweb/sparql-endpoint169#this>
+        a            sd:Service ;
+        sd:endpoint  <http://sparql.hegroup.org/sparql/> ;
+        <https://schema.org/dateModified>
+                "2020-03-17T23:03:17.170+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+        <https://schema.org/serverStatus>
+                <https://schema.org/Online> .
+
+<http://data.openlinksw.com/oplweb/sparql-endpoint147#this>
+        a            sd:Service ;
+        sd:endpoint  <http://orphanet.bio2rdf.org/sparql/> ;
+        <https://schema.org/dateModified>
+                "2020-03-17T23:03:04.864+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+        <https://schema.org/serverStatus>
+                <https://schema.org/OfflineTemporarily> .
+
+<http://data.openlinksw.com/oplweb/sparql-endpoint254#this>
+        a            sd:Service ;
+        sd:endpoint  <https://sparql.rhea-db.org/sparql> ;
+        <https://schema.org/dateModified>
+                "2020-03-17T23:02:22.207+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+        <https://schema.org/serverStatus>
+                <https://schema.org/Online> .
+
+<http://data.openlinksw.com/oplweb/sparql-endpoint125#this>
+        a            sd:Service ;
+        sd:endpoint  <http://lod.knps.or.kr/main/sparql.do> ;
+        <https://schema.org/dateModified>
+                "2020-03-17T23:02:25.485+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+        <https://schema.org/serverStatus>
+                <https://schema.org/OfflineTemporarily> .
+
+<http://data.openlinksw.com/oplweb/sparql-endpoint144#this>
+        a            sd:Service ;
+        sd:endpoint  <http://omim.bio2rdf.org/sparql/> ;
+        <https://schema.org/dateModified>
+                "2020-03-17T23:03:44.469+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+        <https://schema.org/serverStatus>
+                <https://schema.org/OfflineTemporarily> .
+
+<http://data.openlinksw.com/oplweb/sparql-endpoint251#this>
+        a            sd:Service ;
+        sd:endpoint  <https://sparql.nextprot.org/> ;
+        <https://schema.org/dateModified>
+                "2020-03-17T23:03:15.682+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+        <https://schema.org/serverStatus>
+                <https://schema.org/Online> .
+
+<http://data.openlinksw.com/oplweb/sparql-endpoint87#this>
+        a            sd:Service ;
+        sd:endpoint  <http://geo.linkeddata.es/sparql/> ;
+        <https://schema.org/dateModified>
+                "2020-03-17T23:02:52.286+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+        <https://schema.org/serverStatus>
+                <https://schema.org/Online> .
+
+<http://data.openlinksw.com/oplweb/sparql-endpoint232#this>
+        a            sd:Service ;
+        sd:endpoint  <https://lindas-data.ch/sparql-ui/> ;
+        <https://schema.org/dateModified>
+                "2020-03-17T23:01:35.316+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+        <https://schema.org/serverStatus>
+                <https://schema.org/OfflineTemporarily> .
+
+<http://data.openlinksw.com/oplweb/sparql-endpoint84#this>
+        a            sd:Service ;
+        sd:endpoint  <http://genage.bio2rdf.org/sparql/> ;
+        <https://schema.org/dateModified>
+                "2020-03-17T23:01:55.020+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+        <https://schema.org/serverStatus>
+                <https://schema.org/OfflineTemporarily> .
+
+<http://data.openlinksw.com/oplweb/sparql-endpoint122#this>
+        a            sd:Service ;
+        sd:endpoint  <http://lisbon.rkbexplorer.com/sparql/> ;
+        <https://schema.org/dateModified>
+                "2020-03-17T23:02:36.811+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+        <https://schema.org/serverStatus>
+                <https://schema.org/Online> .
+
+<http://data.openlinksw.com/oplweb/sparql-endpoint103#this>
+        a            sd:Service ;
+        sd:endpoint  <http://ja.dbpedia.org/sparql/> ;
+        <https://schema.org/dateModified>
+                "2020-03-17T23:03:42.396+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+        <https://schema.org/serverStatus>
+                <https://schema.org/Online> .
+
+<http://data.openlinksw.com/oplweb/sparql-endpoint62#this>
+        a            sd:Service ;
+        sd:endpoint  <http://deepblue.rkbexplorer.com/sparql/> ;
+        <https://schema.org/dateModified>
+                "2020-03-17T23:02:24.014+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+        <https://schema.org/serverStatus>
+                <https://schema.org/Online> .
+
+<http://data.openlinksw.com/oplweb/sparql-endpoint100#this>
+        a            sd:Service ;
+        sd:endpoint  <http://irefindex.bio2rdf.org/sparql/> ;
+        <https://schema.org/dateModified>
+                "2020-03-17T23:03:21.464+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+        <https://schema.org/serverStatus>
+                <https://schema.org/OfflineTemporarily> .
+
+<http://data.openlinksw.com/oplweb/sparql-endpoint40#this>
+        a            sd:Service ;
+        sd:endpoint  <http://data.logainm.ie/sparql/> ;
+        <https://schema.org/dateModified>
+                "2020-03-17T23:03:21.154+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+        <https://schema.org/serverStatus>
+                <https://schema.org/Online> .
+
+<http://data.openlinksw.com/oplweb/sparql-endpoint258#this>
+        a            sd:Service ;
+        sd:endpoint  <https://tuskegee.eagle-i.net/sparqler/sparql> ;
+        <https://schema.org/dateModified>
+                "2020-03-17T23:03:20.889+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+        <https://schema.org/serverStatus>
+                <https://schema.org/Online> .
+
+<http://data.openlinksw.com/oplweb/sparql-endpoint148#this>
+        a            sd:Service ;
+        sd:endpoint  <http://os.rkbexplorer.com/sparql/> ;
+        <https://schema.org/dateModified>
+                "2020-03-17T23:01:57.758+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+        <https://schema.org/serverStatus>
+                <https://schema.org/Online> .
+
+<http://data.openlinksw.com/oplweb/sparql-endpoint255#this>
+        a            sd:Service ;
+        sd:endpoint  <https://sparql.rhea-db.org/sparql> ;
+        <https://schema.org/dateModified>
+                "2020-03-17T23:03:42.798+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+        <https://schema.org/serverStatus>
+                <https://schema.org/Online> .
+
+<http://data.openlinksw.com/oplweb/sparql-endpoint129#this>
+        a            sd:Service ;
+        sd:endpoint  <http://lod.xdams.org/sparql/> ;
+        <https://schema.org/dateModified>
+                "2020-03-17T23:02:54.946+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+        <https://schema.org/serverStatus>
+                <https://schema.org/Online> .
+
+<http://data.openlinksw.com/oplweb/sparql-endpoint126#this>
+        a            sd:Service ;
+        sd:endpoint  <http://lod.knps.or.kr/main/sparql.do> ;
+        <https://schema.org/dateModified>
+                "2020-03-17T23:02:41.050+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+        <https://schema.org/serverStatus>
+                <https://schema.org/OfflineTemporarily> .
+
+<http://data.openlinksw.com/oplweb/sparql-endpoint88#this>
+        a            sd:Service ;
+        sd:endpoint  <http://geosparql.demo.openlinksw.com/sparql> ;
+        <https://schema.org/dateModified>
+                "2020-03-17T23:02:35.790+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+        <https://schema.org/serverStatus>
+                <https://schema.org/Online> .
+
+<http://data.openlinksw.com/oplweb/sparql-endpoint233#this>
+        a            sd:Service ;
+        sd:endpoint  <https://linkeddata1.calcul.u-psud.fr/sparql> ;
+        <https://schema.org/dateModified>
+                "2020-03-17T23:03:17.212+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+        <https://schema.org/serverStatus>
+                <https://schema.org/Online> .
+
+<http://data.openlinksw.com/oplweb/sparql-endpoint107#this>
+        a            sd:Service ;
+        sd:endpoint  <http://kdata.kr/sparql/endpoint.jsp/> ;
+        <https://schema.org/dateModified>
+                "2020-03-17T23:02:23.406+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+        <https://schema.org/serverStatus>
+                <https://schema.org/Online> .
+
+<http://data.openlinksw.com/oplweb/sparql-endpoint104#this>
+        a            sd:Service ;
+        sd:endpoint  <http://jisc.rkbexplorer.com/sparql/> ;
+        <https://schema.org/dateModified>
+                "2020-03-17T23:02:38.871+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+        <https://schema.org/serverStatus>
+                <https://schema.org/Online> .
+
+<http://data.openlinksw.com/oplweb/sparql-endpoint66#this>
+        a            sd:Service ;
+        sd:endpoint  <http://digitaleconomy.rkbexplorer.com/sparql/> ;
+        <https://schema.org/dateModified>
+                "2020-03-17T23:04:01.117+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+        <https://schema.org/serverStatus>
+                <https://schema.org/Online> .
+
+<http://data.openlinksw.com/oplweb/sparql-endpoint211#this>
+        a            sd:Service ;
+        sd:endpoint  <https://eagle-i.ctsi.msu.edu/sparqler/sparql> ;
+        <https://schema.org/dateModified>
+                "2020-03-17T23:03:55.673+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+        <https://schema.org/serverStatus>
+                <https://schema.org/OfflineTemporarily> .
+
+<http://data.openlinksw.com/oplweb/sparql-endpoint63#this>
+        a            sd:Service ;
+        sd:endpoint  <http://demo.openlinksw.com/sparql> ;
+        <https://schema.org/dateModified>
+                "2020-03-17T23:02:43.846+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+        <https://schema.org/serverStatus>
+                <https://schema.org/Online> .
+
+<http://data.openlinksw.com/oplweb/sparql-endpoint44#this>
+        a            sd:Service ;
+        sd:endpoint  <http://data.plan4all.eu/sparql> ;
+        <https://schema.org/dateModified>
+                "2020-03-17T23:04:13.526+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+        <https://schema.org/serverStatus>
+                <https://schema.org/Online> .
+
+<http://data.openlinksw.com/oplweb/sparql-endpoint41#this>
+        a            sd:Service ;
+        sd:endpoint  <http://data.organic-edunet.eu/sparql> ;
+        <https://schema.org/dateModified>
+                "2020-03-17T23:04:00.639+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+        <https://schema.org/serverStatus>
+                <https://schema.org/OfflineTemporarily> .
+
+<http://data.openlinksw.com/oplweb/sparql-endpoint259#this>
+        a            sd:Service ;
+        sd:endpoint  <https://uccaribe.eagle-i.net/sparqler/sparql> ;
+        <https://schema.org/dateModified>
+                "2020-03-17T23:02:26.244+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+        <https://schema.org/serverStatus>
+                <https://schema.org/Online> .
+
+<http://data.openlinksw.com/oplweb/sparql-endpoint22#this>
+        a            sd:Service ;
+        sd:endpoint  <http://cordis.rkbexplorer.com/sparql/> ;
+        <https://schema.org/dateModified>
+                "2020-03-17T23:04:13.250+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+        <https://schema.org/serverStatus>
+                <https://schema.org/Online> .
+
+<http://data.openlinksw.com/oplweb/sparql-endpoint237#this>
+        a            sd:Service ;
+        sd:endpoint  <https://msm.eagle-i.net/sparqler/sparql> ;
+        <https://schema.org/dateModified>
+                "2020-03-17T23:02:23.178+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+        <https://schema.org/serverStatus>
+                <https://schema.org/Online> .
+
+<http://data.openlinksw.com/oplweb/sparql-endpoint89#this>
+        a            sd:Service ;
+        sd:endpoint  <http://goa.bio2rdf.org/sparql/> ;
+        <https://schema.org/dateModified>
+                "2020-03-17T23:03:14.886+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+        <https://schema.org/serverStatus>
+                <https://schema.org/OfflineTemporarily> .
+
+<http://data.openlinksw.com/oplweb/sparql-endpoint234#this>
+        a            sd:Service ;
+        sd:endpoint  <https://lov.linkeddata.es/dataset/lov/sparql> ;
+        <https://schema.org/dateModified>
+                "2020-03-17T23:04:00.070+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+        <https://schema.org/serverStatus>
+                <https://schema.org/Online> .
+
+<http://data.openlinksw.com/oplweb/sparql-endpoint108#this>
+        a            sd:Service ;
+        sd:endpoint  <http://kegg.bio2rdf.org/sparql/> ;
+        <https://schema.org/dateModified>
+                "2020-03-17T23:03:53.413+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+        <https://schema.org/serverStatus>
+                <https://schema.org/OfflineTemporarily> .
+
+<http://data.openlinksw.com/oplweb/sparql-endpoint215#this>
+        a            sd:Service ;
+        sd:endpoint  <https://global.eagle-i.net/sparqler/sparql> ;
+        <https://schema.org/dateModified>
+                "2020-03-17T23:03:34.722+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+        <https://schema.org/serverStatus>
+                <https://schema.org/Online> .
+
+<http://data.openlinksw.com/oplweb/sparql-endpoint67#this>
+        a            sd:Service ;
+        sd:endpoint  <http://dotac.rkbexplorer.com/sparql/> ;
+        <https://schema.org/dateModified>
+                "2020-03-17T23:03:18.018+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+        <https://schema.org/serverStatus>
+                <https://schema.org/Online> .
+
+<http://data.openlinksw.com/oplweb/sparql-endpoint212#this>
+        a            sd:Service ;
+        sd:endpoint  <https://eagle-i.fredhutch.org/sparqler/sparql> ;
+        <https://schema.org/dateModified>
+                "2020-03-17T23:03:24.393+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+        <https://schema.org/serverStatus>
+                <https://schema.org/OfflineTemporarily> .
+
+<http://data.openlinksw.com/oplweb/sparql-endpoint48#this>
+        a            sd:Service ;
+        sd:endpoint  <http://datos.bcn.cl/sparql> ;
+        <https://schema.org/dateModified>
+                "2020-03-17T23:04:18.486+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+        <https://schema.org/serverStatus>
+                <https://schema.org/Online> .
+
+<http://data.openlinksw.com/oplweb/sparql-endpoint45#this>
+        a            sd:Service ;
+        sd:endpoint  <http://dati.beniculturali.it/sparql> ;
+        <https://schema.org/dateModified>
+                "2020-03-17T23:02:41.860+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+        <https://schema.org/serverStatus>
+                <https://schema.org/Online> .
+
+<http://data.openlinksw.com/oplweb/sparql-endpoint26#this>
+        a            sd:Service ;
+        sd:endpoint  <http://crtm.linkeddata.es/sparql/> ;
+        <https://schema.org/dateModified>
+                "2020-03-17T23:03:03.102+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+        <https://schema.org/serverStatus>
+                <https://schema.org/Online> .
+
+<http://data.openlinksw.com/oplweb/sparql-endpoint23#this>
+        a            sd:Service ;
+        sd:endpoint  <http://courseware.rkbexplorer.com/sparql/> ;
+        <https://schema.org/dateModified>
+                "2020-03-17T23:03:18.527+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+        <https://schema.org/serverStatus>
+                <https://schema.org/Online> .
+
+<http://data.openlinksw.com/oplweb/sparql-endpoint238#this>
+        a            sd:Service ;
+        sd:endpoint  <https://ohsu.eagle-i.net/sparqler/sparql> ;
+        <https://schema.org/dateModified>
+                "2020-03-17T23:02:55.258+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+        <https://schema.org/serverStatus>
+                <https://schema.org/Online> .
+
+<http://data.openlinksw.com/oplweb/sparql-endpoint219#this>
+        a            sd:Service ;
+        sd:endpoint  <https://hub-rnsr.idref.fr/sparql> ;
+        <https://schema.org/dateModified>
+                "2020-03-17T23:04:01.688+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+        <https://schema.org/serverStatus>
+                <https://schema.org/OfflineTemporarily> .
+
+<http://data.openlinksw.com/oplweb/sparql-endpoint216#this>
+        a            sd:Service ;
+        sd:endpoint  <https://harvard.eagle-i.net/sparqler/sparql> ;
+        <https://schema.org/dateModified>
+                "2020-03-17T23:03:33.367+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+        <https://schema.org/serverStatus>
+                <https://schema.org/Online> .
+
+<http://data.openlinksw.com/oplweb/sparql-endpoint49#this>
+        a            sd:Service ;
+        sd:endpoint  <http://datos.bne.es/sparql/> ;
+        <https://schema.org/dateModified>
+                "2020-03-17T23:02:50.593+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+        <https://schema.org/serverStatus>
+                <https://schema.org/Online> .
+
+<http://data.openlinksw.com/oplweb/sparql-endpoint190#this>
+        a            sd:Service ;
+        sd:endpoint  <http://www.orpha.net/sparql> ;
+        <https://schema.org/dateModified>
+                "2020-03-17T23:03:26.207+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+        <https://schema.org/serverStatus>
+                <https://schema.org/Online> .
+
+<http://data.openlinksw.com/oplweb/sparql-endpoint27#this>
+        a            sd:Service ;
+        sd:endpoint  <http://ctd.bio2rdf.org/sparql/> ;
+        <https://schema.org/dateModified>
+                "2020-03-17T23:03:20.121+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+        <https://schema.org/serverStatus>
+                <https://schema.org/OfflineTemporarily> .
+
+<http://data.openlinksw.com/oplweb/sparql-endpoint194#this>
+        a            sd:Service ;
+        sd:endpoint  <https://3cixty.eurecom.fr/sparql> ;
+        <https://schema.org/dateModified>
+                "2020-03-17T23:01:52.181+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+        <https://schema.org/serverStatus>
+                <https://schema.org/OfflineTemporarily> .
+
+<http://data.openlinksw.com/oplweb/sparql-endpoint191#this>
+        a            sd:Service ;
+        sd:endpoint  <http://www.rechercheisidore.fr/sparql/> ;
+        <https://schema.org/dateModified>
+                "2020-03-17T23:03:43.573+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+        <https://schema.org/serverStatus>
+                <https://schema.org/Online> .
+
+<http://data.openlinksw.com/oplweb/sparql-endpoint172#this>
+        a            sd:Service ;
+        sd:endpoint  <http://sparql.nibb.ac.jp/sparql> ;
+        <https://schema.org/dateModified>
+                "2020-03-17T23:03:29.701+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+        <https://schema.org/serverStatus>
+                <https://schema.org/Online> .
+
+<http://data.openlinksw.com/oplweb/sparql-endpoint198#this>
+        a            sd:Service ;
+        sd:endpoint  <https://api.parliament.uk/sparql> ;
+        <https://schema.org/dateModified>
+                "2020-03-17T23:03:22.983+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+        <https://schema.org/serverStatus>
+                <https://schema.org/Online> .
+
+<http://data.openlinksw.com/oplweb/sparql-endpoint195#this>
+        a            sd:Service ;
+        sd:endpoint  <https://alaska.eagle-i.net/sparqler/sparql> ;
+        <https://schema.org/dateModified>
+                "2020-03-17T23:04:03.917+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+        <https://schema.org/serverStatus>
+                <https://schema.org/Online> .
+
+<http://data.openlinksw.com/oplweb/sparql-endpoint176#this>
+        a            sd:Service ;
+        sd:endpoint  <http://sparql.southgreen.fr/> ;
+        <https://schema.org/dateModified>
+                "2020-03-17T23:04:11.477+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+        <https://schema.org/serverStatus>
+                <https://schema.org/Online> .
+
+<http://data.openlinksw.com/oplweb/sparql-endpoint173#this>
+        a            sd:Service ;
+        sd:endpoint  <http://sparql.orthodb.org/sparql> ;
+        <https://schema.org/dateModified>
+                "2020-03-17T23:01:51.411+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+        <https://schema.org/serverStatus>
+                <https://schema.org/Online> .
+
+<http://data.openlinksw.com/oplweb/sparql-endpoint154#this>
+        a            sd:Service ;
+        sd:endpoint  <http://pt.dbpedia.org/sparql/> ;
+        <https://schema.org/dateModified>
+                "2020-03-17T23:02:35.424+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+        <https://schema.org/serverStatus>
+                <https://schema.org/Online> .
+
+<http://data.openlinksw.com/oplweb/sparql-endpoint151#this>
+        a            sd:Service ;
+        sd:endpoint  <http://pharmgkb.bio2rdf.org/sparql/> ;
+        <https://schema.org/dateModified>
+                "2020-03-17T23:04:05.234+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+        <https://schema.org/serverStatus>
+                <https://schema.org/OfflineTemporarily> .
+
+<http://data.openlinksw.com/oplweb/sparql-endpoint91#this>
+        a            sd:Service ;
+        sd:endpoint  <http://hgnc.bio2rdf.org/sparql/> ;
+        <https://schema.org/dateModified>
+                "2020-03-17T23:03:14.659+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+        <https://schema.org/serverStatus>
+                <https://schema.org/OfflineTemporarily> .
+
+<http://data.openlinksw.com/oplweb/sparql-endpoint199#this>
+        a            sd:Service ;
+        sd:endpoint  <https://biogw-db.nt.ntnu.no:4333/sparql> ;
+        <https://schema.org/dateModified>
+                "2020-03-17T23:01:35.315+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+        <https://schema.org/serverStatus>
+                <https://schema.org/OfflineTemporarily> .
+
+<http://data.openlinksw.com/oplweb/sparql-endpoint0#this>
+        a            sd:Service ;
+        sd:endpoint  <http://acm.rkbexplorer.com/sparql/> ;
+        <https://schema.org/dateModified>
+                "2020-03-17T23:03:05.829+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+        <https://schema.org/serverStatus>
+                <https://schema.org/Online> .
+
+<http://data.openlinksw.com/oplweb/sparql-endpoint177#this>
+        a            sd:Service ;
+        sd:endpoint  <http://sparql.wikipathways.org> ;
+        <https://schema.org/dateModified>
+                "2020-03-17T23:02:22.993+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+        <https://schema.org/serverStatus>
+                <https://schema.org/OfflineTemporarily> .
+
+<http://data.openlinksw.com/oplweb/sparql-endpoint155#this>
+        a            sd:Service ;
+        sd:endpoint  <http://publications.europa.eu/webapi/rdf/sparql> ;
+        <https://schema.org/dateModified>
+                "2020-03-17T23:03:19.633+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+        <https://schema.org/serverStatus>
+                <https://schema.org/Online> .
+
+<http://data.openlinksw.com/oplweb/sparql-endpoint262#this>
+        a            sd:Service ;
+        sd:endpoint  <https://utsa.eagle-i.net/sparqler/sparql> ;
+        <https://schema.org/dateModified>
+                "2020-03-17T23:04:18.224+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+        <https://schema.org/serverStatus>
+                <https://schema.org/Online> .
+
+<http://data.openlinksw.com/oplweb/sparql-endpoint133#this>
+        a            sd:Service ;
+        sd:endpoint  <http://mesh.bio2rdf.org/sparql/> ;
+        <https://schema.org/dateModified>
+                "2020-03-17T23:04:14.619+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+        <https://schema.org/serverStatus>
+                <https://schema.org/OfflineTemporarily> .
+
+<http://data.openlinksw.com/oplweb/sparql-endpoint95#this>
+        a            sd:Service ;
+        sd:endpoint  <http://id.nlm.nih.gov/mesh/sparql> ;
+        <https://schema.org/dateModified>
+                "2020-03-17T23:01:57.663+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+        <https://schema.org/serverStatus>
+                <https://schema.org/Online> .
+
+<http://data.openlinksw.com/oplweb/sparql-endpoint240#this>
+        a            sd:Service ;
+        sd:endpoint  <https://opendata1.opendata.u-psud.fr/sparql> ;
+        <https://schema.org/dateModified>
+                "2020-03-17T23:03:17.387+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+        <https://schema.org/serverStatus>
+                <https://schema.org/Online> .
+
+<http://data.openlinksw.com/oplweb/sparql-endpoint92#this>
+        a            sd:Service ;
+        sd:endpoint  <http://homologene.bio2rdf.org/sparql/> ;
+        <https://schema.org/dateModified>
+                "2020-03-17T23:03:19.404+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+        <https://schema.org/serverStatus>
+                <https://schema.org/OfflineTemporarily> .
+
+<http://data.openlinksw.com/oplweb/sparql-endpoint130#this>
+        a            sd:Service ;
+        sd:endpoint  <http://lsd.dbcls.jp/sparql> ;
+        <https://schema.org/dateModified>
+                "2020-03-17T23:03:19.230+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+        <https://schema.org/serverStatus>
+                <https://schema.org/Online> .
+
+<http://data.openlinksw.com/oplweb/sparql-endpoint4#this>
+        a            sd:Service ;
+        sd:endpoint  <http://apps.morelab.deusto.es/labman/sparql/> ;
+        <https://schema.org/dateModified>
+                "2020-03-17T23:02:44.126+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+        <https://schema.org/serverStatus>
+                <https://schema.org/Online> .
+
+<http://data.openlinksw.com/oplweb/sparql-endpoint111#this>
+        a            sd:Service ;
+        sd:endpoint  <http://ld.panlex.org/sparql/> ;
+        <https://schema.org/dateModified>
+                "2020-03-17T23:02:55.500+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+        <https://schema.org/serverStatus>
+                <https://schema.org/OfflineTemporarily> .
+
+<http://data.openlinksw.com/oplweb/sparql-endpoint1#this>
+        a            sd:Service ;
+        sd:endpoint  <http://aemet.linkeddata.es/sparql/> ;
+        <https://schema.org/dateModified>
+                "2020-03-17T23:03:43.244+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+        <https://schema.org/serverStatus>
+                <https://schema.org/Online> .
+
+<http://data.openlinksw.com/oplweb/sparql-endpoint70#this>
+        a            sd:Service ;
+        sd:endpoint  <http://el.dbpedia.org/sparql/> ;
+        <https://schema.org/dateModified>
+                "2020-03-17T23:03:51.334+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+        <https://schema.org/serverStatus>
+                <https://schema.org/Online> .
+
+<http://data.openlinksw.com/oplweb/sparql-endpoint115#this>
+        a            sd:Service ;
+        sd:endpoint  <http://linked.opendata.cz/sparql/> ;
+        <https://schema.org/dateModified>
+                "2020-03-17T23:03:21.902+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+        <https://schema.org/serverStatus>
+                <https://schema.org/Online> .
+
+<http://data.openlinksw.com/oplweb/sparql-endpoint159#this>
+        a            sd:Service ;
+        sd:endpoint  <http://rdf.disgenet.org/sparql/> ;
+        <https://schema.org/dateModified>
+                "2020-03-17T23:03:19.575+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+        <https://schema.org/serverStatus>
+                <https://schema.org/Online> .
+
+<http://data.openlinksw.com/oplweb/sparql-endpoint266#this>
+        a            sd:Service ;
+        sd:endpoint  <https://www.nakala.fr/sparql> ;
+        <https://schema.org/dateModified>
+                "2020-03-17T23:04:11.006+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+        <https://schema.org/serverStatus>
+                <https://schema.org/Online> .
+
+<http://data.openlinksw.com/oplweb/sparql-endpoint99#this>
+        a            sd:Service ;
+        sd:endpoint  <http://interpro.bio2rdf.org/sparql/> ;
+        <https://schema.org/dateModified>
+                "2020-03-17T23:04:05.002+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+        <https://schema.org/serverStatus>
+                <https://schema.org/OfflineTemporarily> .
+
+<http://data.openlinksw.com/oplweb/sparql-endpoint156#this>
+        a            sd:Service ;
+        sd:endpoint  <http://pubmed.bio2rdf.org/sparql/> ;
+        <https://schema.org/dateModified>
+                "2020-03-17T23:02:40.815+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+        <https://schema.org/serverStatus>
+                <https://schema.org/OfflineTemporarily> .
+
+<http://data.openlinksw.com/oplweb/sparql-endpoint263#this>
+        a            sd:Service ;
+        sd:endpoint  <https://www.ebi.ac.uk/rdf/services/sparql> ;
+        <https://schema.org/dateModified>
+                "2020-03-17T23:02:56.049+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+        <https://schema.org/serverStatus>
+                <https://schema.org/OfflineTemporarily> .
+
+<http://data.openlinksw.com/oplweb/sparql-endpoint137#this>
+        a            sd:Service ;
+        sd:endpoint  <http://mlode.nlp2rdf.org/sparql/> ;
+        <https://schema.org/dateModified>
+                "2020-03-17T23:03:44.980+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+        <https://schema.org/serverStatus>
+                <https://schema.org/OfflineTemporarily> .
+
+<http://data.openlinksw.com/oplweb/sparql-endpoint244#this>
+        a            sd:Service ;
+        sd:endpoint  <https://query.wikidata.org/sparql> ;
+        <https://schema.org/dateModified>
+                "2020-03-17T23:03:38.817+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+        <https://schema.org/serverStatus>
+                <https://schema.org/Online> .
+
+<http://data.openlinksw.com/oplweb/sparql-endpoint96#this>
+        a            sd:Service ;
+        sd:endpoint  <http://id.sgcb.mcu.es/sparql/> ;
+        <https://schema.org/dateModified>
+                "2020-03-17T23:01:41.909+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+        <https://schema.org/serverStatus>
+                <https://schema.org/Online> .
+
+<http://data.openlinksw.com/oplweb/sparql-endpoint134#this>
+        a            sd:Service ;
+        sd:endpoint  <http://metadb.riken.jp/sparql> ;
+        <https://schema.org/dateModified>
+                "2020-03-17T23:03:27.237+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+        <https://schema.org/serverStatus>
+                <https://schema.org/Online> .
+
+<http://data.openlinksw.com/oplweb/sparql-endpoint241#this>
+        a            sd:Service ;
+        sd:endpoint  <https://openpark.jp/sparql> ;
+        <https://schema.org/dateModified>
+                "2020-03-17T23:03:07.773+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+        <https://schema.org/serverStatus>
+                <https://schema.org/OfflineTemporarily> .
+
+<http://data.openlinksw.com/oplweb/sparql-endpoint8#this>
+        a            sd:Service ;
+        sd:endpoint  <http://biolit.rkbexplorer.com/sparql/> ;
+        <https://schema.org/dateModified>
+                "2020-03-17T23:03:20.605+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+        <https://schema.org/serverStatus>
+                <https://schema.org/Online> .
+
+<http://data.openlinksw.com/oplweb/sparql-endpoint112#this>
+        a            sd:Service ;
+        sd:endpoint  <http://libver.math.auth.gr/sparql/> ;
+        <https://schema.org/dateModified>
+                "2020-03-17T23:03:05.392+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+        <https://schema.org/serverStatus>
+                <https://schema.org/OfflineTemporarily> .
+
+<http://data.openlinksw.com/oplweb/sparql-endpoint74#this>
+        a            sd:Service ;
+        sd:endpoint  <http://era.rkbexplorer.com/sparql/> ;
+        <https://schema.org/dateModified>
+                "2020-03-17T23:02:53.349+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+        <https://schema.org/serverStatus>
+                <https://schema.org/Online> .
+
+<http://data.openlinksw.com/oplweb/sparql-endpoint5#this>
+        a            sd:Service ;
+        sd:endpoint  <http://ariadne-registry.dcu.gr:8890/sparql> ;
+        <https://schema.org/dateModified>
+                "2020-03-17T23:03:25.778+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+        <https://schema.org/serverStatus>
+                <https://schema.org/Online> .
+
+<http://data.openlinksw.com/oplweb/sparql-endpoint52#this>
+        a            sd:Service ;
+        sd:endpoint  <http://dbpedia-live.openlinksw.com/sparql> ;
+        <https://schema.org/dateModified>
+                "2020-03-17T23:03:40.530+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+        <https://schema.org/serverStatus>
+                <https://schema.org/Online> .
+
+<http://data.openlinksw.com/oplweb/sparql-endpoint267#this>
+        a            sd:Service ;
+        sd:endpoint  <https://www.orpha.net/sparql> ;
+        <https://schema.org/dateModified>
+                "2020-03-17T23:02:48.615+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+        <https://schema.org/serverStatus>
+                <https://schema.org/Online> .
+
+<http://data.openlinksw.com/oplweb/sparql-endpoint30#this>
+        a            sd:Service ;
+        sd:endpoint  <http://darmstadt.rkbexplorer.com/sparql/> ;
+        <https://schema.org/dateModified>
+                "2020-03-17T23:04:03.634+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+        <https://schema.org/serverStatus>
+                <https://schema.org/Online> .
+
+<http://data.openlinksw.com/oplweb/sparql-endpoint138#this>
+        a            sd:Service ;
+        sd:endpoint  <http://ncbigene.bio2rdf.org/sparql/> ;
+        <https://schema.org/dateModified>
+                "2020-03-17T23:03:53.644+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+        <https://schema.org/serverStatus>
+                <https://schema.org/OfflineTemporarily> .
+
+<http://data.openlinksw.com/oplweb/sparql-endpoint245#this>
+        a            sd:Service ;
+        sd:endpoint  <https://rdf.metanetx.org/sparql> ;
+        <https://schema.org/dateModified>
+                "2020-03-17T23:03:15.714+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+        <https://schema.org/serverStatus>
+                <https://schema.org/Online> .
+
+<http://data.openlinksw.com/oplweb/sparql-endpoint119#this>
+        a            sd:Service ;
+        sd:endpoint  <http://linkedlifedata.com/sparql> ;
+        <https://schema.org/dateModified>
+                "2020-03-17T23:01:45.160+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+        <https://schema.org/serverStatus>
+                <https://schema.org/Online> .
+
+<http://data.openlinksw.com/oplweb/sparql-endpoint78#this>
+        a            sd:Service ;
+        sd:endpoint  <http://eventmedia.eurecom.fr/sparql/> ;
+        <https://schema.org/dateModified>
+                "2020-03-17T23:01:46.400+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+        <https://schema.org/serverStatus>
+                <https://schema.org/Online> .
+
+<http://data.openlinksw.com/oplweb/sparql-endpoint9#this>
+        a            sd:Service ;
+        sd:endpoint  <http://biomodels.bio2rdf.org/sparql/> ;
+        <https://schema.org/dateModified>
+                "2020-03-17T23:03:18.299+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+        <https://schema.org/serverStatus>
+                <https://schema.org/OfflineTemporarily> .
+
+<http://data.openlinksw.com/oplweb/sparql-endpoint116#this>
+        a            sd:Service ;
+        sd:endpoint  <http://linkeddata.ge.imati.cnr.it:8890/sparql/> ;
+        <https://schema.org/dateModified>
+                "2020-03-17T23:03:39.793+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+        <https://schema.org/serverStatus>
+                <https://schema.org/Online> .
+
+<http://data.openlinksw.com/oplweb/sparql-endpoint223#this>
+        a            sd:Service ;
+        sd:endpoint  <https://idsm.elixir-czech.cz/sparql/endpoint/idsm> ;
+        <https://schema.org/dateModified>
+                "2020-03-17T23:03:16.474+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+        <https://schema.org/serverStatus>
+                <https://schema.org/Online> .
+
+<http://data.openlinksw.com/oplweb/sparql-endpoint75#this>
+        a            sd:Service ;
+        sd:endpoint  <http://es.dbpedia.org/sparql/> ;
+        <https://schema.org/dateModified>
+                "2020-03-17T23:02:55.721+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+        <https://schema.org/serverStatus>
+                <https://schema.org/Online> .
+
+<http://data.openlinksw.com/oplweb/sparql-endpoint220#this>
+        a            sd:Service ;
+        sd:endpoint  <https://hunter-cuny.eagle-i.net/sparqler/sparql> ;
+        <https://schema.org/dateModified>
+                "2020-03-17T23:04:12.733+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+        <https://schema.org/serverStatus>
+                <https://schema.org/Online> .
+
+<http://data.openlinksw.com/oplweb/sparql-endpoint56#this>
+        a            sd:Service ;
+        sd:endpoint  <http://dbtune.org/classical/sparql/> ;
+        <https://schema.org/dateModified>
+                "2020-03-17T23:01:34.087+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+        <https://schema.org/serverStatus>
+                <https://schema.org/Online> .
+
+<http://data.openlinksw.com/oplweb/sparql-endpoint201#this>
+        a            sd:Service ;
+        sd:endpoint  <https://cau.eagle-i.net/sparqler/sparql> ;
+        <https://schema.org/dateModified>
+                "2020-03-17T23:03:16.244+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+        <https://schema.org/serverStatus>
+                <https://schema.org/Online> .
+
+<http://data.openlinksw.com/oplweb/sparql-endpoint53#this>
+        a            sd:Service ;
+        sd:endpoint  <http://dbpedia.org/sparql> ;
+        <https://schema.org/dateModified>
+                "2020-03-17T23:03:52.477+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+        <https://schema.org/serverStatus>
+                <https://schema.org/Online> .
+
+<http://data.openlinksw.com/oplweb/sparql-endpoint34#this>
+        a            sd:Service ;
+        sd:endpoint  <http://data.americanartcollaborative.org/sparql> ;
+        <https://schema.org/dateModified>
+                "2020-03-17T23:03:33.717+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+        <https://schema.org/serverStatus>
+                <https://schema.org/Online> .
+
+<http://data.openlinksw.com/oplweb/sparql-endpoint31#this>
+        a            sd:Service ;
+        sd:endpoint  <http://data.aalto.fi/sparql/> ;
+        <https://schema.org/dateModified>
+                "2020-03-17T23:01:56.391+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+        <https://schema.org/serverStatus>
+                <https://schema.org/OfflineTemporarily> .
+
+<http://data.openlinksw.com/oplweb/sparql-endpoint249#this>
+        a            sd:Service ;
+        sd:endpoint  <https://sparql.geo.admin.ch/sparql> ;
+        <https://schema.org/dateModified>
+                "2020-03-17T23:02:51.377+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+        <https://schema.org/serverStatus>
+                <https://schema.org/Online> .
+
+<http://data.openlinksw.com/oplweb/sparql-endpoint12#this>
+        a            sd:Service ;
+        sd:endpoint  <http://biosoda.expasy.org:8080/rdf4j-server/repositories/bgeelight> ;
+        <https://schema.org/dateModified>
+                "2020-03-17T23:03:59.551+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+        <https://schema.org/serverStatus>
+                <https://schema.org/Online> .
+
+<http://data.openlinksw.com/oplweb/sparql-endpoint227#this>
+        a            sd:Service ;
+        sd:endpoint  <https://joinup.ec.europa.eu/sparql/> ;
+        <https://schema.org/dateModified>
+                "2020-03-17T23:03:52.035+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
         <https://schema.org/serverStatus>
                 <https://schema.org/Online> .
