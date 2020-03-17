@@ -2,9 +2,6 @@ PREFIX eg: <http://www.example.org/>
 PREFIX sd: <http://www.w3.org/ns/sparql-service-description#>
 PREFIX schema: <https://schema.org/>
 
-# CONSTRUCT WHERE { GRAPH ?g { ?s ?p ?o } }
-
-
 CONSTRUCT {
   GRAPH ?g {
     ?s
@@ -18,7 +15,7 @@ CONSTRUCT {
 {
   BIND(NOW() AS ?time)
 
-  GRAPH ?g { ?s dcat:endpointURL ?e }
+  GRAPH ?g { ?s sd:endpoint ?e }
 
   SERVICE SILENT ?e {
     { SELECT ?t { ?x a ?t } LIMIT 1 }
