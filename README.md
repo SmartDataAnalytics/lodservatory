@@ -1,95 +1,29 @@
 # Linked Open Data and SPARQL Endpoints Observatory
 
-**Work in progress**
+This repo provides automated service monitoring of SPARQL Endpoints on an hourly basis.
+The results are published in the file [latest-status.ttl](https://github.com/SmartDataAnalytics/lodservatory/blob/master/latest-status.ttl).
+Many Linked Data clients can consume the data directly from
 
-This repository features community datasets about SPARQL endpoints and datasets using the [DCAT2](https://www.w3.org/TR/vocab-dcat-2/) and [Service Description](https://www.w3.org/TR/sparql11-service-description/) data models as the backbone.
-
-What the community gets from this
-
-* A list of service URLS
-* Dataset identifiers and their relations to services that host them
-* Service Status information (online/offline)
-* More information to come
-
-Although https://sparqles.ai.wu.ac.at/ has a nice user interface and features a non-RDF API, this repo demonstrates, that combining a dataset of sparql endpoints with a sparql query that retrieves the online status with a git action is sufficient to automatically publish time-slice datasets with service status information.
-
+https://raw.githubusercontent.com/SmartDataAnalytics/lodservatory/master/latest-status.ttl
 
 ## How does it work
-This repo demonstrates our mighty [sparql-integrate](https://github.com/SmartDataAnalytics/SparqlIntegrate) toolkit. It is simply a Java command line tool that combines RDF dataset and RDF stream processing using the commands `sparqlintegrate` and `ngs`. The latter stands for "named graph stream". You can either build sparql-integrate yourself, or download the jar bundle from the [releases section](https://github.com/SmartDataAnalytics/SparqlIntegrate/releases).
 
+There is [this git action](.github/workflows/main.yml) which invokes the following process every hour.
 
-The whole workflow is just this:
-```bash
-# Load the endpoint dataset and map it to a set of named graphs
-java -cp si.jar sparqlintegrate \
-  alive-endpoints-latest.ttl \
-  playground/endpoint-to-graph.sparql | \
-# Map the set of named graphs in PARALLEL! through the status check sparql query
-# whereas -t specifies the connection timeout, query timeout
-java -cp si.jar ngs \
-  map -t '5000,5000' --sparql playground/check-test.sparql |\
-# Combine the triples of resulting named graphs into a single dataset
-# --u is union named graph mode, so ?s ?p ?o runs over all named graphs
-java -cp si.jar sparqlintegrate --w=trig/pretty \
-  --u - 'CONSTRUCT WHERE { ?s ?p ?o }' > latest-status.ttl
-```
+The script [update-status.sh](update-status.sh) first downloads [OpenLink's SPARQL endpoint dataset](https://github.com/OpenLinkSoftware/general-turtle-doc-collection/blob/master/LODCloud_SPARQL_Endpoints.ttl) and then runs the SPARQL query in [status-check.sparql](status-check.sparql) on each endpoint URL.
 
-## Is doing remote requests with GitActions permitted
+The workflow runner is our [sparql-integrate command line tool](https://github.com/SmartDataAnalytics/Sparqlintegrate), built on [Apache Jena](https://jena.apache.org/), which simplifies the process of mashing-up RDF datasets and SPARQL queries.
 
-According to [this answer](https://github.community/t5/GitHub-Actions/Is-it-permitted-to-do-Remote-Requests-for-Service-Monitoring/m-p/50071#M7696): yes.
+## How to contribute
 
+This project uses
+[OpenLink's SPARQL endpoint dataset](https://github.com/OpenLinkSoftware/general-turtle-doc-collection/blob/master/LODCloud_SPARQL_Endpoints.ttl) as the source, please make pull requests there.
 
-## Register your own endpoint 
-(This is work in progress; it not yet implemented)
+## How can I monitor my own endpoints?
 
+Just clone the repo and use a different dataset of endpoints as the source.
 
-### Register a query that fetches data from your API
-
-Create a query just like [this one](https://github.com/SmartDataAnalytics/lodservatory/blob/master/scripts/rdfize-endpoints-from-sparqles-api.sparql) that extracts the JSON from the sparqles API as RDF.
-
-### Register the actual data
-
-* Create a folder for the endpoint URL in the service directory. Omit the scheme (http(s)), reverse the host name (like Java packages), and create sub directories according to the path part of the URL. For example, `http://dbpedia.org/sparql` would turn into `services/org/dbpedia/sparql`
-* Create a description of the service and the dataset it provides. In the simplest case this is just the endpointURL. DCAT distributions capture technical aspects of dataset distributions, and the graph(s) in which is it is hosted is such as aspect.
-Note, that if the data hosted in a SPARQL endpoint does not exacly match a given dataset identifier, consider using a fresh dataset identifier such as 'http://your.endpoint/sparql#dataset`.
-
-```turtle
-#service.ttl
-<http://dbpedia.org/sparql#service>
-  a cat:DataService ;
-  cat:endpointURL <http://dbpedia.org/sparql> ;
-  .
-
-
-<http://dbpedia.org/sparql#dataset> # <- Dataset identifier
-  a cat:Dataset ;
-  cat:distribution [
-    a cat:Distribution ;
-    cat:accessURL <http://dbpedia.org/sparql> ;
-    catx:graphs (<http://dbpedia.org>) # <- Constrain the distribution to this graph
-  ]
-```
-TODO Decide on catx namespace.
-
-
-### Link to a remote description
-Maybe you have your own git repo, sparql endpoint, or other source of information.
-In that case there is no need to duplicate the information, but instead you can link to it.
-
-
-#### Linking with Conjure
-[Conjure](https://github.com/SmartDataAnalytics/Conjure/) is a system for referencing and transforming RDF data by means of workflows which can use hybrid ETL and query answering over views.
-
-The simplest workflow specification is a simple URL reference. Any detected conjure descriptions will be transcluded into the _effective_ `service.ttl` file.
-```
-#service.ttl
-@prefix rpif: <http://w3id.org/rpif/vocab#> .
-
-[]
-  a rpif:DataRefUrl ;
-  rpif:dataRefUrl <https://your.remote/description> ;
-  .
-```
-
+## Licence
+The source code of this repo is published under the [Apache License Version 2.0](LICENSE).
 
 
