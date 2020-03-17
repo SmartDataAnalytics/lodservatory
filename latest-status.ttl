@@ -1,741 +1,1482 @@
-@prefix eg:    <http://www.example.org/> .
+@prefix sd:    <http://www.w3.org/ns/sparql-service-description#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 
 <http://de.dbpedia.org/sparql#service>
-        eg:serviceStatus      "online" ;
-        eg:serviceStatusTime  "2020-03-17T19:01:45.372+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+        a            sd:Service ;
+        sd:endpoint  <http://de.dbpedia.org/sparql> ;
+        <https://schema.org/dateModified>
+                "2020-03-17T20:01:47.779+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+        <https://schema.org/serverStatus>
+                <https://schema.org/Online> .
 
 <http://id.sgcb.mcu.es/sparql#service>
-        eg:serviceStatus      "online" ;
-        eg:serviceStatusTime  "2020-03-17T19:01:54.627+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+        a            sd:Service ;
+        sd:endpoint  <http://id.sgcb.mcu.es/sparql> ;
+        <https://schema.org/dateModified>
+                "2020-03-17T20:01:59.526+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+        <https://schema.org/serverStatus>
+                <https://schema.org/Online> .
 
 <http://cultura.linkeddata.es/sparql#service>
-        eg:serviceStatus      "online" ;
-        eg:serviceStatusTime  "2020-03-17T19:01:45.342+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+        a            sd:Service ;
+        sd:endpoint  <http://cultura.linkeddata.es/sparql> ;
+        <https://schema.org/dateModified>
+                "2020-03-17T20:01:53.119+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+        <https://schema.org/serverStatus>
+                <https://schema.org/Online> .
 
 <http://eprints.rkbexplorer.com/sparql/#service>
-        eg:serviceStatus      "online" ;
-        eg:serviceStatusTime  "2020-03-17T19:01:57.587+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+        a            sd:Service ;
+        sd:endpoint  <http://eprints.rkbexplorer.com/sparql/> ;
+        <https://schema.org/dateModified>
+                "2020-03-17T20:02:02.348+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+        <https://schema.org/serverStatus>
+                <https://schema.org/Online> .
 
 <http://deploy.rkbexplorer.com/sparql/#service>
-        eg:serviceStatus      "online" ;
-        eg:serviceStatusTime  "2020-03-17T19:01:48.341+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+        a            sd:Service ;
+        sd:endpoint  <http://deploy.rkbexplorer.com/sparql/> ;
+        <https://schema.org/dateModified>
+                "2020-03-17T20:01:55.870+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+        <https://schema.org/serverStatus>
+                <https://schema.org/Online> .
 
 <http://courseware.rkbexplorer.com/sparql/#service>
-        eg:serviceStatus      "online" ;
-        eg:serviceStatusTime  "2020-03-17T19:01:26.293+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+        a            sd:Service ;
+        sd:endpoint  <http://courseware.rkbexplorer.com/sparql/> ;
+        <https://schema.org/dateModified>
+                "2020-03-17T20:01:30.856+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+        <https://schema.org/serverStatus>
+                <https://schema.org/Online> .
 
 <http://wordnet.rkbexplorer.com/sparql/#service>
-        eg:serviceStatus      "online" ;
-        eg:serviceStatusTime  "2020-03-17T19:01:41.600+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+        a            sd:Service ;
+        sd:endpoint  <http://wordnet.rkbexplorer.com/sparql/> ;
+        <https://schema.org/dateModified>
+                "2020-03-17T20:01:49.249+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+        <https://schema.org/serverStatus>
+                <https://schema.org/Online> .
 
 <http://serendipity.utpl.edu.ec/lod/sparql#service>
-        eg:serviceStatus      "online" ;
-        eg:serviceStatusTime  "2020-03-17T19:01:52.003+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+        a            sd:Service ;
+        sd:endpoint  <http://serendipity.utpl.edu.ec/lod/sparql> ;
+        <https://schema.org/dateModified>
+                "2020-03-17T20:01:54.250+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+        <https://schema.org/serverStatus>
+                <https://schema.org/Online> .
 
 <http://premon.fbk.eu/sparql#service>
-        eg:serviceStatus      "online" ;
-        eg:serviceStatusTime  "2020-03-17T19:01:36.070+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+        a            sd:Service ;
+        sd:endpoint  <http://premon.fbk.eu/sparql> ;
+        <https://schema.org/dateModified>
+                "2020-03-17T20:01:41.487+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+        <https://schema.org/serverStatus>
+                <https://schema.org/Online> .
 
 <http://pt.dbpedia.org/sparql#service>
-        eg:serviceStatus      "online" ;
-        eg:serviceStatusTime  "2020-03-17T19:01:19.051+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+        a            sd:Service ;
+        sd:endpoint  <http://pt.dbpedia.org/sparql> ;
+        <https://schema.org/dateModified>
+                "2020-03-17T20:01:23.040+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+        <https://schema.org/serverStatus>
+                <https://schema.org/Online> .
 
 <https://query.wikidata.org/sparql#service>
-        eg:serviceStatus      "online" ;
-        eg:serviceStatusTime  "2020-03-17T19:01:31.540+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+        a            sd:Service ;
+        sd:endpoint  <https://query.wikidata.org/sparql> ;
+        <https://schema.org/dateModified>
+                "2020-03-17T20:01:35.204+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+        <https://schema.org/serverStatus>
+                <https://schema.org/Online> .
 
 <http://data.persee.fr/sparql#service>
-        eg:serviceStatus      "online" ;
-        eg:serviceStatusTime  "2020-03-17T19:01:56.763+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+        a            sd:Service ;
+        sd:endpoint  <http://data.persee.fr/sparql> ;
+        <https://schema.org/dateModified>
+                "2020-03-17T20:02:01.537+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+        <https://schema.org/serverStatus>
+                <https://schema.org/Online> .
 
 <http://vocabulary.semantic-web.at/PoolParty/sparql/semweb#service>
-        eg:serviceStatus      "online" ;
-        eg:serviceStatusTime  "2020-03-17T19:01:55.618+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+        a            sd:Service ;
+        sd:endpoint  <http://vocabulary.semantic-web.at/PoolParty/sparql/semweb> ;
+        <https://schema.org/dateModified>
+                "2020-03-17T20:01:57.417+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+        <https://schema.org/serverStatus>
+                <https://schema.org/Online> .
 
 <http://dbkwik.webdatacommons.org/sparql#service>
-        eg:serviceStatus      "online" ;
-        eg:serviceStatusTime  "2020-03-17T19:01:51.586+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+        a            sd:Service ;
+        sd:endpoint  <http://dbkwik.webdatacommons.org/sparql> ;
+        <https://schema.org/dateModified>
+                "2020-03-17T20:01:53.800+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+        <https://schema.org/serverStatus>
+                <https://schema.org/Online> .
 
 <http://citeseer.rkbexplorer.com/sparql/#service>
-        eg:serviceStatus      "online" ;
-        eg:serviceStatusTime  "2020-03-17T19:01:33.245+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+        a            sd:Service ;
+        sd:endpoint  <http://citeseer.rkbexplorer.com/sparql/> ;
+        <https://schema.org/dateModified>
+                "2020-03-17T20:01:36.840+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+        <https://schema.org/serverStatus>
+                <https://schema.org/Online> .
 
 <http://es.dbpedia.org/sparql#service>
-        eg:serviceStatus      "online" ;
-        eg:serviceStatusTime  "2020-03-17T19:01:54.823+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+        a            sd:Service ;
+        sd:endpoint  <http://es.dbpedia.org/sparql> ;
+        <https://schema.org/dateModified>
+                "2020-03-17T20:01:56.634+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+        <https://schema.org/serverStatus>
+                <https://schema.org/Online> .
 
 <http://live.dbpedia.org/sparql#service>
-        eg:serviceStatus      "online" ;
-        eg:serviceStatusTime  "2020-03-17T19:01:53.042+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+        a            sd:Service ;
+        sd:endpoint  <http://live.dbpedia.org/sparql> ;
+        <https://schema.org/dateModified>
+                "2020-03-17T20:01:54.875+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+        <https://schema.org/serverStatus>
+                <https://schema.org/Online> .
 
 <https://data.pdok.nl/sparql#service>
-        eg:serviceStatus      "online" ;
-        eg:serviceStatusTime  "2020-03-17T19:01:32.716+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+        a            sd:Service ;
+        sd:endpoint  <https://data.pdok.nl/sparql> ;
+        <https://schema.org/dateModified>
+                "2020-03-17T20:01:36.318+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+        <https://schema.org/serverStatus>
+                <https://schema.org/Online> .
 
 <http://montana.eagle-i.net/sparqler/sparql#service>
-        eg:serviceStatus      "online" ;
-        eg:serviceStatusTime  "2020-03-17T19:01:36.412+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+        a            sd:Service ;
+        sd:endpoint  <http://montana.eagle-i.net/sparqler/sparql> ;
+        <https://schema.org/dateModified>
+                "2020-03-17T20:01:41.839+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+        <https://schema.org/serverStatus>
+                <https://schema.org/Online> .
 
 <http://resex.rkbexplorer.com/sparql/#service>
-        eg:serviceStatus      "online" ;
-        eg:serviceStatusTime  "2020-03-17T19:01:42.319+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+        a            sd:Service ;
+        sd:endpoint  <http://resex.rkbexplorer.com/sparql/> ;
+        <https://schema.org/dateModified>
+                "2020-03-17T20:01:50.023+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+        <https://schema.org/serverStatus>
+                <https://schema.org/Online> .
 
 <http://ring.ciard.net/sparql1#service>
-        eg:serviceStatus      "online" ;
-        eg:serviceStatusTime  "2020-03-17T19:01:22.067+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+        a            sd:Service ;
+        sd:endpoint  <http://ring.ciard.net/sparql1> ;
+        <https://schema.org/dateModified>
+                "2020-03-17T20:01:25.891+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+        <https://schema.org/serverStatus>
+                <https://schema.org/Online> .
 
 <http://os.rkbexplorer.com/sparql/#service>
-        eg:serviceStatus      "online" ;
-        eg:serviceStatusTime  "2020-03-17T19:01:49.407+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+        a            sd:Service ;
+        sd:endpoint  <http://os.rkbexplorer.com/sparql/> ;
+        <https://schema.org/dateModified>
+                "2020-03-17T20:01:51.651+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+        <https://schema.org/serverStatus>
+                <https://schema.org/Online> .
 
 <http://data.lider-project.eu/usage/sparql#service>
-        eg:serviceStatus      "online" ;
-        eg:serviceStatusTime  "2020-03-17T19:01:37.601+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+        a            sd:Service ;
+        sd:endpoint  <http://data.lider-project.eu/usage/sparql> ;
+        <https://schema.org/dateModified>
+                "2020-03-17T20:01:39.489+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+        <https://schema.org/serverStatus>
+                <https://schema.org/Online> .
 
 <http://webisa.webdatacommons.org/sparql#service>
-        eg:serviceStatus      "online" ;
-        eg:serviceStatusTime  "2020-03-17T19:01:40.922+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+        a            sd:Service ;
+        sd:endpoint  <http://webisa.webdatacommons.org/sparql> ;
+        <https://schema.org/dateModified>
+                "2020-03-17T20:01:48.357+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+        <https://schema.org/serverStatus>
+                <https://schema.org/Online> .
 
 <http://ldf.fi/warsa/sparql#service>
-        eg:serviceStatus      "online" ;
-        eg:serviceStatusTime  "2020-03-17T19:01:51.299+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+        a            sd:Service ;
+        sd:endpoint  <http://ldf.fi/warsa/sparql> ;
+        <https://schema.org/dateModified>
+                "2020-03-17T20:01:53.552+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+        <https://schema.org/serverStatus>
+                <https://schema.org/Online> .
 
 <http://nsf.rkbexplorer.com/sparql/#service>
-        eg:serviceStatus      "online" ;
-        eg:serviceStatusTime  "2020-03-17T19:01:25.245+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+        a            sd:Service ;
+        sd:endpoint  <http://nsf.rkbexplorer.com/sparql/> ;
+        <https://schema.org/dateModified>
+                "2020-03-17T20:01:29.105+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+        <https://schema.org/serverStatus>
+                <https://schema.org/Online> .
 
 <http://lod.euscreen.eu/sparql#service>
-        eg:serviceStatus      "online" ;
-        eg:serviceStatusTime  "2020-03-17T19:01:45.946+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+        a            sd:Service ;
+        sd:endpoint  <http://lod.euscreen.eu/sparql> ;
+        <https://schema.org/dateModified>
+                "2020-03-17T20:01:53.601+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+        <https://schema.org/serverStatus>
+                <https://schema.org/Online> .
 
 <http://ohsu.eagle-i.net/sparqler/sparql#service>
-        eg:serviceStatus      "online" ;
-        eg:serviceStatusTime  "2020-03-17T19:01:51.884+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+        a            sd:Service ;
+        sd:endpoint  <http://ohsu.eagle-i.net/sparqler/sparql> ;
+        <https://schema.org/dateModified>
+                "2020-03-17T20:01:54.097+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+        <https://schema.org/serverStatus>
+                <https://schema.org/Online> .
 
 <http://psm.eagle-i.net/sparqler/sparql#service>
-        eg:serviceStatus      "online" ;
-        eg:serviceStatusTime  "2020-03-17T19:01:33.376+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+        a            sd:Service ;
+        sd:endpoint  <http://psm.eagle-i.net/sparqler/sparql> ;
+        <https://schema.org/dateModified>
+                "2020-03-17T20:01:38.500+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+        <https://schema.org/serverStatus>
+                <https://schema.org/Online> .
 
 <http://www.imagesnippets.com/sparql/images#service>
-        eg:serviceStatus      "online" ;
-        eg:serviceStatusTime  "2020-03-17T19:01:49.233+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+        a            sd:Service ;
+        sd:endpoint  <http://www.imagesnippets.com/sparql/images> ;
+        <https://schema.org/dateModified>
+                "2020-03-17T20:01:51.469+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+        <https://schema.org/serverStatus>
+                <https://schema.org/Online> .
 
 <http://semantic.eea.europa.eu/sparql#service>
-        eg:serviceStatus      "online" ;
-        eg:serviceStatusTime  "2020-03-17T19:01:23.360+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+        a            sd:Service ;
+        sd:endpoint  <http://semantic.eea.europa.eu/sparql> ;
+        <https://schema.org/dateModified>
+                "2020-03-17T20:01:27.148+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+        <https://schema.org/serverStatus>
+                <https://schema.org/Online> .
 
 <http://foreign.rkbexplorer.com/sparql#service>
-        eg:serviceStatus      "online" ;
-        eg:serviceStatusTime  "2020-03-17T19:01:47.084+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+        a            sd:Service ;
+        sd:endpoint  <http://foreign.rkbexplorer.com/sparql> ;
+        <https://schema.org/dateModified>
+                "2020-03-17T20:01:49.428+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+        <https://schema.org/serverStatus>
+                <https://schema.org/Online> .
 
 <http://aksw.org/sparql#service>
-        eg:serviceStatus      "online" ;
-        eg:serviceStatusTime  "2020-03-17T19:01:28.880+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+        a            sd:Service ;
+        sd:endpoint  <http://aksw.org/sparql> ;
+        <https://schema.org/dateModified>
+                "2020-03-17T20:01:32.647+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+        <https://schema.org/serverStatus>
+                <https://schema.org/Online> .
 
 <http://rdf.disgenet.org/sparql/#service>
-        eg:serviceStatus      "online" ;
-        eg:serviceStatusTime  "2020-03-17T19:01:52.665+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+        a            sd:Service ;
+        sd:endpoint  <http://rdf.disgenet.org/sparql/> ;
+        <https://schema.org/dateModified>
+                "2020-03-17T20:01:57.429+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+        <https://schema.org/serverStatus>
+                <https://schema.org/Online> .
 
 <http://hunter-cuny.eagle-i.net/sparqler/sparql#service>
-        eg:serviceStatus      "online" ;
-        eg:serviceStatusTime  "2020-03-17T19:01:56.187+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+        a            sd:Service ;
+        sd:endpoint  <http://hunter-cuny.eagle-i.net/sparqler/sparql> ;
+        <https://schema.org/dateModified>
+                "2020-03-17T20:02:00.862+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+        <https://schema.org/serverStatus>
+                <https://schema.org/Online> .
 
 <http://data.nobelprize.org/sparql#service>
-        eg:serviceStatus      "online" ;
-        eg:serviceStatusTime  "2020-03-17T19:01:44.425+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+        a            sd:Service ;
+        sd:endpoint  <http://data.nobelprize.org/sparql> ;
+        <https://schema.org/dateModified>
+                "2020-03-17T20:01:46.843+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+        <https://schema.org/serverStatus>
+                <https://schema.org/Online> .
 
 <http://lod.openlinksw.com/sparql#service>
-        eg:serviceStatus      "online" ;
-        eg:serviceStatusTime  "2020-03-17T19:01:56.303+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+        a            sd:Service ;
+        sd:endpoint  <http://lod.openlinksw.com/sparql> ;
+        <https://schema.org/dateModified>
+                "2020-03-17T20:02:01.020+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+        <https://schema.org/serverStatus>
+                <https://schema.org/Online> .
 
 <http://dbpedia.org/sparql#service>
-        eg:serviceStatus      "online" ;
-        eg:serviceStatusTime  "2020-03-17T19:01:58.249+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+        a            sd:Service ;
+        sd:endpoint  <http://dbpedia.org/sparql> ;
+        <https://schema.org/dateModified>
+                "2020-03-17T20:02:03.010+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+        <https://schema.org/serverStatus>
+                <https://schema.org/Online> .
 
 <http://era.rkbexplorer.com/sparql/#service>
-        eg:serviceStatus      "online" ;
-        eg:serviceStatusTime  "2020-03-17T19:01:42.657+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+        a            sd:Service ;
+        sd:endpoint  <http://era.rkbexplorer.com/sparql/> ;
+        <https://schema.org/dateModified>
+                "2020-03-17T20:01:44.969+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+        <https://schema.org/serverStatus>
+                <https://schema.org/Online> .
 
 <http://roni.rkbexplorer.com/sparql#service>
-        eg:serviceStatus      "online" ;
-        eg:serviceStatusTime  "2020-03-17T19:01:50.652+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+        a            sd:Service ;
+        sd:endpoint  <http://roni.rkbexplorer.com/sparql> ;
+        <https://schema.org/dateModified>
+                "2020-03-17T20:01:52.874+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+        <https://schema.org/serverStatus>
+                <https://schema.org/Online> .
 
 <http://www.lotico.com:3030/lotico/sparql#service>
-        eg:serviceStatus      "online" ;
-        eg:serviceStatusTime  "2020-03-17T19:01:43.397+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+        a            sd:Service ;
+        sd:endpoint  <http://www.lotico.com:3030/lotico/sparql> ;
+        <https://schema.org/dateModified>
+                "2020-03-17T20:01:51.171+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+        <https://schema.org/serverStatus>
+                <https://schema.org/Online> .
 
 <http://linguistic.linkeddata.es/terminesp/sparql-editor#service>
-        eg:serviceStatus      "online" ;
-        eg:serviceStatusTime  "2020-03-17T19:01:48.236+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+        a            sd:Service ;
+        sd:endpoint  <http://linguistic.linkeddata.es/terminesp/sparql-editor> ;
+        <https://schema.org/dateModified>
+                "2020-03-17T20:01:50.416+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+        <https://schema.org/serverStatus>
+                <https://schema.org/Online> .
 
 <http://resource.geolba.ac.at/PoolParty/sparql/lithology#service>
-        eg:serviceStatus      "online" ;
-        eg:serviceStatusTime  "2020-03-17T19:01:42.602+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+        a            sd:Service ;
+        sd:endpoint  <http://resource.geolba.ac.at/PoolParty/sparql/lithology> ;
+        <https://schema.org/dateModified>
+                "2020-03-17T20:01:50.350+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+        <https://schema.org/serverStatus>
+                <https://schema.org/Online> .
 
 <http://biordf.net/sparql#service>
-        eg:serviceStatus      "online" ;
-        eg:serviceStatusTime  "2020-03-17T19:01:39.281+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+        a            sd:Service ;
+        sd:endpoint  <http://biordf.net/sparql> ;
+        <https://schema.org/dateModified>
+                "2020-03-17T20:01:44.547+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+        <https://schema.org/serverStatus>
+                <https://schema.org/Online> .
 
 <http://tuskegee.eagle-i.net/sparqler/sparql#service>
-        eg:serviceStatus      "online" ;
-        eg:serviceStatusTime  "2020-03-17T19:01:26.775+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+        a            sd:Service ;
+        sd:endpoint  <http://tuskegee.eagle-i.net/sparqler/sparql> ;
+        <https://schema.org/dateModified>
+                "2020-03-17T20:01:30.716+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+        <https://schema.org/serverStatus>
+                <https://schema.org/Online> .
 
 <http://vocab.getty.edu/sparql#service>
-        eg:serviceStatus      "online" ;
-        eg:serviceStatusTime  "2020-03-17T19:01:31.169+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+        a            sd:Service ;
+        sd:endpoint  <http://vocab.getty.edu/sparql> ;
+        <https://schema.org/dateModified>
+                "2020-03-17T20:01:36.183+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+        <https://schema.org/serverStatus>
+                <https://schema.org/Online> .
 
 <https://ruian.linked.opendata.cz/sparql#service>
-        eg:serviceStatus      "offline" ;
-        eg:serviceStatusTime  "2020-03-17T19:01:36.158+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+        a            sd:Service ;
+        sd:endpoint  <https://ruian.linked.opendata.cz/sparql> ;
+        <https://schema.org/dateModified>
+                "2020-03-17T20:01:38.124+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+        <https://schema.org/serverStatus>
+                <https://schema.org/OfflineTemporarily> .
 
 <http://data.logainm.ie/sparql#service>
-        eg:serviceStatus      "online" ;
-        eg:serviceStatusTime  "2020-03-17T19:01:35.854+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+        a            sd:Service ;
+        sd:endpoint  <http://data.logainm.ie/sparql> ;
+        <https://schema.org/dateModified>
+                "2020-03-17T20:01:37.799+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+        <https://schema.org/serverStatus>
+                <https://schema.org/Online> .
 
 <http://data.open.ac.uk/query#service>
-        eg:serviceStatus      "online" ;
-        eg:serviceStatusTime  "2020-03-17T19:01:25.710+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+        a            sd:Service ;
+        sd:endpoint  <http://data.open.ac.uk/query> ;
+        <https://schema.org/dateModified>
+                "2020-03-17T20:01:29.558+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+        <https://schema.org/serverStatus>
+                <https://schema.org/Online> .
 
 <http://data.allie.dbcls.jp/sparql#service>
-        eg:serviceStatus      "online" ;
-        eg:serviceStatusTime  "2020-03-17T19:01:55.859+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+        a            sd:Service ;
+        sd:endpoint  <http://data.allie.dbcls.jp/sparql> ;
+        <https://schema.org/dateModified>
+                "2020-03-17T20:01:57.666+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+        <https://schema.org/serverStatus>
+                <https://schema.org/Online> .
 
 <http://crm.rkbexplorer.com/sparql#service>
-        eg:serviceStatus      "online" ;
-        eg:serviceStatusTime  "2020-03-17T19:01:31.018+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+        a            sd:Service ;
+        sd:endpoint  <http://crm.rkbexplorer.com/sparql> ;
+        <https://schema.org/dateModified>
+                "2020-03-17T20:01:34.831+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+        <https://schema.org/serverStatus>
+                <https://schema.org/Online> .
 
 <http://hawaii.eagle-i.net/sparqler/sparql#service>
-        eg:serviceStatus      "online" ;
-        eg:serviceStatusTime  "2020-03-17T19:01:34.757+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+        a            sd:Service ;
+        sd:endpoint  <http://hawaii.eagle-i.net/sparqler/sparql> ;
+        <https://schema.org/dateModified>
+                "2020-03-17T20:01:40.010+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+        <https://schema.org/serverStatus>
+                <https://schema.org/Online> .
 
 <http://dutchshipsandsailors.nl/data/sparql/#service>
-        eg:serviceStatus      "online" ;
-        eg:serviceStatusTime  "2020-03-17T19:01:33.509+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+        a            sd:Service ;
+        sd:endpoint  <http://dutchshipsandsailors.nl/data/sparql/> ;
+        <https://schema.org/dateModified>
+                "2020-03-17T20:01:38.645+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+        <https://schema.org/serverStatus>
+                <https://schema.org/Online> .
 
 <http://linkedlifedata.com/sparql#service>
-        eg:serviceStatus      "online" ;
-        eg:serviceStatusTime  "2020-03-17T19:02:01.857+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+        a            sd:Service ;
+        sd:endpoint  <http://linkedlifedata.com/sparql> ;
+        <https://schema.org/dateModified>
+                "2020-03-17T20:02:06.399+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+        <https://schema.org/serverStatus>
+                <https://schema.org/Online> .
 
 <http://webenemasuno.linkeddata.es/sparql#service>
-        eg:serviceStatus      "online" ;
-        eg:serviceStatusTime  "2020-03-17T19:01:38.391+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+        a            sd:Service ;
+        sd:endpoint  <http://webenemasuno.linkeddata.es/sparql> ;
+        <https://schema.org/dateModified>
+                "2020-03-17T20:01:40.397+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+        <https://schema.org/serverStatus>
+                <https://schema.org/Online> .
 
 <http://taxref.mnhn.fr/sparql#service>
-        eg:serviceStatus      "online" ;
-        eg:serviceStatusTime  "2020-03-17T19:01:28.420+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+        a            sd:Service ;
+        sd:endpoint  <http://taxref.mnhn.fr/sparql> ;
+        <https://schema.org/dateModified>
+                "2020-03-17T20:01:32.970+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+        <https://schema.org/serverStatus>
+                <https://schema.org/Online> .
 
 <http://linkeddata.ge.imati.cnr.it:8890/sparql#service>
-        eg:serviceStatus      "online" ;
-        eg:serviceStatusTime  "2020-03-17T19:01:44.008+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+        a            sd:Service ;
+        sd:endpoint  <http://linkeddata.ge.imati.cnr.it:8890/sparql> ;
+        <https://schema.org/dateModified>
+                "2020-03-17T20:01:51.763+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+        <https://schema.org/serverStatus>
+                <https://schema.org/Online> .
 
 <http://data.colinda.org/endpoint.php#service>
-        eg:serviceStatus      "online" ;
-        eg:serviceStatusTime  "2020-03-17T19:01:41.220+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+        a            sd:Service ;
+        sd:endpoint  <http://data.colinda.org/endpoint.php> ;
+        <https://schema.org/dateModified>
+                "2020-03-17T20:01:48.662+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+        <https://schema.org/serverStatus>
+                <https://schema.org/Online> .
 
 <http://geo.linkeddata.es/sparql#service>
-        eg:serviceStatus      "online" ;
-        eg:serviceStatusTime  "2020-03-17T19:01:33.618+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+        a            sd:Service ;
+        sd:endpoint  <http://geo.linkeddata.es/sparql> ;
+        <https://schema.org/dateModified>
+                "2020-03-17T20:01:37.119+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+        <https://schema.org/serverStatus>
+                <https://schema.org/Online> .
 
 <http://fr.dbpedia.org/sparql#service>
-        eg:serviceStatus      "online" ;
-        eg:serviceStatusTime  "2020-03-17T19:01:45.074+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+        a            sd:Service ;
+        sd:endpoint  <http://fr.dbpedia.org/sparql> ;
+        <https://schema.org/dateModified>
+                "2020-03-17T20:01:47.489+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+        <https://schema.org/serverStatus>
+                <https://schema.org/Online> .
 
 <http://msm.eagle-i.net/sparqler/sparql#service>
-        eg:serviceStatus      "online" ;
-        eg:serviceStatusTime  "2020-03-17T19:01:37.486+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+        a            sd:Service ;
+        sd:endpoint  <http://msm.eagle-i.net/sparqler/sparql> ;
+        <https://schema.org/dateModified>
+                "2020-03-17T20:01:39.346+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+        <https://schema.org/serverStatus>
+                <https://schema.org/Online> .
 
 <http://budapest.rkbexplorer.com/sparql/#service>
-        eg:serviceStatus      "online" ;
-        eg:serviceStatusTime  "2020-03-17T19:01:42.367+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+        a            sd:Service ;
+        sd:endpoint  <http://budapest.rkbexplorer.com/sparql/> ;
+        <https://schema.org/dateModified>
+                "2020-03-17T20:01:44.679+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+        <https://schema.org/serverStatus>
+                <https://schema.org/Online> .
 
 <http://eu.dbpedia.org/sparql#service>
-        eg:serviceStatus      "online" ;
-        eg:serviceStatusTime  "2020-03-17T19:01:53.682+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+        a            sd:Service ;
+        sd:endpoint  <http://eu.dbpedia.org/sparql> ;
+        <https://schema.org/dateModified>
+                "2020-03-17T20:01:55.522+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+        <https://schema.org/serverStatus>
+                <https://schema.org/Online> .
 
 <http://aemet.linkeddata.es/sparql#service>
-        eg:serviceStatus      "online" ;
-        eg:serviceStatusTime  "2020-03-17T19:01:29.878+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+        a            sd:Service ;
+        sd:endpoint  <http://aemet.linkeddata.es/sparql> ;
+        <https://schema.org/dateModified>
+                "2020-03-17T20:01:33.706+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+        <https://schema.org/serverStatus>
+                <https://schema.org/Online> .
 
 <http://dbtune.org/musicbrainz/sparql#service>
-        eg:serviceStatus      "online" ;
-        eg:serviceStatusTime  "2020-03-17T19:01:28.416+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+        a            sd:Service ;
+        sd:endpoint  <http://dbtune.org/musicbrainz/sparql> ;
+        <https://schema.org/dateModified>
+                "2020-03-17T20:01:32.168+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+        <https://schema.org/serverStatus>
+                <https://schema.org/Online> .
 
 <http://datos.bne.es/sparql#service>
-        eg:serviceStatus      "online" ;
-        eg:serviceStatusTime  "2020-03-17T19:01:31.829+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+        a            sd:Service ;
+        sd:endpoint  <http://datos.bne.es/sparql> ;
+        <https://schema.org/dateModified>
+                "2020-03-17T20:01:35.486+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+        <https://schema.org/serverStatus>
+                <https://schema.org/Online> .
 
 <http://kisti.rkbexplorer.com/sparql/#service>
-        eg:serviceStatus      "online" ;
-        eg:serviceStatusTime  "2020-03-17T19:01:32.009+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+        a            sd:Service ;
+        sd:endpoint  <http://kisti.rkbexplorer.com/sparql/> ;
+        <https://schema.org/dateModified>
+                "2020-03-17T20:01:37.070+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+        <https://schema.org/serverStatus>
+                <https://schema.org/Online> .
 
 <http://skos.um.es/sparql/#service>
-        eg:serviceStatus      "online" ;
-        eg:serviceStatusTime  "2020-03-17T19:01:46.064+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+        a            sd:Service ;
+        sd:endpoint  <http://skos.um.es/sparql/> ;
+        <https://schema.org/dateModified>
+                "2020-03-17T20:01:48.488+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+        <https://schema.org/serverStatus>
+                <https://schema.org/Online> .
 
 <http://ldf.fi/ww1lod/sparql#service>
-        eg:serviceStatus      "online" ;
-        eg:serviceStatusTime  "2020-03-17T19:01:37.610+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+        a            sd:Service ;
+        sd:endpoint  <http://ldf.fi/ww1lod/sparql> ;
+        <https://schema.org/dateModified>
+                "2020-03-17T20:01:43.123+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+        <https://schema.org/serverStatus>
+                <https://schema.org/Online> .
 
 <http://harvard.eagle-i.net/sparqler/sparql#service>
-        eg:serviceStatus      "online" ;
-        eg:serviceStatusTime  "2020-03-17T19:01:23.968+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+        a            sd:Service ;
+        sd:endpoint  <http://harvard.eagle-i.net/sparqler/sparql> ;
+        <https://schema.org/dateModified>
+                "2020-03-17T20:01:28.698+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+        <https://schema.org/serverStatus>
+                <https://schema.org/Online> .
 
 <http://data.ox.ac.uk/sparql/#service>
-        eg:serviceStatus      "online" ;
-        eg:serviceStatusTime  "2020-03-17T19:01:55.664+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+        a            sd:Service ;
+        sd:endpoint  <http://data.ox.ac.uk/sparql/> ;
+        <https://schema.org/dateModified>
+                "2020-03-17T20:02:00.332+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+        <https://schema.org/serverStatus>
+                <https://schema.org/Online> .
 
 <http://irit.rkbexplorer.com/sparql/#service>
-        eg:serviceStatus      "online" ;
-        eg:serviceStatusTime  "2020-03-17T19:01:43.733+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+        a            sd:Service ;
+        sd:endpoint  <http://irit.rkbexplorer.com/sparql/> ;
+        <https://schema.org/dateModified>
+                "2020-03-17T20:01:51.483+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+        <https://schema.org/serverStatus>
+                <https://schema.org/Online> .
 
 <http://lod.xdams.org/sparql#service>
-        eg:serviceStatus      "online" ;
-        eg:serviceStatusTime  "2020-03-17T19:01:43.087+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+        a            sd:Service ;
+        sd:endpoint  <http://lod.xdams.org/sparql> ;
+        <https://schema.org/dateModified>
+                "2020-03-17T20:01:50.863+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+        <https://schema.org/serverStatus>
+                <https://schema.org/Online> .
 
 <http://sparql.odw.tw#service>
-        eg:serviceStatus      "online" ;
-        eg:serviceStatusTime  "2020-03-17T19:01:30.516+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+        a            sd:Service ;
+        sd:endpoint  <http://sparql.odw.tw> ;
+        <https://schema.org/dateModified>
+                "2020-03-17T20:01:34.329+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+        <https://schema.org/serverStatus>
+                <https://schema.org/Online> .
 
 <http://kaiko.getalp.org/sparql#service>
-        eg:serviceStatus      "online" ;
-        eg:serviceStatusTime  "2020-03-17T19:01:29.266+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+        a            sd:Service ;
+        sd:endpoint  <http://kaiko.getalp.org/sparql> ;
+        <https://schema.org/dateModified>
+                "2020-03-17T20:01:33.026+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+        <https://schema.org/serverStatus>
+                <https://schema.org/Online> .
 
 <http://linkedgeodata.org/sparql/#service>
-        eg:serviceStatus      "online" ;
-        eg:serviceStatusTime  "2020-03-17T19:01:20.421+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+        a            sd:Service ;
+        sd:endpoint  <http://linkedgeodata.org/sparql/> ;
+        <https://schema.org/dateModified>
+                "2020-03-17T20:01:24.252+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+        <https://schema.org/serverStatus>
+                <https://schema.org/Online> .
 
 <http://usgs-stko.geog.ucsb.edu:8080/sparql/select#service>
-        eg:serviceStatus      "online" ;
-        eg:serviceStatusTime  "2020-03-17T19:01:22.550+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+        a            sd:Service ;
+        sd:endpoint  <http://usgs-stko.geog.ucsb.edu:8080/sparql/select> ;
+        <https://schema.org/dateModified>
+                "2020-03-17T20:01:26.423+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+        <https://schema.org/serverStatus>
+                <https://schema.org/Online> .
 
 <http://epsrc.rkbexplorer.com/sparql#service>
-        eg:serviceStatus      "online" ;
-        eg:serviceStatusTime  "2020-03-17T19:02:01.045+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+        a            sd:Service ;
+        sd:endpoint  <http://epsrc.rkbexplorer.com/sparql> ;
+        <https://schema.org/dateModified>
+                "2020-03-17T20:02:05.602+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+        <https://schema.org/serverStatus>
+                <https://schema.org/Online> .
 
 <http://dblp.rkbexplorer.com/sparql/#service>
-        eg:serviceStatus      "online" ;
-        eg:serviceStatusTime  "2020-03-17T19:01:33.098+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+        a            sd:Service ;
+        sd:endpoint  <http://dblp.rkbexplorer.com/sparql/> ;
+        <https://schema.org/dateModified>
+                "2020-03-17T20:01:38.219+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+        <https://schema.org/serverStatus>
+                <https://schema.org/Online> .
 
 <http://oai.rkbexplorer.com/sparql/#service>
-        eg:serviceStatus      "online" ;
-        eg:serviceStatusTime  "2020-03-17T19:01:36.550+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+        a            sd:Service ;
+        sd:endpoint  <http://oai.rkbexplorer.com/sparql/> ;
+        <https://schema.org/dateModified>
+                "2020-03-17T20:01:41.989+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+        <https://schema.org/serverStatus>
+                <https://schema.org/Online> .
 
 <http://ft.rkbexplorer.com/sparql/#service>
-        eg:serviceStatus      "online" ;
-        eg:serviceStatusTime  "2020-03-17T19:01:20.707+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+        a            sd:Service ;
+        sd:endpoint  <http://ft.rkbexplorer.com/sparql/> ;
+        <https://schema.org/dateModified>
+                "2020-03-17T20:01:24.538+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+        <https://schema.org/serverStatus>
+                <https://schema.org/Online> .
 
 <http://nl.dbpedia.org/sparql#service>
-        eg:serviceStatus      "online" ;
-        eg:serviceStatusTime  "2020-03-17T19:01:54.306+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+        a            sd:Service ;
+        sd:endpoint  <http://nl.dbpedia.org/sparql> ;
+        <https://schema.org/dateModified>
+                "2020-03-17T20:01:59.204+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+        <https://schema.org/serverStatus>
+                <https://schema.org/Online> .
 
 <http://tsu.eagle-i.net/sparqler/sparql#service>
-        eg:serviceStatus      "online" ;
-        eg:serviceStatusTime  "2020-03-17T19:01:19.051+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+        a            sd:Service ;
+        sd:endpoint  <http://tsu.eagle-i.net/sparqler/sparql> ;
+        <https://schema.org/dateModified>
+                "2020-03-17T20:01:23.038+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+        <https://schema.org/serverStatus>
+                <https://schema.org/Online> .
 
 <http://id.ndl.go.jp/auth/ndlsh/#service>
-        eg:serviceStatus      "online" ;
-        eg:serviceStatusTime  "2020-03-17T19:01:26.863+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+        a            sd:Service ;
+        sd:endpoint  <http://id.ndl.go.jp/auth/ndlsh/> ;
+        <https://schema.org/dateModified>
+                "2020-03-17T20:01:31.469+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+        <https://schema.org/serverStatus>
+                <https://schema.org/Online> .
 
 <http://deepblue.rkbexplorer.com/sparql/#service>
-        eg:serviceStatus      "online" ;
-        eg:serviceStatusTime  "2020-03-17T19:01:47.510+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+        a            sd:Service ;
+        sd:endpoint  <http://deepblue.rkbexplorer.com/sparql/> ;
+        <https://schema.org/dateModified>
+                "2020-03-17T20:01:55.046+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+        <https://schema.org/serverStatus>
+                <https://schema.org/Online> .
 
 <http://vocabulary.semantic-web.at/PoolParty/sparql/OpenData#service>
-        eg:serviceStatus      "online" ;
-        eg:serviceStatusTime  "2020-03-17T19:01:23.065+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+        a            sd:Service ;
+        sd:endpoint  <http://vocabulary.semantic-web.at/PoolParty/sparql/OpenData> ;
+        <https://schema.org/dateModified>
+                "2020-03-17T20:01:28.043+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+        <https://schema.org/serverStatus>
+                <https://schema.org/Online> .
 
 <http://www.influencetracker.com:8890/sparql#service>
-        eg:serviceStatus      "online" ;
-        eg:serviceStatusTime  "2020-03-17T19:01:20.294+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+        a            sd:Service ;
+        sd:endpoint  <http://www.influencetracker.com:8890/sparql> ;
+        <https://schema.org/dateModified>
+                "2020-03-17T20:01:24.088+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+        <https://schema.org/serverStatus>
+                <https://schema.org/Online> .
 
 <http://cau.eagle-i.net/sparqler/sparql#service>
-        eg:serviceStatus      "online" ;
-        eg:serviceStatusTime  "2020-03-17T19:01:44.458+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+        a            sd:Service ;
+        sd:endpoint  <http://cau.eagle-i.net/sparqler/sparql> ;
+        <https://schema.org/dateModified>
+                "2020-03-17T20:01:52.242+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+        <https://schema.org/serverStatus>
+                <https://schema.org/Online> .
 
 <http://dati.camera.it/sparql#service>
-        eg:serviceStatus      "online" ;
-        eg:serviceStatusTime  "2020-03-17T19:01:40.144+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+        a            sd:Service ;
+        sd:endpoint  <http://dati.camera.it/sparql> ;
+        <https://schema.org/dateModified>
+                "2020-03-17T20:01:45.127+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+        <https://schema.org/serverStatus>
+                <https://schema.org/Online> .
 
 <http://datos.bcn.cl/sparql#service>
-        eg:serviceStatus      "online" ;
-        eg:serviceStatusTime  "2020-03-17T19:01:57.720+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+        a            sd:Service ;
+        sd:endpoint  <http://datos.bcn.cl/sparql> ;
+        <https://schema.org/dateModified>
+                "2020-03-17T20:01:59.574+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+        <https://schema.org/serverStatus>
+                <https://schema.org/Online> .
 
 <http://environment.data.gov.uk/sparql/bwq/query#service>
-        eg:serviceStatus      "online" ;
-        eg:serviceStatusTime  "2020-03-17T19:01:44.026+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+        a            sd:Service ;
+        sd:endpoint  <http://environment.data.gov.uk/sparql/bwq/query> ;
+        <https://schema.org/dateModified>
+                "2020-03-17T20:01:46.306+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+        <https://schema.org/serverStatus>
+                <https://schema.org/Online> .
 
 <http://colinda.org/endpoint.php#service>
-        eg:serviceStatus      "online" ;
-        eg:serviceStatusTime  "2020-03-17T19:01:27.676+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+        a            sd:Service ;
+        sd:endpoint  <http://colinda.org/endpoint.php> ;
+        <https://schema.org/dateModified>
+                "2020-03-17T20:01:31.455+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+        <https://schema.org/serverStatus>
+                <https://schema.org/Online> .
 
 <http://jisc.rkbexplorer.com/sparql/#service>
-        eg:serviceStatus      "online" ;
-        eg:serviceStatusTime  "2020-03-17T19:01:24.233+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+        a            sd:Service ;
+        sd:endpoint  <http://jisc.rkbexplorer.com/sparql/> ;
+        <https://schema.org/dateModified>
+                "2020-03-17T20:01:28.975+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+        <https://schema.org/serverStatus>
+                <https://schema.org/Online> .
 
 <http://lod.b3kat.de/sparql#service>
-        eg:serviceStatus      "online" ;
-        eg:serviceStatusTime  "2020-03-17T19:01:27.355+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+        a            sd:Service ;
+        sd:endpoint  <http://lod.b3kat.de/sparql> ;
+        <https://schema.org/dateModified>
+                "2020-03-17T20:01:31.919+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+        <https://schema.org/serverStatus>
+                <https://schema.org/Online> .
 
 <http://dbtune.org/classical/sparql/#service>
-        eg:serviceStatus      "online" ;
-        eg:serviceStatusTime  "2020-03-17T19:01:43.851+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+        a            sd:Service ;
+        sd:endpoint  <http://dbtune.org/classical/sparql/> ;
+        <https://schema.org/dateModified>
+                "2020-03-17T20:01:46.127+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+        <https://schema.org/serverStatus>
+                <https://schema.org/Online> .
 
 <http://www.rechercheisidore.fr/sparql#service>
-        eg:serviceStatus      "online" ;
-        eg:serviceStatusTime  "2020-03-17T19:01:40.682+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+        a            sd:Service ;
+        sd:endpoint  <http://www.rechercheisidore.fr/sparql> ;
+        <https://schema.org/dateModified>
+                "2020-03-17T20:01:42.847+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+        <https://schema.org/serverStatus>
+                <https://schema.org/Online> .
 
 <http://sparql.uniprot.org#service>
-        eg:serviceStatus      "online" ;
-        eg:serviceStatusTime  "2020-03-17T19:01:56.353+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+        a            sd:Service ;
+        sd:endpoint  <http://sparql.uniprot.org> ;
+        <https://schema.org/dateModified>
+                "2020-03-17T20:01:58.165+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+        <https://schema.org/serverStatus>
+                <https://schema.org/Online> .
 
 <https://data.ox.ac.uk/sparql/#service>
-        eg:serviceStatus      "online" ;
-        eg:serviceStatusTime  "2020-03-17T19:01:31.486+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+        a            sd:Service ;
+        sd:endpoint  <https://data.ox.ac.uk/sparql/> ;
+        <https://schema.org/dateModified>
+                "2020-03-17T20:01:36.442+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+        <https://schema.org/serverStatus>
+                <https://schema.org/Online> .
 
 <http://onto.fel.cvut.cz/rdf4j-server/repositories/ufo-current#service>
-        eg:serviceStatus      "online" ;
-        eg:serviceStatusTime  "2020-03-17T19:01:32.315+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+        a            sd:Service ;
+        sd:endpoint  <http://onto.fel.cvut.cz/rdf4j-server/repositories/ufo-current> ;
+        <https://schema.org/dateModified>
+                "2020-03-17T20:01:35.822+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+        <https://schema.org/serverStatus>
+                <https://schema.org/Online> .
 
 <http://linkeddata.uriburner.com/sparql#service>
-        eg:serviceStatus      "online" ;
-        eg:serviceStatusTime  "2020-03-17T19:01:40.212+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+        a            sd:Service ;
+        sd:endpoint  <http://linkeddata.uriburner.com/sparql> ;
+        <https://schema.org/dateModified>
+                "2020-03-17T20:01:42.467+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+        <https://schema.org/serverStatus>
+                <https://schema.org/Online> .
 
 <https://linked.opendata.cz/sparql#service>
-        eg:serviceStatus      "online" ;
-        eg:serviceStatusTime  "2020-03-17T19:01:52.993+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+        a            sd:Service ;
+        sd:endpoint  <https://linked.opendata.cz/sparql> ;
+        <https://schema.org/dateModified>
+                "2020-03-17T20:01:57.887+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+        <https://schema.org/serverStatus>
+                <https://schema.org/Online> .
 
 <http://uccaribe.eagle-i.net/sparqler/sparql#service>
-        eg:serviceStatus      "online" ;
-        eg:serviceStatusTime  "2020-03-17T19:01:45.933+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+        a            sd:Service ;
+        sd:endpoint  <http://uccaribe.eagle-i.net/sparqler/sparql> ;
+        <https://schema.org/dateModified>
+                "2020-03-17T20:01:48.342+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+        <https://schema.org/serverStatus>
+                <https://schema.org/Online> .
 
 <http://cdrewu.eagle-i.net/sparqler/sparql#service>
-        eg:serviceStatus      "online" ;
-        eg:serviceStatusTime  "2020-03-17T19:01:52.923+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+        a            sd:Service ;
+        sd:endpoint  <http://cdrewu.eagle-i.net/sparqler/sparql> ;
+        <https://schema.org/dateModified>
+                "2020-03-17T20:01:54.740+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+        <https://schema.org/serverStatus>
+                <https://schema.org/Online> .
 
 <http://crtm.linkeddata.es/sparql#service>
-        eg:serviceStatus      "online" ;
-        eg:serviceStatusTime  "2020-03-17T19:01:27.211+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+        a            sd:Service ;
+        sd:endpoint  <http://crtm.linkeddata.es/sparql> ;
+        <https://schema.org/dateModified>
+                "2020-03-17T20:01:31.131+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+        <https://schema.org/serverStatus>
+                <https://schema.org/Online> .
 
 <http://unlocode.rkbexplorer.com/sparql/#service>
-        eg:serviceStatus      "online" ;
-        eg:serviceStatusTime  "2020-03-17T19:01:57.298+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+        a            sd:Service ;
+        sd:endpoint  <http://unlocode.rkbexplorer.com/sparql/> ;
+        <https://schema.org/dateModified>
+                "2020-03-17T20:02:02.064+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+        <https://schema.org/serverStatus>
+                <https://schema.org/Online> .
 
 <https://jpsearch.go.jp/rdf/sparql#service>
-        eg:serviceStatus      "online" ;
-        eg:serviceStatusTime  "2020-03-17T19:01:47.359+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+        a            sd:Service ;
+        sd:endpoint  <https://jpsearch.go.jp/rdf/sparql> ;
+        <https://schema.org/dateModified>
+                "2020-03-17T20:01:49.710+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+        <https://schema.org/serverStatus>
+                <https://schema.org/Online> .
 
 <http://foreign.rkbexplorer.com/sparql/#service>
-        eg:serviceStatus      "online" ;
-        eg:serviceStatusTime  "2020-03-17T19:01:28.593+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+        a            sd:Service ;
+        sd:endpoint  <http://foreign.rkbexplorer.com/sparql/> ;
+        <https://schema.org/dateModified>
+                "2020-03-17T20:01:32.346+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+        <https://schema.org/serverStatus>
+                <https://schema.org/Online> .
 
 <http://meharry.eagle-i.net/sparqler/sparql#service>
-        eg:serviceStatus      "online" ;
-        eg:serviceStatusTime  "2020-03-17T19:01:49.111+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+        a            sd:Service ;
+        sd:endpoint  <http://meharry.eagle-i.net/sparqler/sparql> ;
+        <https://schema.org/dateModified>
+                "2020-03-17T20:01:51.352+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+        <https://schema.org/serverStatus>
+                <https://schema.org/Online> .
 
 <http://kaunas.rkbexplorer.com/sparql#service>
-        eg:serviceStatus      "online" ;
-        eg:serviceStatusTime  "2020-03-17T19:01:39.093+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+        a            sd:Service ;
+        sd:endpoint  <http://kaunas.rkbexplorer.com/sparql> ;
+        <https://schema.org/dateModified>
+                "2020-03-17T20:01:41.092+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+        <https://schema.org/serverStatus>
+                <https://schema.org/Online> .
 
 <http://id.ndl.go.jp/auth/ndla/#service>
-        eg:serviceStatus      "online" ;
-        eg:serviceStatusTime  "2020-03-17T19:01:22.502+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+        a            sd:Service ;
+        sd:endpoint  <http://id.ndl.go.jp/auth/ndla/> ;
+        <https://schema.org/dateModified>
+                "2020-03-17T20:01:27.388+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+        <https://schema.org/serverStatus>
+                <https://schema.org/Online> .
 
 <http://sparql.odw.tw/#service>
-        eg:serviceStatus      "online" ;
-        eg:serviceStatusTime  "2020-03-17T19:01:37.097+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+        a            sd:Service ;
+        sd:endpoint  <http://sparql.odw.tw/> ;
+        <https://schema.org/dateModified>
+                "2020-03-17T20:01:38.946+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+        <https://schema.org/serverStatus>
+                <https://schema.org/Online> .
 
 <http://semanticweb.cs.vu.nl/dss/sparql/#service>
-        eg:serviceStatus      "online" ;
-        eg:serviceStatusTime  "2020-03-17T19:01:41.877+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+        a            sd:Service ;
+        sd:endpoint  <http://semanticweb.cs.vu.nl/dss/sparql/> ;
+        <https://schema.org/dateModified>
+                "2020-03-17T20:01:49.572+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+        <https://schema.org/serverStatus>
+                <https://schema.org/Online> .
 
 <http://eventmedia.eurecom.fr/sparql#service>
-        eg:serviceStatus      "online" ;
-        eg:serviceStatusTime  "2020-03-17T19:02:00.263+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+        a            sd:Service ;
+        sd:endpoint  <http://eventmedia.eurecom.fr/sparql> ;
+        <https://schema.org/dateModified>
+                "2020-03-17T20:02:04.804+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+        <https://schema.org/serverStatus>
+                <https://schema.org/Online> .
 
 <http://onto.beef.org.pl/sparql#service>
-        eg:serviceStatus      "online" ;
-        eg:serviceStatusTime  "2020-03-17T19:01:29.258+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+        a            sd:Service ;
+        sd:endpoint  <http://onto.beef.org.pl/sparql> ;
+        <https://schema.org/dateModified>
+                "2020-03-17T20:01:33.906+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+        <https://schema.org/serverStatus>
+                <https://schema.org/Online> .
 
 <http://linked.opendata.cz/sparql#service>
-        eg:serviceStatus      "online" ;
-        eg:serviceStatusTime  "2020-03-17T19:01:38.063+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+        a            sd:Service ;
+        sd:endpoint  <http://linked.opendata.cz/sparql> ;
+        <https://schema.org/dateModified>
+                "2020-03-17T20:01:43.542+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+        <https://schema.org/serverStatus>
+                <https://schema.org/Online> .
 
 <http://howard.eagle-i.net/sparqler/sparql#service>
-        eg:serviceStatus      "online" ;
-        eg:serviceStatusTime  "2020-03-17T19:01:54.165+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+        a            sd:Service ;
+        sd:endpoint  <http://howard.eagle-i.net/sparqler/sparql> ;
+        <https://schema.org/dateModified>
+                "2020-03-17T20:01:59.065+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+        <https://schema.org/serverStatus>
+                <https://schema.org/Online> .
 
 <http://rdf.muninn-project.org/sparql#service>
-        eg:serviceStatus      "online" ;
-        eg:serviceStatusTime  "2020-03-17T19:01:44.886+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+        a            sd:Service ;
+        sd:endpoint  <http://rdf.muninn-project.org/sparql> ;
+        <https://schema.org/dateModified>
+                "2020-03-17T20:01:47.311+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+        <https://schema.org/serverStatus>
+                <https://schema.org/Online> .
 
 <http://risks.rkbexplorer.com/sparql/#service>
-        eg:serviceStatus      "online" ;
-        eg:serviceStatusTime  "2020-03-17T19:01:26.927+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+        a            sd:Service ;
+        sd:endpoint  <http://risks.rkbexplorer.com/sparql/> ;
+        <https://schema.org/dateModified>
+                "2020-03-17T20:01:30.850+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+        <https://schema.org/serverStatus>
+                <https://schema.org/Online> .
 
 <http://dotac.rkbexplorer.com/sparql/#service>
-        eg:serviceStatus      "online" ;
-        eg:serviceStatusTime  "2020-03-17T19:01:30.766+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+        a            sd:Service ;
+        sd:endpoint  <http://dotac.rkbexplorer.com/sparql/> ;
+        <https://schema.org/dateModified>
+                "2020-03-17T20:01:35.906+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+        <https://schema.org/serverStatus>
+                <https://schema.org/Online> .
 
 <http://utep.eagle-i.net/sparqler/sparql#service>
-        eg:serviceStatus      "online" ;
-        eg:serviceStatusTime  "2020-03-17T19:01:27.782+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+        a            sd:Service ;
+        sd:endpoint  <http://utep.eagle-i.net/sparqler/sparql> ;
+        <https://schema.org/dateModified>
+                "2020-03-17T20:01:32.327+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+        <https://schema.org/serverStatus>
+                <https://schema.org/Online> .
 
 <http://dbtune.org/magnatune/sparql/#service>
-        eg:serviceStatus      "online" ;
-        eg:serviceStatusTime  "2020-03-17T19:01:25.734+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+        a            sd:Service ;
+        sd:endpoint  <http://dbtune.org/magnatune/sparql/> ;
+        <https://schema.org/dateModified>
+                "2020-03-17T20:01:30.301+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+        <https://schema.org/serverStatus>
+                <https://schema.org/Online> .
 
 <http://zbw.eu/beta/sparql/stw/query#service>
-        eg:serviceStatus      "online" ;
-        eg:serviceStatusTime  "2020-03-17T19:01:58.165+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+        a            sd:Service ;
+        sd:endpoint  <http://zbw.eu/beta/sparql/stw/query> ;
+        <https://schema.org/dateModified>
+                "2020-03-17T20:02:00.186+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+        <https://schema.org/serverStatus>
+                <https://schema.org/Online> .
 
 <http://farolas.linkeddata.es/sparql#service>
-        eg:serviceStatus      "online" ;
-        eg:serviceStatusTime  "2020-03-17T19:01:38.058+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+        a            sd:Service ;
+        sd:endpoint  <http://farolas.linkeddata.es/sparql> ;
+        <https://schema.org/dateModified>
+                "2020-03-17T20:01:39.954+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+        <https://schema.org/serverStatus>
+                <https://schema.org/Online> .
 
 <http://resource.geolba.ac.at/PoolParty/sparql/GeologicUnit#service>
-        eg:serviceStatus      "online" ;
-        eg:serviceStatusTime  "2020-03-17T19:01:27.248+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+        a            sd:Service ;
+        sd:endpoint  <http://resource.geolba.ac.at/PoolParty/sparql/GeologicUnit> ;
+        <https://schema.org/dateModified>
+                "2020-03-17T20:01:31.811+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+        <https://schema.org/serverStatus>
+                <https://schema.org/Online> .
 
 <http://lod.sztaki.hu/sparql#service>
-        eg:serviceStatus      "online" ;
-        eg:serviceStatusTime  "2020-03-17T19:01:48.598+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+        a            sd:Service ;
+        sd:endpoint  <http://lod.sztaki.hu/sparql> ;
+        <https://schema.org/dateModified>
+                "2020-03-17T20:01:50.764+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+        <https://schema.org/serverStatus>
+                <https://schema.org/Online> .
 
 <http://www.linklion.org:8890/sparql#service>
-        eg:serviceStatus      "online" ;
-        eg:serviceStatusTime  "2020-03-17T19:01:32.297+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+        a            sd:Service ;
+        sd:endpoint  <http://www.linklion.org:8890/sparql> ;
+        <https://schema.org/dateModified>
+                "2020-03-17T20:01:37.351+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+        <https://schema.org/serverStatus>
+                <https://schema.org/Online> .
 
 <http://ja.dbpedia.org/sparql#service>
-        eg:serviceStatus      "online" ;
-        eg:serviceStatusTime  "2020-03-17T19:01:47.933+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+        a            sd:Service ;
+        sd:endpoint  <http://ja.dbpedia.org/sparql> ;
+        <https://schema.org/dateModified>
+                "2020-03-17T20:01:55.469+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+        <https://schema.org/serverStatus>
+                <https://schema.org/Online> .
 
 <http://roma.rkbexplorer.com/sparql/#service>
-        eg:serviceStatus      "online" ;
-        eg:serviceStatusTime  "2020-03-17T19:01:24.960+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+        a            sd:Service ;
+        sd:endpoint  <http://roma.rkbexplorer.com/sparql/> ;
+        <https://schema.org/dateModified>
+                "2020-03-17T20:01:28.824+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+        <https://schema.org/serverStatus>
+                <https://schema.org/Online> .
 
 <http://extbi.lab.aau.dk/sparql/#service>
-        eg:serviceStatus      "online" ;
-        eg:serviceStatusTime  "2020-03-17T19:02:01.420+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+        a            sd:Service ;
+        sd:endpoint  <http://extbi.lab.aau.dk/sparql/> ;
+        <https://schema.org/dateModified>
+                "2020-03-17T20:02:05.969+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+        <https://schema.org/serverStatus>
+                <https://schema.org/Online> .
 
 <http://linkeddata.es/resource/ldqm/sparql#service>
-        eg:serviceStatus      "online" ;
-        eg:serviceStatusTime  "2020-03-17T19:01:21.132+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+        a            sd:Service ;
+        sd:endpoint  <http://linkeddata.es/resource/ldqm/sparql> ;
+        <https://schema.org/dateModified>
+                "2020-03-17T20:01:25.037+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+        <https://schema.org/serverStatus>
+                <https://schema.org/Online> .
 
 <http://southampton.rkbexplorer.com/sparql/#service>
-        eg:serviceStatus      "online" ;
-        eg:serviceStatusTime  "2020-03-17T19:01:32.810+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+        a            sd:Service ;
+        sd:endpoint  <http://southampton.rkbexplorer.com/sparql/> ;
+        <https://schema.org/dateModified>
+                "2020-03-17T20:01:37.870+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+        <https://schema.org/serverStatus>
+                <https://schema.org/Online> .
 
 <http://lisbon.rkbexplorer.com/sparql#service>
-        eg:serviceStatus      "online" ;
-        eg:serviceStatusTime  "2020-03-17T19:02:00.680+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+        a            sd:Service ;
+        sd:endpoint  <http://lisbon.rkbexplorer.com/sparql> ;
+        <https://schema.org/dateModified>
+                "2020-03-17T20:02:05.240+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+        <https://schema.org/serverStatus>
+                <https://schema.org/Online> .
 
 <http://data.bnf.fr/sparql#service>
-        eg:serviceStatus      "online" ;
-        eg:serviceStatusTime  "2020-03-17T19:01:44.598+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+        a            sd:Service ;
+        sd:endpoint  <http://data.bnf.fr/sparql> ;
+        <https://schema.org/dateModified>
+                "2020-03-17T20:01:52.385+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+        <https://schema.org/serverStatus>
+                <https://schema.org/Online> .
 
 <http://linkeddata.finki.ukim.mk/sparql#service>
-        eg:serviceStatus      "online" ;
-        eg:serviceStatusTime  "2020-03-17T19:01:48.627+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+        a            sd:Service ;
+        sd:endpoint  <http://linkeddata.finki.ukim.mk/sparql> ;
+        <https://schema.org/dateModified>
+                "2020-03-17T20:01:56.186+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+        <https://schema.org/serverStatus>
+                <https://schema.org/Online> .
 
 <http://data.archiveshub.ac.uk/sparql#service>
-        eg:serviceStatus      "online" ;
-        eg:serviceStatusTime  "2020-03-17T19:01:28.115+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+        a            sd:Service ;
+        sd:endpoint  <http://data.archiveshub.ac.uk/sparql> ;
+        <https://schema.org/dateModified>
+                "2020-03-17T20:01:32.653+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+        <https://schema.org/serverStatus>
+                <https://schema.org/Online> .
 
 <http://italy.rkbexplorer.com/sparql#service>
-        eg:serviceStatus      "online" ;
-        eg:serviceStatusTime  "2020-03-17T19:01:53.321+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+        a            sd:Service ;
+        sd:endpoint  <http://italy.rkbexplorer.com/sparql> ;
+        <https://schema.org/dateModified>
+                "2020-03-17T20:01:55.160+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+        <https://schema.org/serverStatus>
+                <https://schema.org/Online> .
 
 <http://darmstadt.rkbexplorer.com/sparql/#service>
-        eg:serviceStatus      "online" ;
-        eg:serviceStatusTime  "2020-03-17T19:01:26.013+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+        a            sd:Service ;
+        sd:endpoint  <http://darmstadt.rkbexplorer.com/sparql/> ;
+        <https://schema.org/dateModified>
+                "2020-03-17T20:01:30.575+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+        <https://schema.org/serverStatus>
+                <https://schema.org/Online> .
 
 <http://rae2001.rkbexplorer.com/sparql/#service>
-        eg:serviceStatus      "online" ;
-        eg:serviceStatusTime  "2020-03-17T19:01:23.534+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+        a            sd:Service ;
+        sd:endpoint  <http://rae2001.rkbexplorer.com/sparql/> ;
+        <https://schema.org/dateModified>
+                "2020-03-17T20:01:28.406+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+        <https://schema.org/serverStatus>
+                <https://schema.org/Online> .
 
 <http://sparql.data.southampton.ac.uk/#service>
-        eg:serviceStatus      "online" ;
-        eg:serviceStatusTime  "2020-03-17T19:01:36.835+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+        a            sd:Service ;
+        sd:endpoint  <http://sparql.data.southampton.ac.uk/> ;
+        <https://schema.org/dateModified>
+                "2020-03-17T20:01:42.326+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+        <https://schema.org/serverStatus>
+                <https://schema.org/Online> .
 
 <http://ibm.rkbexplorer.com/sparql/#service>
-        eg:serviceStatus      "online" ;
-        eg:serviceStatusTime  "2020-03-17T19:02:02.258+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+        a            sd:Service ;
+        sd:endpoint  <http://ibm.rkbexplorer.com/sparql/> ;
+        <https://schema.org/dateModified>
+                "2020-03-17T20:02:06.801+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+        <https://schema.org/serverStatus>
+                <https://schema.org/Online> .
 
 <http://laas.rkbexplorer.com/sparql/#service>
-        eg:serviceStatus      "online" ;
-        eg:serviceStatusTime  "2020-03-17T19:01:34.477+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+        a            sd:Service ;
+        sd:endpoint  <http://laas.rkbexplorer.com/sparql/> ;
+        <https://schema.org/dateModified>
+                "2020-03-17T20:01:39.651+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+        <https://schema.org/serverStatus>
+                <https://schema.org/Online> .
 
 <https://dbmi-icode-01.dbmi.pitt.edu/sparql#service>
-        eg:serviceStatus      "online" ;
-        eg:serviceStatusTime  "2020-03-17T19:01:21.584+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+        a            sd:Service ;
+        sd:endpoint  <https://dbmi-icode-01.dbmi.pitt.edu/sparql> ;
+        <https://schema.org/dateModified>
+                "2020-03-17T20:01:25.476+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+        <https://schema.org/serverStatus>
+                <https://schema.org/Online> .
 
 <http://curriculum.rkbexplorer.com/sparql/#service>
-        eg:serviceStatus      "online" ;
-        eg:serviceStatusTime  "2020-03-17T19:01:50.367+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+        a            sd:Service ;
+        sd:endpoint  <http://curriculum.rkbexplorer.com/sparql/> ;
+        <https://schema.org/dateModified>
+                "2020-03-17T20:01:52.591+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+        <https://schema.org/serverStatus>
+                <https://schema.org/Online> .
 
 <http://ulm.rkbexplorer.com/sparql/#service>
-        eg:serviceStatus      "online" ;
-        eg:serviceStatusTime  "2020-03-17T19:01:42.711+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+        a            sd:Service ;
+        sd:endpoint  <http://ulm.rkbexplorer.com/sparql/> ;
+        <https://schema.org/dateModified>
+                "2020-03-17T20:01:50.552+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+        <https://schema.org/serverStatus>
+                <https://schema.org/Online> .
 
 <http://dati.isprambiente.it/sparql#service>
-        eg:serviceStatus      "online" ;
-        eg:serviceStatusTime  "2020-03-17T19:01:25.914+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+        a            sd:Service ;
+        sd:endpoint  <http://dati.isprambiente.it/sparql> ;
+        <https://schema.org/dateModified>
+                "2020-03-17T20:01:29.851+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+        <https://schema.org/serverStatus>
+                <https://schema.org/Online> .
 
 <http://ieee.rkbexplorer.com/sparql/#service>
-        eg:serviceStatus      "online" ;
-        eg:serviceStatusTime  "2020-03-17T19:01:45.654+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+        a            sd:Service ;
+        sd:endpoint  <http://ieee.rkbexplorer.com/sparql/> ;
+        <https://schema.org/dateModified>
+                "2020-03-17T20:01:48.063+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+        <https://schema.org/serverStatus>
+                <https://schema.org/Online> .
 
 <http://data.cnr.it/sparql-proxy/#service>
-        eg:serviceStatus      "online" ;
-        eg:serviceStatusTime  "2020-03-17T19:01:23.014+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+        a            sd:Service ;
+        sd:endpoint  <http://data.cnr.it/sparql-proxy/> ;
+        <https://schema.org/dateModified>
+                "2020-03-17T20:01:26.800+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+        <https://schema.org/serverStatus>
+                <https://schema.org/Online> .
 
 <https://w3id.org/scholarlydata/sparql#service>
-        eg:serviceStatus      "online" ;
-        eg:serviceStatusTime  "2020-03-17T19:01:42.968+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+        a            sd:Service ;
+        sd:endpoint  <https://w3id.org/scholarlydata/sparql> ;
+        <https://schema.org/dateModified>
+                "2020-03-17T20:01:45.253+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+        <https://schema.org/serverStatus>
+                <https://schema.org/Online> .
 
 <http://newcastle.rkbexplorer.com/sparql/#service>
-        eg:serviceStatus      "online" ;
-        eg:serviceStatusTime  "2020-03-17T19:01:51.019+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+        a            sd:Service ;
+        sd:endpoint  <http://newcastle.rkbexplorer.com/sparql/> ;
+        <https://schema.org/dateModified>
+                "2020-03-17T20:01:53.267+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+        <https://schema.org/serverStatus>
+                <https://schema.org/Online> .
 
 <http://symbolicdata.org:8890/sparql#service>
-        eg:serviceStatus      "online" ;
-        eg:serviceStatusTime  "2020-03-17T19:01:55.288+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+        a            sd:Service ;
+        sd:endpoint  <http://symbolicdata.org:8890/sparql> ;
+        <https://schema.org/dateModified>
+                "2020-03-17T20:01:57.086+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+        <https://schema.org/serverStatus>
+                <https://schema.org/Online> .
 
 <http://resource.geolba.ac.at/PoolParty/sparql/tectonicunit#service>
-        eg:serviceStatus      "online" ;
-        eg:serviceStatusTime  "2020-03-17T19:01:42.157+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+        a            sd:Service ;
+        sd:endpoint  <http://resource.geolba.ac.at/PoolParty/sparql/tectonicunit> ;
+        <https://schema.org/dateModified>
+                "2020-03-17T20:01:44.477+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+        <https://schema.org/serverStatus>
+                <https://schema.org/Online> .
 
 <http://opendatacommunities.org/sparql#service>
-        eg:serviceStatus      "online" ;
-        eg:serviceStatusTime  "2020-03-17T19:01:27.897+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+        a            sd:Service ;
+        sd:endpoint  <http://opendatacommunities.org/sparql> ;
+        <https://schema.org/dateModified>
+                "2020-03-17T20:01:32.437+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+        <https://schema.org/serverStatus>
+                <https://schema.org/Online> .
 
 <https://data.gov.cz/sparql#service>
-        eg:serviceStatus      "online" ;
-        eg:serviceStatusTime  "2020-03-17T19:01:59.651+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+        a            sd:Service ;
+        sd:endpoint  <https://data.gov.cz/sparql> ;
+        <https://schema.org/dateModified>
+                "2020-03-17T20:02:04.184+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+        <https://schema.org/serverStatus>
+                <https://schema.org/Online> .
 
 <http://www.icane.es/opendata/sparql#service>
-        eg:serviceStatus      "online" ;
-        eg:serviceStatusTime  "2020-03-17T19:01:58.522+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+        a            sd:Service ;
+        sd:endpoint  <http://www.icane.es/opendata/sparql> ;
+        <https://schema.org/dateModified>
+                "2020-03-17T20:02:03.281+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+        <https://schema.org/serverStatus>
+                <https://schema.org/Online> .
 
 <http://opendata.aragon.es/sparql#service>
-        eg:serviceStatus      "online" ;
-        eg:serviceStatusTime  "2020-03-17T19:01:46.484+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+        a            sd:Service ;
+        sd:endpoint  <http://opendata.aragon.es/sparql> ;
+        <https://schema.org/dateModified>
+                "2020-03-17T20:01:54.100+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+        <https://schema.org/serverStatus>
+                <https://schema.org/Online> .
 
 <http://eurecom.rkbexplorer.com/sparql/#service>
-        eg:serviceStatus      "online" ;
-        eg:serviceStatusTime  "2020-03-17T19:01:53.293+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+        a            sd:Service ;
+        sd:endpoint  <http://eurecom.rkbexplorer.com/sparql/> ;
+        <https://schema.org/dateModified>
+                "2020-03-17T20:01:58.185+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+        <https://schema.org/serverStatus>
+                <https://schema.org/Online> .
 
 <http://apps.morelab.deusto.es/labman/sparql#service>
-        eg:serviceStatus      "online" ;
-        eg:serviceStatusTime  "2020-03-17T19:01:20.737+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+        a            sd:Service ;
+        sd:endpoint  <http://apps.morelab.deusto.es/labman/sparql> ;
+        <https://schema.org/dateModified>
+                "2020-03-17T20:01:24.509+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+        <https://schema.org/serverStatus>
+                <https://schema.org/Online> .
 
 <http://resource.geolba.ac.at/PoolParty/sparql/GeologicTimeScale#service>
-        eg:serviceStatus      "online" ;
-        eg:serviceStatusTime  "2020-03-17T19:01:26.363+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+        a            sd:Service ;
+        sd:endpoint  <http://resource.geolba.ac.at/PoolParty/sparql/GeologicTimeScale> ;
+        <https://schema.org/dateModified>
+                "2020-03-17T20:01:30.310+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+        <https://schema.org/serverStatus>
+                <https://schema.org/Online> .
 
 <http://alaska.eagle-i.net/sparqler/sparql#service>
-        eg:serviceStatus      "online" ;
-        eg:serviceStatusTime  "2020-03-17T19:01:46.335+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+        a            sd:Service ;
+        sd:endpoint  <http://alaska.eagle-i.net/sparqler/sparql> ;
+        <https://schema.org/dateModified>
+                "2020-03-17T20:01:53.984+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+        <https://schema.org/serverStatus>
+                <https://schema.org/Online> .
 
 <http://cordis.rkbexplorer.com/sparql/#service>
-        eg:serviceStatus      "online" ;
-        eg:serviceStatusTime  "2020-03-17T19:01:26.576+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+        a            sd:Service ;
+        sd:endpoint  <http://cordis.rkbexplorer.com/sparql/> ;
+        <https://schema.org/dateModified>
+                "2020-03-17T20:01:31.159+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+        <https://schema.org/serverStatus>
+                <https://schema.org/Online> .
 
 <http://digitaleconomy.rkbexplorer.com/sparql#service>
-        eg:serviceStatus      "online" ;
-        eg:serviceStatusTime  "2020-03-17T19:01:39.841+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+        a            sd:Service ;
+        sd:endpoint  <http://digitaleconomy.rkbexplorer.com/sparql> ;
+        <https://schema.org/dateModified>
+                "2020-03-17T20:01:42.087+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+        <https://schema.org/serverStatus>
+                <https://schema.org/Online> .
 
 <http://data.szepmuveszeti.hu/sparql#service>
-        eg:serviceStatus      "online" ;
-        eg:serviceStatusTime  "2020-03-17T19:01:40.519+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+        a            sd:Service ;
+        sd:endpoint  <http://data.szepmuveszeti.hu/sparql> ;
+        <https://schema.org/dateModified>
+                "2020-03-17T20:01:47.941+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+        <https://schema.org/serverStatus>
+                <https://schema.org/Online> .
 
 <http://ccny-cuny.eagle-i.net/sparqler/sparql#service>
-        eg:serviceStatus      "online" ;
-        eg:serviceStatusTime  "2020-03-17T19:01:22.826+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+        a            sd:Service ;
+        sd:endpoint  <http://ccny-cuny.eagle-i.net/sparqler/sparql> ;
+        <https://schema.org/dateModified>
+                "2020-03-17T20:01:26.651+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+        <https://schema.org/serverStatus>
+                <https://schema.org/Online> .
 
 <http://ruian.linked.opendata.cz/sparql#service>
-        eg:serviceStatus      "offline" ;
-        eg:serviceStatusTime  "2020-03-17T19:01:24.699+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+        a            sd:Service ;
+        sd:endpoint  <http://ruian.linked.opendata.cz/sparql> ;
+        <https://schema.org/dateModified>
+                "2020-03-17T20:01:29.273+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+        <https://schema.org/serverStatus>
+                <https://schema.org/OfflineTemporarily> .
 
 <http://webscience.rkbexplorer.com/sparql#service>
-        eg:serviceStatus      "online" ;
-        eg:serviceStatusTime  "2020-03-17T19:01:38.727+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+        a            sd:Service ;
+        sd:endpoint  <http://webscience.rkbexplorer.com/sparql> ;
+        <https://schema.org/dateModified>
+                "2020-03-17T20:01:40.724+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+        <https://schema.org/serverStatus>
+                <https://schema.org/Online> .
 
 <http://linguistic.linkeddata.es/sparql#service>
-        eg:serviceStatus      "online" ;
-        eg:serviceStatusTime  "2020-03-17T19:01:33.946+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+        a            sd:Service ;
+        sd:endpoint  <http://linguistic.linkeddata.es/sparql> ;
+        <https://schema.org/dateModified>
+                "2020-03-17T20:01:37.452+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+        <https://schema.org/serverStatus>
+                <https://schema.org/Online> .
 
 <http://pisa.rkbexplorer.com/sparql/#service>
-        eg:serviceStatus      "online" ;
-        eg:serviceStatusTime  "2020-03-17T19:01:34.188+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+        a            sd:Service ;
+        sd:endpoint  <http://pisa.rkbexplorer.com/sparql/> ;
+        <https://schema.org/dateModified>
+                "2020-03-17T20:01:39.310+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+        <https://schema.org/serverStatus>
+                <https://schema.org/Online> .
 
 <http://xula.eagle-i.net/sparqler/sparql#service>
-        eg:serviceStatus      "online" ;
-        eg:serviceStatusTime  "2020-03-17T19:01:45.767+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+        a            sd:Service ;
+        sd:endpoint  <http://xula.eagle-i.net/sparqler/sparql> ;
+        <https://schema.org/dateModified>
+                "2020-03-17T20:01:53.452+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+        <https://schema.org/serverStatus>
+                <https://schema.org/Online> .
 
 <http://acm.rkbexplorer.com/sparql/#service>
-        eg:serviceStatus      "online" ;
-        eg:serviceStatusTime  "2020-03-17T19:01:54.536+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+        a            sd:Service ;
+        sd:endpoint  <http://acm.rkbexplorer.com/sparql/> ;
+        <https://schema.org/dateModified>
+                "2020-03-17T20:01:56.355+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+        <https://schema.org/serverStatus>
+                <https://schema.org/Online> .
 
 <http://cr.eionet.europa.eu/sparql#service>
-        eg:serviceStatus      "online" ;
-        eg:serviceStatusTime  "2020-03-17T19:01:21.197+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+        a            sd:Service ;
+        sd:endpoint  <http://cr.eionet.europa.eu/sparql> ;
+        <https://schema.org/dateModified>
+                "2020-03-17T20:01:25.812+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+        <https://schema.org/serverStatus>
+                <https://schema.org/Online> .
 
 <http://jsu.eagle-i.net/sparqler/sparql#service>
-        eg:serviceStatus      "online" ;
-        eg:serviceStatusTime  "2020-03-17T19:01:43.728+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+        a            sd:Service ;
+        sd:endpoint  <http://jsu.eagle-i.net/sparqler/sparql> ;
+        <https://schema.org/dateModified>
+                "2020-03-17T20:01:45.985+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+        <https://schema.org/serverStatus>
+                <https://schema.org/Online> .
 
 <http://semanticweb.cs.vu.nl/verrijktkoninkrijk/sparql/#service>
-        eg:serviceStatus      "online" ;
-        eg:serviceStatusTime  "2020-03-17T19:01:34.904+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+        a            sd:Service ;
+        sd:endpoint  <http://semanticweb.cs.vu.nl/verrijktkoninkrijk/sparql/> ;
+        <https://schema.org/dateModified>
+                "2020-03-17T20:01:40.200+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+        <https://schema.org/serverStatus>
+                <https://schema.org/Online> .
 
 <http://edit.elte.hu/sparql#service>
-        eg:serviceStatus      "online" ;
-        eg:serviceStatusTime  "2020-03-17T19:01:36.459+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+        a            sd:Service ;
+        sd:endpoint  <http://edit.elte.hu/sparql> ;
+        <https://schema.org/dateModified>
+                "2020-03-17T20:01:38.429+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+        <https://schema.org/serverStatus>
+                <https://schema.org/Online> .
 
 <http://dbtune.org/bbc/peel/sparql/#service>
-        eg:serviceStatus      "online" ;
-        eg:serviceStatusTime  "2020-03-17T19:01:57.865+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+        a            sd:Service ;
+        sd:endpoint  <http://dbtune.org/bbc/peel/sparql/> ;
+        <https://schema.org/dateModified>
+                "2020-03-17T20:02:02.636+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+        <https://schema.org/serverStatus>
+                <https://schema.org/Online> .
 
 <http://en.openei.org/sparql#service>
-        eg:serviceStatus      "online" ;
-        eg:serviceStatusTime  "2020-03-17T19:01:58.044+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+        a            sd:Service ;
+        sd:endpoint  <http://en.openei.org/sparql> ;
+        <https://schema.org/dateModified>
+                "2020-03-17T20:02:02.811+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+        <https://schema.org/serverStatus>
+                <https://schema.org/Online> .
 
 <http://onto.mondis.cz/openrdf-sesame/repositories/mondis-record-owlim#service>
-        eg:serviceStatus      "online" ;
-        eg:serviceStatusTime  "2020-03-17T19:01:41.758+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+        a            sd:Service ;
+        sd:endpoint  <http://onto.mondis.cz/openrdf-sesame/repositories/mondis-record-owlim> ;
+        <https://schema.org/dateModified>
+                "2020-03-17T20:01:44.012+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+        <https://schema.org/serverStatus>
+                <https://schema.org/Online> .
 
 <http://biolit.rkbexplorer.com/sparql#service>
-        eg:serviceStatus      "online" ;
-        eg:serviceStatusTime  "2020-03-17T19:01:28.895+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+        a            sd:Service ;
+        sd:endpoint  <http://biolit.rkbexplorer.com/sparql> ;
+        <https://schema.org/dateModified>
+                "2020-03-17T20:01:33.531+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+        <https://schema.org/serverStatus>
+                <https://schema.org/Online> .
 
 <http://upr.eagle-i.net/sparqler/sparql#service>
-        eg:serviceStatus      "online" ;
-        eg:serviceStatusTime  "2020-03-17T19:01:47.794+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+        a            sd:Service ;
+        sd:endpoint  <http://upr.eagle-i.net/sparqler/sparql> ;
+        <https://schema.org/dateModified>
+                "2020-03-17T20:01:55.322+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+        <https://schema.org/serverStatus>
+                <https://schema.org/Online> .
 
 <http://bnb.data.bl.uk/sparql#service>
-        eg:serviceStatus      "online" ;
-        eg:serviceStatusTime  "2020-03-17T19:01:53.571+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+        a            sd:Service ;
+        sd:endpoint  <http://bnb.data.bl.uk/sparql> ;
+        <https://schema.org/dateModified>
+                "2020-03-17T20:01:58.467+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+        <https://schema.org/serverStatus>
+                <https://schema.org/Online> .
 
 <http://famu.eagle-i.net/sparqler/sparql#service>
-        eg:serviceStatus      "online" ;
-        eg:serviceStatusTime  "2020-03-17T19:01:25.584+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+        a            sd:Service ;
+        sd:endpoint  <http://famu.eagle-i.net/sparqler/sparql> ;
+        <https://schema.org/dateModified>
+                "2020-03-17T20:01:29.410+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+        <https://schema.org/serverStatus>
+                <https://schema.org/Online> .
 
 <http://webconf.rkbexplorer.com/sparql#service>
-        eg:serviceStatus      "online" ;
-        eg:serviceStatusTime  "2020-03-17T19:01:39.471+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+        a            sd:Service ;
+        sd:endpoint  <http://webconf.rkbexplorer.com/sparql> ;
+        <https://schema.org/dateModified>
+                "2020-03-17T20:01:41.464+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+        <https://schema.org/serverStatus>
+                <https://schema.org/Online> .
 
 <http://el.dbpedia.org/sparql#service>
-        eg:serviceStatus      "online" ;
-        eg:serviceStatusTime  "2020-03-17T19:01:49.686+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+        a            sd:Service ;
+        sd:endpoint  <http://el.dbpedia.org/sparql> ;
+        <https://schema.org/dateModified>
+                "2020-03-17T20:01:51.930+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+        <https://schema.org/serverStatus>
+                <https://schema.org/Online> .
 
 <http://wiki.rkbexplorer.com/sparql/#service>
-        eg:serviceStatus      "online" ;
-        eg:serviceStatusTime  "2020-03-17T19:01:39.862+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+        a            sd:Service ;
+        sd:endpoint  <http://wiki.rkbexplorer.com/sparql/> ;
+        <https://schema.org/dateModified>
+                "2020-03-17T20:01:44.843+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+        <https://schema.org/serverStatus>
+                <https://schema.org/Online> .
 
 <http://dbtune.org/jamendo/sparql/#service>
-        eg:serviceStatus      "online" ;
-        eg:serviceStatusTime  "2020-03-17T19:01:30.420+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+        a            sd:Service ;
+        sd:endpoint  <http://dbtune.org/jamendo/sparql/> ;
+        <https://schema.org/dateModified>
+                "2020-03-17T20:01:34.153+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+        <https://schema.org/serverStatus>
+                <https://schema.org/Online> .
 
 <http://utsa.eagle-i.net/sparqler/sparql#service>
-        eg:serviceStatus      "online" ;
-        eg:serviceStatusTime  "2020-03-17T19:01:55.138+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+        a            sd:Service ;
+        sd:endpoint  <http://utsa.eagle-i.net/sparqler/sparql> ;
+        <https://schema.org/dateModified>
+                "2020-03-17T20:01:56.946+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+        <https://schema.org/serverStatus>
+                <https://schema.org/Online> .
