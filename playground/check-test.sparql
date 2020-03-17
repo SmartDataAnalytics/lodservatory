@@ -10,7 +10,7 @@ CONSTRUCT {
     ?s
       a sd:Service ;
       sd:endpoint ?e ;
-      schema:status ?status ;
+      schema:serverStatus ?status ;
       schema:dateModified ?time ;
       .
   }
