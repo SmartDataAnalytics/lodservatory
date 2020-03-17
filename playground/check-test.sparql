@@ -1,4 +1,8 @@
 PREFIX eg: <http://www.example.org/>
+PREFIX sd: <http://www.w3.org/ns/sparql-service-description#>
+PREFIX schema: <https://schema.org/>
+# I once saw I comment in jena that using http as a prefix might break things, so to be safe I use just h
+PREFIX h: <http://www.w3.org/2011/http#>
 
 # CONSTRUCT WHERE { GRAPH ?g { ?s ?p ?o } }
 
@@ -6,8 +10,10 @@ PREFIX eg: <http://www.example.org/>
 CONSTRUCT {
   GRAPH ?g {
     ?s
+      a sd:Service ;
+      schema:url ?e ;
       eg:serviceStatus ?status ;
-      eg:serviceStatusTime ?time # Note: The time refers to when the query was started
+      eg:serviceStatusTime ?time ; # Note: The time refers to when the query was started
       .
   }
 }
