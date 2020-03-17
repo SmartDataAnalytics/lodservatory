@@ -736,3 +736,7 @@
 <http://utsa.eagle-i.net/sparqler/sparql#service>
         a                cat:DataService ;
         cat:endpointURL  <http://utsa.eagle-i.net/sparqler/sparql> .
+
+<https://jpsearch.go.jp/rdf/sparql#service>
+        a                cat:DataService ;
+        cat:endpointURL  <https://jpsearch.go.jp/rdf/sparql> .
