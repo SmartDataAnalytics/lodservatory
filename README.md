@@ -14,10 +14,16 @@ The script [update-status.sh](update-status.sh) first downloads [OpenLink's SPAR
 
 The workflow runner is our [sparql-integrate command line tool](https://github.com/SmartDataAnalytics/Sparqlintegrate), built on [Apache Jena](https://jena.apache.org/), which simplifies the process of mashing-up RDF datasets and SPARQL queries.
 
-## How to contribute
+## How to contribute...
 
+### ... new endpoints?
 This project uses
 [OpenLink's SPARQL endpoint dataset](https://github.com/OpenLinkSoftware/general-turtle-doc-collection/blob/master/LODCloud_SPARQL_Endpoints.ttl) as the source, please make pull requests there.
+
+### ... additional service information?
+As github has API limits (1000 requests per hour) it may be better to make separate projects for other kind of informations, such as void descriptions. Note, that one can use this service status dataset as the basis in order to not waste requests!
+
+Feel free to contribute your ideas on the issue tracker.
 
 ## How can I monitor my own endpoints?
 
