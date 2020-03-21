@@ -198,7 +198,7 @@
 <http://data.openlinksw.com/oplweb/sparql-endpoint127#this>
         a                    sd:Service ;
         sd:endpoint          <http://lod.openlinksw.com/sparql> ;
-        schema:dateModified  "2020-03-20T22:02:04.446+00:00"^^xsd:dateTime ;
+        schema:dateModified  "2020-03-21T11:02:19.113+00:00"^^xsd:dateTime ;
         schema:serverStatus  schema:Online .
 
 <http://data.openlinksw.com/oplweb/sparql-endpoint128#this>
@@ -1074,7 +1074,7 @@
 <http://data.openlinksw.com/oplweb/sparql-endpoint261#this>
         a                    sd:Service ;
         sd:endpoint          <https://utep.eagle-i.net/sparqler/sparql> ;
-        schema:dateModified  "2020-03-20T06:01:31.380+00:00"^^xsd:dateTime ;
+        schema:dateModified  "2020-03-21T09:01:14.734+00:00"^^xsd:dateTime ;
         schema:serverStatus  schema:Online .
 
 <http://data.openlinksw.com/oplweb/sparql-endpoint262#this>
@@ -1116,7 +1116,7 @@
 <http://data.openlinksw.com/oplweb/sparql-endpoint268#this>
         a                    sd:Service ;
         sd:endpoint          <https://xula.eagle-i.net/sparqler/sparql> ;
-        schema:dateModified  "2020-03-20T06:03:45.908+00:00"^^xsd:dateTime ;
+        schema:dateModified  "2020-03-21T07:04:26.471+00:00"^^xsd:dateTime ;
         schema:serverStatus  schema:Online .
 
 <http://data.openlinksw.com/oplweb/sparql-endpoint27#this>
@@ -1248,8 +1248,8 @@
 <http://data.openlinksw.com/oplweb/sparql-endpoint46#this>
         a                    sd:Service ;
         sd:endpoint          <http://dati.camera.it/sparql> ;
-        schema:dateModified  "2020-03-20T23:02:56.603+00:00"^^xsd:dateTime ;
-        schema:serverStatus  schema:OfflineTemporarily .
+        schema:dateModified  "2020-03-21T15:03:22.005+00:00"^^xsd:dateTime ;
+        schema:serverStatus  schema:Online .
 
 <http://data.openlinksw.com/oplweb/sparql-endpoint47#this>
         a                    sd:Service ;
@@ -1320,7 +1320,7 @@
 <http://data.openlinksw.com/oplweb/sparql-endpoint57#this>
         a                    sd:Service ;
         sd:endpoint          <http://dbtune.org/jamendo/sparql/> ;
-        schema:dateModified  "2020-03-20T06:03:21.283+00:00"^^xsd:dateTime ;
+        schema:dateModified  "2020-03-21T17:03:00.213+00:00"^^xsd:dateTime ;
         schema:serverStatus  schema:Online .
 
 <http://data.openlinksw.com/oplweb/sparql-endpoint58#this>
@@ -1394,6 +1394,12 @@
         sd:endpoint          <http://drugbank.bio2rdf.org/sparql/> ;
         schema:dateModified  "2020-03-20T06:01:37.919+00:00"^^xsd:dateTime ;
         schema:serverStatus  schema:OfflineTemporarily .
+
+<http://data.openlinksw.com/oplweb/sparql-endpoint69#this>
+        a                    sd:Service ;
+        sd:endpoint          <http://edan.si.edu/saam/sparql> ;
+        schema:dateModified  "2020-03-21T19:03:05.647+00:00"^^xsd:dateTime ;
+        schema:serverStatus  schema:Online .
 
 <http://data.openlinksw.com/oplweb/sparql-endpoint7#this>
         a                    sd:Service ;
