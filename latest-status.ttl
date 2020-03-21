@@ -345,6 +345,12 @@
         schema:dateModified  "2020-03-20T06:02:11.019+00:00"^^xsd:dateTime ;
         schema:serverStatus  schema:Online .
 
+<http://data.openlinksw.com/oplweb/sparql-endpoint150#this>
+        a                    sd:Service ;
+        sd:endpoint          <http://patho.phenomebrowser.net/sparql/> ;
+        schema:dateModified  "2020-03-21T02:02:32.709+00:00"^^xsd:dateTime ;
+        schema:serverStatus  schema:OfflineTemporarily .
+
 <http://data.openlinksw.com/oplweb/sparql-endpoint151#this>
         a                    sd:Service ;
         sd:endpoint          <http://pharmgkb.bio2rdf.org/sparql/> ;
