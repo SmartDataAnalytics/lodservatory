@@ -1074,8 +1074,8 @@
 <http://data.openlinksw.com/oplweb/sparql-endpoint261#this>
         a                    sd:Service ;
         sd:endpoint          <https://utep.eagle-i.net/sparqler/sparql> ;
-        schema:dateModified  "2020-03-20T06:01:31.380+00:00"^^xsd:dateTime ;
-        schema:serverStatus  schema:Online .
+        schema:dateModified  "2020-03-21T08:01:09.156+00:00"^^xsd:dateTime ;
+        schema:serverStatus  schema:OfflineTemporarily .
 
 <http://data.openlinksw.com/oplweb/sparql-endpoint262#this>
         a                    sd:Service ;
@@ -1393,12 +1393,6 @@
         a                    sd:Service ;
         sd:endpoint          <http://drugbank.bio2rdf.org/sparql/> ;
         schema:dateModified  "2020-03-20T06:01:37.919+00:00"^^xsd:dateTime ;
-        schema:serverStatus  schema:OfflineTemporarily .
-
-<http://data.openlinksw.com/oplweb/sparql-endpoint69#this>
-        a                    sd:Service ;
-        sd:endpoint          <http://edan.si.edu/saam/sparql> ;
-        schema:dateModified  "2020-03-21T07:03:58.967+00:00"^^xsd:dateTime ;
         schema:serverStatus  schema:OfflineTemporarily .
 
 <http://data.openlinksw.com/oplweb/sparql-endpoint7#this>
