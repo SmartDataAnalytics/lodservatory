@@ -1395,12 +1395,6 @@
         schema:dateModified  "2020-03-20T06:01:37.919+00:00"^^xsd:dateTime ;
         schema:serverStatus  schema:OfflineTemporarily .
 
-<http://data.openlinksw.com/oplweb/sparql-endpoint69#this>
-        a                    sd:Service ;
-        sd:endpoint          <http://edan.si.edu/saam/sparql> ;
-        schema:dateModified  "2020-03-21T19:03:05.647+00:00"^^xsd:dateTime ;
-        schema:serverStatus  schema:Online .
-
 <http://data.openlinksw.com/oplweb/sparql-endpoint7#this>
         a                    sd:Service ;
         sd:endpoint          <http://bio2rdf.org/sparql> ;
