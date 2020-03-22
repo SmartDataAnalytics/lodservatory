@@ -741,6 +741,12 @@
         schema:dateModified  "2020-03-20T06:01:54.773+00:00"^^xsd:dateTime ;
         schema:serverStatus  schema:OfflineTemporarily .
 
+<http://data.openlinksw.com/oplweb/sparql-endpoint210#this>
+        a                    sd:Service ;
+        sd:endpoint          <https://dydra.com/markw/polyadenylation-sites-in-magnaporthe-oryza/sparql> ;
+        schema:dateModified  "2020-03-22T12:01:45.031+00:00"^^xsd:dateTime ;
+        schema:serverStatus  schema:OfflineTemporarily .
+
 <http://data.openlinksw.com/oplweb/sparql-endpoint211#this>
         a                    sd:Service ;
         sd:endpoint          <https://eagle-i.ctsi.msu.edu/sparqler/sparql> ;
@@ -1394,12 +1400,6 @@
         sd:endpoint          <http://drugbank.bio2rdf.org/sparql/> ;
         schema:dateModified  "2020-03-20T06:01:37.919+00:00"^^xsd:dateTime ;
         schema:serverStatus  schema:OfflineTemporarily .
-
-<http://data.openlinksw.com/oplweb/sparql-endpoint69#this>
-        a                    sd:Service ;
-        sd:endpoint          <http://edan.si.edu/saam/sparql> ;
-        schema:dateModified  "2020-03-21T19:03:05.647+00:00"^^xsd:dateTime ;
-        schema:serverStatus  schema:Online .
 
 <http://data.openlinksw.com/oplweb/sparql-endpoint7#this>
         a                    sd:Service ;
