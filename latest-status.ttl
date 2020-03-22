@@ -741,6 +741,12 @@
         schema:dateModified  "2020-03-20T06:01:54.773+00:00"^^xsd:dateTime ;
         schema:serverStatus  schema:OfflineTemporarily .
 
+<http://data.openlinksw.com/oplweb/sparql-endpoint210#this>
+        a                    sd:Service ;
+        sd:endpoint          <https://dydra.com/markw/polyadenylation-sites-in-magnaporthe-oryza/sparql> ;
+        schema:dateModified  "2020-03-22T06:01:18.403+00:00"^^xsd:dateTime ;
+        schema:serverStatus  schema:OfflineTemporarily .
+
 <http://data.openlinksw.com/oplweb/sparql-endpoint211#this>
         a                    sd:Service ;
         sd:endpoint          <https://eagle-i.ctsi.msu.edu/sparqler/sparql> ;
