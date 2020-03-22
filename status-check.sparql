@@ -17,8 +17,10 @@ CONSTRUCT {
 
   GRAPH ?g { ?s sd:endpoint ?e }
 
-  SERVICE SILENT ?e {
-    { SELECT ?t { ?x a ?t } LIMIT 1 }
+  OPTIONAL {
+    SERVICE SILENT ?e {
+      { SELECT ?t { ?x ?y ?t } LIMIT 1 }
+    }
   }
 
   # This is a best-effort query; it assumes at least one type triple in the default graph
