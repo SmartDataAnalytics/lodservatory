@@ -1206,8 +1206,8 @@
 <http://data.openlinksw.com/oplweb/sparql-endpoint37#this>
         a                    sd:Service ;
         sd:endpoint          <http://data.cnr.it/sparql-proxy/> ;
-        schema:dateModified  "2020-03-28T12:01:25.101+00:00"^^xsd:dateTime ;
-        schema:serverStatus  schema:OfflineTemporarily .
+        schema:dateModified  "2020-03-28T13:01:25.278+00:00"^^xsd:dateTime ;
+        schema:serverStatus  schema:Online .
 
 <http://data.openlinksw.com/oplweb/sparql-endpoint38#this>
         a                    sd:Service ;
