@@ -630,8 +630,8 @@
 <http://data.openlinksw.com/oplweb/sparql-endpoint192#this>
         a                    sd:Service ;
         sd:endpoint          <http://www.scholarlydata.org/sparql> ;
-        schema:dateModified  "2020-04-01T08:02:58.140+00:00"^^xsd:dateTime ;
-        schema:serverStatus  schema:OfflineTemporarily .
+        schema:dateModified  "2020-04-01T23:02:58.709+00:00"^^xsd:dateTime ;
+        schema:serverStatus  schema:Online .
 
 <http://data.openlinksw.com/oplweb/sparql-endpoint193#this>
         a                    sd:Service ;
@@ -1278,8 +1278,8 @@
 <http://data.openlinksw.com/oplweb/sparql-endpoint48#this>
         a                    sd:Service ;
         sd:endpoint          <http://datos.bcn.cl/sparql> ;
-        schema:dateModified  "2020-04-01T22:03:04.999+00:00"^^xsd:dateTime ;
-        schema:serverStatus  schema:OfflineTemporarily .
+        schema:dateModified  "2020-04-01T23:03:05.064+00:00"^^xsd:dateTime ;
+        schema:serverStatus  schema:Online .
 
 <http://data.openlinksw.com/oplweb/sparql-endpoint49#this>
         a                    sd:Service ;
