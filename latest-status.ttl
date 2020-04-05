@@ -222,8 +222,8 @@
 <http://data.openlinksw.com/oplweb/sparql-endpoint130#this>
         a                    sd:Service ;
         sd:endpoint          <http://lsd.dbcls.jp/sparql> ;
-        schema:dateModified  "2020-04-01T04:02:11.794+00:00"^^xsd:dateTime ;
-        schema:serverStatus  schema:Online .
+        schema:dateModified  "2020-04-05T19:01:54.800+00:00"^^xsd:dateTime ;
+        schema:serverStatus  schema:OfflineTemporarily .
 
 <http://data.openlinksw.com/oplweb/sparql-endpoint131#this>
         a                    sd:Service ;
@@ -1176,14 +1176,14 @@
 <http://data.openlinksw.com/oplweb/sparql-endpoint32#this>
         a                    sd:Service ;
         sd:endpoint          <http://data.allie.dbcls.jp/sparql> ;
-        schema:dateModified  "2020-04-01T04:02:46.498+00:00"^^xsd:dateTime ;
-        schema:serverStatus  schema:Online .
+        schema:dateModified  "2020-04-05T19:02:29.633+00:00"^^xsd:dateTime ;
+        schema:serverStatus  schema:OfflineTemporarily .
 
 <http://data.openlinksw.com/oplweb/sparql-endpoint33#this>
         a                    sd:Service ;
         sd:endpoint          <http://data.allie.dbcls.jp/sparql/> ;
-        schema:dateModified  "2020-04-01T04:02:13.829+00:00"^^xsd:dateTime ;
-        schema:serverStatus  schema:Online .
+        schema:dateModified  "2020-04-05T19:01:59.405+00:00"^^xsd:dateTime ;
+        schema:serverStatus  schema:OfflineTemporarily .
 
 <http://data.openlinksw.com/oplweb/sparql-endpoint34#this>
         a                    sd:Service ;
@@ -1278,8 +1278,8 @@
 <http://data.openlinksw.com/oplweb/sparql-endpoint48#this>
         a                    sd:Service ;
         sd:endpoint          <http://datos.bcn.cl/sparql> ;
-        schema:dateModified  "2020-04-03T16:03:17.919+00:00"^^xsd:dateTime ;
-        schema:serverStatus  schema:Online .
+        schema:dateModified  "2020-04-05T19:02:57.675+00:00"^^xsd:dateTime ;
+        schema:serverStatus  schema:OfflineTemporarily .
 
 <http://data.openlinksw.com/oplweb/sparql-endpoint49#this>
         a                    sd:Service ;
