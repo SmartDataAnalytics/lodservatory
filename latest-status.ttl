@@ -54,8 +54,8 @@
 <http://data.openlinksw.com/oplweb/sparql-endpoint105#this>
         a                    sd:Service ;
         sd:endpoint          <http://kaiko.getalp.org/sparql/> ;
-        schema:dateModified  "2020-03-20T06:03:33.053+00:00"^^xsd:dateTime ;
-        schema:serverStatus  schema:Online .
+        schema:dateModified  "2020-04-09T13:03:13.008+00:00"^^xsd:dateTime ;
+        schema:serverStatus  schema:OfflineTemporarily .
 
 <http://data.openlinksw.com/oplweb/sparql-endpoint106#this>
         a                    sd:Service ;
@@ -66,8 +66,8 @@
 <http://data.openlinksw.com/oplweb/sparql-endpoint107#this>
         a                    sd:Service ;
         sd:endpoint          <http://kdata.kr/sparql/endpoint.jsp/> ;
-        schema:dateModified  "2020-04-09T12:02:17.872+00:00"^^xsd:dateTime ;
-        schema:serverStatus  schema:Online .
+        schema:dateModified  "2020-04-09T13:01:49.350+00:00"^^xsd:dateTime ;
+        schema:serverStatus  schema:OfflineTemporarily .
 
 <http://data.openlinksw.com/oplweb/sparql-endpoint108#this>
         a                    sd:Service ;
@@ -1278,8 +1278,8 @@
 <http://data.openlinksw.com/oplweb/sparql-endpoint48#this>
         a                    sd:Service ;
         sd:endpoint          <http://datos.bcn.cl/sparql> ;
-        schema:dateModified  "2020-04-09T12:04:21.637+00:00"^^xsd:dateTime ;
-        schema:serverStatus  schema:OfflineTemporarily .
+        schema:dateModified  "2020-04-09T13:03:53.625+00:00"^^xsd:dateTime ;
+        schema:serverStatus  schema:Online .
 
 <http://data.openlinksw.com/oplweb/sparql-endpoint49#this>
         a                    sd:Service ;
