@@ -144,8 +144,8 @@
 <http://data.openlinksw.com/oplweb/sparql-endpoint119#this>
         a                    sd:Service ;
         sd:endpoint          <http://linkedlifedata.com/sparql> ;
-        schema:dateModified  "2020-04-21T17:01:17.085+00:00"^^xsd:dateTime ;
-        schema:serverStatus  schema:OfflineTemporarily .
+        schema:dateModified  "2020-04-22T10:01:24.521+00:00"^^xsd:dateTime ;
+        schema:serverStatus  schema:Online .
 
 <http://data.openlinksw.com/oplweb/sparql-endpoint12#this>
         a                    sd:Service ;
@@ -156,8 +156,8 @@
 <http://data.openlinksw.com/oplweb/sparql-endpoint120#this>
         a                    sd:Service ;
         sd:endpoint          <http://linkedlifedata.com/sparql/> ;
-        schema:dateModified  "2020-04-21T17:02:44.125+00:00"^^xsd:dateTime ;
-        schema:serverStatus  schema:OfflineTemporarily .
+        schema:dateModified  "2020-04-22T10:02:49.756+00:00"^^xsd:dateTime ;
+        schema:serverStatus  schema:Online .
 
 <http://data.openlinksw.com/oplweb/sparql-endpoint121#this>
         a                    sd:Service ;
