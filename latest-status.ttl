@@ -120,8 +120,8 @@
 <http://data.openlinksw.com/oplweb/sparql-endpoint115#this>
         a                    sd:Service ;
         sd:endpoint          <http://linked.opendata.cz/sparql/> ;
-        schema:dateModified  "2020-04-21T17:02:54.257+00:00"^^xsd:dateTime ;
-        schema:serverStatus  schema:Online .
+        schema:dateModified  "2020-04-27T14:03:39.102+00:00"^^xsd:dateTime ;
+        schema:serverStatus  schema:OfflineTemporarily .
 
 <http://data.openlinksw.com/oplweb/sparql-endpoint116#this>
         a                    sd:Service ;
