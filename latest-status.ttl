@@ -1020,8 +1020,8 @@
 <http://data.openlinksw.com/oplweb/sparql-endpoint250#this>
         a                    sd:Service ;
         sd:endpoint          <https://sparql.lri.fr/sparql> ;
-        schema:dateModified  "2020-05-01T15:03:24.225+00:00"^^xsd:dateTime ;
-        schema:serverStatus  schema:OfflineTemporarily .
+        schema:dateModified  "2020-05-01T16:03:12.893+00:00"^^xsd:dateTime ;
+        schema:serverStatus  schema:Online .
 
 <http://data.openlinksw.com/oplweb/sparql-endpoint251#this>
         a                    sd:Service ;
@@ -1344,8 +1344,8 @@
 <http://data.openlinksw.com/oplweb/sparql-endpoint58#this>
         a                    sd:Service ;
         sd:endpoint          <http://dbtune.org/magnatune/sparql/> ;
-        schema:dateModified  "2020-04-26T16:04:07.054+00:00"^^xsd:dateTime ;
-        schema:serverStatus  schema:Online .
+        schema:dateModified  "2020-05-01T16:03:35.901+00:00"^^xsd:dateTime ;
+        schema:serverStatus  schema:OfflineTemporarily .
 
 <http://data.openlinksw.com/oplweb/sparql-endpoint59#this>
         a                    sd:Service ;
