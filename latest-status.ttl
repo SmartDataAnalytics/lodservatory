@@ -84,8 +84,8 @@
 <http://data.openlinksw.com/oplweb/sparql-endpoint11#this>
         a                    sd:Service ;
         sd:endpoint          <http://biordf.net/sparql/> ;
-        schema:dateModified  "2020-05-12T22:19:10.951+00:00"^^xsd:dateTime ;
-        schema:serverStatus  schema:Online .
+        schema:dateModified  "2020-05-22T00:05:41.197+00:00"^^xsd:dateTime ;
+        schema:serverStatus  schema:OfflineTemporarily .
 
 <http://data.openlinksw.com/oplweb/sparql-endpoint110#this>
         a                    sd:Service ;
@@ -552,8 +552,8 @@
 <http://data.openlinksw.com/oplweb/sparql-endpoint180#this>
         a                    sd:Service ;
         sd:endpoint          <http://srvgal78.deri.ie:8004/sparql/> ;
-        schema:dateModified  "2020-05-20T01:02:26.287+00:00"^^xsd:dateTime ;
-        schema:serverStatus  schema:Online .
+        schema:dateModified  "2020-05-22T00:04:48.372+00:00"^^xsd:dateTime ;
+        schema:serverStatus  schema:OfflineTemporarily .
 
 <http://data.openlinksw.com/oplweb/sparql-endpoint181#this>
         a                    sd:Service ;
