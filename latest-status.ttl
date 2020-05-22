@@ -12,8 +12,8 @@
 <http://data.openlinksw.com/oplweb/sparql-endpoint1#this>
         a                    sd:Service ;
         sd:endpoint          <http://aemet.linkeddata.es/sparql/> ;
-        schema:dateModified  "2020-05-21T20:03:57.837+00:00"^^xsd:dateTime ;
-        schema:serverStatus  schema:Online .
+        schema:dateModified  "2020-05-22T04:03:53.665+00:00"^^xsd:dateTime ;
+        schema:serverStatus  schema:OfflineTemporarily .
 
 <http://data.openlinksw.com/oplweb/sparql-endpoint10#this>
         a                    sd:Service ;
@@ -1146,8 +1146,8 @@
 <http://data.openlinksw.com/oplweb/sparql-endpoint28#this>
         a                    sd:Service ;
         sd:endpoint          <http://cultura.linkeddata.es/sparql/> ;
-        schema:dateModified  "2020-05-21T16:01:48.600+00:00"^^xsd:dateTime ;
-        schema:serverStatus  schema:Online .
+        schema:dateModified  "2020-05-22T04:01:59.157+00:00"^^xsd:dateTime ;
+        schema:serverStatus  schema:OfflineTemporarily .
 
 <http://data.openlinksw.com/oplweb/sparql-endpoint29#this>
         a                    sd:Service ;
