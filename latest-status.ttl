@@ -468,8 +468,8 @@
 <http://data.openlinksw.com/oplweb/sparql-endpoint168#this>
         a                    sd:Service ;
         sd:endpoint          <http://sparql.europeana.eu> ;
-        schema:dateModified  "2020-05-08T00:03:01.948+00:00"^^xsd:dateTime ;
-        schema:serverStatus  schema:Online .
+        schema:dateModified  "2020-05-27T16:03:10.227+00:00"^^xsd:dateTime ;
+        schema:serverStatus  schema:OfflineTemporarily .
 
 <http://data.openlinksw.com/oplweb/sparql-endpoint169#this>
         a                    sd:Service ;
