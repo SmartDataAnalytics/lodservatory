@@ -432,14 +432,14 @@
 <http://data.openlinksw.com/oplweb/sparql-endpoint162#this>
         a                    sd:Service ;
         sd:endpoint          <http://rdf.pathwaycommons.org/sparql/> ;
-        schema:dateModified  "2020-05-08T00:02:35.907+00:00"^^xsd:dateTime ;
-        schema:serverStatus  schema:Online .
+        schema:dateModified  "2020-05-28T13:02:24.002+00:00"^^xsd:dateTime ;
+        schema:serverStatus  schema:OfflineTemporarily .
 
 <http://data.openlinksw.com/oplweb/sparql-endpoint163#this>
         a                    sd:Service ;
         sd:endpoint          <http://rdf.pathwaycommons.org/sparql/> ;
-        schema:dateModified  "2020-05-08T00:03:30.202+00:00"^^xsd:dateTime ;
-        schema:serverStatus  schema:Online .
+        schema:dateModified  "2020-05-28T13:03:34.234+00:00"^^xsd:dateTime ;
+        schema:serverStatus  schema:OfflineTemporarily .
 
 <http://data.openlinksw.com/oplweb/sparql-endpoint164#this>
         a                    sd:Service ;
