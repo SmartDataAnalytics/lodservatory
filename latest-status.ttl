@@ -156,8 +156,8 @@
 <http://data.openlinksw.com/oplweb/sparql-endpoint120#this>
         a                    sd:Service ;
         sd:endpoint          <http://linkedlifedata.com/sparql/> ;
-        schema:dateModified  "2020-06-05T11:03:23.023+00:00"^^xsd:dateTime ;
-        schema:serverStatus  schema:OfflineTemporarily .
+        schema:dateModified  "2020-06-05T14:04:10.213+00:00"^^xsd:dateTime ;
+        schema:serverStatus  schema:Online .
 
 <http://data.openlinksw.com/oplweb/sparql-endpoint121#this>
         a                    sd:Service ;
@@ -654,8 +654,8 @@
 <http://data.openlinksw.com/oplweb/sparql-endpoint196#this>
         a                    sd:Service ;
         sd:endpoint          <https://api.aucklandmuseum.com/sparql> ;
-        schema:dateModified  "2020-06-05T13:02:30.747+00:00"^^xsd:dateTime ;
-        schema:serverStatus  schema:OfflineTemporarily .
+        schema:dateModified  "2020-06-05T14:02:32.789+00:00"^^xsd:dateTime ;
+        schema:serverStatus  schema:Online .
 
 <http://data.openlinksw.com/oplweb/sparql-endpoint197#this>
         a                    sd:Service ;
