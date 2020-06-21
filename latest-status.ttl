@@ -552,8 +552,8 @@
 <http://data.openlinksw.com/oplweb/sparql-endpoint180#this>
         a                    sd:Service ;
         sd:endpoint          <http://srvgal78.deri.ie:8004/sparql/> ;
-        schema:dateModified  "2020-06-08T01:02:44.643+00:00"^^xsd:dateTime ;
-        schema:serverStatus  schema:Online .
+        schema:dateModified  "2020-06-21T00:04:31.186+00:00"^^xsd:dateTime ;
+        schema:serverStatus  schema:OfflineTemporarily .
 
 <http://data.openlinksw.com/oplweb/sparql-endpoint181#this>
         a                    sd:Service ;
