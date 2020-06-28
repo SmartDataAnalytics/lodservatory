@@ -474,8 +474,8 @@
 <http://data.openlinksw.com/oplweb/sparql-endpoint169#this>
         a                    sd:Service ;
         sd:endpoint          <http://sparql.hegroup.org/sparql/> ;
-        schema:dateModified  "2020-06-28T03:03:28.620+00:00"^^xsd:dateTime ;
-        schema:serverStatus  schema:OfflineTemporarily .
+        schema:dateModified  "2020-06-28T04:03:27.050+00:00"^^xsd:dateTime ;
+        schema:serverStatus  schema:Online .
 
 <http://data.openlinksw.com/oplweb/sparql-endpoint17#this>
         a                    sd:Service ;
