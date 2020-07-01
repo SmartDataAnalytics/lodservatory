@@ -702,8 +702,8 @@
 <http://data.openlinksw.com/oplweb/sparql-endpoint202#this>
         a                    sd:Service ;
         sd:endpoint          <https://ccny-cuny.eagle-i.net/sparqler/sparql> ;
-        schema:dateModified  "2020-07-01T00:04:28.216+00:00"^^xsd:dateTime ;
-        schema:serverStatus  schema:OfflineTemporarily .
+        schema:dateModified  "2020-07-01T17:01:51.055+00:00"^^xsd:dateTime ;
+        schema:serverStatus  schema:Online .
 
 <http://data.openlinksw.com/oplweb/sparql-endpoint203#this>
         a                    sd:Service ;
@@ -966,8 +966,8 @@
 <http://data.openlinksw.com/oplweb/sparql-endpoint242#this>
         a                    sd:Service ;
         sd:endpoint          <https://psm.eagle-i.net/sparqler/sparql> ;
-        schema:dateModified  "2020-07-01T16:04:14.382+00:00"^^xsd:dateTime ;
-        schema:serverStatus  schema:OfflineTemporarily .
+        schema:dateModified  "2020-07-01T17:04:14.158+00:00"^^xsd:dateTime ;
+        schema:serverStatus  schema:Online .
 
 <http://data.openlinksw.com/oplweb/sparql-endpoint243#this>
         a                    sd:Service ;
