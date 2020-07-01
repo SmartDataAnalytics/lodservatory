@@ -174,8 +174,8 @@
 <http://data.openlinksw.com/oplweb/sparql-endpoint123#this>
         a                    sd:Service ;
         sd:endpoint          <http://live.dbpedia.org/sparql/> ;
-        schema:dateModified  "2020-06-30T23:01:27.707+00:00"^^xsd:dateTime ;
-        schema:serverStatus  schema:OfflineTemporarily .
+        schema:dateModified  "2020-07-01T00:04:05.451+00:00"^^xsd:dateTime ;
+        schema:serverStatus  schema:Online .
 
 <http://data.openlinksw.com/oplweb/sparql-endpoint124#this>
         a                    sd:Service ;
@@ -552,8 +552,8 @@
 <http://data.openlinksw.com/oplweb/sparql-endpoint180#this>
         a                    sd:Service ;
         sd:endpoint          <http://srvgal78.deri.ie:8004/sparql/> ;
-        schema:dateModified  "2020-06-21T01:03:00.942+00:00"^^xsd:dateTime ;
-        schema:serverStatus  schema:Online .
+        schema:dateModified  "2020-07-01T00:05:06.819+00:00"^^xsd:dateTime ;
+        schema:serverStatus  schema:OfflineTemporarily .
 
 <http://data.openlinksw.com/oplweb/sparql-endpoint181#this>
         a                    sd:Service ;
@@ -648,8 +648,8 @@
 <http://data.openlinksw.com/oplweb/sparql-endpoint195#this>
         a                    sd:Service ;
         sd:endpoint          <https://alaska.eagle-i.net/sparqler/sparql> ;
-        schema:dateModified  "2020-05-08T00:04:19.176+00:00"^^xsd:dateTime ;
-        schema:serverStatus  schema:Online .
+        schema:dateModified  "2020-07-01T00:06:48.884+00:00"^^xsd:dateTime ;
+        schema:serverStatus  schema:OfflineTemporarily .
 
 <http://data.openlinksw.com/oplweb/sparql-endpoint196#this>
         a                    sd:Service ;
@@ -696,20 +696,20 @@
 <http://data.openlinksw.com/oplweb/sparql-endpoint201#this>
         a                    sd:Service ;
         sd:endpoint          <https://cau.eagle-i.net/sparqler/sparql> ;
-        schema:dateModified  "2020-05-08T00:03:17.973+00:00"^^xsd:dateTime ;
-        schema:serverStatus  schema:Online .
+        schema:dateModified  "2020-07-01T00:05:42.736+00:00"^^xsd:dateTime ;
+        schema:serverStatus  schema:OfflineTemporarily .
 
 <http://data.openlinksw.com/oplweb/sparql-endpoint202#this>
         a                    sd:Service ;
         sd:endpoint          <https://ccny-cuny.eagle-i.net/sparqler/sparql> ;
-        schema:dateModified  "2020-05-08T00:02:04.959+00:00"^^xsd:dateTime ;
-        schema:serverStatus  schema:Online .
+        schema:dateModified  "2020-07-01T00:04:28.216+00:00"^^xsd:dateTime ;
+        schema:serverStatus  schema:OfflineTemporarily .
 
 <http://data.openlinksw.com/oplweb/sparql-endpoint203#this>
         a                    sd:Service ;
         sd:endpoint          <https://cdrewu.eagle-i.net/sparqler/sparql> ;
-        schema:dateModified  "2020-05-08T00:02:04.669+00:00"^^xsd:dateTime ;
-        schema:serverStatus  schema:Online .
+        schema:dateModified  "2020-07-01T00:04:28.031+00:00"^^xsd:dateTime ;
+        schema:serverStatus  schema:OfflineTemporarily .
 
 <http://data.openlinksw.com/oplweb/sparql-endpoint204#this>
         a                    sd:Service ;
@@ -780,14 +780,14 @@
 <http://data.openlinksw.com/oplweb/sparql-endpoint214#this>
         a                    sd:Service ;
         sd:endpoint          <https://famu.eagle-i.net/sparqler/sparql> ;
-        schema:dateModified  "2020-05-08T00:03:39.274+00:00"^^xsd:dateTime ;
-        schema:serverStatus  schema:Online .
+        schema:dateModified  "2020-07-01T00:06:08.444+00:00"^^xsd:dateTime ;
+        schema:serverStatus  schema:OfflineTemporarily .
 
 <http://data.openlinksw.com/oplweb/sparql-endpoint215#this>
         a                    sd:Service ;
         sd:endpoint          <https://global.eagle-i.net/sparqler/sparql> ;
-        schema:dateModified  "2020-06-30T23:03:35.995+00:00"^^xsd:dateTime ;
-        schema:serverStatus  schema:OfflineTemporarily .
+        schema:dateModified  "2020-07-01T00:06:18.180+00:00"^^xsd:dateTime ;
+        schema:serverStatus  schema:Online .
 
 <http://data.openlinksw.com/oplweb/sparql-endpoint216#this>
         a                    sd:Service ;
@@ -798,14 +798,14 @@
 <http://data.openlinksw.com/oplweb/sparql-endpoint217#this>
         a                    sd:Service ;
         sd:endpoint          <https://hawaii.eagle-i.net/sparqler/sparql> ;
-        schema:dateModified  "2020-05-08T00:04:17.592+00:00"^^xsd:dateTime ;
-        schema:serverStatus  schema:Online .
+        schema:dateModified  "2020-07-01T00:06:47.326+00:00"^^xsd:dateTime ;
+        schema:serverStatus  schema:OfflineTemporarily .
 
 <http://data.openlinksw.com/oplweb/sparql-endpoint218#this>
         a                    sd:Service ;
         sd:endpoint          <https://howard.eagle-i.net/sparqler/sparql> ;
-        schema:dateModified  "2020-05-08T00:03:42.724+00:00"^^xsd:dateTime ;
-        schema:serverStatus  schema:Online .
+        schema:dateModified  "2020-07-01T00:06:14.380+00:00"^^xsd:dateTime ;
+        schema:serverStatus  schema:OfflineTemporarily .
 
 <http://data.openlinksw.com/oplweb/sparql-endpoint219#this>
         a                    sd:Service ;
@@ -822,8 +822,8 @@
 <http://data.openlinksw.com/oplweb/sparql-endpoint220#this>
         a                    sd:Service ;
         sd:endpoint          <https://hunter-cuny.eagle-i.net/sparqler/sparql> ;
-        schema:dateModified  "2020-05-08T00:04:28.381+00:00"^^xsd:dateTime ;
-        schema:serverStatus  schema:Online .
+        schema:dateModified  "2020-07-01T00:06:58.023+00:00"^^xsd:dateTime ;
+        schema:serverStatus  schema:OfflineTemporarily .
 
 <http://data.openlinksw.com/oplweb/sparql-endpoint221#this>
         a                    sd:Service ;
@@ -876,8 +876,8 @@
 <http://data.openlinksw.com/oplweb/sparql-endpoint229#this>
         a                    sd:Service ;
         sd:endpoint          <https://jsu.eagle-i.net/sparqler/sparql> ;
-        schema:dateModified  "2020-05-08T00:02:01.585+00:00"^^xsd:dateTime ;
-        schema:serverStatus  schema:Online .
+        schema:dateModified  "2020-07-01T00:04:24.730+00:00"^^xsd:dateTime ;
+        schema:serverStatus  schema:OfflineTemporarily .
 
 <http://data.openlinksw.com/oplweb/sparql-endpoint23#this>
         a                    sd:Service ;
@@ -918,8 +918,8 @@
 <http://data.openlinksw.com/oplweb/sparql-endpoint235#this>
         a                    sd:Service ;
         sd:endpoint          <https://meharry.eagle-i.net/sparqler/sparql> ;
-        schema:dateModified  "2020-05-08T00:03:59.340+00:00"^^xsd:dateTime ;
-        schema:serverStatus  schema:Online .
+        schema:dateModified  "2020-07-01T00:06:30.654+00:00"^^xsd:dateTime ;
+        schema:serverStatus  schema:OfflineTemporarily .
 
 <http://data.openlinksw.com/oplweb/sparql-endpoint236#this>
         a                    sd:Service ;
@@ -930,14 +930,14 @@
 <http://data.openlinksw.com/oplweb/sparql-endpoint237#this>
         a                    sd:Service ;
         sd:endpoint          <https://msm.eagle-i.net/sparqler/sparql> ;
-        schema:dateModified  "2020-05-08T00:02:32.220+00:00"^^xsd:dateTime ;
-        schema:serverStatus  schema:Online .
+        schema:dateModified  "2020-07-01T00:04:54.228+00:00"^^xsd:dateTime ;
+        schema:serverStatus  schema:OfflineTemporarily .
 
 <http://data.openlinksw.com/oplweb/sparql-endpoint238#this>
         a                    sd:Service ;
         sd:endpoint          <https://ohsu.eagle-i.net/sparqler/sparql> ;
-        schema:dateModified  "2020-05-08T00:02:59.448+00:00"^^xsd:dateTime ;
-        schema:serverStatus  schema:Online .
+        schema:dateModified  "2020-07-01T00:05:23.300+00:00"^^xsd:dateTime ;
+        schema:serverStatus  schema:OfflineTemporarily .
 
 <http://data.openlinksw.com/oplweb/sparql-endpoint239#this>
         a                    sd:Service ;
@@ -966,8 +966,8 @@
 <http://data.openlinksw.com/oplweb/sparql-endpoint242#this>
         a                    sd:Service ;
         sd:endpoint          <https://psm.eagle-i.net/sparqler/sparql> ;
-        schema:dateModified  "2020-05-08T00:04:19.409+00:00"^^xsd:dateTime ;
-        schema:serverStatus  schema:Online .
+        schema:dateModified  "2020-07-01T00:06:49.007+00:00"^^xsd:dateTime ;
+        schema:serverStatus  schema:OfflineTemporarily .
 
 <http://data.openlinksw.com/oplweb/sparql-endpoint243#this>
         a                    sd:Service ;
@@ -1056,26 +1056,26 @@
 <http://data.openlinksw.com/oplweb/sparql-endpoint256#this>
         a                    sd:Service ;
         sd:endpoint          <https://sparql.uniprot.org/sparql> ;
-        schema:dateModified  "2020-06-30T23:03:55.500+00:00"^^xsd:dateTime ;
-        schema:serverStatus  schema:OfflineTemporarily .
+        schema:dateModified  "2020-07-01T00:06:28.816+00:00"^^xsd:dateTime ;
+        schema:serverStatus  schema:Online .
 
 <http://data.openlinksw.com/oplweb/sparql-endpoint257#this>
         a                    sd:Service ;
         sd:endpoint          <https://tsu.eagle-i.net/sparqler/sparql> ;
-        schema:dateModified  "2020-05-08T00:03:28.437+00:00"^^xsd:dateTime ;
-        schema:serverStatus  schema:Online .
+        schema:dateModified  "2020-07-01T00:05:58.292+00:00"^^xsd:dateTime ;
+        schema:serverStatus  schema:OfflineTemporarily .
 
 <http://data.openlinksw.com/oplweb/sparql-endpoint258#this>
         a                    sd:Service ;
         sd:endpoint          <https://tuskegee.eagle-i.net/sparqler/sparql> ;
-        schema:dateModified  "2020-05-08T00:03:27.670+00:00"^^xsd:dateTime ;
-        schema:serverStatus  schema:Online .
+        schema:dateModified  "2020-07-01T00:05:57.334+00:00"^^xsd:dateTime ;
+        schema:serverStatus  schema:OfflineTemporarily .
 
 <http://data.openlinksw.com/oplweb/sparql-endpoint259#this>
         a                    sd:Service ;
         sd:endpoint          <https://uccaribe.eagle-i.net/sparqler/sparql> ;
-        schema:dateModified  "2020-05-08T00:02:35.641+00:00"^^xsd:dateTime ;
-        schema:serverStatus  schema:Online .
+        schema:dateModified  "2020-07-01T00:04:58.038+00:00"^^xsd:dateTime ;
+        schema:serverStatus  schema:OfflineTemporarily .
 
 <http://data.openlinksw.com/oplweb/sparql-endpoint26#this>
         a                    sd:Service ;
@@ -1086,20 +1086,20 @@
 <http://data.openlinksw.com/oplweb/sparql-endpoint260#this>
         a                    sd:Service ;
         sd:endpoint          <https://upr.eagle-i.net/sparqler/sparql> ;
-        schema:dateModified  "2020-05-08T00:01:41.125+00:00"^^xsd:dateTime ;
-        schema:serverStatus  schema:Online .
+        schema:dateModified  "2020-07-01T00:04:03.313+00:00"^^xsd:dateTime ;
+        schema:serverStatus  schema:OfflineTemporarily .
 
 <http://data.openlinksw.com/oplweb/sparql-endpoint261#this>
         a                    sd:Service ;
         sd:endpoint          <https://utep.eagle-i.net/sparqler/sparql> ;
-        schema:dateModified  "2020-05-08T00:01:58.891+00:00"^^xsd:dateTime ;
-        schema:serverStatus  schema:Online .
+        schema:dateModified  "2020-07-01T00:04:21.546+00:00"^^xsd:dateTime ;
+        schema:serverStatus  schema:OfflineTemporarily .
 
 <http://data.openlinksw.com/oplweb/sparql-endpoint262#this>
         a                    sd:Service ;
         sd:endpoint          <https://utsa.eagle-i.net/sparqler/sparql> ;
-        schema:dateModified  "2020-05-08T00:04:31.750+00:00"^^xsd:dateTime ;
-        schema:serverStatus  schema:Online .
+        schema:dateModified  "2020-07-01T00:07:01.089+00:00"^^xsd:dateTime ;
+        schema:serverStatus  schema:OfflineTemporarily .
 
 <http://data.openlinksw.com/oplweb/sparql-endpoint263#this>
         a                    sd:Service ;
@@ -1134,8 +1134,8 @@
 <http://data.openlinksw.com/oplweb/sparql-endpoint268#this>
         a                    sd:Service ;
         sd:endpoint          <https://xula.eagle-i.net/sparqler/sparql> ;
-        schema:dateModified  "2020-05-08T00:04:14.911+00:00"^^xsd:dateTime ;
-        schema:serverStatus  schema:Online .
+        schema:dateModified  "2020-07-01T00:06:38.643+00:00"^^xsd:dateTime ;
+        schema:serverStatus  schema:OfflineTemporarily .
 
 <http://data.openlinksw.com/oplweb/sparql-endpoint27#this>
         a                    sd:Service ;
