@@ -852,8 +852,8 @@
 <http://data.openlinksw.com/oplweb/sparql-endpoint225#this>
         a                    sd:Service ;
         sd:endpoint          <https://io.datascience-paris-saclay.fr/sparql> ;
-        schema:dateModified  "2020-07-08T16:01:40.359+00:00"^^xsd:dateTime ;
-        schema:serverStatus  schema:OfflineTemporarily .
+        schema:dateModified  "2020-07-08T20:02:22.329+00:00"^^xsd:dateTime ;
+        schema:serverStatus  schema:Online .
 
 <http://data.openlinksw.com/oplweb/sparql-endpoint226#this>
         a                    sd:Service ;
@@ -1380,8 +1380,8 @@
 <http://data.openlinksw.com/oplweb/sparql-endpoint63#this>
         a                    sd:Service ;
         sd:endpoint          <http://demo.openlinksw.com/sparql> ;
-        schema:dateModified  "2020-07-08T19:02:43.730+00:00"^^xsd:dateTime ;
-        schema:serverStatus  schema:OfflineTemporarily .
+        schema:dateModified  "2020-07-08T20:03:14.962+00:00"^^xsd:dateTime ;
+        schema:serverStatus  schema:Online .
 
 <http://data.openlinksw.com/oplweb/sparql-endpoint64#this>
         a                    sd:Service ;
