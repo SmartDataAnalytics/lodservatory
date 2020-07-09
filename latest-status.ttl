@@ -654,8 +654,8 @@
 <http://data.openlinksw.com/oplweb/sparql-endpoint196#this>
         a                    sd:Service ;
         sd:endpoint          <https://api.aucklandmuseum.com/sparql> ;
-        schema:dateModified  "2020-07-08T03:02:14.162+00:00"^^xsd:dateTime ;
-        schema:serverStatus  schema:Online .
+        schema:dateModified  "2020-07-09T18:02:05.352+00:00"^^xsd:dateTime ;
+        schema:serverStatus  schema:OfflineTemporarily .
 
 <http://data.openlinksw.com/oplweb/sparql-endpoint197#this>
         a                    sd:Service ;
@@ -786,8 +786,8 @@
 <http://data.openlinksw.com/oplweb/sparql-endpoint215#this>
         a                    sd:Service ;
         sd:endpoint          <https://global.eagle-i.net/sparqler/sparql> ;
-        schema:dateModified  "2020-07-08T01:04:04.468+00:00"^^xsd:dateTime ;
-        schema:serverStatus  schema:Online .
+        schema:dateModified  "2020-07-09T18:03:48.414+00:00"^^xsd:dateTime ;
+        schema:serverStatus  schema:OfflineTemporarily .
 
 <http://data.openlinksw.com/oplweb/sparql-endpoint216#this>
         a                    sd:Service ;
