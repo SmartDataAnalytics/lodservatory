@@ -234,8 +234,8 @@
 <http://data.openlinksw.com/oplweb/sparql-endpoint132#this>
         a                    sd:Service ;
         sd:endpoint          <http://ma-graph.org/sparql> ;
-        schema:dateModified  "2020-07-06T18:04:26.134+00:00"^^xsd:dateTime ;
-        schema:serverStatus  schema:Online .
+        schema:dateModified  "2020-07-15T11:04:16.698+00:00"^^xsd:dateTime ;
+        schema:serverStatus  schema:OfflineTemporarily .
 
 <http://data.openlinksw.com/oplweb/sparql-endpoint133#this>
         a                    sd:Service ;
@@ -1038,8 +1038,8 @@
 <http://data.openlinksw.com/oplweb/sparql-endpoint253#this>
         a                    sd:Service ;
         sd:endpoint          <https://sparql.omabrowser.org/sparql> ;
-        schema:dateModified  "2020-07-14T03:03:52.424+00:00"^^xsd:dateTime ;
-        schema:serverStatus  schema:Online .
+        schema:dateModified  "2020-07-15T11:03:25.396+00:00"^^xsd:dateTime ;
+        schema:serverStatus  schema:OfflineTemporarily .
 
 <http://data.openlinksw.com/oplweb/sparql-endpoint254#this>
         a                    sd:Service ;
@@ -1422,8 +1422,8 @@
 <http://data.openlinksw.com/oplweb/sparql-endpoint7#this>
         a                    sd:Service ;
         sd:endpoint          <http://bio2rdf.org/sparql> ;
-        schema:dateModified  "2020-07-15T07:03:53.651+00:00"^^xsd:dateTime ;
-        schema:serverStatus  schema:OfflineTemporarily .
+        schema:dateModified  "2020-07-15T11:03:12.582+00:00"^^xsd:dateTime ;
+        schema:serverStatus  schema:Online .
 
 <http://data.openlinksw.com/oplweb/sparql-endpoint70#this>
         a                    sd:Service ;
