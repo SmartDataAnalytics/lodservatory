@@ -354,8 +354,8 @@
 <http://data.openlinksw.com/oplweb/sparql-endpoint150#this>
         a                    sd:Service ;
         sd:endpoint          <http://patho.phenomebrowser.net/sparql/> ;
-        schema:dateModified  "2020-07-24T18:03:14.946+00:00"^^xsd:dateTime ;
-        schema:serverStatus  schema:Online .
+        schema:dateModified  "2020-07-25T19:03:22.154+00:00"^^xsd:dateTime ;
+        schema:serverStatus  schema:OfflineTemporarily .
 
 <http://data.openlinksw.com/oplweb/sparql-endpoint151#this>
         a                    sd:Service ;
@@ -582,8 +582,8 @@
 <http://data.openlinksw.com/oplweb/sparql-endpoint185#this>
         a                    sd:Service ;
         sd:endpoint          <http://wifo5-04.informatik.uni-mannheim.de/drugbank/sparql> ;
-        schema:dateModified  "2020-07-25T11:04:29.087+00:00"^^xsd:dateTime ;
-        schema:serverStatus  schema:OfflineTemporarily .
+        schema:dateModified  "2020-07-25T19:04:30.965+00:00"^^xsd:dateTime ;
+        schema:serverStatus  schema:Online .
 
 <http://data.openlinksw.com/oplweb/sparql-endpoint186#this>
         a                    sd:Service ;
@@ -1260,8 +1260,8 @@
 <http://data.openlinksw.com/oplweb/sparql-endpoint45#this>
         a                    sd:Service ;
         sd:endpoint          <http://dati.beniculturali.it/sparql> ;
-        schema:dateModified  "2020-07-25T18:03:29.060+00:00"^^xsd:dateTime ;
-        schema:serverStatus  schema:OfflineTemporarily .
+        schema:dateModified  "2020-07-25T19:03:08.216+00:00"^^xsd:dateTime ;
+        schema:serverStatus  schema:Online .
 
 <http://data.openlinksw.com/oplweb/sparql-endpoint46#this>
         a                    sd:Service ;
