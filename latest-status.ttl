@@ -354,8 +354,8 @@
 <http://data.openlinksw.com/oplweb/sparql-endpoint150#this>
         a                    sd:Service ;
         sd:endpoint          <http://patho.phenomebrowser.net/sparql/> ;
-        schema:dateModified  "2020-07-28T09:03:30.883+00:00"^^xsd:dateTime ;
-        schema:serverStatus  schema:Online .
+        schema:dateModified  "2020-07-28T13:03:07.467+00:00"^^xsd:dateTime ;
+        schema:serverStatus  schema:OfflineTemporarily .
 
 <http://data.openlinksw.com/oplweb/sparql-endpoint151#this>
         a                    sd:Service ;
@@ -1380,8 +1380,8 @@
 <http://data.openlinksw.com/oplweb/sparql-endpoint63#this>
         a                    sd:Service ;
         sd:endpoint          <http://demo.openlinksw.com/sparql> ;
-        schema:dateModified  "2020-07-27T23:02:59.722+00:00"^^xsd:dateTime ;
-        schema:serverStatus  schema:OfflineTemporarily .
+        schema:dateModified  "2020-07-28T13:02:56.231+00:00"^^xsd:dateTime ;
+        schema:serverStatus  schema:Online .
 
 <http://data.openlinksw.com/oplweb/sparql-endpoint64#this>
         a                    sd:Service ;
