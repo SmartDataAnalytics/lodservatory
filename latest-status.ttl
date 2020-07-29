@@ -1260,8 +1260,8 @@
 <http://data.openlinksw.com/oplweb/sparql-endpoint45#this>
         a                    sd:Service ;
         sd:endpoint          <http://dati.beniculturali.it/sparql> ;
-        schema:dateModified  "2020-07-29T10:03:11.440+00:00"^^xsd:dateTime ;
-        schema:serverStatus  schema:OfflineTemporarily .
+        schema:dateModified  "2020-07-29T12:03:03.137+00:00"^^xsd:dateTime ;
+        schema:serverStatus  schema:Online .
 
 <http://data.openlinksw.com/oplweb/sparql-endpoint46#this>
         a                    sd:Service ;
@@ -1338,8 +1338,8 @@
 <http://data.openlinksw.com/oplweb/sparql-endpoint57#this>
         a                    sd:Service ;
         sd:endpoint          <http://dbtune.org/jamendo/sparql/> ;
-        schema:dateModified  "2020-07-29T11:04:13.721+00:00"^^xsd:dateTime ;
-        schema:serverStatus  schema:OfflineTemporarily .
+        schema:dateModified  "2020-07-29T12:03:57.121+00:00"^^xsd:dateTime ;
+        schema:serverStatus  schema:Online .
 
 <http://data.openlinksw.com/oplweb/sparql-endpoint58#this>
         a                    sd:Service ;
