@@ -132,8 +132,8 @@
 <http://data.openlinksw.com/oplweb/sparql-endpoint117#this>
         a                    sd:Service ;
         sd:endpoint          <http://linkeddata.uriburner.com/sparql/> ;
-        schema:dateModified  "2020-07-25T01:03:00.584+00:00"^^xsd:dateTime ;
-        schema:serverStatus  schema:Online .
+        schema:dateModified  "2020-07-31T22:02:55.025+00:00"^^xsd:dateTime ;
+        schema:serverStatus  schema:OfflineTemporarily .
 
 <http://data.openlinksw.com/oplweb/sparql-endpoint118#this>
         a                    sd:Service ;
@@ -564,8 +564,8 @@
 <http://data.openlinksw.com/oplweb/sparql-endpoint182#this>
         a                    sd:Service ;
         sd:endpoint          <http://uriburner.com/sparql> ;
-        schema:dateModified  "2020-07-25T01:01:58.893+00:00"^^xsd:dateTime ;
-        schema:serverStatus  schema:Online .
+        schema:dateModified  "2020-07-31T22:01:49.971+00:00"^^xsd:dateTime ;
+        schema:serverStatus  schema:OfflineTemporarily .
 
 <http://data.openlinksw.com/oplweb/sparql-endpoint183#this>
         a                    sd:Service ;
@@ -1260,8 +1260,8 @@
 <http://data.openlinksw.com/oplweb/sparql-endpoint45#this>
         a                    sd:Service ;
         sd:endpoint          <http://dati.beniculturali.it/sparql> ;
-        schema:dateModified  "2020-07-31T21:02:56.129+00:00"^^xsd:dateTime ;
-        schema:serverStatus  schema:OfflineTemporarily .
+        schema:dateModified  "2020-07-31T22:02:47.612+00:00"^^xsd:dateTime ;
+        schema:serverStatus  schema:Online .
 
 <http://data.openlinksw.com/oplweb/sparql-endpoint46#this>
         a                    sd:Service ;
