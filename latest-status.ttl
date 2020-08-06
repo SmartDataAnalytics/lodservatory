@@ -414,8 +414,8 @@
 <http://data.openlinksw.com/oplweb/sparql-endpoint16#this>
         a                    sd:Service ;
         sd:endpoint          <http://caligraph.org/sparql> ;
-        schema:dateModified  "2020-08-04T19:04:11.152+00:00"^^xsd:dateTime ;
-        schema:serverStatus  schema:Online .
+        schema:dateModified  "2020-08-06T08:04:17.672+00:00"^^xsd:dateTime ;
+        schema:serverStatus  schema:OfflineTemporarily .
 
 <http://data.openlinksw.com/oplweb/sparql-endpoint160#this>
         a                    sd:Service ;
@@ -582,8 +582,8 @@
 <http://data.openlinksw.com/oplweb/sparql-endpoint185#this>
         a                    sd:Service ;
         sd:endpoint          <http://wifo5-04.informatik.uni-mannheim.de/drugbank/sparql> ;
-        schema:dateModified  "2020-08-06T06:04:33.049+00:00"^^xsd:dateTime ;
-        schema:serverStatus  schema:OfflineTemporarily .
+        schema:dateModified  "2020-08-06T08:04:35.065+00:00"^^xsd:dateTime ;
+        schema:serverStatus  schema:Online .
 
 <http://data.openlinksw.com/oplweb/sparql-endpoint186#this>
         a                    sd:Service ;
@@ -654,8 +654,8 @@
 <http://data.openlinksw.com/oplweb/sparql-endpoint196#this>
         a                    sd:Service ;
         sd:endpoint          <https://api.aucklandmuseum.com/sparql> ;
-        schema:dateModified  "2020-08-06T07:02:27.604+00:00"^^xsd:dateTime ;
-        schema:serverStatus  schema:OfflineTemporarily .
+        schema:dateModified  "2020-08-06T08:02:27.920+00:00"^^xsd:dateTime ;
+        schema:serverStatus  schema:Online .
 
 <http://data.openlinksw.com/oplweb/sparql-endpoint197#this>
         a                    sd:Service ;
