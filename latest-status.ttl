@@ -1188,8 +1188,8 @@
 <http://data.openlinksw.com/oplweb/sparql-endpoint34#this>
         a                    sd:Service ;
         sd:endpoint          <http://data.americanartcollaborative.org/sparql> ;
-        schema:dateModified  "2020-06-22T16:03:35.188+00:00"^^xsd:dateTime ;
-        schema:serverStatus  schema:Online .
+        schema:dateModified  "2020-08-07T10:04:16.257+00:00"^^xsd:dateTime ;
+        schema:serverStatus  schema:OfflineTemporarily .
 
 <http://data.openlinksw.com/oplweb/sparql-endpoint35#this>
         a                    sd:Service ;
