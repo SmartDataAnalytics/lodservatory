@@ -456,8 +456,8 @@
 <http://data.openlinksw.com/oplweb/sparql-endpoint166#this>
         a                    sd:Service ;
         sd:endpoint          <http://sparql.archives-ouvertes.fr/sparql> ;
-        schema:dateModified  "2020-08-06T23:02:28.320+00:00"^^xsd:dateTime ;
-        schema:serverStatus  schema:OfflineTemporarily .
+        schema:dateModified  "2020-08-07T00:04:30.993+00:00"^^xsd:dateTime ;
+        schema:serverStatus  schema:Online .
 
 <http://data.openlinksw.com/oplweb/sparql-endpoint167#this>
         a                    sd:Service ;
@@ -552,8 +552,8 @@
 <http://data.openlinksw.com/oplweb/sparql-endpoint180#this>
         a                    sd:Service ;
         sd:endpoint          <http://srvgal78.deri.ie:8004/sparql/> ;
-        schema:dateModified  "2020-08-04T01:02:43.066+00:00"^^xsd:dateTime ;
-        schema:serverStatus  schema:Online .
+        schema:dateModified  "2020-08-07T00:05:24.011+00:00"^^xsd:dateTime ;
+        schema:serverStatus  schema:OfflineTemporarily .
 
 <http://data.openlinksw.com/oplweb/sparql-endpoint181#this>
         a                    sd:Service ;
@@ -1308,8 +1308,8 @@
 <http://data.openlinksw.com/oplweb/sparql-endpoint52#this>
         a                    sd:Service ;
         sd:endpoint          <http://dbpedia-live.openlinksw.com/sparql> ;
-        schema:dateModified  "2020-06-20T08:03:34.681+00:00"^^xsd:dateTime ;
-        schema:serverStatus  schema:Online .
+        schema:dateModified  "2020-08-07T00:06:27.237+00:00"^^xsd:dateTime ;
+        schema:serverStatus  schema:OfflineTemporarily .
 
 <http://data.openlinksw.com/oplweb/sparql-endpoint53#this>
         a                    sd:Service ;
