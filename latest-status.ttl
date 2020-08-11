@@ -354,8 +354,8 @@
 <http://data.openlinksw.com/oplweb/sparql-endpoint150#this>
         a                    sd:Service ;
         sd:endpoint          <http://patho.phenomebrowser.net/sparql/> ;
-        schema:dateModified  "2020-08-11T19:03:23.252+00:00"^^xsd:dateTime ;
-        schema:serverStatus  schema:OfflineTemporarily .
+        schema:dateModified  "2020-08-11T20:03:13.256+00:00"^^xsd:dateTime ;
+        schema:serverStatus  schema:Online .
 
 <http://data.openlinksw.com/oplweb/sparql-endpoint151#this>
         a                    sd:Service ;
@@ -408,8 +408,8 @@
 <http://data.openlinksw.com/oplweb/sparql-endpoint159#this>
         a                    sd:Service ;
         sd:endpoint          <http://rdf.disgenet.org/sparql/> ;
-        schema:dateModified  "2020-06-18T07:04:02.292+00:00"^^xsd:dateTime ;
-        schema:serverStatus  schema:Online .
+        schema:dateModified  "2020-08-11T20:04:01.371+00:00"^^xsd:dateTime ;
+        schema:serverStatus  schema:OfflineTemporarily .
 
 <http://data.openlinksw.com/oplweb/sparql-endpoint16#this>
         a                    sd:Service ;
@@ -576,8 +576,8 @@
 <http://data.openlinksw.com/oplweb/sparql-endpoint184#this>
         a                    sd:Service ;
         sd:endpoint          <http://vulcan.cs.uga.edu/sparql> ;
-        schema:dateModified  "2020-08-11T19:03:55.494+00:00"^^xsd:dateTime ;
-        schema:serverStatus  schema:OfflineTemporarily .
+        schema:dateModified  "2020-08-11T20:03:49.671+00:00"^^xsd:dateTime ;
+        schema:serverStatus  schema:Online .
 
 <http://data.openlinksw.com/oplweb/sparql-endpoint185#this>
         a                    sd:Service ;
@@ -954,8 +954,8 @@
 <http://data.openlinksw.com/oplweb/sparql-endpoint240#this>
         a                    sd:Service ;
         sd:endpoint          <https://opendata1.opendata.u-psud.fr/sparql> ;
-        schema:dateModified  "2020-05-08T00:03:40.791+00:00"^^xsd:dateTime ;
-        schema:serverStatus  schema:Online .
+        schema:dateModified  "2020-08-11T20:03:49.906+00:00"^^xsd:dateTime ;
+        schema:serverStatus  schema:OfflineTemporarily .
 
 <http://data.openlinksw.com/oplweb/sparql-endpoint241#this>
         a                    sd:Service ;
@@ -1200,8 +1200,8 @@
 <http://data.openlinksw.com/oplweb/sparql-endpoint36#this>
         a                    sd:Service ;
         sd:endpoint          <http://data.bibliotheken.nl/sparql> ;
-        schema:dateModified  "2020-06-17T17:04:19.118+00:00"^^xsd:dateTime ;
-        schema:serverStatus  schema:Online .
+        schema:dateModified  "2020-08-11T20:04:58.137+00:00"^^xsd:dateTime ;
+        schema:serverStatus  schema:OfflineTemporarily .
 
 <http://data.openlinksw.com/oplweb/sparql-endpoint37#this>
         a                    sd:Service ;
@@ -1422,8 +1422,8 @@
 <http://data.openlinksw.com/oplweb/sparql-endpoint7#this>
         a                    sd:Service ;
         sd:endpoint          <http://bio2rdf.org/sparql> ;
-        schema:dateModified  "2020-08-11T15:04:11.282+00:00"^^xsd:dateTime ;
-        schema:serverStatus  schema:Online .
+        schema:dateModified  "2020-08-11T20:03:41.011+00:00"^^xsd:dateTime ;
+        schema:serverStatus  schema:OfflineTemporarily .
 
 <http://data.openlinksw.com/oplweb/sparql-endpoint70#this>
         a                    sd:Service ;
