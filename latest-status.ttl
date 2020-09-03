@@ -1062,14 +1062,14 @@
 <http://data.openlinksw.com/oplweb/sparql-endpoint257#this>
         a                    sd:Service ;
         sd:endpoint          <https://tsu.eagle-i.net/sparqler/sparql> ;
-        schema:dateModified  "2020-09-03T19:03:05.855+00:00"^^xsd:dateTime ;
-        schema:serverStatus  schema:OfflineTemporarily .
+        schema:dateModified  "2020-09-03T20:03:21.568+00:00"^^xsd:dateTime ;
+        schema:serverStatus  schema:Online .
 
 <http://data.openlinksw.com/oplweb/sparql-endpoint258#this>
         a                    sd:Service ;
         sd:endpoint          <https://tuskegee.eagle-i.net/sparqler/sparql> ;
-        schema:dateModified  "2020-09-03T19:03:00.344+00:00"^^xsd:dateTime ;
-        schema:serverStatus  schema:OfflineTemporarily .
+        schema:dateModified  "2020-09-03T20:03:20.581+00:00"^^xsd:dateTime ;
+        schema:serverStatus  schema:Online .
 
 <http://data.openlinksw.com/oplweb/sparql-endpoint259#this>
         a                    sd:Service ;
