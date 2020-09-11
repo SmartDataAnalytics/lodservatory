@@ -318,8 +318,8 @@
 <http://data.openlinksw.com/oplweb/sparql-endpoint145#this>
         a                    sd:Service ;
         sd:endpoint          <http://opencitations.net/index/sparql> ;
-        schema:dateModified  "2020-08-16T06:03:32.866+00:00"^^xsd:dateTime ;
-        schema:serverStatus  schema:Online .
+        schema:dateModified  "2020-09-11T00:05:11.081+00:00"^^xsd:dateTime ;
+        schema:serverStatus  schema:OfflineTemporarily .
 
 <http://data.openlinksw.com/oplweb/sparql-endpoint146#this>
         a                    sd:Service ;
@@ -942,8 +942,8 @@
 <http://data.openlinksw.com/oplweb/sparql-endpoint239#this>
         a                    sd:Service ;
         sd:endpoint          <https://opendata.aragon.es/sparql> ;
-        schema:dateModified  "2020-08-20T08:02:39.866+00:00"^^xsd:dateTime ;
-        schema:serverStatus  schema:Online .
+        schema:dateModified  "2020-09-11T00:05:06.509+00:00"^^xsd:dateTime ;
+        schema:serverStatus  schema:OfflineTemporarily .
 
 <http://data.openlinksw.com/oplweb/sparql-endpoint24#this>
         a                    sd:Service ;
@@ -1338,14 +1338,14 @@
 <http://data.openlinksw.com/oplweb/sparql-endpoint57#this>
         a                    sd:Service ;
         sd:endpoint          <http://dbtune.org/jamendo/sparql/> ;
-        schema:dateModified  "2020-09-10T23:03:09.195+00:00"^^xsd:dateTime ;
-        schema:serverStatus  schema:OfflineTemporarily .
+        schema:dateModified  "2020-09-11T00:05:58.246+00:00"^^xsd:dateTime ;
+        schema:serverStatus  schema:Online .
 
 <http://data.openlinksw.com/oplweb/sparql-endpoint58#this>
         a                    sd:Service ;
         sd:endpoint          <http://dbtune.org/magnatune/sparql/> ;
-        schema:dateModified  "2020-09-10T23:03:55.910+00:00"^^xsd:dateTime ;
-        schema:serverStatus  schema:OfflineTemporarily .
+        schema:dateModified  "2020-09-11T00:06:41.961+00:00"^^xsd:dateTime ;
+        schema:serverStatus  schema:Online .
 
 <http://data.openlinksw.com/oplweb/sparql-endpoint59#this>
         a                    sd:Service ;
