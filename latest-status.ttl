@@ -1254,8 +1254,8 @@
 <http://data.openlinksw.com/oplweb/sparql-endpoint44#this>
         a                    sd:Service ;
         sd:endpoint          <http://data.plan4all.eu/sparql> ;
-        schema:dateModified  "2020-09-16T15:04:59.570+00:00"^^xsd:dateTime ;
-        schema:serverStatus  schema:OfflineTemporarily .
+        schema:dateModified  "2020-09-16T16:05:16.539+00:00"^^xsd:dateTime ;
+        schema:serverStatus  schema:Online .
 
 <http://data.openlinksw.com/oplweb/sparql-endpoint45#this>
         a                    sd:Service ;
