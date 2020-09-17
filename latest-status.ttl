@@ -1242,8 +1242,8 @@
 <http://data.openlinksw.com/oplweb/sparql-endpoint42#this>
         a                    sd:Service ;
         sd:endpoint          <http://data.ox.ac.uk/sparql/> ;
-        schema:dateModified  "2020-09-16T14:03:05.113+00:00"^^xsd:dateTime ;
-        schema:serverStatus  schema:Online .
+        schema:dateModified  "2020-09-17T08:02:21.243+00:00"^^xsd:dateTime ;
+        schema:serverStatus  schema:OfflineTemporarily .
 
 <http://data.openlinksw.com/oplweb/sparql-endpoint43#this>
         a                    sd:Service ;
