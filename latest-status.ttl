@@ -48,8 +48,8 @@
 <http://data.openlinksw.com/oplweb/sparql-endpoint104#this>
         a                    sd:Service ;
         sd:endpoint          <http://jisc.rkbexplorer.com/sparql/> ;
-        schema:dateModified  "2020-05-08T00:02:47.216+00:00"^^xsd:dateTime ;
-        schema:serverStatus  schema:Online .
+        schema:dateModified  "2020-09-19T18:02:35.279+00:00"^^xsd:dateTime ;
+        schema:serverStatus  schema:OfflineTemporarily .
 
 <http://data.openlinksw.com/oplweb/sparql-endpoint105#this>
         a                    sd:Service ;
@@ -1416,8 +1416,8 @@
 <http://data.openlinksw.com/oplweb/sparql-endpoint69#this>
         a                    sd:Service ;
         sd:endpoint          <http://edan.si.edu/saam/sparql> ;
-        schema:dateModified  "2020-09-19T17:03:32.757+00:00"^^xsd:dateTime ;
-        schema:serverStatus  schema:OfflineTemporarily .
+        schema:dateModified  "2020-09-19T18:03:31.361+00:00"^^xsd:dateTime ;
+        schema:serverStatus  schema:Online .
 
 <http://data.openlinksw.com/oplweb/sparql-endpoint7#this>
         a                    sd:Service ;
@@ -1488,8 +1488,8 @@
 <http://data.openlinksw.com/oplweb/sparql-endpoint8#this>
         a                    sd:Service ;
         sd:endpoint          <http://biolit.rkbexplorer.com/sparql/> ;
-        schema:dateModified  "2020-09-17T02:03:19.274+00:00"^^xsd:dateTime ;
-        schema:serverStatus  schema:Online .
+        schema:dateModified  "2020-09-19T18:03:18.274+00:00"^^xsd:dateTime ;
+        schema:serverStatus  schema:OfflineTemporarily .
 
 <http://data.openlinksw.com/oplweb/sparql-endpoint80#this>
         a                    sd:Service ;
