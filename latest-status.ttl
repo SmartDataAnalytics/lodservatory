@@ -174,8 +174,8 @@
 <http://data.openlinksw.com/oplweb/sparql-endpoint123#this>
         a                    sd:Service ;
         sd:endpoint          <http://live.dbpedia.org/sparql/> ;
-        schema:dateModified  "2020-09-26T05:02:08.316+00:00"^^xsd:dateTime ;
-        schema:serverStatus  schema:Online .
+        schema:dateModified  "2020-09-28T23:29:16.748+00:00"^^xsd:dateTime ;
+        schema:serverStatus  schema:OfflineTemporarily .
 
 <http://data.openlinksw.com/oplweb/sparql-endpoint124#this>
         a                    sd:Service ;
@@ -198,8 +198,8 @@
 <http://data.openlinksw.com/oplweb/sparql-endpoint127#this>
         a                    sd:Service ;
         sd:endpoint          <http://lod.openlinksw.com/sparql> ;
-        schema:dateModified  "2020-09-17T17:02:21.987+00:00"^^xsd:dateTime ;
-        schema:serverStatus  schema:Online .
+        schema:dateModified  "2020-09-28T23:29:48.091+00:00"^^xsd:dateTime ;
+        schema:serverStatus  schema:OfflineTemporarily .
 
 <http://data.openlinksw.com/oplweb/sparql-endpoint128#this>
         a                    sd:Service ;
@@ -618,8 +618,8 @@
 <http://data.openlinksw.com/oplweb/sparql-endpoint190#this>
         a                    sd:Service ;
         sd:endpoint          <http://www.orpha.net/sparql> ;
-        schema:dateModified  "2020-09-28T21:04:10.670+00:00"^^xsd:dateTime ;
-        schema:serverStatus  schema:OfflineTemporarily .
+        schema:dateModified  "2020-09-28T23:31:40.450+00:00"^^xsd:dateTime ;
+        schema:serverStatus  schema:Online .
 
 <http://data.openlinksw.com/oplweb/sparql-endpoint191#this>
         a                    sd:Service ;
@@ -654,8 +654,8 @@
 <http://data.openlinksw.com/oplweb/sparql-endpoint196#this>
         a                    sd:Service ;
         sd:endpoint          <https://api.aucklandmuseum.com/sparql> ;
-        schema:dateModified  "2020-09-28T15:03:16.091+00:00"^^xsd:dateTime ;
-        schema:serverStatus  schema:Online .
+        schema:dateModified  "2020-09-28T23:29:57.787+00:00"^^xsd:dateTime ;
+        schema:serverStatus  schema:OfflineTemporarily .
 
 <http://data.openlinksw.com/oplweb/sparql-endpoint197#this>
         a                    sd:Service ;
@@ -1128,8 +1128,8 @@
 <http://data.openlinksw.com/oplweb/sparql-endpoint267#this>
         a                    sd:Service ;
         sd:endpoint          <https://www.orpha.net/sparql> ;
-        schema:dateModified  "2020-09-28T21:02:28.529+00:00"^^xsd:dateTime ;
-        schema:serverStatus  schema:OfflineTemporarily .
+        schema:dateModified  "2020-09-28T23:30:00.064+00:00"^^xsd:dateTime ;
+        schema:serverStatus  schema:Online .
 
 <http://data.openlinksw.com/oplweb/sparql-endpoint268#this>
         a                    sd:Service ;
