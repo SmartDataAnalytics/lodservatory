@@ -1344,8 +1344,8 @@
 <http://data.openlinksw.com/oplweb/sparql-endpoint58#this>
         a                    sd:Service ;
         sd:endpoint          <http://dbtune.org/magnatune/sparql/> ;
-        schema:dateModified  "2020-10-01T22:04:22.888+00:00"^^xsd:dateTime ;
-        schema:serverStatus  schema:OfflineTemporarily .
+        schema:dateModified  "2020-10-02T01:16:05.115+00:00"^^xsd:dateTime ;
+        schema:serverStatus  schema:Online .
 
 <http://data.openlinksw.com/oplweb/sparql-endpoint59#this>
         a                    sd:Service ;
