@@ -516,8 +516,8 @@
 <http://data.openlinksw.com/oplweb/sparql-endpoint175#this>
         a                    sd:Service ;
         sd:endpoint          <http://sparql.southgreen.fr/> ;
-        schema:dateModified  "2020-10-03T14:02:46.181+00:00"^^xsd:dateTime ;
-        schema:serverStatus  schema:OfflineTemporarily .
+        schema:dateModified  "2020-10-03T17:02:11.530+00:00"^^xsd:dateTime ;
+        schema:serverStatus  schema:Online .
 
 <http://data.openlinksw.com/oplweb/sparql-endpoint176#this>
         a                    sd:Service ;
@@ -1008,8 +1008,8 @@
 <http://data.openlinksw.com/oplweb/sparql-endpoint249#this>
         a                    sd:Service ;
         sd:endpoint          <https://sparql.geo.admin.ch/sparql> ;
-        schema:dateModified  "2020-10-01T18:02:45.623+00:00"^^xsd:dateTime ;
-        schema:serverStatus  schema:Online .
+        schema:dateModified  "2020-10-03T17:02:29.810+00:00"^^xsd:dateTime ;
+        schema:serverStatus  schema:OfflineTemporarily .
 
 <http://data.openlinksw.com/oplweb/sparql-endpoint25#this>
         a                    sd:Service ;
