@@ -78,8 +78,8 @@
 <http://data.openlinksw.com/oplweb/sparql-endpoint109#this>
         a                    sd:Service ;
         sd:endpoint          <http://kisti.rkbexplorer.com/sparql/> ;
-        schema:dateModified  "2020-05-08T00:01:42.473+00:00"^^xsd:dateTime ;
-        schema:serverStatus  schema:Online .
+        schema:dateModified  "2020-10-03T05:02:07.594+00:00"^^xsd:dateTime ;
+        schema:serverStatus  schema:OfflineTemporarily .
 
 <http://data.openlinksw.com/oplweb/sparql-endpoint11#this>
         a                    sd:Service ;
@@ -90,8 +90,8 @@
 <http://data.openlinksw.com/oplweb/sparql-endpoint110#this>
         a                    sd:Service ;
         sd:endpoint          <http://laas.rkbexplorer.com/sparql/> ;
-        schema:dateModified  "2020-05-08T00:02:31.724+00:00"^^xsd:dateTime ;
-        schema:serverStatus  schema:Online .
+        schema:dateModified  "2020-10-03T05:02:20.973+00:00"^^xsd:dateTime ;
+        schema:serverStatus  schema:OfflineTemporarily .
 
 <http://data.openlinksw.com/oplweb/sparql-endpoint111#this>
         a                    sd:Service ;
@@ -288,8 +288,8 @@
 <http://data.openlinksw.com/oplweb/sparql-endpoint140#this>
         a                    sd:Service ;
         sd:endpoint          <http://newcastle.rkbexplorer.com/sparql/> ;
-        schema:dateModified  "2020-09-19T19:01:58.495+00:00"^^xsd:dateTime ;
-        schema:serverStatus  schema:Online .
+        schema:dateModified  "2020-10-03T05:02:36.909+00:00"^^xsd:dateTime ;
+        schema:serverStatus  schema:OfflineTemporarily .
 
 <http://data.openlinksw.com/oplweb/sparql-endpoint141#this>
         a                    sd:Service ;
