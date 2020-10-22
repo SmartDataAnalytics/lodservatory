@@ -576,8 +576,8 @@
 <http://data.openlinksw.com/oplweb/sparql-endpoint184#this>
         a                    sd:Service ;
         sd:endpoint          <http://vulcan.cs.uga.edu/sparql> ;
-        schema:dateModified  "2020-10-08T19:04:03.345+00:00"^^xsd:dateTime ;
-        schema:serverStatus  schema:Online .
+        schema:dateModified  "2020-10-22T17:04:04.634+00:00"^^xsd:dateTime ;
+        schema:serverStatus  schema:OfflineTemporarily .
 
 <http://data.openlinksw.com/oplweb/sparql-endpoint185#this>
         a                    sd:Service ;
@@ -1266,8 +1266,8 @@
 <http://data.openlinksw.com/oplweb/sparql-endpoint46#this>
         a                    sd:Service ;
         sd:endpoint          <http://dati.camera.it/sparql> ;
-        schema:dateModified  "2020-10-22T11:03:29.126+00:00"^^xsd:dateTime ;
-        schema:serverStatus  schema:Online .
+        schema:dateModified  "2020-10-22T17:03:23.873+00:00"^^xsd:dateTime ;
+        schema:serverStatus  schema:OfflineTemporarily .
 
 <http://data.openlinksw.com/oplweb/sparql-endpoint47#this>
         a                    sd:Service ;
