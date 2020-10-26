@@ -1056,8 +1056,8 @@
 <http://data.openlinksw.com/oplweb/sparql-endpoint256#this>
         a                    sd:Service ;
         sd:endpoint          <https://sparql.uniprot.org/sparql> ;
-        schema:dateModified  "2020-10-25T21:03:33.943+00:00"^^xsd:dateTime ;
-        schema:serverStatus  schema:Online .
+        schema:dateModified  "2020-10-26T07:04:23.433+00:00"^^xsd:dateTime ;
+        schema:serverStatus  schema:OfflineTemporarily .
 
 <http://data.openlinksw.com/oplweb/sparql-endpoint257#this>
         a                    sd:Service ;
@@ -1326,26 +1326,26 @@
 <http://data.openlinksw.com/oplweb/sparql-endpoint55#this>
         a                    sd:Service ;
         sd:endpoint          <http://dbtune.org/bbc/peel/sparql/> ;
-        schema:dateModified  "2020-10-26T05:03:42.673+00:00"^^xsd:dateTime ;
-        schema:serverStatus  schema:Online .
+        schema:dateModified  "2020-10-26T07:04:15.437+00:00"^^xsd:dateTime ;
+        schema:serverStatus  schema:OfflineTemporarily .
 
 <http://data.openlinksw.com/oplweb/sparql-endpoint56#this>
         a                    sd:Service ;
         sd:endpoint          <http://dbtune.org/classical/sparql/> ;
-        schema:dateModified  "2020-10-26T05:02:16.322+00:00"^^xsd:dateTime ;
-        schema:serverStatus  schema:Online .
+        schema:dateModified  "2020-10-26T07:02:30.981+00:00"^^xsd:dateTime ;
+        schema:serverStatus  schema:OfflineTemporarily .
 
 <http://data.openlinksw.com/oplweb/sparql-endpoint57#this>
         a                    sd:Service ;
         sd:endpoint          <http://dbtune.org/jamendo/sparql/> ;
-        schema:dateModified  "2020-10-26T05:03:31.410+00:00"^^xsd:dateTime ;
-        schema:serverStatus  schema:Online .
+        schema:dateModified  "2020-10-26T07:03:57.788+00:00"^^xsd:dateTime ;
+        schema:serverStatus  schema:OfflineTemporarily .
 
 <http://data.openlinksw.com/oplweb/sparql-endpoint58#this>
         a                    sd:Service ;
         sd:endpoint          <http://dbtune.org/magnatune/sparql/> ;
-        schema:dateModified  "2020-10-26T05:04:21.950+00:00"^^xsd:dateTime ;
-        schema:serverStatus  schema:Online .
+        schema:dateModified  "2020-10-26T07:04:45.163+00:00"^^xsd:dateTime ;
+        schema:serverStatus  schema:OfflineTemporarily .
 
 <http://data.openlinksw.com/oplweb/sparql-endpoint59#this>
         a                    sd:Service ;
