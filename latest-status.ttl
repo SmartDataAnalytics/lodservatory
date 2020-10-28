@@ -348,8 +348,8 @@
 <http://data.openlinksw.com/oplweb/sparql-endpoint15#this>
         a                    sd:Service ;
         sd:endpoint          <http://budapest.rkbexplorer.com/sparql/> ;
-        schema:dateModified  "2020-10-28T08:02:57.071+00:00"^^xsd:dateTime ;
-        schema:serverStatus  schema:OfflineTemporarily .
+        schema:dateModified  "2020-10-28T09:02:42.342+00:00"^^xsd:dateTime ;
+        schema:serverStatus  schema:Online .
 
 <http://data.openlinksw.com/oplweb/sparql-endpoint150#this>
         a                    sd:Service ;
@@ -1470,8 +1470,8 @@
 <http://data.openlinksw.com/oplweb/sparql-endpoint77#this>
         a                    sd:Service ;
         sd:endpoint          <http://eurecom.rkbexplorer.com/sparql/> ;
-        schema:dateModified  "2020-10-28T08:02:57.840+00:00"^^xsd:dateTime ;
-        schema:serverStatus  schema:OfflineTemporarily .
+        schema:dateModified  "2020-10-28T09:02:43.368+00:00"^^xsd:dateTime ;
+        schema:serverStatus  schema:Online .
 
 <http://data.openlinksw.com/oplweb/sparql-endpoint78#this>
         a                    sd:Service ;
