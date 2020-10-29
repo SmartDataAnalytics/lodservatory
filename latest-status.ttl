@@ -792,8 +792,8 @@
 <http://data.openlinksw.com/oplweb/sparql-endpoint216#this>
         a                    sd:Service ;
         sd:endpoint          <https://harvard.eagle-i.net/sparqler/sparql> ;
-        schema:dateModified  "2020-10-29T13:04:44.520+00:00"^^xsd:dateTime ;
-        schema:serverStatus  schema:OfflineTemporarily .
+        schema:dateModified  "2020-10-29T14:03:49.859+00:00"^^xsd:dateTime ;
+        schema:serverStatus  schema:Online .
 
 <http://data.openlinksw.com/oplweb/sparql-endpoint217#this>
         a                    sd:Service ;
