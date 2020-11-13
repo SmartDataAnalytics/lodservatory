@@ -858,8 +858,8 @@
 <http://data.openlinksw.com/oplweb/sparql-endpoint226#this>
         a                    sd:Service ;
         sd:endpoint          <https://isidore.science/sparql> ;
-        schema:dateModified  "2020-10-09T11:02:19.793+00:00"^^xsd:dateTime ;
-        schema:serverStatus  schema:Online .
+        schema:dateModified  "2020-11-13T18:01:49.616+00:00"^^xsd:dateTime ;
+        schema:serverStatus  schema:OfflineTemporarily .
 
 <http://data.openlinksw.com/oplweb/sparql-endpoint227#this>
         a                    sd:Service ;
@@ -1254,8 +1254,8 @@
 <http://data.openlinksw.com/oplweb/sparql-endpoint44#this>
         a                    sd:Service ;
         sd:endpoint          <http://data.plan4all.eu/sparql> ;
-        schema:dateModified  "2020-11-13T17:04:48.606+00:00"^^xsd:dateTime ;
-        schema:serverStatus  schema:OfflineTemporarily .
+        schema:dateModified  "2020-11-13T18:04:55.221+00:00"^^xsd:dateTime ;
+        schema:serverStatus  schema:Online .
 
 <http://data.openlinksw.com/oplweb/sparql-endpoint45#this>
         a                    sd:Service ;
