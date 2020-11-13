@@ -306,8 +306,8 @@
 <http://data.openlinksw.com/oplweb/sparql-endpoint143#this>
         a                    sd:Service ;
         sd:endpoint          <http://oai.rkbexplorer.com/sparql/> ;
-        schema:dateModified  "2020-05-08T00:04:18.634+00:00"^^xsd:dateTime ;
-        schema:serverStatus  schema:Online .
+        schema:dateModified  "2020-11-13T02:04:48.330+00:00"^^xsd:dateTime ;
+        schema:serverStatus  schema:OfflineTemporarily .
 
 <http://data.openlinksw.com/oplweb/sparql-endpoint144#this>
         a                    sd:Service ;
