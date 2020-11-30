@@ -588,8 +588,8 @@
 <http://data.openlinksw.com/oplweb/sparql-endpoint186#this>
         a                    sd:Service ;
         sd:endpoint          <http://wikidata.demo.openlinksw.com/sparql> ;
-        schema:dateModified  "2020-11-25T05:02:25.367+00:00"^^xsd:dateTime ;
-        schema:serverStatus  schema:Online .
+        schema:dateModified  "2020-11-30T17:10:20.006+00:00"^^xsd:dateTime ;
+        schema:serverStatus  schema:OfflineTemporarily .
 
 <http://data.openlinksw.com/oplweb/sparql-endpoint187#this>
         a                    sd:Service ;
@@ -792,8 +792,8 @@
 <http://data.openlinksw.com/oplweb/sparql-endpoint216#this>
         a                    sd:Service ;
         sd:endpoint          <https://harvard.eagle-i.net/sparqler/sparql> ;
-        schema:dateModified  "2020-11-30T15:03:21.048+00:00"^^xsd:dateTime ;
-        schema:serverStatus  schema:OfflineTemporarily .
+        schema:dateModified  "2020-11-30T17:11:24.902+00:00"^^xsd:dateTime ;
+        schema:serverStatus  schema:Online .
 
 <http://data.openlinksw.com/oplweb/sparql-endpoint217#this>
         a                    sd:Service ;
@@ -1542,8 +1542,8 @@
 <http://data.openlinksw.com/oplweb/sparql-endpoint88#this>
         a                    sd:Service ;
         sd:endpoint          <http://geosparql.demo.openlinksw.com/sparql> ;
-        schema:dateModified  "2020-11-17T01:09:33.603+00:00"^^xsd:dateTime ;
-        schema:serverStatus  schema:Online .
+        schema:dateModified  "2020-11-30T17:10:22.547+00:00"^^xsd:dateTime ;
+        schema:serverStatus  schema:OfflineTemporarily .
 
 <http://data.openlinksw.com/oplweb/sparql-endpoint89#this>
         a                    sd:Service ;
