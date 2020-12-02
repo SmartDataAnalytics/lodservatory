@@ -132,8 +132,8 @@
 <http://data.openlinksw.com/oplweb/sparql-endpoint117#this>
         a                    sd:Service ;
         sd:endpoint          <http://linkeddata.uriburner.com/sparql/> ;
-        schema:dateModified  "2020-12-02T15:03:03.831+00:00"^^xsd:dateTime ;
-        schema:serverStatus  schema:OfflineTemporarily .
+        schema:dateModified  "2020-12-02T17:09:37.364+00:00"^^xsd:dateTime ;
+        schema:serverStatus  schema:Online .
 
 <http://data.openlinksw.com/oplweb/sparql-endpoint118#this>
         a                    sd:Service ;
@@ -564,8 +564,8 @@
 <http://data.openlinksw.com/oplweb/sparql-endpoint182#this>
         a                    sd:Service ;
         sd:endpoint          <http://uriburner.com/sparql> ;
-        schema:dateModified  "2020-12-02T16:07:09.189+00:00"^^xsd:dateTime ;
-        schema:serverStatus  schema:OfflineTemporarily .
+        schema:dateModified  "2020-12-02T17:09:17.521+00:00"^^xsd:dateTime ;
+        schema:serverStatus  schema:Online .
 
 <http://data.openlinksw.com/oplweb/sparql-endpoint183#this>
         a                    sd:Service ;
@@ -1002,8 +1002,8 @@
 <http://data.openlinksw.com/oplweb/sparql-endpoint248#this>
         a                    sd:Service ;
         sd:endpoint          <https://shared.eagle-i.net/sparqler/sparql> ;
-        schema:dateModified  "2020-12-02T13:02:38.743+00:00"^^xsd:dateTime ;
-        schema:serverStatus  schema:Online .
+        schema:dateModified  "2020-12-02T17:09:39.578+00:00"^^xsd:dateTime ;
+        schema:serverStatus  schema:OfflineTemporarily .
 
 <http://data.openlinksw.com/oplweb/sparql-endpoint249#this>
         a                    sd:Service ;
