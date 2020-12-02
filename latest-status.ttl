@@ -588,8 +588,8 @@
 <http://data.openlinksw.com/oplweb/sparql-endpoint186#this>
         a                    sd:Service ;
         sd:endpoint          <http://wikidata.demo.openlinksw.com/sparql> ;
-        schema:dateModified  "2020-12-02T19:02:04.953+00:00"^^xsd:dateTime ;
-        schema:serverStatus  schema:OfflineTemporarily .
+        schema:dateModified  "2020-12-02T20:02:20.324+00:00"^^xsd:dateTime ;
+        schema:serverStatus  schema:Online .
 
 <http://data.openlinksw.com/oplweb/sparql-endpoint187#this>
         a                    sd:Service ;
