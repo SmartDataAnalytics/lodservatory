@@ -510,8 +510,8 @@
 <http://data.openlinksw.com/oplweb/sparql-endpoint174#this>
         a                    sd:Service ;
         sd:endpoint          <http://sparql.proconsortium.org/virtuoso/sparql> ;
-        schema:dateModified  "2020-12-04T12:03:58.191+00:00"^^xsd:dateTime ;
-        schema:serverStatus  schema:Online .
+        schema:dateModified  "2020-12-04T15:02:48.506+00:00"^^xsd:dateTime ;
+        schema:serverStatus  schema:OfflineTemporarily .
 
 <http://data.openlinksw.com/oplweb/sparql-endpoint175#this>
         a                    sd:Service ;
@@ -1596,8 +1596,8 @@
 <http://data.openlinksw.com/oplweb/sparql-endpoint96#this>
         a                    sd:Service ;
         sd:endpoint          <http://id.sgcb.mcu.es/sparql/> ;
-        schema:dateModified  "2020-11-13T16:02:36.470+00:00"^^xsd:dateTime ;
-        schema:serverStatus  schema:Online .
+        schema:dateModified  "2020-12-04T15:02:06.254+00:00"^^xsd:dateTime ;
+        schema:serverStatus  schema:OfflineTemporarily .
 
 <http://data.openlinksw.com/oplweb/sparql-endpoint97#this>
         a                    sd:Service ;
