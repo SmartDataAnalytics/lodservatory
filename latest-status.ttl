@@ -1416,8 +1416,8 @@
 <http://data.openlinksw.com/oplweb/sparql-endpoint69#this>
         a                    sd:Service ;
         sd:endpoint          <http://edan.si.edu/saam/sparql> ;
-        schema:dateModified  "2020-12-05T06:03:27.845+00:00"^^xsd:dateTime ;
-        schema:serverStatus  schema:Online .
+        schema:dateModified  "2020-12-13T15:03:37.227+00:00"^^xsd:dateTime ;
+        schema:serverStatus  schema:OfflineTemporarily .
 
 <http://data.openlinksw.com/oplweb/sparql-endpoint7#this>
         a                    sd:Service ;
