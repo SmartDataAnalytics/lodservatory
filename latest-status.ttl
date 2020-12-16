@@ -1212,8 +1212,8 @@
 <http://data.openlinksw.com/oplweb/sparql-endpoint38#this>
         a                    sd:Service ;
         sd:endpoint          <http://data.doremus.org/sparql> ;
-        schema:dateModified  "2020-09-30T11:02:57.401+00:00"^^xsd:dateTime ;
-        schema:serverStatus  schema:Online .
+        schema:dateModified  "2020-12-16T17:18:40.674+00:00"^^xsd:dateTime ;
+        schema:serverStatus  schema:OfflineTemporarily .
 
 <http://data.openlinksw.com/oplweb/sparql-endpoint39#this>
         a                    sd:Service ;
@@ -1476,8 +1476,8 @@
 <http://data.openlinksw.com/oplweb/sparql-endpoint78#this>
         a                    sd:Service ;
         sd:endpoint          <http://eventmedia.eurecom.fr/sparql/> ;
-        schema:dateModified  "2020-09-30T11:02:23.172+00:00"^^xsd:dateTime ;
-        schema:serverStatus  schema:Online .
+        schema:dateModified  "2020-12-16T17:17:56.683+00:00"^^xsd:dateTime ;
+        schema:serverStatus  schema:OfflineTemporarily .
 
 <http://data.openlinksw.com/oplweb/sparql-endpoint79#this>
         a                    sd:Service ;
