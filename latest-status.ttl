@@ -438,8 +438,8 @@
 <http://data.openlinksw.com/oplweb/sparql-endpoint163#this>
         a                    sd:Service ;
         sd:endpoint          <http://rdf.pathwaycommons.org/sparql/> ;
-        schema:dateModified  "2020-12-17T22:03:48.733+00:00"^^xsd:dateTime ;
-        schema:serverStatus  schema:OfflineTemporarily .
+        schema:dateModified  "2020-12-17T23:05:18.185+00:00"^^xsd:dateTime ;
+        schema:serverStatus  schema:Online .
 
 <http://data.openlinksw.com/oplweb/sparql-endpoint164#this>
         a                    sd:Service ;
