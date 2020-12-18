@@ -90,8 +90,8 @@
 <http://data.openlinksw.com/oplweb/sparql-endpoint110#this>
         a                    sd:Service ;
         sd:endpoint          <http://laas.rkbexplorer.com/sparql/> ;
-        schema:dateModified  "2020-10-03T06:02:44.328+00:00"^^xsd:dateTime ;
-        schema:serverStatus  schema:Online .
+        schema:dateModified  "2020-12-18T17:26:25.100+00:00"^^xsd:dateTime ;
+        schema:serverStatus  schema:OfflineTemporarily .
 
 <http://data.openlinksw.com/oplweb/sparql-endpoint111#this>
         a                    sd:Service ;
