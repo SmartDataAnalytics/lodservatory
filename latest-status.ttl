@@ -942,8 +942,8 @@
 <http://data.openlinksw.com/oplweb/sparql-endpoint239#this>
         a                    sd:Service ;
         sd:endpoint          <https://opendata.aragon.es/sparql> ;
-        schema:dateModified  "2020-12-25T04:09:01.150+00:00"^^xsd:dateTime ;
-        schema:serverStatus  schema:OfflineTemporarily .
+        schema:dateModified  "2020-12-25T05:10:36.795+00:00"^^xsd:dateTime ;
+        schema:serverStatus  schema:Online .
 
 <http://data.openlinksw.com/oplweb/sparql-endpoint24#this>
         a                    sd:Service ;
@@ -1428,8 +1428,8 @@
 <http://data.openlinksw.com/oplweb/sparql-endpoint70#this>
         a                    sd:Service ;
         sd:endpoint          <http://el.dbpedia.org/sparql/> ;
-        schema:dateModified  "2020-12-25T03:13:18.893+00:00"^^xsd:dateTime ;
-        schema:serverStatus  schema:OfflineTemporarily .
+        schema:dateModified  "2020-12-25T05:12:24.696+00:00"^^xsd:dateTime ;
+        schema:serverStatus  schema:Online .
 
 <http://data.openlinksw.com/oplweb/sparql-endpoint71#this>
         a                    sd:Service ;
