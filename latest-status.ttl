@@ -480,8 +480,8 @@
 <http://data.openlinksw.com/oplweb/sparql-endpoint17#this>
         a                    sd:Service ;
         sd:endpoint          <http://canlink.library.ualberta.ca/sparql> ;
-        schema:dateModified  "2020-08-24T19:02:35.708+00:00"^^xsd:dateTime ;
-        schema:serverStatus  schema:Online .
+        schema:dateModified  "2021-01-05T18:28:27.404+00:00"^^xsd:dateTime ;
+        schema:serverStatus  schema:OfflineTemporarily .
 
 <http://data.openlinksw.com/oplweb/sparql-endpoint170#this>
         a                    sd:Service ;
