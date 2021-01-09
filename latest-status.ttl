@@ -978,8 +978,8 @@
 <http://data.openlinksw.com/oplweb/sparql-endpoint244#this>
         a                    sd:Service ;
         sd:endpoint          <https://query.wikidata.org/sparql> ;
-        schema:dateModified  "2021-01-09T13:26:48.723+00:00"^^xsd:dateTime ;
-        schema:serverStatus  schema:OfflineTemporarily .
+        schema:dateModified  "2021-01-09T14:11:44.062+00:00"^^xsd:dateTime ;
+        schema:serverStatus  schema:Online .
 
 <http://data.openlinksw.com/oplweb/sparql-endpoint245#this>
         a                    sd:Service ;
