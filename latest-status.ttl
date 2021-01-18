@@ -654,8 +654,8 @@
 <http://data.openlinksw.com/oplweb/sparql-endpoint196#this>
         a                    sd:Service ;
         sd:endpoint          <https://api.aucklandmuseum.com/sparql> ;
-        schema:dateModified  "2021-01-18T03:46:15.359+00:00"^^xsd:dateTime ;
-        schema:serverStatus  schema:Online .
+        schema:dateModified  "2021-01-18T11:33:09.909+00:00"^^xsd:dateTime ;
+        schema:serverStatus  schema:OfflineTemporarily .
 
 <http://data.openlinksw.com/oplweb/sparql-endpoint197#this>
         a                    sd:Service ;
@@ -678,8 +678,8 @@
 <http://data.openlinksw.com/oplweb/sparql-endpoint2#this>
         a                    sd:Service ;
         sd:endpoint          <http://affymetrix.bio2rdf.org/sparql/> ;
-        schema:dateModified  "2021-01-18T10:34:08.828+00:00"^^xsd:dateTime ;
-        schema:serverStatus  schema:OfflineTemporarily .
+        schema:dateModified  "2021-01-18T11:32:33.656+00:00"^^xsd:dateTime ;
+        schema:serverStatus  schema:Online .
 
 <http://data.openlinksw.com/oplweb/sparql-endpoint20#this>
         a                    sd:Service ;
