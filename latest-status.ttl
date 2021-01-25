@@ -126,8 +126,8 @@
 <http://data.openlinksw.com/oplweb/sparql-endpoint116#this>
         a                    sd:Service ;
         sd:endpoint          <http://linkeddata.ge.imati.cnr.it:8890/sparql/> ;
-        schema:dateModified  "2020-12-21T09:07:45.049+00:00"^^xsd:dateTime ;
-        schema:serverStatus  schema:Online .
+        schema:dateModified  "2021-01-25T21:22:30.806+00:00"^^xsd:dateTime ;
+        schema:serverStatus  schema:OfflineTemporarily .
 
 <http://data.openlinksw.com/oplweb/sparql-endpoint117#this>
         a                    sd:Service ;
