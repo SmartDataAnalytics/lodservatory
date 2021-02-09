@@ -354,8 +354,8 @@
 <http://data.openlinksw.com/oplweb/sparql-endpoint150#this>
         a                    sd:Service ;
         sd:endpoint          <http://patho.phenomebrowser.net/sparql/> ;
-        schema:dateModified  "2021-02-09T03:03:24.312+00:00"^^xsd:dateTime ;
-        schema:serverStatus  schema:Online .
+        schema:dateModified  "2021-02-09T15:13:13.041+00:00"^^xsd:dateTime ;
+        schema:serverStatus  schema:OfflineTemporarily .
 
 <http://data.openlinksw.com/oplweb/sparql-endpoint151#this>
         a                    sd:Service ;
@@ -702,14 +702,14 @@
 <http://data.openlinksw.com/oplweb/sparql-endpoint202#this>
         a                    sd:Service ;
         sd:endpoint          <https://ccny-cuny.eagle-i.net/sparqler/sparql> ;
-        schema:dateModified  "2021-01-18T02:32:03.907+00:00"^^xsd:dateTime ;
-        schema:serverStatus  schema:Online .
+        schema:dateModified  "2021-02-09T15:12:46.756+00:00"^^xsd:dateTime ;
+        schema:serverStatus  schema:OfflineTemporarily .
 
 <http://data.openlinksw.com/oplweb/sparql-endpoint203#this>
         a                    sd:Service ;
         sd:endpoint          <https://cdrewu.eagle-i.net/sparqler/sparql> ;
-        schema:dateModified  "2021-01-18T02:32:03.639+00:00"^^xsd:dateTime ;
-        schema:serverStatus  schema:Online .
+        schema:dateModified  "2021-02-09T15:12:41.695+00:00"^^xsd:dateTime ;
+        schema:serverStatus  schema:OfflineTemporarily .
 
 <http://data.openlinksw.com/oplweb/sparql-endpoint204#this>
         a                    sd:Service ;
