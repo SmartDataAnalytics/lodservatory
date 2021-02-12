@@ -588,8 +588,8 @@
 <http://data.openlinksw.com/oplweb/sparql-endpoint186#this>
         a                    sd:Service ;
         sd:endpoint          <http://wikidata.demo.openlinksw.com/sparql> ;
-        schema:dateModified  "2021-01-19T03:49:32.923+00:00"^^xsd:dateTime ;
-        schema:serverStatus  schema:OfflineTemporarily .
+        schema:dateModified  "2021-02-12T09:02:37.644+00:00"^^xsd:dateTime ;
+        schema:serverStatus  schema:Online .
 
 <http://data.openlinksw.com/oplweb/sparql-endpoint187#this>
         a                    sd:Service ;
@@ -786,8 +786,8 @@
 <http://data.openlinksw.com/oplweb/sparql-endpoint215#this>
         a                    sd:Service ;
         sd:endpoint          <https://global.eagle-i.net/sparqler/sparql> ;
-        schema:dateModified  "2021-02-12T08:05:07.083+00:00"^^xsd:dateTime ;
-        schema:serverStatus  schema:OfflineTemporarily .
+        schema:dateModified  "2021-02-12T09:04:55.093+00:00"^^xsd:dateTime ;
+        schema:serverStatus  schema:Online .
 
 <http://data.openlinksw.com/oplweb/sparql-endpoint216#this>
         a                    sd:Service ;
