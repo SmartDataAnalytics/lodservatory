@@ -1230,8 +1230,8 @@
 <http://data.openlinksw.com/oplweb/sparql-endpoint40#this>
         a                    sd:Service ;
         sd:endpoint          <http://data.logainm.ie/sparql/> ;
-        schema:dateModified  "2021-02-22T06:03:57.617+00:00"^^xsd:dateTime ;
-        schema:serverStatus  schema:OfflineTemporarily .
+        schema:dateModified  "2021-02-22T07:03:38.706+00:00"^^xsd:dateTime ;
+        schema:serverStatus  schema:Online .
 
 <http://data.openlinksw.com/oplweb/sparql-endpoint41#this>
         a                    sd:Service ;
