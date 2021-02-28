@@ -870,8 +870,8 @@
 <http://data.openlinksw.com/oplweb/sparql-endpoint228#this>
         a                    sd:Service ;
         sd:endpoint          <https://jpsearch.go.jp/rdf/sparql> ;
-        schema:dateModified  "2020-12-24T00:17:56.702+00:00"^^xsd:dateTime ;
-        schema:serverStatus  schema:Online .
+        schema:dateModified  "2021-02-28T07:05:03.200+00:00"^^xsd:dateTime ;
+        schema:serverStatus  schema:OfflineTemporarily .
 
 <http://data.openlinksw.com/oplweb/sparql-endpoint229#this>
         a                    sd:Service ;
@@ -1038,8 +1038,8 @@
 <http://data.openlinksw.com/oplweb/sparql-endpoint253#this>
         a                    sd:Service ;
         sd:endpoint          <https://sparql.omabrowser.org/sparql> ;
-        schema:dateModified  "2021-02-13T18:03:39.141+00:00"^^xsd:dateTime ;
-        schema:serverStatus  schema:Online .
+        schema:dateModified  "2021-02-28T07:04:05.500+00:00"^^xsd:dateTime ;
+        schema:serverStatus  schema:OfflineTemporarily .
 
 <http://data.openlinksw.com/oplweb/sparql-endpoint254#this>
         a                    sd:Service ;
@@ -1416,8 +1416,8 @@
 <http://data.openlinksw.com/oplweb/sparql-endpoint69#this>
         a                    sd:Service ;
         sd:endpoint          <http://edan.si.edu/saam/sparql> ;
-        schema:dateModified  "2021-02-26T08:04:09.534+00:00"^^xsd:dateTime ;
-        schema:serverStatus  schema:Online .
+        schema:dateModified  "2021-02-28T07:03:39.927+00:00"^^xsd:dateTime ;
+        schema:serverStatus  schema:OfflineTemporarily .
 
 <http://data.openlinksw.com/oplweb/sparql-endpoint7#this>
         a                    sd:Service ;
