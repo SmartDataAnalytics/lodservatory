@@ -342,8 +342,8 @@
 <http://data.openlinksw.com/oplweb/sparql-endpoint149#this>
         a                    sd:Service ;
         sd:endpoint          <http://patho.phenomebrowser.net/sparql/> ;
-        schema:dateModified  "2021-03-31T21:02:31.350+00:00"^^xsd:dateTime ;
-        schema:serverStatus  schema:Online .
+        schema:dateModified  "2021-04-01T09:03:43.439+00:00"^^xsd:dateTime ;
+        schema:serverStatus  schema:OfflineTemporarily .
 
 <http://data.openlinksw.com/oplweb/sparql-endpoint15#this>
         a                    sd:Service ;
@@ -354,8 +354,8 @@
 <http://data.openlinksw.com/oplweb/sparql-endpoint150#this>
         a                    sd:Service ;
         sd:endpoint          <http://patho.phenomebrowser.net/sparql/> ;
-        schema:dateModified  "2021-03-03T00:05:35.231+00:00"^^xsd:dateTime ;
-        schema:serverStatus  schema:Online .
+        schema:dateModified  "2021-04-01T09:02:43.961+00:00"^^xsd:dateTime ;
+        schema:serverStatus  schema:OfflineTemporarily .
 
 <http://data.openlinksw.com/oplweb/sparql-endpoint151#this>
         a                    sd:Service ;
@@ -774,8 +774,8 @@
 <http://data.openlinksw.com/oplweb/sparql-endpoint213#this>
         a                    sd:Service ;
         sd:endpoint          <https://eagle-i.itmat.upenn.edu/sparqler/sparql> ;
-        schema:dateModified  "2021-04-01T08:01:56.247+00:00"^^xsd:dateTime ;
-        schema:serverStatus  schema:OfflineTemporarily .
+        schema:dateModified  "2021-04-01T09:02:26.335+00:00"^^xsd:dateTime ;
+        schema:serverStatus  schema:Online .
 
 <http://data.openlinksw.com/oplweb/sparql-endpoint214#this>
         a                    sd:Service ;
