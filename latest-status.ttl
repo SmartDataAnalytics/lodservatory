@@ -234,8 +234,8 @@
 <http://data.openlinksw.com/oplweb/sparql-endpoint132#this>
         a                    sd:Service ;
         sd:endpoint          <http://ma-graph.org/sparql> ;
-        schema:dateModified  "2021-04-10T16:05:46.334+00:00"^^xsd:dateTime ;
-        schema:serverStatus  schema:OfflineTemporarily .
+        schema:dateModified  "2021-04-10T17:19:42.341+00:00"^^xsd:dateTime ;
+        schema:serverStatus  schema:Online .
 
 <http://data.openlinksw.com/oplweb/sparql-endpoint133#this>
         a                    sd:Service ;
