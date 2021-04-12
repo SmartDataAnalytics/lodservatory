@@ -666,8 +666,8 @@
 <http://data.openlinksw.com/oplweb/sparql-endpoint198#this>
         a                    sd:Service ;
         sd:endpoint          <https://api.parliament.uk/sparql> ;
-        schema:dateModified  "2021-04-12T08:05:41.789+00:00"^^xsd:dateTime ;
-        schema:serverStatus  schema:OfflineTemporarily .
+        schema:dateModified  "2021-04-12T09:08:05.082+00:00"^^xsd:dateTime ;
+        schema:serverStatus  schema:Online .
 
 <http://data.openlinksw.com/oplweb/sparql-endpoint199#this>
         a                    sd:Service ;
@@ -678,8 +678,8 @@
 <http://data.openlinksw.com/oplweb/sparql-endpoint2#this>
         a                    sd:Service ;
         sd:endpoint          <http://affymetrix.bio2rdf.org/sparql/> ;
-        schema:dateModified  "2021-04-12T08:03:51.327+00:00"^^xsd:dateTime ;
-        schema:serverStatus  schema:OfflineTemporarily .
+        schema:dateModified  "2021-04-12T09:06:36.044+00:00"^^xsd:dateTime ;
+        schema:serverStatus  schema:Online .
 
 <http://data.openlinksw.com/oplweb/sparql-endpoint20#this>
         a                    sd:Service ;
@@ -1110,8 +1110,8 @@
 <http://data.openlinksw.com/oplweb/sparql-endpoint264#this>
         a                    sd:Service ;
         sd:endpoint          <https://www.europeandataportal.eu/sparql> ;
-        schema:dateModified  "2021-04-12T08:07:17.131+00:00"^^xsd:dateTime ;
-        schema:serverStatus  schema:OfflineTemporarily .
+        schema:dateModified  "2021-04-12T09:09:53.347+00:00"^^xsd:dateTime ;
+        schema:serverStatus  schema:Online .
 
 <http://data.openlinksw.com/oplweb/sparql-endpoint265#this>
         a                    sd:Service ;
@@ -1260,8 +1260,8 @@
 <http://data.openlinksw.com/oplweb/sparql-endpoint45#this>
         a                    sd:Service ;
         sd:endpoint          <http://dati.beniculturali.it/sparql> ;
-        schema:dateModified  "2021-03-24T03:07:10.005+00:00"^^xsd:dateTime ;
-        schema:serverStatus  schema:Online .
+        schema:dateModified  "2021-04-12T09:07:09.771+00:00"^^xsd:dateTime ;
+        schema:serverStatus  schema:OfflineTemporarily .
 
 <http://data.openlinksw.com/oplweb/sparql-endpoint46#this>
         a                    sd:Service ;
