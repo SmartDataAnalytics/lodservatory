@@ -786,14 +786,14 @@
 <http://data.openlinksw.com/oplweb/sparql-endpoint215#this>
         a                    sd:Service ;
         sd:endpoint          <https://global.eagle-i.net/sparqler/sparql> ;
-        schema:dateModified  "2021-04-22T17:21:09.619+00:00"^^xsd:dateTime ;
-        schema:serverStatus  schema:OfflineTemporarily .
+        schema:dateModified  "2021-04-22T18:12:55.900+00:00"^^xsd:dateTime ;
+        schema:serverStatus  schema:Online .
 
 <http://data.openlinksw.com/oplweb/sparql-endpoint216#this>
         a                    sd:Service ;
         sd:endpoint          <https://harvard.eagle-i.net/sparqler/sparql> ;
-        schema:dateModified  "2021-04-22T17:20:12.114+00:00"^^xsd:dateTime ;
-        schema:serverStatus  schema:OfflineTemporarily .
+        schema:dateModified  "2021-04-22T18:11:59.449+00:00"^^xsd:dateTime ;
+        schema:serverStatus  schema:Online .
 
 <http://data.openlinksw.com/oplweb/sparql-endpoint217#this>
         a                    sd:Service ;
