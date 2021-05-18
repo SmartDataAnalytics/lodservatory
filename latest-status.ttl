@@ -426,8 +426,8 @@
 <http://data.openlinksw.com/oplweb/sparql-endpoint161#this>
         a                    sd:Service ;
         sd:endpoint          <http://rdf.muninn-project.org/sparql/> ;
-        schema:dateModified  "2020-09-29T15:02:31.112+00:00"^^xsd:dateTime ;
-        schema:serverStatus  schema:OfflineTemporarily .
+        schema:dateModified  "2021-05-18T19:18:15.792+00:00"^^xsd:dateTime ;
+        schema:serverStatus  schema:Online .
 
 <http://data.openlinksw.com/oplweb/sparql-endpoint162#this>
         a                    sd:Service ;
@@ -1422,8 +1422,8 @@
 <http://data.openlinksw.com/oplweb/sparql-endpoint7#this>
         a                    sd:Service ;
         sd:endpoint          <http://bio2rdf.org/sparql> ;
-        schema:dateModified  "2021-05-17T11:04:54.693+00:00"^^xsd:dateTime ;
-        schema:serverStatus  schema:Online .
+        schema:dateModified  "2021-05-18T19:19:34.900+00:00"^^xsd:dateTime ;
+        schema:serverStatus  schema:OfflineTemporarily .
 
 <http://data.openlinksw.com/oplweb/sparql-endpoint70#this>
         a                    sd:Service ;
