@@ -420,8 +420,8 @@
 <http://data.openlinksw.com/oplweb/sparql-endpoint160#this>
         a                    sd:Service ;
         sd:endpoint          <http://rdf.disgenet.org/sparql/> ;
-        schema:dateModified  "2021-04-07T02:48:34.932+00:00"^^xsd:dateTime ;
-        schema:serverStatus  schema:Online .
+        schema:dateModified  "2021-05-18T17:39:21.249+00:00"^^xsd:dateTime ;
+        schema:serverStatus  schema:OfflineTemporarily .
 
 <http://data.openlinksw.com/oplweb/sparql-endpoint161#this>
         a                    sd:Service ;
@@ -912,8 +912,8 @@
 <http://data.openlinksw.com/oplweb/sparql-endpoint234#this>
         a                    sd:Service ;
         sd:endpoint          <https://lov.linkeddata.es/dataset/lov/sparql> ;
-        schema:dateModified  "2021-05-18T10:06:53.779+00:00"^^xsd:dateTime ;
-        schema:serverStatus  schema:OfflineTemporarily .
+        schema:dateModified  "2021-05-18T17:39:12.872+00:00"^^xsd:dateTime ;
+        schema:serverStatus  schema:Online .
 
 <http://data.openlinksw.com/oplweb/sparql-endpoint235#this>
         a                    sd:Service ;
@@ -1530,8 +1530,8 @@
 <http://data.openlinksw.com/oplweb/sparql-endpoint86#this>
         a                    sd:Service ;
         sd:endpoint          <http://genome.microbedb.jp/sparql> ;
-        schema:dateModified  "2021-05-18T16:14:14.908+00:00"^^xsd:dateTime ;
-        schema:serverStatus  schema:OfflineTemporarily .
+        schema:dateModified  "2021-05-18T17:40:26.697+00:00"^^xsd:dateTime ;
+        schema:serverStatus  schema:Online .
 
 <http://data.openlinksw.com/oplweb/sparql-endpoint87#this>
         a                    sd:Service ;
