@@ -42,8 +42,8 @@
 <http://data.openlinksw.com/oplweb/sparql-endpoint103#this>
         a                    sd:Service ;
         sd:endpoint          <http://ja.dbpedia.org/sparql/> ;
-        schema:dateModified  "2021-05-21T07:14:25.594+00:00"^^xsd:dateTime ;
-        schema:serverStatus  schema:Online .
+        schema:dateModified  "2021-05-21T09:07:27.352+00:00"^^xsd:dateTime ;
+        schema:serverStatus  schema:OfflineTemporarily .
 
 <http://data.openlinksw.com/oplweb/sparql-endpoint104#this>
         a                    sd:Service ;
@@ -474,8 +474,8 @@
 <http://data.openlinksw.com/oplweb/sparql-endpoint169#this>
         a                    sd:Service ;
         sd:endpoint          <http://sparql.hegroup.org/sparql/> ;
-        schema:dateModified  "2021-05-21T08:07:08.551+00:00"^^xsd:dateTime ;
-        schema:serverStatus  schema:OfflineTemporarily .
+        schema:dateModified  "2021-05-21T09:07:20.049+00:00"^^xsd:dateTime ;
+        schema:serverStatus  schema:Online .
 
 <http://data.openlinksw.com/oplweb/sparql-endpoint17#this>
         a                    sd:Service ;
