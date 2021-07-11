@@ -1110,8 +1110,8 @@
 <http://data.openlinksw.com/oplweb/sparql-endpoint264#this>
         a                    sd:Service ;
         sd:endpoint          <https://www.europeandataportal.eu/sparql> ;
-        schema:dateModified  "2021-07-11T01:53:29.790+00:00"^^xsd:dateTime ;
-        schema:serverStatus  schema:Online .
+        schema:dateModified  "2021-07-11T19:04:22.977+00:00"^^xsd:dateTime ;
+        schema:serverStatus  schema:OfflineTemporarily .
 
 <http://data.openlinksw.com/oplweb/sparql-endpoint265#this>
         a                    sd:Service ;
@@ -1182,8 +1182,8 @@
 <http://data.openlinksw.com/oplweb/sparql-endpoint33#this>
         a                    sd:Service ;
         sd:endpoint          <http://data.allie.dbcls.jp/sparql/> ;
-        schema:dateModified  "2021-07-07T22:02:47.157+00:00"^^xsd:dateTime ;
-        schema:serverStatus  schema:Online .
+        schema:dateModified  "2021-07-11T19:02:27.783+00:00"^^xsd:dateTime ;
+        schema:serverStatus  schema:OfflineTemporarily .
 
 <http://data.openlinksw.com/oplweb/sparql-endpoint34#this>
         a                    sd:Service ;
