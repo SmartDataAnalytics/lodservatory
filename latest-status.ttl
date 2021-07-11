@@ -1392,8 +1392,8 @@
 <http://data.openlinksw.com/oplweb/sparql-endpoint65#this>
         a                    sd:Service ;
         sd:endpoint          <http://digital-agenda-data.eu/sparql> ;
-        schema:dateModified  "2021-07-11T10:04:13.903+00:00"^^xsd:dateTime ;
-        schema:serverStatus  schema:OfflineTemporarily .
+        schema:dateModified  "2021-07-11T11:03:40.846+00:00"^^xsd:dateTime ;
+        schema:serverStatus  schema:Online .
 
 <http://data.openlinksw.com/oplweb/sparql-endpoint66#this>
         a                    sd:Service ;
