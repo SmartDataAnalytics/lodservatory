@@ -42,8 +42,8 @@
 <http://data.openlinksw.com/oplweb/sparql-endpoint103#this>
         a                    sd:Service ;
         sd:endpoint          <http://ja.dbpedia.org/sparql/> ;
-        schema:dateModified  "2021-07-15T09:04:14.360+00:00"^^xsd:dateTime ;
-        schema:serverStatus  schema:OfflineTemporarily .
+        schema:dateModified  "2021-07-15T10:04:51.825+00:00"^^xsd:dateTime ;
+        schema:serverStatus  schema:Online .
 
 <http://data.openlinksw.com/oplweb/sparql-endpoint104#this>
         a                    sd:Service ;
@@ -792,8 +792,8 @@
 <http://data.openlinksw.com/oplweb/sparql-endpoint216#this>
         a                    sd:Service ;
         sd:endpoint          <https://harvard.eagle-i.net/sparqler/sparql> ;
-        schema:dateModified  "2021-07-13T09:04:05.386+00:00"^^xsd:dateTime ;
-        schema:serverStatus  schema:Online .
+        schema:dateModified  "2021-07-15T10:04:38.708+00:00"^^xsd:dateTime ;
+        schema:serverStatus  schema:OfflineTemporarily .
 
 <http://data.openlinksw.com/oplweb/sparql-endpoint217#this>
         a                    sd:Service ;
@@ -1332,8 +1332,8 @@
 <http://data.openlinksw.com/oplweb/sparql-endpoint56#this>
         a                    sd:Service ;
         sd:endpoint          <http://dbtune.org/classical/sparql/> ;
-        schema:dateModified  "2021-07-15T09:02:48.853+00:00"^^xsd:dateTime ;
-        schema:serverStatus  schema:OfflineTemporarily .
+        schema:dateModified  "2021-07-15T10:03:18.867+00:00"^^xsd:dateTime ;
+        schema:serverStatus  schema:Online .
 
 <http://data.openlinksw.com/oplweb/sparql-endpoint57#this>
         a                    sd:Service ;
