@@ -678,8 +678,8 @@
 <http://data.openlinksw.com/oplweb/sparql-endpoint2#this>
         a                    sd:Service ;
         sd:endpoint          <http://affymetrix.bio2rdf.org/sparql/> ;
-        schema:dateModified  "2021-07-19T01:49:13.691+00:00"^^xsd:dateTime ;
-        schema:serverStatus  schema:Online .
+        schema:dateModified  "2021-07-19T05:02:47.442+00:00"^^xsd:dateTime ;
+        schema:serverStatus  schema:OfflineTemporarily .
 
 <http://data.openlinksw.com/oplweb/sparql-endpoint20#this>
         a                    sd:Service ;
@@ -786,8 +786,8 @@
 <http://data.openlinksw.com/oplweb/sparql-endpoint215#this>
         a                    sd:Service ;
         sd:endpoint          <https://global.eagle-i.net/sparqler/sparql> ;
-        schema:dateModified  "2021-07-18T22:03:48.002+00:00"^^xsd:dateTime ;
-        schema:serverStatus  schema:Online .
+        schema:dateModified  "2021-07-19T05:04:09.969+00:00"^^xsd:dateTime ;
+        schema:serverStatus  schema:OfflineTemporarily .
 
 <http://data.openlinksw.com/oplweb/sparql-endpoint216#this>
         a                    sd:Service ;
