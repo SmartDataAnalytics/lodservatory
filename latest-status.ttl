@@ -282,8 +282,8 @@
 <http://data.openlinksw.com/oplweb/sparql-endpoint14#this>
         a                    sd:Service ;
         sd:endpoint          <http://bnb.data.bl.uk/sparql/> ;
-        schema:dateModified  "2021-07-29T13:14:36.084+00:00"^^xsd:dateTime ;
-        schema:serverStatus  schema:OfflineTemporarily .
+        schema:dateModified  "2021-07-29T14:04:43.346+00:00"^^xsd:dateTime ;
+        schema:serverStatus  schema:Online .
 
 <http://data.openlinksw.com/oplweb/sparql-endpoint140#this>
         a                    sd:Service ;
