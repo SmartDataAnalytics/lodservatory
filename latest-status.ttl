@@ -666,8 +666,8 @@
 <http://data.openlinksw.com/oplweb/sparql-endpoint198#this>
         a                    sd:Service ;
         sd:endpoint          <https://api.parliament.uk/sparql> ;
-        schema:dateModified  "2021-08-04T05:02:30.816+00:00"^^xsd:dateTime ;
-        schema:serverStatus  schema:OfflineTemporarily .
+        schema:dateModified  "2021-08-04T06:03:16.319+00:00"^^xsd:dateTime ;
+        schema:serverStatus  schema:Online .
 
 <http://data.openlinksw.com/oplweb/sparql-endpoint199#this>
         a                    sd:Service ;
@@ -1128,8 +1128,8 @@
 <http://data.openlinksw.com/oplweb/sparql-endpoint267#this>
         a                    sd:Service ;
         sd:endpoint          <https://www.orpha.net/sparql> ;
-        schema:dateModified  "2021-07-22T05:02:33.063+00:00"^^xsd:dateTime ;
-        schema:serverStatus  schema:Online .
+        schema:dateModified  "2021-08-04T06:01:59.988+00:00"^^xsd:dateTime ;
+        schema:serverStatus  schema:OfflineTemporarily .
 
 <http://data.openlinksw.com/oplweb/sparql-endpoint268#this>
         a                    sd:Service ;
