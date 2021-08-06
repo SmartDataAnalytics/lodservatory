@@ -42,8 +42,8 @@
 <http://data.openlinksw.com/oplweb/sparql-endpoint103#this>
         a                    sd:Service ;
         sd:endpoint          <http://ja.dbpedia.org/sparql/> ;
-        schema:dateModified  "2021-08-06T11:03:21.479+00:00"^^xsd:dateTime ;
-        schema:serverStatus  schema:OfflineTemporarily .
+        schema:dateModified  "2021-08-06T12:03:29.659+00:00"^^xsd:dateTime ;
+        schema:serverStatus  schema:Online .
 
 <http://data.openlinksw.com/oplweb/sparql-endpoint104#this>
         a                    sd:Service ;
@@ -1290,8 +1290,8 @@
 <http://data.openlinksw.com/oplweb/sparql-endpoint5#this>
         a                    sd:Service ;
         sd:endpoint          <http://ariadne-registry.dcu.gr:8890/sparql> ;
-        schema:dateModified  "2021-08-06T11:03:13.171+00:00"^^xsd:dateTime ;
-        schema:serverStatus  schema:OfflineTemporarily .
+        schema:dateModified  "2021-08-06T12:02:48.075+00:00"^^xsd:dateTime ;
+        schema:serverStatus  schema:Online .
 
 <http://data.openlinksw.com/oplweb/sparql-endpoint50#this>
         a                    sd:Service ;
@@ -1392,8 +1392,8 @@
 <http://data.openlinksw.com/oplweb/sparql-endpoint65#this>
         a                    sd:Service ;
         sd:endpoint          <http://digital-agenda-data.eu/sparql> ;
-        schema:dateModified  "2021-08-06T11:03:36.239+00:00"^^xsd:dateTime ;
-        schema:serverStatus  schema:OfflineTemporarily .
+        schema:dateModified  "2021-08-06T12:03:44.234+00:00"^^xsd:dateTime ;
+        schema:serverStatus  schema:Online .
 
 <http://data.openlinksw.com/oplweb/sparql-endpoint66#this>
         a                    sd:Service ;
