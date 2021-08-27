@@ -384,8 +384,8 @@
 <http://data.openlinksw.com/oplweb/sparql-endpoint155#this>
         a                    sd:Service ;
         sd:endpoint          <http://publications.europa.eu/webapi/rdf/sparql> ;
-        schema:dateModified  "2021-08-27T21:02:40.592+00:00"^^xsd:dateTime ;
-        schema:serverStatus  schema:OfflineTemporarily .
+        schema:dateModified  "2021-08-27T22:01:59.852+00:00"^^xsd:dateTime ;
+        schema:serverStatus  schema:Online .
 
 <http://data.openlinksw.com/oplweb/sparql-endpoint156#this>
         a                    sd:Service ;
