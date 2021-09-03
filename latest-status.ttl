@@ -1308,8 +1308,8 @@
 <http://data.openlinksw.com/oplweb/sparql-endpoint52#this>
         a                    sd:Service ;
         sd:endpoint          <http://dbpedia-live.openlinksw.com/sparql> ;
-        schema:dateModified  "2021-08-24T21:03:07.070+00:00"^^xsd:dateTime ;
-        schema:serverStatus  schema:Online .
+        schema:dateModified  "2021-09-03T00:02:56.540+00:00"^^xsd:dateTime ;
+        schema:serverStatus  schema:OfflineTemporarily .
 
 <http://data.openlinksw.com/oplweb/sparql-endpoint53#this>
         a                    sd:Service ;
