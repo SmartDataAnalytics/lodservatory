@@ -1110,8 +1110,8 @@
 <http://data.openlinksw.com/oplweb/sparql-endpoint264#this>
         a                    sd:Service ;
         sd:endpoint          <https://www.europeandataportal.eu/sparql> ;
-        schema:dateModified  "2021-09-06T02:15:23.791+00:00"^^xsd:dateTime ;
-        schema:serverStatus  schema:OfflineTemporarily .
+        schema:dateModified  "2021-09-06T03:03:20.582+00:00"^^xsd:dateTime ;
+        schema:serverStatus  schema:Online .
 
 <http://data.openlinksw.com/oplweb/sparql-endpoint265#this>
         a                    sd:Service ;
@@ -1338,14 +1338,14 @@
 <http://data.openlinksw.com/oplweb/sparql-endpoint57#this>
         a                    sd:Service ;
         sd:endpoint          <http://dbtune.org/jamendo/sparql/> ;
-        schema:dateModified  "2021-09-02T07:02:33.958+00:00"^^xsd:dateTime ;
-        schema:serverStatus  schema:Online .
+        schema:dateModified  "2021-09-06T03:02:38.137+00:00"^^xsd:dateTime ;
+        schema:serverStatus  schema:OfflineTemporarily .
 
 <http://data.openlinksw.com/oplweb/sparql-endpoint58#this>
         a                    sd:Service ;
         sd:endpoint          <http://dbtune.org/magnatune/sparql/> ;
-        schema:dateModified  "2021-09-02T07:02:14.387+00:00"^^xsd:dateTime ;
-        schema:serverStatus  schema:Online .
+        schema:dateModified  "2021-09-06T03:02:21.065+00:00"^^xsd:dateTime ;
+        schema:serverStatus  schema:OfflineTemporarily .
 
 <http://data.openlinksw.com/oplweb/sparql-endpoint59#this>
         a                    sd:Service ;
