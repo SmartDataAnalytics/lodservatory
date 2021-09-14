@@ -432,8 +432,8 @@
 <http://data.openlinksw.com/oplweb/sparql-endpoint162#this>
         a                    sd:Service ;
         sd:endpoint          <http://rdf.pathwaycommons.org/sparql/> ;
-        schema:dateModified  "2021-09-14T17:05:21.969+00:00"^^xsd:dateTime ;
-        schema:serverStatus  schema:OfflineTemporarily .
+        schema:dateModified  "2021-09-14T18:01:19.148+00:00"^^xsd:dateTime ;
+        schema:serverStatus  schema:Online .
 
 <http://data.openlinksw.com/oplweb/sparql-endpoint163#this>
         a                    sd:Service ;
@@ -792,8 +792,8 @@
 <http://data.openlinksw.com/oplweb/sparql-endpoint216#this>
         a                    sd:Service ;
         sd:endpoint          <https://harvard.eagle-i.net/sparqler/sparql> ;
-        schema:dateModified  "2021-09-14T16:02:44.890+00:00"^^xsd:dateTime ;
-        schema:serverStatus  schema:OfflineTemporarily .
+        schema:dateModified  "2021-09-14T18:02:34.138+00:00"^^xsd:dateTime ;
+        schema:serverStatus  schema:Online .
 
 <http://data.openlinksw.com/oplweb/sparql-endpoint217#this>
         a                    sd:Service ;
