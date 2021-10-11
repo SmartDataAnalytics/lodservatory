@@ -684,8 +684,8 @@
 <http://data.openlinksw.com/oplweb/sparql-endpoint20#this>
         a                    sd:Service ;
         sd:endpoint          <http://colil.dbcls.jp/sparql> ;
-        schema:dateModified  "2021-10-11T08:03:10.476+00:00"^^xsd:dateTime ;
-        schema:serverStatus  schema:OfflineTemporarily .
+        schema:dateModified  "2021-10-11T16:02:21.567+00:00"^^xsd:dateTime ;
+        schema:serverStatus  schema:Online .
 
 <http://data.openlinksw.com/oplweb/sparql-endpoint200#this>
         a                    sd:Service ;
@@ -828,8 +828,8 @@
 <http://data.openlinksw.com/oplweb/sparql-endpoint221#this>
         a                    sd:Service ;
         sd:endpoint          <https://id.nlm.nih.gov/mesh/sparql> ;
-        schema:dateModified  "2021-10-11T15:01:06.717+00:00"^^xsd:dateTime ;
-        schema:serverStatus  schema:Online .
+        schema:dateModified  "2021-10-11T16:01:08.012+00:00"^^xsd:dateTime ;
+        schema:serverStatus  schema:OfflineTemporarily .
 
 <http://data.openlinksw.com/oplweb/sparql-endpoint222#this>
         a                    sd:Service ;
@@ -996,8 +996,8 @@
 <http://data.openlinksw.com/oplweb/sparql-endpoint247#this>
         a                    sd:Service ;
         sd:endpoint          <https://semantic.eea.europa.eu/sparql> ;
-        schema:dateModified  "2021-10-05T15:13:07.980+00:00"^^xsd:dateTime ;
-        schema:serverStatus  schema:Online .
+        schema:dateModified  "2021-10-11T16:03:15.699+00:00"^^xsd:dateTime ;
+        schema:serverStatus  schema:OfflineTemporarily .
 
 <http://data.openlinksw.com/oplweb/sparql-endpoint248#this>
         a                    sd:Service ;
@@ -1422,8 +1422,8 @@
 <http://data.openlinksw.com/oplweb/sparql-endpoint7#this>
         a                    sd:Service ;
         sd:endpoint          <http://bio2rdf.org/sparql> ;
-        schema:dateModified  "2021-10-11T12:02:15.462+00:00"^^xsd:dateTime ;
-        schema:serverStatus  schema:Online .
+        schema:dateModified  "2021-10-11T16:01:58.343+00:00"^^xsd:dateTime ;
+        schema:serverStatus  schema:OfflineTemporarily .
 
 <http://data.openlinksw.com/oplweb/sparql-endpoint70#this>
         a                    sd:Service ;
@@ -1590,8 +1590,8 @@
 <http://data.openlinksw.com/oplweb/sparql-endpoint95#this>
         a                    sd:Service ;
         sd:endpoint          <http://id.nlm.nih.gov/mesh/sparql> ;
-        schema:dateModified  "2021-10-11T15:01:45.270+00:00"^^xsd:dateTime ;
-        schema:serverStatus  schema:Online .
+        schema:dateModified  "2021-10-11T16:01:45.994+00:00"^^xsd:dateTime ;
+        schema:serverStatus  schema:OfflineTemporarily .
 
 <http://data.openlinksw.com/oplweb/sparql-endpoint96#this>
         a                    sd:Service ;
