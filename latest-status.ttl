@@ -822,8 +822,8 @@
 <http://data.openlinksw.com/oplweb/sparql-endpoint220#this>
         a                    sd:Service ;
         sd:endpoint          <https://hunter-cuny.eagle-i.net/sparqler/sparql> ;
-        schema:dateModified  "2021-10-19T12:03:19.646+00:00"^^xsd:dateTime ;
-        schema:serverStatus  schema:OfflineTemporarily .
+        schema:dateModified  "2021-10-19T13:08:01.137+00:00"^^xsd:dateTime ;
+        schema:serverStatus  schema:Online .
 
 <http://data.openlinksw.com/oplweb/sparql-endpoint221#this>
         a                    sd:Service ;
