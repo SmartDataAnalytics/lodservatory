@@ -246,8 +246,8 @@
 <http://data.openlinksw.com/oplweb/sparql-endpoint134#this>
         a                    sd:Service ;
         sd:endpoint          <http://metadb.riken.jp/sparql> ;
-        schema:dateModified  "2021-10-30T00:02:49.148+00:00"^^xsd:dateTime ;
-        schema:serverStatus  schema:Online .
+        schema:dateModified  "2021-11-19T10:02:43.445+00:00"^^xsd:dateTime ;
+        schema:serverStatus  schema:OfflineTemporarily .
 
 <http://data.openlinksw.com/oplweb/sparql-endpoint135#this>
         a                    sd:Service ;
@@ -774,8 +774,8 @@
 <http://data.openlinksw.com/oplweb/sparql-endpoint213#this>
         a                    sd:Service ;
         sd:endpoint          <https://eagle-i.itmat.upenn.edu/sparqler/sparql> ;
-        schema:dateModified  "2021-11-19T09:01:49.439+00:00"^^xsd:dateTime ;
-        schema:serverStatus  schema:OfflineTemporarily .
+        schema:dateModified  "2021-11-19T10:01:57.037+00:00"^^xsd:dateTime ;
+        schema:serverStatus  schema:Online .
 
 <http://data.openlinksw.com/oplweb/sparql-endpoint214#this>
         a                    sd:Service ;
@@ -792,8 +792,8 @@
 <http://data.openlinksw.com/oplweb/sparql-endpoint216#this>
         a                    sd:Service ;
         sd:endpoint          <https://harvard.eagle-i.net/sparqler/sparql> ;
-        schema:dateModified  "2021-11-19T09:02:48.719+00:00"^^xsd:dateTime ;
-        schema:serverStatus  schema:Online .
+        schema:dateModified  "2021-11-19T10:03:01.527+00:00"^^xsd:dateTime ;
+        schema:serverStatus  schema:OfflineTemporarily .
 
 <http://data.openlinksw.com/oplweb/sparql-endpoint217#this>
         a                    sd:Service ;
@@ -1326,8 +1326,8 @@
 <http://data.openlinksw.com/oplweb/sparql-endpoint55#this>
         a                    sd:Service ;
         sd:endpoint          <http://dbtune.org/bbc/peel/sparql/> ;
-        schema:dateModified  "2021-11-19T09:03:05.373+00:00"^^xsd:dateTime ;
-        schema:serverStatus  schema:OfflineTemporarily .
+        schema:dateModified  "2021-11-19T10:03:23.762+00:00"^^xsd:dateTime ;
+        schema:serverStatus  schema:Online .
 
 <http://data.openlinksw.com/oplweb/sparql-endpoint56#this>
         a                    sd:Service ;
@@ -1392,8 +1392,8 @@
 <http://data.openlinksw.com/oplweb/sparql-endpoint65#this>
         a                    sd:Service ;
         sd:endpoint          <http://digital-agenda-data.eu/sparql> ;
-        schema:dateModified  "2021-11-18T20:03:06.430+00:00"^^xsd:dateTime ;
-        schema:serverStatus  schema:Online .
+        schema:dateModified  "2021-11-19T10:03:23.937+00:00"^^xsd:dateTime ;
+        schema:serverStatus  schema:OfflineTemporarily .
 
 <http://data.openlinksw.com/oplweb/sparql-endpoint66#this>
         a                    sd:Service ;
