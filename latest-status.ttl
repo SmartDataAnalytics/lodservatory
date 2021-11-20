@@ -678,8 +678,8 @@
 <http://data.openlinksw.com/oplweb/sparql-endpoint2#this>
         a                    sd:Service ;
         sd:endpoint          <http://affymetrix.bio2rdf.org/sparql/> ;
-        schema:dateModified  "2021-11-20T16:00:56.094+00:00"^^xsd:dateTime ;
-        schema:serverStatus  schema:OfflineTemporarily .
+        schema:dateModified  "2021-11-20T17:04:52.485+00:00"^^xsd:dateTime ;
+        schema:serverStatus  schema:Online .
 
 <http://data.openlinksw.com/oplweb/sparql-endpoint20#this>
         a                    sd:Service ;
@@ -744,8 +744,8 @@
 <http://data.openlinksw.com/oplweb/sparql-endpoint209#this>
         a                    sd:Service ;
         sd:endpoint          <https://dba-rdf.biosciencedbc.jp/sparql> ;
-        schema:dateModified  "2021-11-20T16:01:49.869+00:00"^^xsd:dateTime ;
-        schema:serverStatus  schema:OfflineTemporarily .
+        schema:dateModified  "2021-11-20T17:05:50.591+00:00"^^xsd:dateTime ;
+        schema:serverStatus  schema:Online .
 
 <http://data.openlinksw.com/oplweb/sparql-endpoint21#this>
         a                    sd:Service ;
@@ -1608,8 +1608,8 @@
 <http://data.openlinksw.com/oplweb/sparql-endpoint98#this>
         a                    sd:Service ;
         sd:endpoint          <http://integbio.jp/rdf/sparql> ;
-        schema:dateModified  "2021-11-20T16:02:34.346+00:00"^^xsd:dateTime ;
-        schema:serverStatus  schema:OfflineTemporarily .
+        schema:dateModified  "2021-11-20T17:06:36.476+00:00"^^xsd:dateTime ;
+        schema:serverStatus  schema:Online .
 
 <http://data.openlinksw.com/oplweb/sparql-endpoint99#this>
         a                    sd:Service ;
