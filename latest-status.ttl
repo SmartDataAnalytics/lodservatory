@@ -996,8 +996,8 @@
 <http://data.openlinksw.com/oplweb/sparql-endpoint247#this>
         a                    sd:Service ;
         sd:endpoint          <https://semantic.eea.europa.eu/sparql> ;
-        schema:dateModified  "2021-12-13T18:04:49.177+00:00"^^xsd:dateTime ;
-        schema:serverStatus  schema:OfflineTemporarily .
+        schema:dateModified  "2021-12-13T19:04:10.233+00:00"^^xsd:dateTime ;
+        schema:serverStatus  schema:Online .
 
 <http://data.openlinksw.com/oplweb/sparql-endpoint248#this>
         a                    sd:Service ;
