@@ -378,8 +378,8 @@
 <http://data.openlinksw.com/oplweb/sparql-endpoint154#this>
         a                    sd:Service ;
         sd:endpoint          <http://pt.dbpedia.org/sparql/> ;
-        schema:dateModified  "2021-12-04T16:01:39.842+00:00"^^xsd:dateTime ;
-        schema:serverStatus  schema:Online .
+        schema:dateModified  "2021-12-14T07:02:10.455+00:00"^^xsd:dateTime ;
+        schema:serverStatus  schema:OfflineTemporarily .
 
 <http://data.openlinksw.com/oplweb/sparql-endpoint155#this>
         a                    sd:Service ;
@@ -474,8 +474,8 @@
 <http://data.openlinksw.com/oplweb/sparql-endpoint169#this>
         a                    sd:Service ;
         sd:endpoint          <http://sparql.hegroup.org/sparql/> ;
-        schema:dateModified  "2021-11-18T01:23:22.218+00:00"^^xsd:dateTime ;
-        schema:serverStatus  schema:Online .
+        schema:dateModified  "2021-12-14T07:03:38.649+00:00"^^xsd:dateTime ;
+        schema:serverStatus  schema:OfflineTemporarily .
 
 <http://data.openlinksw.com/oplweb/sparql-endpoint17#this>
         a                    sd:Service ;
@@ -1074,8 +1074,8 @@
 <http://data.openlinksw.com/oplweb/sparql-endpoint259#this>
         a                    sd:Service ;
         sd:endpoint          <https://uccaribe.eagle-i.net/sparqler/sparql> ;
-        schema:dateModified  "2021-06-19T13:16:15.816+00:00"^^xsd:dateTime ;
-        schema:serverStatus  schema:Online .
+        schema:dateModified  "2021-12-14T07:01:51.615+00:00"^^xsd:dateTime ;
+        schema:serverStatus  schema:OfflineTemporarily .
 
 <http://data.openlinksw.com/oplweb/sparql-endpoint26#this>
         a                    sd:Service ;
