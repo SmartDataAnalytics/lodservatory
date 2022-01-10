@@ -702,8 +702,8 @@
 <http://data.openlinksw.com/oplweb/sparql-endpoint202#this>
         a                    sd:Service ;
         sd:endpoint          <https://ccny-cuny.eagle-i.net/sparqler/sparql> ;
-        schema:dateModified  "2022-01-10T18:02:05.854+00:00"^^xsd:dateTime ;
-        schema:serverStatus  schema:Online .
+        schema:dateModified  "2022-01-10T21:01:39.692+00:00"^^xsd:dateTime ;
+        schema:serverStatus  schema:OfflineTemporarily .
 
 <http://data.openlinksw.com/oplweb/sparql-endpoint203#this>
         a                    sd:Service ;
@@ -822,8 +822,8 @@
 <http://data.openlinksw.com/oplweb/sparql-endpoint220#this>
         a                    sd:Service ;
         sd:endpoint          <https://hunter-cuny.eagle-i.net/sparqler/sparql> ;
-        schema:dateModified  "2022-01-10T14:03:23.922+00:00"^^xsd:dateTime ;
-        schema:serverStatus  schema:OfflineTemporarily .
+        schema:dateModified  "2022-01-10T21:03:49.465+00:00"^^xsd:dateTime ;
+        schema:serverStatus  schema:Online .
 
 <http://data.openlinksw.com/oplweb/sparql-endpoint221#this>
         a                    sd:Service ;
@@ -918,8 +918,8 @@
 <http://data.openlinksw.com/oplweb/sparql-endpoint235#this>
         a                    sd:Service ;
         sd:endpoint          <https://meharry.eagle-i.net/sparqler/sparql> ;
-        schema:dateModified  "2022-01-10T14:03:25.628+00:00"^^xsd:dateTime ;
-        schema:serverStatus  schema:OfflineTemporarily .
+        schema:dateModified  "2022-01-10T21:04:17.392+00:00"^^xsd:dateTime ;
+        schema:serverStatus  schema:Online .
 
 <http://data.openlinksw.com/oplweb/sparql-endpoint236#this>
         a                    sd:Service ;
