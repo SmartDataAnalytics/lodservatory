@@ -702,8 +702,8 @@
 <http://data.openlinksw.com/oplweb/sparql-endpoint202#this>
         a                    sd:Service ;
         sd:endpoint          <https://ccny-cuny.eagle-i.net/sparqler/sparql> ;
-        schema:dateModified  "2022-01-10T21:01:39.692+00:00"^^xsd:dateTime ;
-        schema:serverStatus  schema:OfflineTemporarily .
+        schema:dateModified  "2022-01-11T17:13:20.899+00:00"^^xsd:dateTime ;
+        schema:serverStatus  schema:Online .
 
 <http://data.openlinksw.com/oplweb/sparql-endpoint203#this>
         a                    sd:Service ;
