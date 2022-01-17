@@ -66,8 +66,8 @@
 <http://data.openlinksw.com/oplweb/sparql-endpoint107#this>
         a                    sd:Service ;
         sd:endpoint          <http://kdata.kr/sparql/endpoint.jsp/> ;
-        schema:dateModified  "2022-01-17T20:01:19.125+00:00"^^xsd:dateTime ;
-        schema:serverStatus  schema:OfflineTemporarily .
+        schema:dateModified  "2022-01-17T21:01:03.908+00:00"^^xsd:dateTime ;
+        schema:serverStatus  schema:Online .
 
 <http://data.openlinksw.com/oplweb/sparql-endpoint108#this>
         a                    sd:Service ;
@@ -456,8 +456,8 @@
 <http://data.openlinksw.com/oplweb/sparql-endpoint166#this>
         a                    sd:Service ;
         sd:endpoint          <http://sparql.archives-ouvertes.fr/sparql> ;
-        schema:dateModified  "2021-08-26T03:01:35.072+00:00"^^xsd:dateTime ;
-        schema:serverStatus  schema:Online .
+        schema:dateModified  "2022-01-17T21:01:35.079+00:00"^^xsd:dateTime ;
+        schema:serverStatus  schema:OfflineTemporarily .
 
 <http://data.openlinksw.com/oplweb/sparql-endpoint167#this>
         a                    sd:Service ;
@@ -624,8 +624,8 @@
 <http://data.openlinksw.com/oplweb/sparql-endpoint191#this>
         a                    sd:Service ;
         sd:endpoint          <http://www.rechercheisidore.fr/sparql/> ;
-        schema:dateModified  "2022-01-12T17:12:32.608+00:00"^^xsd:dateTime ;
-        schema:serverStatus  schema:Online .
+        schema:dateModified  "2022-01-17T21:03:03.262+00:00"^^xsd:dateTime ;
+        schema:serverStatus  schema:OfflineTemporarily .
 
 <http://data.openlinksw.com/oplweb/sparql-endpoint192#this>
         a                    sd:Service ;
@@ -858,8 +858,8 @@
 <http://data.openlinksw.com/oplweb/sparql-endpoint226#this>
         a                    sd:Service ;
         sd:endpoint          <https://isidore.science/sparql> ;
-        schema:dateModified  "2022-01-17T00:01:43.115+00:00"^^xsd:dateTime ;
-        schema:serverStatus  schema:Online .
+        schema:dateModified  "2022-01-17T21:01:09.454+00:00"^^xsd:dateTime ;
+        schema:serverStatus  schema:OfflineTemporarily .
 
 <http://data.openlinksw.com/oplweb/sparql-endpoint227#this>
         a                    sd:Service ;
@@ -1122,8 +1122,8 @@
 <http://data.openlinksw.com/oplweb/sparql-endpoint266#this>
         a                    sd:Service ;
         sd:endpoint          <https://www.nakala.fr/sparql> ;
-        schema:dateModified  "2021-12-13T16:04:45.177+00:00"^^xsd:dateTime ;
-        schema:serverStatus  schema:Online .
+        schema:dateModified  "2022-01-17T21:03:36.152+00:00"^^xsd:dateTime ;
+        schema:serverStatus  schema:OfflineTemporarily .
 
 <http://data.openlinksw.com/oplweb/sparql-endpoint267#this>
         a                    sd:Service ;
