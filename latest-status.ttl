@@ -684,14 +684,14 @@
 <http://data.openlinksw.com/oplweb/sparql-endpoint20#this>
         a                    sd:Service ;
         sd:endpoint          <http://colil.dbcls.jp/sparql> ;
-        schema:dateModified  "2022-02-27T00:03:22.799+00:00"^^xsd:dateTime ;
-        schema:serverStatus  schema:OfflineTemporarily .
+        schema:dateModified  "2022-02-27T04:02:37.892+00:00"^^xsd:dateTime ;
+        schema:serverStatus  schema:Online .
 
 <http://data.openlinksw.com/oplweb/sparql-endpoint200#this>
         a                    sd:Service ;
         sd:endpoint          <https://bmrbpub.pdbj.org/search/rdf> ;
-        schema:dateModified  "2022-02-27T03:01:01.097+00:00"^^xsd:dateTime ;
-        schema:serverStatus  schema:Online .
+        schema:dateModified  "2022-02-27T04:01:17.991+00:00"^^xsd:dateTime ;
+        schema:serverStatus  schema:OfflineTemporarily .
 
 <http://data.openlinksw.com/oplweb/sparql-endpoint201#this>
         a                    sd:Service ;
