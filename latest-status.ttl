@@ -132,8 +132,8 @@
 <http://data.openlinksw.com/oplweb/sparql-endpoint117#this>
         a                    sd:Service ;
         sd:endpoint          <http://linkeddata.uriburner.com/sparql/> ;
-        schema:dateModified  "2022-03-14T20:02:15.816+00:00"^^xsd:dateTime ;
-        schema:serverStatus  schema:Online .
+        schema:dateModified  "2022-03-15T08:02:18.098+00:00"^^xsd:dateTime ;
+        schema:serverStatus  schema:OfflineTemporarily .
 
 <http://data.openlinksw.com/oplweb/sparql-endpoint118#this>
         a                    sd:Service ;
@@ -774,8 +774,8 @@
 <http://data.openlinksw.com/oplweb/sparql-endpoint213#this>
         a                    sd:Service ;
         sd:endpoint          <https://eagle-i.itmat.upenn.edu/sparqler/sparql> ;
-        schema:dateModified  "2022-03-13T09:01:46.228+00:00"^^xsd:dateTime ;
-        schema:serverStatus  schema:Online .
+        schema:dateModified  "2022-03-15T08:02:02.984+00:00"^^xsd:dateTime ;
+        schema:serverStatus  schema:OfflineTemporarily .
 
 <http://data.openlinksw.com/oplweb/sparql-endpoint214#this>
         a                    sd:Service ;
