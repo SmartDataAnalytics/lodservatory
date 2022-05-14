@@ -144,8 +144,8 @@
 <http://data.openlinksw.com/oplweb/sparql-endpoint119#this>
         a                    sd:Service ;
         sd:endpoint          <http://linkedlifedata.com/sparql> ;
-        schema:dateModified  "2022-05-09T16:02:43.036+00:00"^^xsd:dateTime ;
-        schema:serverStatus  schema:Online .
+        schema:dateModified  "2022-05-14T15:01:11.040+00:00"^^xsd:dateTime ;
+        schema:serverStatus  schema:OfflineTemporarily .
 
 <http://data.openlinksw.com/oplweb/sparql-endpoint12#this>
         a                    sd:Service ;
@@ -1392,8 +1392,8 @@
 <http://data.openlinksw.com/oplweb/sparql-endpoint65#this>
         a                    sd:Service ;
         sd:endpoint          <http://digital-agenda-data.eu/sparql> ;
-        schema:dateModified  "2022-05-13T02:47:07.159+00:00"^^xsd:dateTime ;
-        schema:serverStatus  schema:Online .
+        schema:dateModified  "2022-05-14T15:03:11.711+00:00"^^xsd:dateTime ;
+        schema:serverStatus  schema:OfflineTemporarily .
 
 <http://data.openlinksw.com/oplweb/sparql-endpoint66#this>
         a                    sd:Service ;
