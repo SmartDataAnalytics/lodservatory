@@ -984,8 +984,8 @@
 <http://data.openlinksw.com/oplweb/sparql-endpoint245#this>
         a                    sd:Service ;
         sd:endpoint          <https://rdf.metanetx.org/sparql> ;
-        schema:dateModified  "2022-05-26T05:05:44.550+00:00"^^xsd:dateTime ;
-        schema:serverStatus  schema:OfflineTemporarily .
+        schema:dateModified  "2022-05-26T06:02:04.897+00:00"^^xsd:dateTime ;
+        schema:serverStatus  schema:Online .
 
 <http://data.openlinksw.com/oplweb/sparql-endpoint246#this>
         a                    sd:Service ;
