@@ -1032,8 +1032,8 @@
 <http://data.openlinksw.com/oplweb/sparql-endpoint252#this>
         a                    sd:Service ;
         sd:endpoint          <https://sparql.omabrowser.org/sparql> ;
-        schema:dateModified  "2022-08-24T22:02:05.884+00:00"^^xsd:dateTime ;
-        schema:serverStatus  schema:OfflineTemporarily .
+        schema:dateModified  "2022-08-24T23:02:22.967+00:00"^^xsd:dateTime ;
+        schema:serverStatus  schema:Online .
 
 <http://data.openlinksw.com/oplweb/sparql-endpoint253#this>
         a                    sd:Service ;
@@ -1224,8 +1224,8 @@
 <http://data.openlinksw.com/oplweb/sparql-endpoint4#this>
         a                    sd:Service ;
         sd:endpoint          <http://apps.morelab.deusto.es/labman/sparql/> ;
-        schema:dateModified  "2022-07-31T01:31:27.802+00:00"^^xsd:dateTime ;
-        schema:serverStatus  schema:Online .
+        schema:dateModified  "2022-08-24T23:02:13.005+00:00"^^xsd:dateTime ;
+        schema:serverStatus  schema:OfflineTemporarily .
 
 <http://data.openlinksw.com/oplweb/sparql-endpoint40#this>
         a                    sd:Service ;
@@ -1464,8 +1464,8 @@
 <http://data.openlinksw.com/oplweb/sparql-endpoint76#this>
         a                    sd:Service ;
         sd:endpoint          <http://eu.dbpedia.org/sparql/> ;
-        schema:dateModified  "2022-08-24T03:46:30.530+00:00"^^xsd:dateTime ;
-        schema:serverStatus  schema:Online .
+        schema:dateModified  "2022-08-24T23:01:58.737+00:00"^^xsd:dateTime ;
+        schema:serverStatus  schema:OfflineTemporarily .
 
 <http://data.openlinksw.com/oplweb/sparql-endpoint77#this>
         a                    sd:Service ;
