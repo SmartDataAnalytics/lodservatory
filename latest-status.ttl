@@ -666,8 +666,8 @@
 <http://data.openlinksw.com/oplweb/sparql-endpoint198#this>
         a                    sd:Service ;
         sd:endpoint          <https://api.parliament.uk/sparql> ;
-        schema:dateModified  "2022-10-12T01:31:57.514+00:00"^^xsd:dateTime ;
-        schema:serverStatus  schema:OfflineTemporarily .
+        schema:dateModified  "2022-10-12T02:57:58.121+00:00"^^xsd:dateTime ;
+        schema:serverStatus  schema:Online .
 
 <http://data.openlinksw.com/oplweb/sparql-endpoint199#this>
         a                    sd:Service ;
@@ -1266,8 +1266,8 @@
 <http://data.openlinksw.com/oplweb/sparql-endpoint46#this>
         a                    sd:Service ;
         sd:endpoint          <http://dati.camera.it/sparql> ;
-        schema:dateModified  "2022-10-12T01:32:12.771+00:00"^^xsd:dateTime ;
-        schema:serverStatus  schema:OfflineTemporarily .
+        schema:dateModified  "2022-10-12T02:58:08.730+00:00"^^xsd:dateTime ;
+        schema:serverStatus  schema:Online .
 
 <http://data.openlinksw.com/oplweb/sparql-endpoint47#this>
         a                    sd:Service ;
@@ -1536,8 +1536,8 @@
 <http://data.openlinksw.com/oplweb/sparql-endpoint87#this>
         a                    sd:Service ;
         sd:endpoint          <http://geo.linkeddata.es/sparql/> ;
-        schema:dateModified  "2022-10-11T15:03:34.379+00:00"^^xsd:dateTime ;
-        schema:serverStatus  schema:Online .
+        schema:dateModified  "2022-10-12T02:56:36.992+00:00"^^xsd:dateTime ;
+        schema:serverStatus  schema:OfflineTemporarily .
 
 <http://data.openlinksw.com/oplweb/sparql-endpoint88#this>
         a                    sd:Service ;
