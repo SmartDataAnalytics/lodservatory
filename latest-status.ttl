@@ -246,8 +246,8 @@
 <http://data.openlinksw.com/oplweb/sparql-endpoint134#this>
         a                    sd:Service ;
         sd:endpoint          <http://metadb.riken.jp/sparql> ;
-        schema:dateModified  "2022-10-20T18:12:17.656+00:00"^^xsd:dateTime ;
-        schema:serverStatus  schema:OfflineTemporarily .
+        schema:dateModified  "2022-10-20T19:10:28.367+00:00"^^xsd:dateTime ;
+        schema:serverStatus  schema:Online .
 
 <http://data.openlinksw.com/oplweb/sparql-endpoint135#this>
         a                    sd:Service ;
@@ -1038,8 +1038,8 @@
 <http://data.openlinksw.com/oplweb/sparql-endpoint253#this>
         a                    sd:Service ;
         sd:endpoint          <https://sparql.omabrowser.org/sparql> ;
-        schema:dateModified  "2022-10-20T18:12:04.098+00:00"^^xsd:dateTime ;
-        schema:serverStatus  schema:OfflineTemporarily .
+        schema:dateModified  "2022-10-20T19:10:19.240+00:00"^^xsd:dateTime ;
+        schema:serverStatus  schema:Online .
 
 <http://data.openlinksw.com/oplweb/sparql-endpoint254#this>
         a                    sd:Service ;
