@@ -270,14 +270,14 @@
 <http://data.openlinksw.com/oplweb/sparql-endpoint138#this>
         a                    sd:Service ;
         sd:endpoint          <http://ncbigene.bio2rdf.org/sparql/> ;
-        schema:dateModified  "2022-11-14T10:03:04.084+00:00"^^xsd:dateTime ;
-        schema:serverStatus  schema:Online .
+        schema:dateModified  "2022-11-14T12:03:01.769+00:00"^^xsd:dateTime ;
+        schema:serverStatus  schema:OfflineTemporarily .
 
 <http://data.openlinksw.com/oplweb/sparql-endpoint139#this>
         a                    sd:Service ;
         sd:endpoint          <http://ndc.bio2rdf.org/sparql/> ;
-        schema:dateModified  "2022-11-14T10:01:40.694+00:00"^^xsd:dateTime ;
-        schema:serverStatus  schema:Online .
+        schema:dateModified  "2022-11-14T12:02:05.529+00:00"^^xsd:dateTime ;
+        schema:serverStatus  schema:OfflineTemporarily .
 
 <http://data.openlinksw.com/oplweb/sparql-endpoint14#this>
         a                    sd:Service ;
@@ -360,8 +360,8 @@
 <http://data.openlinksw.com/oplweb/sparql-endpoint151#this>
         a                    sd:Service ;
         sd:endpoint          <http://pharmgkb.bio2rdf.org/sparql/> ;
-        schema:dateModified  "2022-11-14T10:03:14.509+00:00"^^xsd:dateTime ;
-        schema:serverStatus  schema:Online .
+        schema:dateModified  "2022-11-14T12:03:13.119+00:00"^^xsd:dateTime ;
+        schema:serverStatus  schema:OfflineTemporarily .
 
 <http://data.openlinksw.com/oplweb/sparql-endpoint152#this>
         a                    sd:Service ;
@@ -864,8 +864,8 @@
 <http://data.openlinksw.com/oplweb/sparql-endpoint227#this>
         a                    sd:Service ;
         sd:endpoint          <https://joinup.ec.europa.eu/sparql/> ;
-        schema:dateModified  "2022-11-14T10:03:31.953+00:00"^^xsd:dateTime ;
-        schema:serverStatus  schema:OfflineTemporarily .
+        schema:dateModified  "2022-11-14T12:03:30.925+00:00"^^xsd:dateTime ;
+        schema:serverStatus  schema:Online .
 
 <http://data.openlinksw.com/oplweb/sparql-endpoint228#this>
         a                    sd:Service ;
@@ -1320,8 +1320,8 @@
 <http://data.openlinksw.com/oplweb/sparql-endpoint54#this>
         a                    sd:Service ;
         sd:endpoint          <http://dbsnp.bio2rdf.org/sparql/> ;
-        schema:dateModified  "2022-10-22T06:06:44.167+00:00"^^xsd:dateTime ;
-        schema:serverStatus  schema:OfflineTemporarily .
+        schema:dateModified  "2022-11-14T12:02:34.561+00:00"^^xsd:dateTime ;
+        schema:serverStatus  schema:Online .
 
 <http://data.openlinksw.com/oplweb/sparql-endpoint55#this>
         a                    sd:Service ;
@@ -1410,8 +1410,8 @@
 <http://data.openlinksw.com/oplweb/sparql-endpoint68#this>
         a                    sd:Service ;
         sd:endpoint          <http://drugbank.bio2rdf.org/sparql/> ;
-        schema:dateModified  "2022-11-14T10:01:46.448+00:00"^^xsd:dateTime ;
-        schema:serverStatus  schema:Online .
+        schema:dateModified  "2022-11-14T12:02:03.669+00:00"^^xsd:dateTime ;
+        schema:serverStatus  schema:OfflineTemporarily .
 
 <http://data.openlinksw.com/oplweb/sparql-endpoint69#this>
         a                    sd:Service ;
@@ -1422,8 +1422,8 @@
 <http://data.openlinksw.com/oplweb/sparql-endpoint7#this>
         a                    sd:Service ;
         sd:endpoint          <http://bio2rdf.org/sparql> ;
-        schema:dateModified  "2022-11-14T11:01:58.462+00:00"^^xsd:dateTime ;
-        schema:serverStatus  schema:Online .
+        schema:dateModified  "2022-11-14T12:02:25.140+00:00"^^xsd:dateTime ;
+        schema:serverStatus  schema:OfflineTemporarily .
 
 <http://data.openlinksw.com/oplweb/sparql-endpoint70#this>
         a                    sd:Service ;
@@ -1518,8 +1518,8 @@
 <http://data.openlinksw.com/oplweb/sparql-endpoint84#this>
         a                    sd:Service ;
         sd:endpoint          <http://genage.bio2rdf.org/sparql/> ;
-        schema:dateModified  "2022-11-14T10:01:53.026+00:00"^^xsd:dateTime ;
-        schema:serverStatus  schema:Online .
+        schema:dateModified  "2022-11-14T12:02:11.103+00:00"^^xsd:dateTime ;
+        schema:serverStatus  schema:OfflineTemporarily .
 
 <http://data.openlinksw.com/oplweb/sparql-endpoint85#this>
         a                    sd:Service ;
@@ -1614,5 +1614,5 @@
 <http://data.openlinksw.com/oplweb/sparql-endpoint99#this>
         a                    sd:Service ;
         sd:endpoint          <http://interpro.bio2rdf.org/sparql/> ;
-        schema:dateModified  "2022-11-14T10:03:14.274+00:00"^^xsd:dateTime ;
-        schema:serverStatus  schema:Online .
+        schema:dateModified  "2022-11-14T12:03:12.886+00:00"^^xsd:dateTime ;
+        schema:serverStatus  schema:OfflineTemporarily .
