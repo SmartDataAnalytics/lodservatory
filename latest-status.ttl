@@ -666,8 +666,8 @@
 <http://data.openlinksw.com/oplweb/sparql-endpoint198#this>
         a                    sd:Service ;
         sd:endpoint          <https://api.parliament.uk/sparql> ;
-        schema:dateModified  "2022-11-14T20:03:02.806+00:00"^^xsd:dateTime ;
-        schema:serverStatus  schema:OfflineTemporarily .
+        schema:dateModified  "2022-11-14T21:03:44.249+00:00"^^xsd:dateTime ;
+        schema:serverStatus  schema:Online .
 
 <http://data.openlinksw.com/oplweb/sparql-endpoint199#this>
         a                    sd:Service ;
