@@ -564,8 +564,8 @@
 <http://data.openlinksw.com/oplweb/sparql-endpoint182#this>
         a                    sd:Service ;
         sd:endpoint          <http://uriburner.com/sparql> ;
-        schema:dateModified  "2022-11-27T13:05:29.970+00:00"^^xsd:dateTime ;
-        schema:serverStatus  schema:Online .
+        schema:dateModified  "2022-11-27T17:01:22.281+00:00"^^xsd:dateTime ;
+        schema:serverStatus  schema:OfflineTemporarily .
 
 <http://data.openlinksw.com/oplweb/sparql-endpoint183#this>
         a                    sd:Service ;
@@ -744,8 +744,8 @@
 <http://data.openlinksw.com/oplweb/sparql-endpoint209#this>
         a                    sd:Service ;
         sd:endpoint          <https://dba-rdf.biosciencedbc.jp/sparql> ;
-        schema:dateModified  "2022-11-27T16:02:51.581+00:00"^^xsd:dateTime ;
-        schema:serverStatus  schema:OfflineTemporarily .
+        schema:dateModified  "2022-11-27T17:02:37.750+00:00"^^xsd:dateTime ;
+        schema:serverStatus  schema:Online .
 
 <http://data.openlinksw.com/oplweb/sparql-endpoint21#this>
         a                    sd:Service ;
