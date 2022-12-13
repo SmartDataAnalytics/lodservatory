@@ -600,8 +600,8 @@
 <http://data.openlinksw.com/oplweb/sparql-endpoint188#this>
         a                    sd:Service ;
         sd:endpoint          <http://www.genome.jp/sparql/linkdb> ;
-        schema:dateModified  "2022-12-13T11:01:27.022+00:00"^^xsd:dateTime ;
-        schema:serverStatus  schema:OfflineTemporarily .
+        schema:dateModified  "2022-12-13T12:01:49.603+00:00"^^xsd:dateTime ;
+        schema:serverStatus  schema:Online .
 
 <http://data.openlinksw.com/oplweb/sparql-endpoint189#this>
         a                    sd:Service ;
@@ -1038,8 +1038,8 @@
 <http://data.openlinksw.com/oplweb/sparql-endpoint253#this>
         a                    sd:Service ;
         sd:endpoint          <https://sparql.omabrowser.org/sparql> ;
-        schema:dateModified  "2022-12-12T02:26:27.912+00:00"^^xsd:dateTime ;
-        schema:serverStatus  schema:Online .
+        schema:dateModified  "2022-12-13T12:02:25.516+00:00"^^xsd:dateTime ;
+        schema:serverStatus  schema:OfflineTemporarily .
 
 <http://data.openlinksw.com/oplweb/sparql-endpoint254#this>
         a                    sd:Service ;
