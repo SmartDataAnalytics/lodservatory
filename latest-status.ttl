@@ -474,8 +474,8 @@
 <http://data.openlinksw.com/oplweb/sparql-endpoint169#this>
         a                    sd:Service ;
         sd:endpoint          <http://sparql.hegroup.org/sparql/> ;
-        schema:dateModified  "2022-12-14T14:02:08.122+00:00"^^xsd:dateTime ;
-        schema:serverStatus  schema:OfflineTemporarily .
+        schema:dateModified  "2022-12-14T15:02:18.562+00:00"^^xsd:dateTime ;
+        schema:serverStatus  schema:Online .
 
 <http://data.openlinksw.com/oplweb/sparql-endpoint17#this>
         a                    sd:Service ;
@@ -600,8 +600,8 @@
 <http://data.openlinksw.com/oplweb/sparql-endpoint188#this>
         a                    sd:Service ;
         sd:endpoint          <http://www.genome.jp/sparql/linkdb> ;
-        schema:dateModified  "2022-12-14T14:01:55.365+00:00"^^xsd:dateTime ;
-        schema:serverStatus  schema:OfflineTemporarily .
+        schema:dateModified  "2022-12-14T15:01:41.282+00:00"^^xsd:dateTime ;
+        schema:serverStatus  schema:Online .
 
 <http://data.openlinksw.com/oplweb/sparql-endpoint189#this>
         a                    sd:Service ;
@@ -678,8 +678,8 @@
 <http://data.openlinksw.com/oplweb/sparql-endpoint2#this>
         a                    sd:Service ;
         sd:endpoint          <http://affymetrix.bio2rdf.org/sparql/> ;
-        schema:dateModified  "2022-12-11T13:04:39.162+00:00"^^xsd:dateTime ;
-        schema:serverStatus  schema:Online .
+        schema:dateModified  "2022-12-14T15:01:16.594+00:00"^^xsd:dateTime ;
+        schema:serverStatus  schema:OfflineTemporarily .
 
 <http://data.openlinksw.com/oplweb/sparql-endpoint20#this>
         a                    sd:Service ;
