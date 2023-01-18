@@ -516,14 +516,14 @@
 <http://data.openlinksw.com/oplweb/sparql-endpoint175#this>
         a                    sd:Service ;
         sd:endpoint          <http://sparql.southgreen.fr/> ;
-        schema:dateModified  "2023-01-17T20:01:08.181+00:00"^^xsd:dateTime ;
-        schema:serverStatus  schema:Online .
+        schema:dateModified  "2023-01-18T11:01:22.092+00:00"^^xsd:dateTime ;
+        schema:serverStatus  schema:OfflineTemporarily .
 
 <http://data.openlinksw.com/oplweb/sparql-endpoint176#this>
         a                    sd:Service ;
         sd:endpoint          <http://sparql.southgreen.fr/> ;
-        schema:dateModified  "2023-01-17T20:02:32.476+00:00"^^xsd:dateTime ;
-        schema:serverStatus  schema:Online .
+        schema:dateModified  "2023-01-18T11:03:19.505+00:00"^^xsd:dateTime ;
+        schema:serverStatus  schema:OfflineTemporarily .
 
 <http://data.openlinksw.com/oplweb/sparql-endpoint177#this>
         a                    sd:Service ;
@@ -600,8 +600,8 @@
 <http://data.openlinksw.com/oplweb/sparql-endpoint188#this>
         a                    sd:Service ;
         sd:endpoint          <http://www.genome.jp/sparql/linkdb> ;
-        schema:dateModified  "2023-01-18T10:01:46.209+00:00"^^xsd:dateTime ;
-        schema:serverStatus  schema:OfflineTemporarily .
+        schema:dateModified  "2023-01-18T11:01:58.776+00:00"^^xsd:dateTime ;
+        schema:serverStatus  schema:Online .
 
 <http://data.openlinksw.com/oplweb/sparql-endpoint189#this>
         a                    sd:Service ;
@@ -996,8 +996,8 @@
 <http://data.openlinksw.com/oplweb/sparql-endpoint247#this>
         a                    sd:Service ;
         sd:endpoint          <https://semantic.eea.europa.eu/sparql> ;
-        schema:dateModified  "2023-01-17T19:03:11.554+00:00"^^xsd:dateTime ;
-        schema:serverStatus  schema:Online .
+        schema:dateModified  "2023-01-18T11:03:25.332+00:00"^^xsd:dateTime ;
+        schema:serverStatus  schema:OfflineTemporarily .
 
 <http://data.openlinksw.com/oplweb/sparql-endpoint248#this>
         a                    sd:Service ;
