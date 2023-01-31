@@ -318,8 +318,8 @@
 <http://data.openlinksw.com/oplweb/sparql-endpoint145#this>
         a                    sd:Service ;
         sd:endpoint          <http://opencitations.net/index/sparql> ;
-        schema:dateModified  "2023-01-31T17:02:15.412+00:00"^^xsd:dateTime ;
-        schema:serverStatus  schema:OfflineTemporarily .
+        schema:dateModified  "2023-01-31T19:02:49.945+00:00"^^xsd:dateTime ;
+        schema:serverStatus  schema:Online .
 
 <http://data.openlinksw.com/oplweb/sparql-endpoint146#this>
         a                    sd:Service ;
@@ -630,8 +630,8 @@
 <http://data.openlinksw.com/oplweb/sparql-endpoint192#this>
         a                    sd:Service ;
         sd:endpoint          <http://www.scholarlydata.org/sparql> ;
-        schema:dateModified  "2023-01-31T18:03:27.793+00:00"^^xsd:dateTime ;
-        schema:serverStatus  schema:OfflineTemporarily .
+        schema:dateModified  "2023-01-31T19:03:51.569+00:00"^^xsd:dateTime ;
+        schema:serverStatus  schema:Online .
 
 <http://data.openlinksw.com/oplweb/sparql-endpoint193#this>
         a                    sd:Service ;
@@ -1260,8 +1260,8 @@
 <http://data.openlinksw.com/oplweb/sparql-endpoint45#this>
         a                    sd:Service ;
         sd:endpoint          <http://dati.beniculturali.it/sparql> ;
-        schema:dateModified  "2023-01-31T06:02:02.065+00:00"^^xsd:dateTime ;
-        schema:serverStatus  schema:Online .
+        schema:dateModified  "2023-01-31T19:02:13.620+00:00"^^xsd:dateTime ;
+        schema:serverStatus  schema:OfflineTemporarily .
 
 <http://data.openlinksw.com/oplweb/sparql-endpoint46#this>
         a                    sd:Service ;
