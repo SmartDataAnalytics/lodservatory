@@ -318,8 +318,8 @@
 <http://data.openlinksw.com/oplweb/sparql-endpoint145#this>
         a                    sd:Service ;
         sd:endpoint          <http://opencitations.net/index/sparql> ;
-        schema:dateModified  "2023-02-03T23:02:03.935+00:00"^^xsd:dateTime ;
-        schema:serverStatus  schema:OfflineTemporarily .
+        schema:dateModified  "2023-02-04T03:02:30.471+00:00"^^xsd:dateTime ;
+        schema:serverStatus  schema:Online .
 
 <http://data.openlinksw.com/oplweb/sparql-endpoint146#this>
         a                    sd:Service ;
@@ -516,14 +516,14 @@
 <http://data.openlinksw.com/oplweb/sparql-endpoint175#this>
         a                    sd:Service ;
         sd:endpoint          <http://sparql.southgreen.fr/> ;
-        schema:dateModified  "2023-02-04T00:02:27.070+00:00"^^xsd:dateTime ;
-        schema:serverStatus  schema:Online .
+        schema:dateModified  "2023-02-04T03:01:22.006+00:00"^^xsd:dateTime ;
+        schema:serverStatus  schema:OfflineTemporarily .
 
 <http://data.openlinksw.com/oplweb/sparql-endpoint176#this>
         a                    sd:Service ;
         sd:endpoint          <http://sparql.southgreen.fr/> ;
-        schema:dateModified  "2023-02-04T00:04:15.706+00:00"^^xsd:dateTime ;
-        schema:serverStatus  schema:Online .
+        schema:dateModified  "2023-02-04T03:02:59.326+00:00"^^xsd:dateTime ;
+        schema:serverStatus  schema:OfflineTemporarily .
 
 <http://data.openlinksw.com/oplweb/sparql-endpoint177#this>
         a                    sd:Service ;
