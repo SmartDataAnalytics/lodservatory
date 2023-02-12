@@ -318,8 +318,8 @@
 <http://data.openlinksw.com/oplweb/sparql-endpoint145#this>
         a                    sd:Service ;
         sd:endpoint          <http://opencitations.net/index/sparql> ;
-        schema:dateModified  "2023-02-12T20:02:26.874+00:00"^^xsd:dateTime ;
-        schema:serverStatus  schema:Online .
+        schema:dateModified  "2023-02-12T22:02:23.760+00:00"^^xsd:dateTime ;
+        schema:serverStatus  schema:OfflineTemporarily .
 
 <http://data.openlinksw.com/oplweb/sparql-endpoint146#this>
         a                    sd:Service ;
@@ -1200,8 +1200,8 @@
 <http://data.openlinksw.com/oplweb/sparql-endpoint36#this>
         a                    sd:Service ;
         sd:endpoint          <http://data.bibliotheken.nl/sparql> ;
-        schema:dateModified  "2023-02-12T16:02:51.281+00:00"^^xsd:dateTime ;
-        schema:serverStatus  schema:OfflineTemporarily .
+        schema:dateModified  "2023-02-12T22:02:46.509+00:00"^^xsd:dateTime ;
+        schema:serverStatus  schema:Online .
 
 <http://data.openlinksw.com/oplweb/sparql-endpoint37#this>
         a                    sd:Service ;
