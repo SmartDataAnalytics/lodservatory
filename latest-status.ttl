@@ -144,8 +144,8 @@
 <http://data.openlinksw.com/oplweb/sparql-endpoint119#this>
         a                    sd:Service ;
         sd:endpoint          <http://linkedlifedata.com/sparql> ;
-        schema:dateModified  "2023-02-08T06:01:15.096+00:00"^^xsd:dateTime ;
-        schema:serverStatus  schema:Online .
+        schema:dateModified  "2023-02-13T01:28:39.865+00:00"^^xsd:dateTime ;
+        schema:serverStatus  schema:OfflineTemporarily .
 
 <http://data.openlinksw.com/oplweb/sparql-endpoint12#this>
         a                    sd:Service ;
@@ -156,8 +156,8 @@
 <http://data.openlinksw.com/oplweb/sparql-endpoint120#this>
         a                    sd:Service ;
         sd:endpoint          <http://linkedlifedata.com/sparql/> ;
-        schema:dateModified  "2023-02-12T10:02:50.892+00:00"^^xsd:dateTime ;
-        schema:serverStatus  schema:Online .
+        schema:dateModified  "2023-02-13T01:30:23.666+00:00"^^xsd:dateTime ;
+        schema:serverStatus  schema:OfflineTemporarily .
 
 <http://data.openlinksw.com/oplweb/sparql-endpoint121#this>
         a                    sd:Service ;
@@ -690,8 +690,8 @@
 <http://data.openlinksw.com/oplweb/sparql-endpoint200#this>
         a                    sd:Service ;
         sd:endpoint          <https://bmrbpub.pdbj.org/search/rdf> ;
-        schema:dateModified  "2023-02-08T07:00:51.829+00:00"^^xsd:dateTime ;
-        schema:serverStatus  schema:Online .
+        schema:dateModified  "2023-02-13T01:28:24.102+00:00"^^xsd:dateTime ;
+        schema:serverStatus  schema:OfflineTemporarily .
 
 <http://data.openlinksw.com/oplweb/sparql-endpoint201#this>
         a                    sd:Service ;
