@@ -1116,8 +1116,8 @@
 <http://data.openlinksw.com/oplweb/sparql-endpoint265#this>
         a                    sd:Service ;
         sd:endpoint          <https://www.foodie-cloud.org/sparql> ;
-        schema:dateModified  "2023-03-13T20:03:11.702+00:00"^^xsd:dateTime ;
-        schema:serverStatus  schema:OfflineTemporarily .
+        schema:dateModified  "2023-03-13T21:03:04.438+00:00"^^xsd:dateTime ;
+        schema:serverStatus  schema:Online .
 
 <http://data.openlinksw.com/oplweb/sparql-endpoint266#this>
         a                    sd:Service ;
@@ -1314,8 +1314,8 @@
 <http://data.openlinksw.com/oplweb/sparql-endpoint53#this>
         a                    sd:Service ;
         sd:endpoint          <http://dbpedia.org/sparql> ;
-        schema:dateModified  "2023-03-13T20:02:10.409+00:00"^^xsd:dateTime ;
-        schema:serverStatus  schema:OfflineTemporarily .
+        schema:dateModified  "2023-03-13T21:01:54.784+00:00"^^xsd:dateTime ;
+        schema:serverStatus  schema:Online .
 
 <http://data.openlinksw.com/oplweb/sparql-endpoint54#this>
         a                    sd:Service ;
