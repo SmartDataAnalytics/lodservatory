@@ -606,8 +606,8 @@
 <http://data.openlinksw.com/oplweb/sparql-endpoint189#this>
         a                    sd:Service ;
         sd:endpoint          <http://www.imagesnippets.com/sparql/images> ;
-        schema:dateModified  "2023-04-14T05:02:55.938+00:00"^^xsd:dateTime ;
-        schema:serverStatus  schema:Online .
+        schema:dateModified  "2023-04-15T04:03:17.153+00:00"^^xsd:dateTime ;
+        schema:serverStatus  schema:OfflineTemporarily .
 
 <http://data.openlinksw.com/oplweb/sparql-endpoint19#this>
         a                    sd:Service ;
@@ -1458,8 +1458,8 @@
 <http://data.openlinksw.com/oplweb/sparql-endpoint75#this>
         a                    sd:Service ;
         sd:endpoint          <http://es.dbpedia.org/sparql/> ;
-        schema:dateModified  "2023-04-15T03:02:48.146+00:00"^^xsd:dateTime ;
-        schema:serverStatus  schema:OfflineTemporarily .
+        schema:dateModified  "2023-04-15T04:02:40.868+00:00"^^xsd:dateTime ;
+        schema:serverStatus  schema:Online .
 
 <http://data.openlinksw.com/oplweb/sparql-endpoint76#this>
         a                    sd:Service ;
@@ -1536,8 +1536,8 @@
 <http://data.openlinksw.com/oplweb/sparql-endpoint87#this>
         a                    sd:Service ;
         sd:endpoint          <http://geo.linkeddata.es/sparql/> ;
-        schema:dateModified  "2023-04-15T02:15:30.792+00:00"^^xsd:dateTime ;
-        schema:serverStatus  schema:OfflineTemporarily .
+        schema:dateModified  "2023-04-15T04:02:30.435+00:00"^^xsd:dateTime ;
+        schema:serverStatus  schema:Online .
 
 <http://data.openlinksw.com/oplweb/sparql-endpoint88#this>
         a                    sd:Service ;
