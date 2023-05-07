@@ -204,8 +204,8 @@
 <http://data.openlinksw.com/oplweb/sparql-endpoint128#this>
         a                    sd:Service ;
         sd:endpoint          <http://lod.sztaki.hu/sparql/> ;
-        schema:dateModified  "2023-04-28T08:01:29.966+00:00"^^xsd:dateTime ;
-        schema:serverStatus  schema:Online .
+        schema:dateModified  "2023-05-07T03:01:35.071+00:00"^^xsd:dateTime ;
+        schema:serverStatus  schema:OfflineTemporarily .
 
 <http://data.openlinksw.com/oplweb/sparql-endpoint129#this>
         a                    sd:Service ;
