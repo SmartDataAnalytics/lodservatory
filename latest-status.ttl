@@ -660,8 +660,8 @@
 <http://data.openlinksw.com/oplweb/sparql-endpoint197#this>
         a                    sd:Service ;
         sd:endpoint          <https://api.nextprot.org/sparql> ;
-        schema:dateModified  "2023-05-30T17:02:09.063+00:00"^^xsd:dateTime ;
-        schema:serverStatus  schema:Online .
+        schema:dateModified  "2023-05-31T00:03:26.580+00:00"^^xsd:dateTime ;
+        schema:serverStatus  schema:OfflineTemporarily .
 
 <http://data.openlinksw.com/oplweb/sparql-endpoint198#this>
         a                    sd:Service ;
@@ -852,8 +852,8 @@
 <http://data.openlinksw.com/oplweb/sparql-endpoint225#this>
         a                    sd:Service ;
         sd:endpoint          <https://io.datascience-paris-saclay.fr/sparql> ;
-        schema:dateModified  "2023-05-30T01:28:05.252+00:00"^^xsd:dateTime ;
-        schema:serverStatus  schema:Online .
+        schema:dateModified  "2023-05-31T00:02:11.045+00:00"^^xsd:dateTime ;
+        schema:serverStatus  schema:OfflineTemporarily .
 
 <http://data.openlinksw.com/oplweb/sparql-endpoint226#this>
         a                    sd:Service ;
