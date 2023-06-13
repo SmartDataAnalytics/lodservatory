@@ -198,8 +198,8 @@
 <http://data.openlinksw.com/oplweb/sparql-endpoint127#this>
         a                    sd:Service ;
         sd:endpoint          <http://lod.openlinksw.com/sparql> ;
-        schema:dateModified  "2023-06-13T00:02:45.419+00:00"^^xsd:dateTime ;
-        schema:serverStatus  schema:OfflineTemporarily .
+        schema:dateModified  "2023-06-13T04:01:37.101+00:00"^^xsd:dateTime ;
+        schema:serverStatus  schema:Online .
 
 <http://data.openlinksw.com/oplweb/sparql-endpoint128#this>
         a                    sd:Service ;
@@ -606,8 +606,8 @@
 <http://data.openlinksw.com/oplweb/sparql-endpoint189#this>
         a                    sd:Service ;
         sd:endpoint          <http://www.imagesnippets.com/sparql/images> ;
-        schema:dateModified  "2023-06-12T05:02:41.362+00:00"^^xsd:dateTime ;
-        schema:serverStatus  schema:Online .
+        schema:dateModified  "2023-06-13T04:03:02.147+00:00"^^xsd:dateTime ;
+        schema:serverStatus  schema:OfflineTemporarily .
 
 <http://data.openlinksw.com/oplweb/sparql-endpoint19#this>
         a                    sd:Service ;
@@ -1290,8 +1290,8 @@
 <http://data.openlinksw.com/oplweb/sparql-endpoint5#this>
         a                    sd:Service ;
         sd:endpoint          <http://ariadne-registry.dcu.gr:8890/sparql> ;
-        schema:dateModified  "2023-05-09T04:02:02.928+00:00"^^xsd:dateTime ;
-        schema:serverStatus  schema:Online .
+        schema:dateModified  "2023-06-13T04:02:04.377+00:00"^^xsd:dateTime ;
+        schema:serverStatus  schema:OfflineTemporarily .
 
 <http://data.openlinksw.com/oplweb/sparql-endpoint50#this>
         a                    sd:Service ;
