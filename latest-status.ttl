@@ -516,14 +516,14 @@
 <http://data.openlinksw.com/oplweb/sparql-endpoint175#this>
         a                    sd:Service ;
         sd:endpoint          <http://sparql.southgreen.fr/> ;
-        schema:dateModified  "2023-06-14T03:01:06.842+00:00"^^xsd:dateTime ;
-        schema:serverStatus  schema:Online .
+        schema:dateModified  "2023-06-15T20:01:15.552+00:00"^^xsd:dateTime ;
+        schema:serverStatus  schema:OfflineTemporarily .
 
 <http://data.openlinksw.com/oplweb/sparql-endpoint176#this>
         a                    sd:Service ;
         sd:endpoint          <http://sparql.southgreen.fr/> ;
-        schema:dateModified  "2023-06-14T03:02:53.681+00:00"^^xsd:dateTime ;
-        schema:serverStatus  schema:Online .
+        schema:dateModified  "2023-06-15T20:03:34.561+00:00"^^xsd:dateTime ;
+        schema:serverStatus  schema:OfflineTemporarily .
 
 <http://data.openlinksw.com/oplweb/sparql-endpoint177#this>
         a                    sd:Service ;
@@ -1422,8 +1422,8 @@
 <http://data.openlinksw.com/oplweb/sparql-endpoint7#this>
         a                    sd:Service ;
         sd:endpoint          <http://bio2rdf.org/sparql> ;
-        schema:dateModified  "2023-06-15T12:01:59.653+00:00"^^xsd:dateTime ;
-        schema:serverStatus  schema:Online .
+        schema:dateModified  "2023-06-15T20:02:11.517+00:00"^^xsd:dateTime ;
+        schema:serverStatus  schema:OfflineTemporarily .
 
 <http://data.openlinksw.com/oplweb/sparql-endpoint70#this>
         a                    sd:Service ;
