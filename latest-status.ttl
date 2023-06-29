@@ -606,8 +606,8 @@
 <http://data.openlinksw.com/oplweb/sparql-endpoint189#this>
         a                    sd:Service ;
         sd:endpoint          <http://www.imagesnippets.com/sparql/images> ;
-        schema:dateModified  "2023-06-28T05:02:16.301+00:00"^^xsd:dateTime ;
-        schema:serverStatus  schema:Online .
+        schema:dateModified  "2023-06-29T04:02:36.961+00:00"^^xsd:dateTime ;
+        schema:serverStatus  schema:OfflineTemporarily .
 
 <http://data.openlinksw.com/oplweb/sparql-endpoint19#this>
         a                    sd:Service ;
@@ -660,8 +660,8 @@
 <http://data.openlinksw.com/oplweb/sparql-endpoint197#this>
         a                    sd:Service ;
         sd:endpoint          <https://api.nextprot.org/sparql> ;
-        schema:dateModified  "2023-06-28T23:02:23.583+00:00"^^xsd:dateTime ;
-        schema:serverStatus  schema:Online .
+        schema:dateModified  "2023-06-29T04:02:06.098+00:00"^^xsd:dateTime ;
+        schema:serverStatus  schema:OfflineTemporarily .
 
 <http://data.openlinksw.com/oplweb/sparql-endpoint198#this>
         a                    sd:Service ;
@@ -1026,8 +1026,8 @@
 <http://data.openlinksw.com/oplweb/sparql-endpoint251#this>
         a                    sd:Service ;
         sd:endpoint          <https://sparql.nextprot.org/> ;
-        schema:dateModified  "2023-06-29T00:04:00.581+00:00"^^xsd:dateTime ;
-        schema:serverStatus  schema:Online .
+        schema:dateModified  "2023-06-29T04:02:53.353+00:00"^^xsd:dateTime ;
+        schema:serverStatus  schema:OfflineTemporarily .
 
 <http://data.openlinksw.com/oplweb/sparql-endpoint252#this>
         a                    sd:Service ;
