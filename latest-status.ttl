@@ -906,8 +906,8 @@
 <http://data.openlinksw.com/oplweb/sparql-endpoint233#this>
         a                    sd:Service ;
         sd:endpoint          <https://linkeddata1.calcul.u-psud.fr/sparql> ;
-        schema:dateModified  "2023-07-19T00:04:22.076+00:00"^^xsd:dateTime ;
-        schema:serverStatus  schema:OfflineTemporarily .
+        schema:dateModified  "2023-07-19T01:34:31.128+00:00"^^xsd:dateTime ;
+        schema:serverStatus  schema:Online .
 
 <http://data.openlinksw.com/oplweb/sparql-endpoint234#this>
         a                    sd:Service ;
