@@ -690,8 +690,8 @@
 <http://data.openlinksw.com/oplweb/sparql-endpoint200#this>
         a                    sd:Service ;
         sd:endpoint          <https://bmrbpub.pdbj.org/search/rdf> ;
-        schema:dateModified  "2023-07-19T13:03:51.597+00:00"^^xsd:dateTime ;
-        schema:serverStatus  schema:Online .
+        schema:dateModified  "2023-07-26T06:01:01.499+00:00"^^xsd:dateTime ;
+        schema:serverStatus  schema:OfflineTemporarily .
 
 <http://data.openlinksw.com/oplweb/sparql-endpoint201#this>
         a                    sd:Service ;
@@ -726,8 +726,8 @@
 <http://data.openlinksw.com/oplweb/sparql-endpoint206#this>
         a                    sd:Service ;
         sd:endpoint          <https://data.gov.cz/sparql> ;
-        schema:dateModified  "2023-07-26T05:01:46.056+00:00"^^xsd:dateTime ;
-        schema:serverStatus  schema:OfflineTemporarily .
+        schema:dateModified  "2023-07-26T06:01:29.094+00:00"^^xsd:dateTime ;
+        schema:serverStatus  schema:Online .
 
 <http://data.openlinksw.com/oplweb/sparql-endpoint207#this>
         a                    sd:Service ;
@@ -1200,8 +1200,8 @@
 <http://data.openlinksw.com/oplweb/sparql-endpoint36#this>
         a                    sd:Service ;
         sd:endpoint          <http://data.bibliotheken.nl/sparql> ;
-        schema:dateModified  "2023-07-04T10:02:25.554+00:00"^^xsd:dateTime ;
-        schema:serverStatus  schema:Online .
+        schema:dateModified  "2023-07-26T06:02:22.505+00:00"^^xsd:dateTime ;
+        schema:serverStatus  schema:OfflineTemporarily .
 
 <http://data.openlinksw.com/oplweb/sparql-endpoint37#this>
         a                    sd:Service ;
