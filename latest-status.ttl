@@ -222,8 +222,8 @@
 <http://data.openlinksw.com/oplweb/sparql-endpoint130#this>
         a                    sd:Service ;
         sd:endpoint          <http://lsd.dbcls.jp/sparql> ;
-        schema:dateModified  "2023-10-15T20:01:50.878+00:00"^^xsd:dateTime ;
-        schema:serverStatus  schema:Online .
+        schema:dateModified  "2023-11-05T20:02:10.080+00:00"^^xsd:dateTime ;
+        schema:serverStatus  schema:OfflineTemporarily .
 
 <http://data.openlinksw.com/oplweb/sparql-endpoint131#this>
         a                    sd:Service ;
@@ -684,8 +684,8 @@
 <http://data.openlinksw.com/oplweb/sparql-endpoint20#this>
         a                    sd:Service ;
         sd:endpoint          <http://colil.dbcls.jp/sparql> ;
-        schema:dateModified  "2023-11-04T11:01:25.084+00:00"^^xsd:dateTime ;
-        schema:serverStatus  schema:Online .
+        schema:dateModified  "2023-11-05T20:02:30.530+00:00"^^xsd:dateTime ;
+        schema:serverStatus  schema:OfflineTemporarily .
 
 <http://data.openlinksw.com/oplweb/sparql-endpoint200#this>
         a                    sd:Service ;
@@ -1182,8 +1182,8 @@
 <http://data.openlinksw.com/oplweb/sparql-endpoint33#this>
         a                    sd:Service ;
         sd:endpoint          <http://data.allie.dbcls.jp/sparql/> ;
-        schema:dateModified  "2023-10-15T20:01:21.295+00:00"^^xsd:dateTime ;
-        schema:serverStatus  schema:Online .
+        schema:dateModified  "2023-11-05T20:01:32.178+00:00"^^xsd:dateTime ;
+        schema:serverStatus  schema:OfflineTemporarily .
 
 <http://data.openlinksw.com/oplweb/sparql-endpoint34#this>
         a                    sd:Service ;
