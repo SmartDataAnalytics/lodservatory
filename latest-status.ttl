@@ -1542,8 +1542,8 @@
 <http://data.openlinksw.com/oplweb/sparql-endpoint88#this>
         a                    sd:Service ;
         sd:endpoint          <http://geosparql.demo.openlinksw.com/sparql> ;
-        schema:dateModified  "2023-10-12T07:01:27.857+00:00"^^xsd:dateTime ;
-        schema:serverStatus  schema:OfflineTemporarily .
+        schema:dateModified  "2023-11-14T18:01:33.261+00:00"^^xsd:dateTime ;
+        schema:serverStatus  schema:Online .
 
 <http://data.openlinksw.com/oplweb/sparql-endpoint89#this>
         a                    sd:Service ;
