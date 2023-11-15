@@ -12,8 +12,8 @@
 <http://data.openlinksw.com/oplweb/sparql-endpoint1#this>
         a                    sd:Service ;
         sd:endpoint          <http://aemet.linkeddata.es/sparql/> ;
-        schema:dateModified  "2023-11-14T20:04:27.867+00:00"^^xsd:dateTime ;
-        schema:serverStatus  schema:Online .
+        schema:dateModified  "2023-11-15T00:03:22.010+00:00"^^xsd:dateTime ;
+        schema:serverStatus  schema:OfflineTemporarily .
 
 <http://data.openlinksw.com/oplweb/sparql-endpoint10#this>
         a                    sd:Service ;
@@ -1278,8 +1278,8 @@
 <http://data.openlinksw.com/oplweb/sparql-endpoint48#this>
         a                    sd:Service ;
         sd:endpoint          <http://datos.bcn.cl/sparql> ;
-        schema:dateModified  "2023-11-14T23:01:51.560+00:00"^^xsd:dateTime ;
-        schema:serverStatus  schema:OfflineTemporarily .
+        schema:dateModified  "2023-11-15T00:03:03.519+00:00"^^xsd:dateTime ;
+        schema:serverStatus  schema:Online .
 
 <http://data.openlinksw.com/oplweb/sparql-endpoint49#this>
         a                    sd:Service ;
@@ -1536,8 +1536,8 @@
 <http://data.openlinksw.com/oplweb/sparql-endpoint87#this>
         a                    sd:Service ;
         sd:endpoint          <http://geo.linkeddata.es/sparql/> ;
-        schema:dateModified  "2023-11-14T23:01:30.050+00:00"^^xsd:dateTime ;
-        schema:serverStatus  schema:Online .
+        schema:dateModified  "2023-11-15T00:02:36.009+00:00"^^xsd:dateTime ;
+        schema:serverStatus  schema:OfflineTemporarily .
 
 <http://data.openlinksw.com/oplweb/sparql-endpoint88#this>
         a                    sd:Service ;
