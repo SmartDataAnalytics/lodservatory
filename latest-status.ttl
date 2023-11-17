@@ -42,8 +42,8 @@
 <http://data.openlinksw.com/oplweb/sparql-endpoint103#this>
         a                    sd:Service ;
         sd:endpoint          <http://ja.dbpedia.org/sparql/> ;
-        schema:dateModified  "2023-11-17T03:01:54.160+00:00"^^xsd:dateTime ;
-        schema:serverStatus  schema:OfflineTemporarily .
+        schema:dateModified  "2023-11-17T04:01:55.927+00:00"^^xsd:dateTime ;
+        schema:serverStatus  schema:Online .
 
 <http://data.openlinksw.com/oplweb/sparql-endpoint104#this>
         a                    sd:Service ;
@@ -1044,8 +1044,8 @@
 <http://data.openlinksw.com/oplweb/sparql-endpoint254#this>
         a                    sd:Service ;
         sd:endpoint          <https://sparql.rhea-db.org/sparql> ;
-        schema:dateModified  "2023-11-17T03:00:49.601+00:00"^^xsd:dateTime ;
-        schema:serverStatus  schema:OfflineTemporarily .
+        schema:dateModified  "2023-11-17T04:00:52.304+00:00"^^xsd:dateTime ;
+        schema:serverStatus  schema:Online .
 
 <http://data.openlinksw.com/oplweb/sparql-endpoint255#this>
         a                    sd:Service ;
