@@ -210,8 +210,8 @@
 <http://data.openlinksw.com/oplweb/sparql-endpoint129#this>
         a                    sd:Service ;
         sd:endpoint          <http://lod.xdams.org/sparql/> ;
-        schema:dateModified  "2023-10-12T07:02:07.849+00:00"^^xsd:dateTime ;
-        schema:serverStatus  schema:Online .
+        schema:dateModified  "2023-11-24T21:01:12.983+00:00"^^xsd:dateTime ;
+        schema:serverStatus  schema:OfflineTemporarily .
 
 <http://data.openlinksw.com/oplweb/sparql-endpoint13#this>
         a                    sd:Service ;
