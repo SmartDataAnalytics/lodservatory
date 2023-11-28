@@ -462,8 +462,8 @@
 <http://data.openlinksw.com/oplweb/sparql-endpoint167#this>
         a                    sd:Service ;
         sd:endpoint          <http://sparql.datao.net/sparql> ;
-        schema:dateModified  "2023-11-10T09:02:01.924+00:00"^^xsd:dateTime ;
-        schema:serverStatus  schema:Online .
+        schema:dateModified  "2023-11-28T14:01:07+00:00"^^xsd:dateTime ;
+        schema:serverStatus  schema:OfflineTemporarily .
 
 <http://data.openlinksw.com/oplweb/sparql-endpoint168#this>
         a                    sd:Service ;
@@ -1200,8 +1200,8 @@
 <http://data.openlinksw.com/oplweb/sparql-endpoint36#this>
         a                    sd:Service ;
         sd:endpoint          <http://data.bibliotheken.nl/sparql> ;
-        schema:dateModified  "2023-11-28T13:03:08.571+00:00"^^xsd:dateTime ;
-        schema:serverStatus  schema:Online .
+        schema:dateModified  "2023-11-28T14:01:39.873+00:00"^^xsd:dateTime ;
+        schema:serverStatus  schema:OfflineTemporarily .
 
 <http://data.openlinksw.com/oplweb/sparql-endpoint37#this>
         a                    sd:Service ;
@@ -1212,8 +1212,8 @@
 <http://data.openlinksw.com/oplweb/sparql-endpoint38#this>
         a                    sd:Service ;
         sd:endpoint          <http://data.doremus.org/sparql> ;
-        schema:dateModified  "2023-11-25T15:02:09.336+00:00"^^xsd:dateTime ;
-        schema:serverStatus  schema:Online .
+        schema:dateModified  "2023-11-28T14:02:00.410+00:00"^^xsd:dateTime ;
+        schema:serverStatus  schema:OfflineTemporarily .
 
 <http://data.openlinksw.com/oplweb/sparql-endpoint39#this>
         a                    sd:Service ;
@@ -1422,8 +1422,8 @@
 <http://data.openlinksw.com/oplweb/sparql-endpoint7#this>
         a                    sd:Service ;
         sd:endpoint          <http://bio2rdf.org/sparql> ;
-        schema:dateModified  "2023-11-28T11:01:05.353+00:00"^^xsd:dateTime ;
-        schema:serverStatus  schema:Online .
+        schema:dateModified  "2023-11-28T14:01:16.896+00:00"^^xsd:dateTime ;
+        schema:serverStatus  schema:OfflineTemporarily .
 
 <http://data.openlinksw.com/oplweb/sparql-endpoint70#this>
         a                    sd:Service ;
@@ -1476,8 +1476,8 @@
 <http://data.openlinksw.com/oplweb/sparql-endpoint78#this>
         a                    sd:Service ;
         sd:endpoint          <http://eventmedia.eurecom.fr/sparql/> ;
-        schema:dateModified  "2023-11-25T15:01:05.978+00:00"^^xsd:dateTime ;
-        schema:serverStatus  schema:Online .
+        schema:dateModified  "2023-11-28T14:00:56.154+00:00"^^xsd:dateTime ;
+        schema:serverStatus  schema:OfflineTemporarily .
 
 <http://data.openlinksw.com/oplweb/sparql-endpoint79#this>
         a                    sd:Service ;
