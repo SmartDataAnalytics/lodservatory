@@ -600,14 +600,14 @@
 <http://data.openlinksw.com/oplweb/sparql-endpoint188#this>
         a                    sd:Service ;
         sd:endpoint          <http://www.genome.jp/sparql/linkdb> ;
-        schema:dateModified  "2023-12-18T20:00:58.669+00:00"^^xsd:dateTime ;
-        schema:serverStatus  schema:Online .
+        schema:dateModified  "2023-12-19T06:00:59.698+00:00"^^xsd:dateTime ;
+        schema:serverStatus  schema:OfflineTemporarily .
 
 <http://data.openlinksw.com/oplweb/sparql-endpoint189#this>
         a                    sd:Service ;
         sd:endpoint          <http://www.imagesnippets.com/sparql/images> ;
-        schema:dateModified  "2023-12-19T05:01:46.667+00:00"^^xsd:dateTime ;
-        schema:serverStatus  schema:OfflineTemporarily .
+        schema:dateModified  "2023-12-19T06:01:34.397+00:00"^^xsd:dateTime ;
+        schema:serverStatus  schema:Online .
 
 <http://data.openlinksw.com/oplweb/sparql-endpoint19#this>
         a                    sd:Service ;
@@ -1050,8 +1050,8 @@
 <http://data.openlinksw.com/oplweb/sparql-endpoint255#this>
         a                    sd:Service ;
         sd:endpoint          <https://sparql.rhea-db.org/sparql> ;
-        schema:dateModified  "2023-12-19T05:02:39.377+00:00"^^xsd:dateTime ;
-        schema:serverStatus  schema:OfflineTemporarily .
+        schema:dateModified  "2023-12-19T06:02:38.899+00:00"^^xsd:dateTime ;
+        schema:serverStatus  schema:Online .
 
 <http://data.openlinksw.com/oplweb/sparql-endpoint256#this>
         a                    sd:Service ;
@@ -1260,8 +1260,8 @@
 <http://data.openlinksw.com/oplweb/sparql-endpoint45#this>
         a                    sd:Service ;
         sd:endpoint          <http://dati.beniculturali.it/sparql> ;
-        schema:dateModified  "2023-12-18T19:01:07.407+00:00"^^xsd:dateTime ;
-        schema:serverStatus  schema:OfflineTemporarily .
+        schema:dateModified  "2023-12-19T06:01:13.619+00:00"^^xsd:dateTime ;
+        schema:serverStatus  schema:Online .
 
 <http://data.openlinksw.com/oplweb/sparql-endpoint46#this>
         a                    sd:Service ;
