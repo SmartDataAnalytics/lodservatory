@@ -15,7 +15,7 @@ The script [update-status.sh](update-status.sh) first downloads [OpenLink's SPAR
 The workflow runner is our [sparql-integrate command line tool](https://github.com/SmartDataAnalytics/Sparqlintegrate), built on [Apache Jena](https://jena.apache.org/), which simplifies the process of mashing-up RDF datasets and SPARQL queries.
 
 ### Is Service Monitoring using GitActions Permitted?
-According to this answer to my question: [Yes](https://github.community/t5/GitHub-Actions/Is-it-permitted-to-do-Remote-Requests-for-Service-Monitoring/m-p/50071#M7696)
+According to this answer to my question: [Yes](https://github.com/orgs/community/discussions/26140)
 
 ### How To Contribute...
 
