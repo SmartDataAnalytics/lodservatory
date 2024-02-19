@@ -1368,8 +1368,8 @@
 <http://data.openlinksw.com/oplweb/sparql-endpoint61#this>
         a                    sd:Service ;
         sd:endpoint          <http://de.dbpedia.org/sparql> ;
-        schema:dateModified  "2024-02-19T21:00:47.628+00:00"^^xsd:dateTime ;
-        schema:serverStatus  schema:OfflineTemporarily .
+        schema:dateModified  "2024-02-19T22:00:54.260+00:00"^^xsd:dateTime ;
+        schema:serverStatus  schema:Online .
 
 <http://data.openlinksw.com/oplweb/sparql-endpoint62#this>
         a                    sd:Service ;
