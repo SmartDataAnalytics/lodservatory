@@ -1476,8 +1476,8 @@
 <http://data.openlinksw.com/oplweb/sparql-endpoint78#this>
         a                    sd:Service ;
         sd:endpoint          <http://eventmedia.eurecom.fr/sparql/> ;
-        schema:dateModified  "2024-03-03T18:01:08.325+00:00"^^xsd:dateTime ;
-        schema:serverStatus  schema:Online .
+        schema:dateModified  "2024-03-05T14:00:48.315+00:00"^^xsd:dateTime ;
+        schema:serverStatus  schema:OfflineTemporarily .
 
 <http://data.openlinksw.com/oplweb/sparql-endpoint79#this>
         a                    sd:Service ;
