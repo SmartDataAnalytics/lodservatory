@@ -678,8 +678,8 @@
 <http://data.openlinksw.com/oplweb/sparql-endpoint2#this>
         a                    sd:Service ;
         sd:endpoint          <http://affymetrix.bio2rdf.org/sparql/> ;
-        schema:dateModified  "2024-04-25T12:00:56.107+00:00"^^xsd:dateTime ;
-        schema:serverStatus  schema:OfflineTemporarily .
+        schema:dateModified  "2024-04-25T13:01:09.497+00:00"^^xsd:dateTime ;
+        schema:serverStatus  schema:Online .
 
 <http://data.openlinksw.com/oplweb/sparql-endpoint20#this>
         a                    sd:Service ;
@@ -828,8 +828,8 @@
 <http://data.openlinksw.com/oplweb/sparql-endpoint221#this>
         a                    sd:Service ;
         sd:endpoint          <https://id.nlm.nih.gov/mesh/sparql> ;
-        schema:dateModified  "2024-04-25T12:00:56.761+00:00"^^xsd:dateTime ;
-        schema:serverStatus  schema:OfflineTemporarily .
+        schema:dateModified  "2024-04-25T13:01:10.103+00:00"^^xsd:dateTime ;
+        schema:serverStatus  schema:Online .
 
 <http://data.openlinksw.com/oplweb/sparql-endpoint222#this>
         a                    sd:Service ;
@@ -1590,14 +1590,14 @@
 <http://data.openlinksw.com/oplweb/sparql-endpoint95#this>
         a                    sd:Service ;
         sd:endpoint          <http://id.nlm.nih.gov/mesh/sparql> ;
-        schema:dateModified  "2024-04-25T12:01:25.438+00:00"^^xsd:dateTime ;
-        schema:serverStatus  schema:OfflineTemporarily .
+        schema:dateModified  "2024-04-25T13:01:34.236+00:00"^^xsd:dateTime ;
+        schema:serverStatus  schema:Online .
 
 <http://data.openlinksw.com/oplweb/sparql-endpoint96#this>
         a                    sd:Service ;
         sd:endpoint          <http://id.sgcb.mcu.es/sparql/> ;
-        schema:dateModified  "2024-04-25T11:00:52.083+00:00"^^xsd:dateTime ;
-        schema:serverStatus  schema:OfflineTemporarily .
+        schema:dateModified  "2024-04-25T13:01:12.955+00:00"^^xsd:dateTime ;
+        schema:serverStatus  schema:Online .
 
 <http://data.openlinksw.com/oplweb/sparql-endpoint97#this>
         a                    sd:Service ;
