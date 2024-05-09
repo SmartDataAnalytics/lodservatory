@@ -1296,8 +1296,8 @@
 <http://data.openlinksw.com/oplweb/sparql-endpoint50#this>
         a                    sd:Service ;
         sd:endpoint          <http://dbkwik.webdatacommons.org/sparql> ;
-        schema:dateModified  "2024-05-05T18:01:46.033+00:00"^^xsd:dateTime ;
-        schema:serverStatus  schema:Online .
+        schema:dateModified  "2024-05-09T02:13:05.312+00:00"^^xsd:dateTime ;
+        schema:serverStatus  schema:OfflineTemporarily .
 
 <http://data.openlinksw.com/oplweb/sparql-endpoint51#this>
         a                    sd:Service ;
@@ -1458,8 +1458,8 @@
 <http://data.openlinksw.com/oplweb/sparql-endpoint75#this>
         a                    sd:Service ;
         sd:endpoint          <http://es.dbpedia.org/sparql/> ;
-        schema:dateModified  "2024-05-06T04:02:01.187+00:00"^^xsd:dateTime ;
-        schema:serverStatus  schema:Online .
+        schema:dateModified  "2024-05-09T02:13:02.637+00:00"^^xsd:dateTime ;
+        schema:serverStatus  schema:OfflineTemporarily .
 
 <http://data.openlinksw.com/oplweb/sparql-endpoint76#this>
         a                    sd:Service ;
