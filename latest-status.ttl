@@ -1284,8 +1284,8 @@
 <http://data.openlinksw.com/oplweb/sparql-endpoint49#this>
         a                    sd:Service ;
         sd:endpoint          <http://datos.bne.es/sparql/> ;
-        schema:dateModified  "2024-05-19T18:01:41.481+00:00"^^xsd:dateTime ;
-        schema:serverStatus  schema:OfflineTemporarily .
+        schema:dateModified  "2024-05-19T22:01:19.265+00:00"^^xsd:dateTime ;
+        schema:serverStatus  schema:Online .
 
 <http://data.openlinksw.com/oplweb/sparql-endpoint5#this>
         a                    sd:Service ;
