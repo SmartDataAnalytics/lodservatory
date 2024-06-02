@@ -564,8 +564,8 @@
 <http://data.openlinksw.com/oplweb/sparql-endpoint182#this>
         a                    sd:Service ;
         sd:endpoint          <http://uriburner.com/sparql> ;
-        schema:dateModified  "2024-06-01T19:00:47.094+00:00"^^xsd:dateTime ;
-        schema:serverStatus  schema:Online .
+        schema:dateModified  "2024-06-02T10:00:49.333+00:00"^^xsd:dateTime ;
+        schema:serverStatus  schema:OfflineTemporarily .
 
 <http://data.openlinksw.com/oplweb/sparql-endpoint183#this>
         a                    sd:Service ;
@@ -1056,8 +1056,8 @@
 <http://data.openlinksw.com/oplweb/sparql-endpoint256#this>
         a                    sd:Service ;
         sd:endpoint          <https://sparql.uniprot.org/sparql> ;
-        schema:dateModified  "2024-06-02T06:02:06.012+00:00"^^xsd:dateTime ;
-        schema:serverStatus  schema:Online .
+        schema:dateModified  "2024-06-02T10:02:15.732+00:00"^^xsd:dateTime ;
+        schema:serverStatus  schema:OfflineTemporarily .
 
 <http://data.openlinksw.com/oplweb/sparql-endpoint257#this>
         a                    sd:Service ;
