@@ -744,8 +744,8 @@
 <http://data.openlinksw.com/oplweb/sparql-endpoint209#this>
         a                    sd:Service ;
         sd:endpoint          <https://dba-rdf.biosciencedbc.jp/sparql> ;
-        schema:dateModified  "2024-06-25T07:02:00.727+00:00"^^xsd:dateTime ;
-        schema:serverStatus  schema:Online .
+        schema:dateModified  "2024-06-25T08:01:27.928+00:00"^^xsd:dateTime ;
+        schema:serverStatus  schema:OfflineTemporarily .
 
 <http://data.openlinksw.com/oplweb/sparql-endpoint21#this>
         a                    sd:Service ;
@@ -1380,8 +1380,8 @@
 <http://data.openlinksw.com/oplweb/sparql-endpoint63#this>
         a                    sd:Service ;
         sd:endpoint          <http://demo.openlinksw.com/sparql> ;
-        schema:dateModified  "2024-06-25T07:02:06.431+00:00"^^xsd:dateTime ;
-        schema:serverStatus  schema:OfflineTemporarily .
+        schema:dateModified  "2024-06-25T08:01:23.237+00:00"^^xsd:dateTime ;
+        schema:serverStatus  schema:Online .
 
 <http://data.openlinksw.com/oplweb/sparql-endpoint64#this>
         a                    sd:Service ;
