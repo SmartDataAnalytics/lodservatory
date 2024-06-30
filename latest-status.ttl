@@ -1290,8 +1290,8 @@
 <http://data.openlinksw.com/oplweb/sparql-endpoint5#this>
         a                    sd:Service ;
         sd:endpoint          <http://ariadne-registry.dcu.gr:8890/sparql> ;
-        schema:dateModified  "2024-06-28T04:01:40.230+00:00"^^xsd:dateTime ;
-        schema:serverStatus  schema:Online .
+        schema:dateModified  "2024-06-30T08:01:42.944+00:00"^^xsd:dateTime ;
+        schema:serverStatus  schema:OfflineTemporarily .
 
 <http://data.openlinksw.com/oplweb/sparql-endpoint50#this>
         a                    sd:Service ;
