@@ -690,8 +690,8 @@
 <http://data.openlinksw.com/oplweb/sparql-endpoint200#this>
         a                    sd:Service ;
         sd:endpoint          <https://bmrbpub.pdbj.org/search/rdf> ;
-        schema:dateModified  "2024-07-09T06:01:08.131+00:00"^^xsd:dateTime ;
-        schema:serverStatus  schema:Online .
+        schema:dateModified  "2024-07-09T10:00:48.924+00:00"^^xsd:dateTime ;
+        schema:serverStatus  schema:OfflineTemporarily .
 
 <http://data.openlinksw.com/oplweb/sparql-endpoint201#this>
         a                    sd:Service ;
@@ -840,8 +840,8 @@
 <http://data.openlinksw.com/oplweb/sparql-endpoint223#this>
         a                    sd:Service ;
         sd:endpoint          <https://idsm.elixir-czech.cz/sparql/endpoint/idsm> ;
-        schema:dateModified  "2024-07-08T23:01:47.206+00:00"^^xsd:dateTime ;
-        schema:serverStatus  schema:Online .
+        schema:dateModified  "2024-07-09T10:01:49.327+00:00"^^xsd:dateTime ;
+        schema:serverStatus  schema:OfflineTemporarily .
 
 <http://data.openlinksw.com/oplweb/sparql-endpoint224#this>
         a                    sd:Service ;
@@ -1122,8 +1122,8 @@
 <http://data.openlinksw.com/oplweb/sparql-endpoint266#this>
         a                    sd:Service ;
         sd:endpoint          <https://www.nakala.fr/sparql> ;
-        schema:dateModified  "2024-07-09T09:01:47.119+00:00"^^xsd:dateTime ;
-        schema:serverStatus  schema:OfflineTemporarily .
+        schema:dateModified  "2024-07-09T10:01:40.832+00:00"^^xsd:dateTime ;
+        schema:serverStatus  schema:Online .
 
 <http://data.openlinksw.com/oplweb/sparql-endpoint267#this>
         a                    sd:Service ;
