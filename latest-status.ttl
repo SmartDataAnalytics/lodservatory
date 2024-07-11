@@ -132,8 +132,8 @@
 <http://data.openlinksw.com/oplweb/sparql-endpoint117#this>
         a                    sd:Service ;
         sd:endpoint          <http://linkeddata.uriburner.com/sparql/> ;
-        schema:dateModified  "2024-07-04T01:27:36.101+00:00"^^xsd:dateTime ;
-        schema:serverStatus  schema:Online .
+        schema:dateModified  "2024-07-11T03:01:56.268+00:00"^^xsd:dateTime ;
+        schema:serverStatus  schema:OfflineTemporarily .
 
 <http://data.openlinksw.com/oplweb/sparql-endpoint118#this>
         a                    sd:Service ;
