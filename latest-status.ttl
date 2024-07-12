@@ -834,8 +834,8 @@
 <http://data.openlinksw.com/oplweb/sparql-endpoint222#this>
         a                    sd:Service ;
         sd:endpoint          <https://ideal-rdf.dbcls.jp/sparql> ;
-        schema:dateModified  "2024-07-12T06:02:36.862+00:00"^^xsd:dateTime ;
-        schema:serverStatus  schema:OfflineTemporarily .
+        schema:dateModified  "2024-07-12T07:01:58.379+00:00"^^xsd:dateTime ;
+        schema:serverStatus  schema:Online .
 
 <http://data.openlinksw.com/oplweb/sparql-endpoint223#this>
         a                    sd:Service ;
@@ -984,14 +984,14 @@
 <http://data.openlinksw.com/oplweb/sparql-endpoint245#this>
         a                    sd:Service ;
         sd:endpoint          <https://rdf.metanetx.org/sparql> ;
-        schema:dateModified  "2024-07-01T12:01:31.013+00:00"^^xsd:dateTime ;
-        schema:serverStatus  schema:Online .
+        schema:dateModified  "2024-07-12T07:01:18.499+00:00"^^xsd:dateTime ;
+        schema:serverStatus  schema:OfflineTemporarily .
 
 <http://data.openlinksw.com/oplweb/sparql-endpoint246#this>
         a                    sd:Service ;
         sd:endpoint          <https://rdf.metanetx.org/sparql> ;
-        schema:dateModified  "2024-06-28T04:01:33.257+00:00"^^xsd:dateTime ;
-        schema:serverStatus  schema:Online .
+        schema:dateModified  "2024-07-12T07:01:09.947+00:00"^^xsd:dateTime ;
+        schema:serverStatus  schema:OfflineTemporarily .
 
 <http://data.openlinksw.com/oplweb/sparql-endpoint247#this>
         a                    sd:Service ;
