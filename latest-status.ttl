@@ -318,8 +318,8 @@
 <http://data.openlinksw.com/oplweb/sparql-endpoint145#this>
         a                    sd:Service ;
         sd:endpoint          <http://opencitations.net/index/sparql> ;
-        schema:dateModified  "2024-07-16T10:02:10.645+00:00"^^xsd:dateTime ;
-        schema:serverStatus  schema:Online .
+        schema:dateModified  "2024-07-16T19:01:40.896+00:00"^^xsd:dateTime ;
+        schema:serverStatus  schema:OfflineTemporarily .
 
 <http://data.openlinksw.com/oplweb/sparql-endpoint146#this>
         a                    sd:Service ;
@@ -954,8 +954,8 @@
 <http://data.openlinksw.com/oplweb/sparql-endpoint240#this>
         a                    sd:Service ;
         sd:endpoint          <https://opendata1.opendata.u-psud.fr/sparql> ;
-        schema:dateModified  "2024-07-16T18:01:55.886+00:00"^^xsd:dateTime ;
-        schema:serverStatus  schema:OfflineTemporarily .
+        schema:dateModified  "2024-07-16T19:01:20.331+00:00"^^xsd:dateTime ;
+        schema:serverStatus  schema:Online .
 
 <http://data.openlinksw.com/oplweb/sparql-endpoint241#this>
         a                    sd:Service ;
