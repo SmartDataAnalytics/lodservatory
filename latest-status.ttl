@@ -1044,14 +1044,14 @@
 <http://data.openlinksw.com/oplweb/sparql-endpoint254#this>
         a                    sd:Service ;
         sd:endpoint          <https://sparql.rhea-db.org/sparql> ;
-        schema:dateModified  "2024-07-21T01:27:30.140+00:00"^^xsd:dateTime ;
-        schema:serverStatus  schema:Online .
+        schema:dateModified  "2024-07-21T03:01:01.730+00:00"^^xsd:dateTime ;
+        schema:serverStatus  schema:OfflineTemporarily .
 
 <http://data.openlinksw.com/oplweb/sparql-endpoint255#this>
         a                    sd:Service ;
         sd:endpoint          <https://sparql.rhea-db.org/sparql> ;
-        schema:dateModified  "2024-07-21T02:17:24.151+00:00"^^xsd:dateTime ;
-        schema:serverStatus  schema:OfflineTemporarily .
+        schema:dateModified  "2024-07-21T03:02:31.189+00:00"^^xsd:dateTime ;
+        schema:serverStatus  schema:Online .
 
 <http://data.openlinksw.com/oplweb/sparql-endpoint256#this>
         a                    sd:Service ;
