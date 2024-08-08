@@ -894,8 +894,8 @@
 <http://data.openlinksw.com/oplweb/sparql-endpoint231#this>
         a                    sd:Service ;
         sd:endpoint          <https://landportal.org/sparql> ;
-        schema:dateModified  "2024-08-06T13:03:30.898+00:00"^^xsd:dateTime ;
-        schema:serverStatus  schema:Online .
+        schema:dateModified  "2024-08-08T08:01:09.492+00:00"^^xsd:dateTime ;
+        schema:serverStatus  schema:OfflineTemporarily .
 
 <http://data.openlinksw.com/oplweb/sparql-endpoint232#this>
         a                    sd:Service ;
