@@ -888,14 +888,14 @@
 <http://data.openlinksw.com/oplweb/sparql-endpoint230#this>
         a                    sd:Service ;
         sd:endpoint          <https://landportal.org/sparql> ;
-        schema:dateModified  "2024-08-13T04:02:08.232+00:00"^^xsd:dateTime ;
-        schema:serverStatus  schema:Online .
+        schema:dateModified  "2024-08-14T08:02:26.095+00:00"^^xsd:dateTime ;
+        schema:serverStatus  schema:OfflineTemporarily .
 
 <http://data.openlinksw.com/oplweb/sparql-endpoint231#this>
         a                    sd:Service ;
         sd:endpoint          <https://landportal.org/sparql> ;
-        schema:dateModified  "2024-08-13T06:01:13.575+00:00"^^xsd:dateTime ;
-        schema:serverStatus  schema:Online .
+        schema:dateModified  "2024-08-14T08:01:11.433+00:00"^^xsd:dateTime ;
+        schema:serverStatus  schema:OfflineTemporarily .
 
 <http://data.openlinksw.com/oplweb/sparql-endpoint232#this>
         a                    sd:Service ;
