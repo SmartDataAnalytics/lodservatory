@@ -492,8 +492,8 @@
 <http://data.openlinksw.com/oplweb/sparql-endpoint171#this>
         a                    sd:Service ;
         sd:endpoint          <http://sparql.lynx-project.eu/> ;
-        schema:dateModified  "2024-08-30T17:01:18.281+00:00"^^xsd:dateTime ;
-        schema:serverStatus  schema:OfflineTemporarily .
+        schema:dateModified  "2024-09-02T09:01:49.360+00:00"^^xsd:dateTime ;
+        schema:serverStatus  schema:Online .
 
 <http://data.openlinksw.com/oplweb/sparql-endpoint172#this>
         a                    sd:Service ;
