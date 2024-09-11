@@ -1146,8 +1146,8 @@
 <http://data.openlinksw.com/oplweb/sparql-endpoint28#this>
         a                    sd:Service ;
         sd:endpoint          <http://cultura.linkeddata.es/sparql/> ;
-        schema:dateModified  "2024-08-31T13:03:30.915+00:00"^^xsd:dateTime ;
-        schema:serverStatus  schema:Online .
+        schema:dateModified  "2024-09-11T10:01:08.726+00:00"^^xsd:dateTime ;
+        schema:serverStatus  schema:OfflineTemporarily .
 
 <http://data.openlinksw.com/oplweb/sparql-endpoint29#this>
         a                    sd:Service ;
@@ -1536,8 +1536,8 @@
 <http://data.openlinksw.com/oplweb/sparql-endpoint87#this>
         a                    sd:Service ;
         sd:endpoint          <http://geo.linkeddata.es/sparql/> ;
-        schema:dateModified  "2024-08-31T13:03:48.986+00:00"^^xsd:dateTime ;
-        schema:serverStatus  schema:Online .
+        schema:dateModified  "2024-09-11T10:01:24.268+00:00"^^xsd:dateTime ;
+        schema:serverStatus  schema:OfflineTemporarily .
 
 <http://data.openlinksw.com/oplweb/sparql-endpoint88#this>
         a                    sd:Service ;
