@@ -912,8 +912,8 @@
 <http://data.openlinksw.com/oplweb/sparql-endpoint234#this>
         a                    sd:Service ;
         sd:endpoint          <https://lov.linkeddata.es/dataset/lov/sparql> ;
-        schema:dateModified  "2024-10-01T21:02:30.882+00:00"^^xsd:dateTime ;
-        schema:serverStatus  schema:Online .
+        schema:dateModified  "2024-10-02T01:29:08.969+00:00"^^xsd:dateTime ;
+        schema:serverStatus  schema:OfflineTemporarily .
 
 <http://data.openlinksw.com/oplweb/sparql-endpoint235#this>
         a                    sd:Service ;
