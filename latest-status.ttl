@@ -1422,8 +1422,8 @@
 <http://data.openlinksw.com/oplweb/sparql-endpoint7#this>
         a                    sd:Service ;
         sd:endpoint          <http://bio2rdf.org/sparql> ;
-        schema:dateModified  "2024-10-07T07:01:35.219+00:00"^^xsd:dateTime ;
-        schema:serverStatus  schema:Online .
+        schema:dateModified  "2024-10-07T12:02:01.193+00:00"^^xsd:dateTime ;
+        schema:serverStatus  schema:OfflineTemporarily .
 
 <http://data.openlinksw.com/oplweb/sparql-endpoint70#this>
         a                    sd:Service ;
@@ -1542,8 +1542,8 @@
 <http://data.openlinksw.com/oplweb/sparql-endpoint88#this>
         a                    sd:Service ;
         sd:endpoint          <http://geosparql.demo.openlinksw.com/sparql> ;
-        schema:dateModified  "2024-10-03T09:01:17.556+00:00"^^xsd:dateTime ;
-        schema:serverStatus  schema:OfflineTemporarily .
+        schema:dateModified  "2024-10-07T12:01:55.761+00:00"^^xsd:dateTime ;
+        schema:serverStatus  schema:Online .
 
 <http://data.openlinksw.com/oplweb/sparql-endpoint89#this>
         a                    sd:Service ;
@@ -1596,8 +1596,8 @@
 <http://data.openlinksw.com/oplweb/sparql-endpoint96#this>
         a                    sd:Service ;
         sd:endpoint          <http://id.sgcb.mcu.es/sparql/> ;
-        schema:dateModified  "2024-10-07T11:00:49.921+00:00"^^xsd:dateTime ;
-        schema:serverStatus  schema:Online .
+        schema:dateModified  "2024-10-07T12:01:29.931+00:00"^^xsd:dateTime ;
+        schema:serverStatus  schema:OfflineTemporarily .
 
 <http://data.openlinksw.com/oplweb/sparql-endpoint97#this>
         a                    sd:Service ;
