@@ -132,8 +132,8 @@
 <http://data.openlinksw.com/oplweb/sparql-endpoint117#this>
         a                    sd:Service ;
         sd:endpoint          <http://linkeddata.uriburner.com/sparql/> ;
-        schema:dateModified  "2024-10-20T13:05:09.740+00:00"^^xsd:dateTime ;
-        schema:serverStatus  schema:OfflineTemporarily .
+        schema:dateModified  "2024-10-20T14:01:44.786+00:00"^^xsd:dateTime ;
+        schema:serverStatus  schema:Online .
 
 <http://data.openlinksw.com/oplweb/sparql-endpoint118#this>
         a                    sd:Service ;
@@ -690,8 +690,8 @@
 <http://data.openlinksw.com/oplweb/sparql-endpoint200#this>
         a                    sd:Service ;
         sd:endpoint          <https://bmrbpub.pdbj.org/search/rdf> ;
-        schema:dateModified  "2024-10-20T13:04:22.958+00:00"^^xsd:dateTime ;
-        schema:serverStatus  schema:OfflineTemporarily .
+        schema:dateModified  "2024-10-20T14:00:58.346+00:00"^^xsd:dateTime ;
+        schema:serverStatus  schema:Online .
 
 <http://data.openlinksw.com/oplweb/sparql-endpoint201#this>
         a                    sd:Service ;
