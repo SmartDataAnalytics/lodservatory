@@ -1272,8 +1272,8 @@
 <http://data.openlinksw.com/oplweb/sparql-endpoint47#this>
         a                    sd:Service ;
         sd:endpoint          <http://dati.senato.it/sparql> ;
-        schema:dateModified  "2024-10-29T21:01:15.761+00:00"^^xsd:dateTime ;
-        schema:serverStatus  schema:OfflineTemporarily .
+        schema:dateModified  "2024-10-29T22:01:35.126+00:00"^^xsd:dateTime ;
+        schema:serverStatus  schema:Online .
 
 <http://data.openlinksw.com/oplweb/sparql-endpoint48#this>
         a                    sd:Service ;
