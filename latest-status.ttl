@@ -558,8 +558,8 @@
 <http://data.openlinksw.com/oplweb/sparql-endpoint181#this>
         a                    sd:Service ;
         sd:endpoint          <http://statistics.gov.scot/sparql> ;
-        schema:dateModified  "2024-10-30T15:01:38.515+00:00"^^xsd:dateTime ;
-        schema:serverStatus  schema:Online .
+        schema:dateModified  "2024-11-05T11:01:13.418+00:00"^^xsd:dateTime ;
+        schema:serverStatus  schema:OfflineTemporarily .
 
 <http://data.openlinksw.com/oplweb/sparql-endpoint182#this>
         a                    sd:Service ;
@@ -1296,8 +1296,8 @@
 <http://data.openlinksw.com/oplweb/sparql-endpoint50#this>
         a                    sd:Service ;
         sd:endpoint          <http://dbkwik.webdatacommons.org/sparql> ;
-        schema:dateModified  "2024-11-03T10:02:00.819+00:00"^^xsd:dateTime ;
-        schema:serverStatus  schema:Online .
+        schema:dateModified  "2024-11-05T11:01:41.582+00:00"^^xsd:dateTime ;
+        schema:serverStatus  schema:OfflineTemporarily .
 
 <http://data.openlinksw.com/oplweb/sparql-endpoint51#this>
         a                    sd:Service ;
@@ -1422,8 +1422,8 @@
 <http://data.openlinksw.com/oplweb/sparql-endpoint7#this>
         a                    sd:Service ;
         sd:endpoint          <http://bio2rdf.org/sparql> ;
-        schema:dateModified  "2024-11-05T08:01:46.905+00:00"^^xsd:dateTime ;
-        schema:serverStatus  schema:Online .
+        schema:dateModified  "2024-11-05T11:01:13.714+00:00"^^xsd:dateTime ;
+        schema:serverStatus  schema:OfflineTemporarily .
 
 <http://data.openlinksw.com/oplweb/sparql-endpoint70#this>
         a                    sd:Service ;
