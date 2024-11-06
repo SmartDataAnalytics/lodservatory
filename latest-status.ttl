@@ -1596,8 +1596,8 @@
 <http://data.openlinksw.com/oplweb/sparql-endpoint96#this>
         a                    sd:Service ;
         sd:endpoint          <http://id.sgcb.mcu.es/sparql/> ;
-        schema:dateModified  "2024-11-06T12:01:18.004+00:00"^^xsd:dateTime ;
-        schema:serverStatus  schema:OfflineTemporarily .
+        schema:dateModified  "2024-11-06T13:05:13.961+00:00"^^xsd:dateTime ;
+        schema:serverStatus  schema:Online .
 
 <http://data.openlinksw.com/oplweb/sparql-endpoint97#this>
         a                    sd:Service ;
