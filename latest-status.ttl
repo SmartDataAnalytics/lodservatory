@@ -690,8 +690,8 @@
 <http://data.openlinksw.com/oplweb/sparql-endpoint200#this>
         a                    sd:Service ;
         sd:endpoint          <https://bmrbpub.pdbj.org/search/rdf> ;
-        schema:dateModified  "2024-11-26T18:00:49.229+00:00"^^xsd:dateTime ;
-        schema:serverStatus  schema:Online .
+        schema:dateModified  "2024-11-27T00:02:31.013+00:00"^^xsd:dateTime ;
+        schema:serverStatus  schema:OfflineTemporarily .
 
 <http://data.openlinksw.com/oplweb/sparql-endpoint201#this>
         a                    sd:Service ;
@@ -1116,8 +1116,8 @@
 <http://data.openlinksw.com/oplweb/sparql-endpoint265#this>
         a                    sd:Service ;
         sd:endpoint          <https://www.foodie-cloud.org/sparql> ;
-        schema:dateModified  "2024-11-12T11:02:21.708+00:00"^^xsd:dateTime ;
-        schema:serverStatus  schema:Online .
+        schema:dateModified  "2024-11-27T00:03:59.788+00:00"^^xsd:dateTime ;
+        schema:serverStatus  schema:OfflineTemporarily .
 
 <http://data.openlinksw.com/oplweb/sparql-endpoint266#this>
         a                    sd:Service ;
