@@ -468,8 +468,8 @@
 <http://data.openlinksw.com/oplweb/sparql-endpoint168#this>
         a                    sd:Service ;
         sd:endpoint          <http://sparql.europeana.eu> ;
-        schema:dateModified  "2024-11-27T12:02:25.789+00:00"^^xsd:dateTime ;
-        schema:serverStatus  schema:OfflineTemporarily .
+        schema:dateModified  "2024-11-27T13:08:40.328+00:00"^^xsd:dateTime ;
+        schema:serverStatus  schema:Online .
 
 <http://data.openlinksw.com/oplweb/sparql-endpoint169#this>
         a                    sd:Service ;
@@ -864,8 +864,8 @@
 <http://data.openlinksw.com/oplweb/sparql-endpoint227#this>
         a                    sd:Service ;
         sd:endpoint          <https://joinup.ec.europa.eu/sparql/> ;
-        schema:dateModified  "2024-11-27T12:02:36.341+00:00"^^xsd:dateTime ;
-        schema:serverStatus  schema:OfflineTemporarily .
+        schema:dateModified  "2024-11-27T13:08:53.666+00:00"^^xsd:dateTime ;
+        schema:serverStatus  schema:Online .
 
 <http://data.openlinksw.com/oplweb/sparql-endpoint228#this>
         a                    sd:Service ;
@@ -1044,14 +1044,14 @@
 <http://data.openlinksw.com/oplweb/sparql-endpoint254#this>
         a                    sd:Service ;
         sd:endpoint          <https://sparql.rhea-db.org/sparql> ;
-        schema:dateModified  "2024-11-25T14:00:54.171+00:00"^^xsd:dateTime ;
-        schema:serverStatus  schema:Online .
+        schema:dateModified  "2024-11-27T13:07:41.458+00:00"^^xsd:dateTime ;
+        schema:serverStatus  schema:OfflineTemporarily .
 
 <http://data.openlinksw.com/oplweb/sparql-endpoint255#this>
         a                    sd:Service ;
         sd:endpoint          <https://sparql.rhea-db.org/sparql> ;
-        schema:dateModified  "2024-11-25T14:02:37.530+00:00"^^xsd:dateTime ;
-        schema:serverStatus  schema:Online .
+        schema:dateModified  "2024-11-27T13:09:21.829+00:00"^^xsd:dateTime ;
+        schema:serverStatus  schema:OfflineTemporarily .
 
 <http://data.openlinksw.com/oplweb/sparql-endpoint256#this>
         a                    sd:Service ;
