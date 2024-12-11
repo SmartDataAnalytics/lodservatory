@@ -108,8 +108,8 @@
 <http://data.openlinksw.com/oplweb/sparql-endpoint113#this>
         a                    sd:Service ;
         sd:endpoint          <http://linguistic.linkeddata.es/sparql/> ;
-        schema:dateModified  "2024-12-10T07:01:16.019+00:00"^^xsd:dateTime ;
-        schema:serverStatus  schema:Online .
+        schema:dateModified  "2024-12-11T14:01:27.914+00:00"^^xsd:dateTime ;
+        schema:serverStatus  schema:OfflineTemporarily .
 
 <http://data.openlinksw.com/oplweb/sparql-endpoint114#this>
         a                    sd:Service ;
